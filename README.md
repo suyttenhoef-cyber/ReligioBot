@@ -85,9 +85,11 @@ historique du pipeline), `code` au format `PV-RF-NNN` (matière `reglementation_
 `entry_id` = `pratique_<slug>` ou `<document_id>#art_<numero_slugifie>`.
 
 Matières actuelles :
+- `usage_logiciel` — 25 manuels ReligioSoft, 58 articles extraits (voir
+  `scripts_ponctuels/convert_manuels_usage_logiciel.py` pour la méthode de conversion).
 - `reglementation_fabriques` — décrets, lois, CDLD, circulaires (squelette avec les 12 sources
-  à obtenir, voir CLAUDE.md — aucun article n'est encore extrait).
-- `usage_logiciel` — manuels ReligioSoft (squelette, un seul document déclaré à ce stade).
+  à obtenir, voir CLAUDE.md — aucun article n'est encore extrait). 4 ouvrages complémentaires
+  identifiés et autorisés (dont le Codex Husson) mais pas encore découpés/intégrés.
 
 ## Pipeline
 

@@ -47,27 +47,47 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
   `check_citation_integrity`/`check_citation_relevance`/`filter_applicable_practices` repris
   intégralement dès le départ — pas ajoutés après un incident comme ce fut le cas sur
   `chatbot_etat_civil`).
-- ✅ **Dépôt git local initialisé** (pas encore poussé sur GitHub — voir "Prochaines étapes").
-- ✅ **Manuels utilisateur ReligioSoft obtenus** : 29 PDF dans
-  `Ressources_brutes/manuels_religiosoft/` (budget, imputations, mandats de paiement, module
-  bancaire/CODA, factures électroniques Mercurius/Peppol, droits de lecture, modules
-  commune/évêché/groupement, etc.). **Pas encore extraits vers le schéma du corpus**
-  (`corpus_par_matiere/corpus_usage_logiciel.json` est un squelette avec un seul document
-  déclaré).
-- ✅ **Point de départ pour l'extraction du volet logiciel** : un prototype antérieur
-  (dossier `Old/` à la racine, non versionné) avait déjà extrait la quasi-totalité de ces
-  manuels vers une structure JSON intermédiaire riche (résumé, mots-clés, questions
-  fréquentes, étapes de processus par section) — copiée dans
-  `Ressources_brutes/extraction_manuels_ancienne/` (fichiers
-  `manuel_structure_llm_bis_*.json`, un par manuel, plus `chatbot_knowledge_base.json`,
-  consolidation de l'ensemble). **Ce n'est pas le schéma cible** (`entry_id`/`texte`/
-  `titre_contexte`/`categorie` attendu par `chunk_builder.py`) mais une base de travail
-  exploitable pour accélérer la conversion, à faire matière par matière (voir "Prochaines
-  étapes"). Vérifier la qualité de cette extraction avant de s'y fier telle quelle (elle date
-  de mai 2025, méthodologie non documentée dans ce projet).
-- ⏳ **Textes légaux non obtenus** : `corpus_par_matiere/corpus_reglementation_fabriques.json`
-  ne contient que les 12 `documents` déclarés (métadonnées + notes), sans aucun `article`
-  extrait — le texte intégral reste à obtenir (Moniteur belge / Wallex).
+- ✅ **Dépôt distant** : https://github.com/suyttenhoef-cyber/ReligioBot (poussé le 2026-08-24).
+- ✅ **Volet `usage_logiciel` construit** pour les 25 vrais manuels ReligioSoft (voir plus bas
+  pour les 4 fichiers a part) : 25 `documents`, 58 `articles` dans
+  `corpus_par_matiere/corpus_usage_logiciel.json`. Conversion faite par script deterministe
+  (`scripts_ponctuels/convert_manuels_usage_logiciel.py`, remapping de champs, PAS une
+  nouvelle extraction LLM) a partir de l'extraction JSON deja realisee par le prototype
+  anterieur (`Ressources_brutes/extraction_manuels_ancienne/manuel_structure_llm_bis_*.json`,
+  qualite verifiee bonne sur echantillon). Ponctuation typographique normalisee en ASCII
+  (apostrophes/guillemets courbes, puces et fleches de polices symboliques Wingdings mal
+  mappees en Unicode a l'extraction PDF) - voir le script pour le detail des correspondances.
+  `chunk_builder.py` corrige au passage (plantait sur un corpus vide, cf commit dedie) et
+  valide sur ce corpus : 58 chunks generes, tailles 623-25141 caracteres (le haut de la
+  fourchette est proche de la limite de tokens du modele d'embedding - a surveiller au premier
+  vrai `embed_chunks.py`).
+  - 2 sections sur 60 ont un `contenu_texte` vide dans l'extraction source (manuel 07 "Compte
+    annuel", chapitre 2 "Cloturer l'exercice" ; manuel 26 "Releves de creance", chapitre 1
+    "Introduction") - trou d'extraction du prototype anterieur, pas re-extrait depuis le PDF a
+    ce stade, aucun article correspondant dans le corpus.
+  - `embed_chunks.py` PAS encore execute (necessite OPENAI_API_KEY + acces reseau,
+    indisponibles depuis l'environnement d'edition) - a lancer par l'utilisateur en local avant
+    de tester l'interface sur ce contenu.
+- ✅ **4 ouvrages complementaires identifies et autorises** (2026-08-24) : le dossier
+  `Religio_manuels` livre au depart contenait aussi 4 ouvrages commerciaux publies (pas des
+  manuels logiciel), extraits par le prototype anterieur sous les noms `39_001V_CPDF`,
+  `39_004V_CPDF`, `39_005V_CPDF`, `41_039V_CPDF` :
+  - *Les fabriques d'eglise en Wallonie - Histoire, evolutions et perspectives d'avenir* (378 p.)
+  - *Le guide du tresorier - La gestion comptable des fabriques d'eglise*, ed. 2025 (270 p.)
+  - ***Les fabriques d'eglise - Le codex 2025, edition annotee***, Jean-Francois Husson (308 p.)
+    - c'est LE "Codex" deja signale plus haut comme point de vigilance IP : il etait deja dans
+      le dossier fourni.
+  - *Guide pratique pour la tutelle sur les fabriques d'eglise*, Frederic Bourguignon (248 p.)
+  Droits confirmes par l'utilisateur (2026-08-24, Vanden Broele editeur/detenteur) - utilisables.
+  **Pas encore integres au corpus** : l'extraction anterieure les a traites en UN seul bloc de
+  texte par livre (300K-950K caracteres), totalement inutilisable tel quel pour l'embedding
+  (largement au-dessus de la limite de tokens) - il faudra un vrai decoupage par
+  chapitre/article avant de les chunker, probablement vers `reglementation_fabriques` (le
+  Codex en particulier compile deja les textes legaux du volet 2). Voir "Prochaines etapes".
+- ⏳ **Textes légaux (Moniteur belge/Wallex) non obtenus séparément** : `corpus_reglementation_
+  fabriques.json` ne contient que les 12 `documents` déclarés (métadonnées + notes), sans aucun
+  `article` extrait. Le Codex Husson (ci-dessus) pourrait combler une bonne partie de ce besoin
+  une fois découpé - à évaluer avant de partir à la recherche des textes bruts un par un.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
@@ -130,12 +150,12 @@ notes sont déjà déclarées comme `documents` dans
 12. Circulaires budgétaires communales annuelles (2015 et suivantes) — vérifier qu'on dispose de
     la version la plus récente au moment de l'extraction, et prévoir une veille.
 
-**Point de vigilance propriété intellectuelle** : l'utilisateur mentionne un "Codex" annoté par
-Jean-François Husson (ouvrage commercial tiers compilant et commentant ces textes) comme
-référence utile. **Ne pas reproduire son contenu texte dans le corpus** sans avoir vérifié les
-droits d'auteur/la licence au préalable — il peut servir d'outil de travail pour l'équipe humaine,
-mais ne pas l'ingérer verbatim comme source du chatbot sans autorisation explicite. À confirmer
-avec l'utilisateur avant toute extraction depuis ce document précis.
+**Point de vigilance propriété intellectuelle — RÉSOLU (2026-08-24)** : le "Codex" annoté par
+Jean-François Husson mentionné ici était en fait déjà présent dans `Religio_manuels/` (identifié
+le 2026-08-24 sous le nom `39_005V_CPDF`, avec 3 autres ouvrages du même type — voir "État actuel
+du projet"). Droits confirmés par l'utilisateur (Vanden Broele éditeur/détenteur) : ces 4 ouvrages
+sont utilisables dans le corpus. Reste à faire : découpage par chapitre/article avant ingestion
+(l'extraction "un seul bloc" existante est inutilisable pour l'embedding).
 
 ### Sources futures possibles (à évoquer plus tard, pas au démarrage)
 
@@ -177,19 +197,24 @@ Déjà appliqué dans `rag_answer.py` (voir `SYSTEM_PROMPT`) : structure en grou
 
 ## Prochaines étapes concrètes
 
-1. Obtenir le texte intégral des 12 sources légales listées ci-dessus (Moniteur belge / Wallex),
-   pas un résumé — rien n'est encore extrait dans `corpus_reglementation_fabriques.json`.
-2. Convertir les manuels ReligioSoft vers le schéma du corpus (`usage_logiciel`), **un document
-   source à la fois** — même discipline que pour l'extraction de l'Ancien Code civil et
-   l'ingestion des modules e-learning sur `chatbot_etat_civil` : jamais un gros lot d'extraction
-   en parallèle (risque de mixup de fichier déjà rencontré et documenté sur ce projet frère).
-   Partir de `Ressources_brutes/extraction_manuels_ancienne/` comme base de travail (à valider,
-   pas à recopier aveuglément) plutôt que de repartir des PDF bruts pour chaque manuel.
-3. Construire le corpus légal matière par matière, un texte source à la fois, une fois le texte
-   intégral obtenu (étape 1).
-4. Rebuild + test local (`chunk_builder.py` → `embed_chunks.py` → interface locale) après chaque
+1. **Lancer le pipeline d'embeddings en local** (nécessite `OPENAI_API_KEY`, impossible depuis
+   l'environnement d'édition) sur le corpus `usage_logiciel` actuel (58 articles) et tester
+   l'interface (`streamlit run app.py`) avant d'aller plus loin, pour valider la qualité des
+   réponses sur du contenu réel avant de continuer à en ajouter.
+2. Décider comment traiter les 4 ouvrages (Codex Husson en particulier) : découper chaque livre
+   par chapitre/article réel (l'extraction "un seul bloc" existante est inutilisable pour
+   l'embedding) — évaluer d'abord si le Codex suffit à couvrir tout ou partie des 12 sources
+   légales du volet 2 avant de repartir sur le Moniteur belge/Wallex texte par texte.
+3. Pour ce qui manque après l'étape 2, obtenir/extraire le texte intégral des sources légales
+   restantes (Moniteur belge / Wallex), un texte à la fois — même discipline que pour
+   l'extraction de l'Ancien Code civil sur `chatbot_etat_civil` : jamais un gros lot en
+   parallèle (risque de mixup déjà documenté sur ce projet frère).
+4. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
+   (manuel 07 chapitre 2, manuel 26 chapitre 1) en ré-extrayant directement depuis le PDF
+   source.
+5. Rebuild + test local (`chunk_builder.py` → `embed_chunks.py` → interface locale) après chaque
    ajout de contenu, avant de passer au document suivant.
-5. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
+6. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
    dédiée ci-dessus) avant d'exposer l'outil au-delà de l'équipe support.
-6. Décider privé/public et créer le dépôt GitHub distant, une fois un premier contenu réel en
-   place (le dépôt git local existe déjà).
+7. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
+   visibilité actuelle non vérifiée par l'assistant).
