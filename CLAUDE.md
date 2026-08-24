@@ -111,7 +111,7 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
     semble absente de cette edition du Codex (peut-etre absorbee/mentionnee dans le commentaire
     de la circulaire de 2014 sans chapitre dedie) - a verifier avant de considerer ce point
     couvert.
-- ✅ **113 sections extraites du "Guide du tresorier" 2025** (2026-08-24,
+- ✅ **112 sections extraites du "Guide du tresorier" 2025** (2026-08-24,
   `scripts_ponctuels/extract_guide_tresorier.py`, document `guide_tresorier_2025`) : contrairement
   au Codex, ce livre n'est pas structure en "Art. N." mais en chapitres/sous-sections numerotees
   (ex. "4.1.5. Question technique : le calcul du supplement communal") - script de decoupage
@@ -127,6 +127,32 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
     mots reels) - voir le script pour le detail du raisonnement.
   - Annexes (pages 231-264 : tableau des pieces justificatives, calendrier du tresorier,
     adresses utiles, bibliographie) et index NON extraits a ce stade - a evaluer separement.
+- ✅ **94 sections extraites des 5 circulaires du Codex** (2026-08-24,
+  `scripts_ponctuels/extract_codex_circulaires.py`) : circulaire du 18/07/2014 (24 sections),
+  12/12/2014 (15), 20/06/2024 (39), 30/05/2013 (15), circulaires budgetaires communales
+  2015-2024 (1, texte court deja centre sur les fabriques). Structure heterogene d'une
+  circulaire a l'autre (voir les commentaires en tete de chaque fonction du script) - traitees
+  une a la fois, pas par un regex unique suppose universel :
+  - 18/07/2014 : en-tetes nommes ("Preambule", "Definitions") + "Section N." + numerotation X.Y.
+  - 12/12/2014 : en-tetes nommes + "N. Titre" + "A./B. Titre" + "a./b. Titre", ATTENTION chaque
+    paragraphe y est numerote par l'editeur pour l'index ("9 Deux autorites...") - distingue des
+    vrais titres par l'absence de point apres le numero. Seules les pages 157-188 (Dispositions
+    generales a Entree en vigueur) sont extraites : la suite (Adresses utiles, Liste des pieces
+    justificatives, p.189-219) est un tableau (Article/Acte/Pieces/Adresse/Annotation)
+    totalement mis a plat par l'extraction PDF lineaire, non exploitable tel quel.
+  - 20/06/2024 : "PARTIE N :" + "N. Titre" + X.Y.Z, la plus reguliere des 5.
+  - 30/05/2013 : "Premiere/Deuxieme partie :" + X.Y.Z directement (pas de "Section N."
+    intermediaire). La "Troisieme partie" (subventions CPAS, sans rapport avec les fabriques)
+    n'est pas reprise dans cet extrait du Codex.
+  - Circulaires budgetaires : texte court (3 pages), deja centre sur un seul sujet
+    ("IV.3.6. Fabriques d'eglise") - une seule entree, pas de sur-decoupage.
+  - Piege transversal corrige : l'heuristique de titre coupe sur 2 lignes (liste de mots-cles)
+    remplacee par un signal plus robuste (continuation = ligne suivante commencant en
+    minuscule), et une collision d'entry_id corrigee (un meme sous-titre peut apparaitre sous
+    2 parents differents, ex. "A. Tutelle generale d'annulation" sous "1." et sous "2." dans la
+    12/12/2014).
+  - L'essai introductif de Husson (Codex p.11-31) et les "Questions parlementaires" (p.283-294)
+    restent non extraits (hors des 12 sources legales initiales, a decider si utile).
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
@@ -236,23 +262,22 @@ Déjà appliqué dans `rag_answer.py` (voir `SYSTEM_PROMPT`) : structure en grou
 
 ## Prochaines étapes concrètes
 
-1. Extraire les circulaires du Codex (structurées en sections titrées, pas en "Art. N.") vers
-   `sections_circulaire[]` : circulaire du 18/07/2014, du 12/12/2014, du 20/06/2024, du
-   30/05/2013, circulaires budgétaires communales (extraits 2015-2024) — script séparé de
-   `extract_codex_articles.py` vu la structure différente (voir son état actuel ci-dessus pour
-   les pages exactes déjà repérées dans le Codex).
-2. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
+1. **Régénérer les embeddings en local** (`chunk_builder.py` → `embed_chunks.py`, nécessite
+   `OPENAI_API_KEY`) : le corpus `reglementation_fabriques` est maintenant complet pour les 5
+   circulaires + le Codex + le guide du trésorier (497 chunks au total avec `usage_logiciel`) —
+   tester l'interface sur ce contenu avant de continuer à en ajouter.
+2. Traiter la table "Liste des pièces justificatives requises" de la circulaire du 12/12/2014
+   (pages 189-219 du Codex) — nécessite une vraie extraction de tableau (pypdf aplatit les
+   colonnes), pas juste un découpage par titres comme le reste du texte.
+3. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
    11-31 et 283-294) valent la peine d'être intégrés (contexte/doctrine utile mais hors des 12
    sources légales listées initialement).
-3. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
+4. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
    justificatives, calendrier du trésorier, adresses utiles) valent la peine d'être extraites en
    plus des 5 chapitres déjà faits.
-4. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
+5. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
    Codex ou seulement fondue dans le commentaire de la circulaire de 2014 ; sinon, l'obtenir
    séparément (Moniteur belge / Wallex).
-5. Lancer le pipeline d'embeddings en local (`chunk_builder.py` → `embed_chunks.py`, nécessite
-   `OPENAI_API_KEY`) sur le corpus `reglementation_fabriques` élargi et tester l'interface avant
-   de continuer à en ajouter.
 6. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
    (manuel 07 chapitre 2, manuel 26 chapitre 1) en ré-extrayant directement depuis le PDF
    source.

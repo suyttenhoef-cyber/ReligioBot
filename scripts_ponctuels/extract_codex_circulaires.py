@@ -177,6 +177,86 @@ def extract_18_07_2014(reader):
 
 
 # ---------------------------------------------------------------------------
+# Circulaires budgetaires communales (extraits fabriques d'eglise, 2015-2024)
+# ---------------------------------------------------------------------------
+# Texte court (3 pages) et deja centre sur un seul sujet (IV.3.6. Fabriques
+# d'eglise) - pas de sur-decoupage necessaire, une seule entree suffit.
+CIRC_BUDGETAIRES = {"document_id": "circulaires_budgetaires_communales", "start": 279, "end": 281}
+
+
+def extract_budgetaires(reader):
+    raw_pages = get_pages(reader, CIRC_BUDGETAIRES["start"], CIRC_BUDGETAIRES["end"])
+    lines = clean_lines(raw_pages)
+    texte = clean_text("\n".join(lines))
+    if not texte:
+        return []
+    titre = "Circulaires budgetaires communales - extraits relatifs aux fabriques d'eglise (2015-2024)"
+    return [{"numero": "", "titre": titre, "chapitre_parent": titre, "texte": texte}]
+
+
+# ---------------------------------------------------------------------------
+# Circulaire du 30 mai 2013 (octroi des subventions par les pouvoirs locaux)
+# ---------------------------------------------------------------------------
+# Structure a 2 niveaux : "Premiere/Deuxieme/Troisieme partie : Titre" (le
+# titre continue souvent sur 2-3 lignes) puis directement X.Y(.Z) - pas de
+# "Section N." intermediaire comme dans la circulaire du 18/07/2014. Seules
+# "Premiere partie" et "Deuxieme partie" sont presentes dans cet extrait du
+# Codex (la "Troisieme partie", relative aux subventions des CPAS et sans
+# rapport avec les fabriques, ne semble pas reprise).
+CIRC_30_05_2013 = {"document_id": "circulaire_30_05_2013", "start": 261, "end": 276}
+PARTIE_NOMMEE_RE = re.compile(
+    r"^(Premiere partie|Deuxieme partie|Troisieme partie)\s*:\s*(.*)$", re.IGNORECASE
+)
+
+
+def extract_30_05_2013(reader):
+    raw_pages = get_pages(reader, CIRC_30_05_2013["start"], CIRC_30_05_2013["end"])
+    lines = clean_lines(raw_pages)
+
+    sections = []
+    current_top_titre = None
+    current_sub_numero = None
+    buffer = []
+
+    def flush():
+        texte = clean_text("\n".join(buffer))
+        if not texte:
+            return
+        sections.append({"numero": current_sub_numero or "", "titre": clean_text(current_top_titre or ""),
+                          "chapitre_parent": clean_text(current_top_titre or ""), "texte": texte})
+
+    i, n = 0, len(lines)
+    while i < n:
+        line = lines[i]
+        m_top = PARTIE_NOMMEE_RE.match(strip_accents(line))
+        if m_top:
+            while (i + 1 < n and _next_line_is_continuation(lines[i + 1])
+                   and not PARTIE_NOMMEE_RE.match(strip_accents(lines[i + 1]))
+                   and not SUBSECTION_RE.match(lines[i + 1])):
+                i += 1
+                line = f"{line} {lines[i]}"
+                m_top = PARTIE_NOMMEE_RE.match(strip_accents(line))
+            flush()
+            current_top_titre = f"{m_top.group(1)} : {m_top.group(2)}".strip()
+            current_sub_numero = None
+            buffer = []
+            i += 1
+            continue
+        m_sub = SUBSECTION_RE.match(line)
+        if m_sub:
+            flush()
+            current_sub_numero = m_sub.group(1)
+            buffer = [line]  # meme convention que 18/07/2014 : pas de titre court separe
+            i += 1
+            continue
+        buffer.append(line)
+        i += 1
+
+    flush()
+    return sections
+
+
+# ---------------------------------------------------------------------------
 # Circulaire du 12 decembre 2014 (tutelle sur les actes et pieces justificatives)
 # ---------------------------------------------------------------------------
 # Structure a 4 niveaux : en-tetes nommes sans numero ("Dispositions
@@ -273,6 +353,72 @@ def extract_12_12_2014(reader):
     return sections
 
 
+# ---------------------------------------------------------------------------
+# Circulaire du 20 juin 2024 (operations patrimoniales des pouvoirs locaux)
+# ---------------------------------------------------------------------------
+# Structure a 3 niveaux, plus reguliere que les 2 precedentes : "PARTIE N :
+# Titre", puis "N. Titre" (numerotation qui recommence a 1 dans chaque
+# PARTIE - d'ou l'usage d'un index de sequence pour l'entry_id, comme pour
+# la circulaire du 12/12/2014), puis X.Y(.Z) comme le guide du tresorier.
+CIRC_20_06_2024 = {"document_id": "circulaire_20_06_2024", "start": 227, "end": 254}
+PARTIE_RE = re.compile(r"^PARTIE\s+(\d+)\s*:\s*(.*)$")
+
+
+def extract_generic_3_niveaux(reader, start, end, top_re):
+    """Reutilisable pour un texte a 3 niveaux : `top_re` (groupes numero,
+    titre), NUMBERED_TOP_RE ("N. Titre") et SUBSECTION_RE ("X.Y(.Z)")."""
+    raw_pages = get_pages(reader, start, end)
+    lines = clean_lines(raw_pages)
+
+    sections = []
+    level_titre = [None, None, None]
+    level_numero = [None, None, None]
+    buffer = []
+
+    def flush():
+        texte = clean_text("\n".join(buffer))
+        if not texte:
+            return
+        numero = next((n for n in reversed(level_numero) if n), "")
+        titre_parts = [clean_text(t) for t in level_titre if t]
+        chapitre_parent = " - ".join(titre_parts[:-1]) if len(titre_parts) > 1 else (titre_parts[0] if titre_parts else "")
+        titre = titre_parts[-1] if titre_parts else ""
+        sections.append({"numero": numero, "titre": titre, "chapitre_parent": chapitre_parent,
+                          "texte": texte})
+
+    HEADING_KINDS = ((0, top_re), (1, NUMBERED_TOP_RE), (2, SUBSECTION_RE))
+
+    def match_any(line):
+        for level, regex in HEADING_KINDS:
+            m = regex.match(line)
+            if m:
+                return level, m
+        return None
+
+    i, n = 0, len(lines)
+    while i < n:
+        line = lines[i]
+        found = match_any(line)
+        if found:
+            level, m = found
+            while i + 1 < n and _next_line_is_continuation(lines[i + 1]) and not match_any(lines[i + 1]):
+                i += 1
+                line = f"{line} {lines[i]}"
+                level, m = match_any(line)
+            flush()
+            level_numero[level], level_titre[level] = m.group(1), m.group(2)
+            for lvl in range(level + 1, 3):
+                level_numero[lvl], level_titre[lvl] = None, None
+            buffer = []
+            i += 1
+            continue
+        buffer.append(line)
+        i += 1
+
+    flush()
+    return sections
+
+
 def main():
     reader = pypdf.PdfReader(PDF_PATH)
 
@@ -284,6 +430,10 @@ def main():
     jobs = [
         (CIRC_18_07_2014["document_id"], extract_18_07_2014(reader)),
         (CIRC_12_12_2014["document_id"], extract_12_12_2014(reader)),
+        (CIRC_20_06_2024["document_id"], extract_generic_3_niveaux(
+            reader, CIRC_20_06_2024["start"], CIRC_20_06_2024["end"], PARTIE_RE)),
+        (CIRC_30_05_2013["document_id"], extract_30_05_2013(reader)),
+        (CIRC_BUDGETAIRES["document_id"], extract_budgetaires(reader)),
     ]
 
     note_suffix = (" Texte extrait du Codex Husson 2025 (Ressources_brutes/bases_legales/"
