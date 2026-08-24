@@ -94,6 +94,9 @@ Matières actuelles :
   Chaque article distingue le texte légal verbatim du commentaire de Jean-François Husson
   ("Annotation Husson (doctrine, pas le texte legal) : ..." dans `exemples`), pour que le
   SYSTEM_PROMPT ne cite jamais la doctrine comme si elle faisait partie du texte officiel.
+  S'y ajoutent 113 sections du "Guide du trésorier" 2025 (chapitres 1-5, doctrine/bonnes
+  pratiques Vanden Broele — PAS un texte officiel), voir
+  `scripts_ponctuels/extract_guide_tresorier.py`.
 
 ## Pipeline
 

@@ -111,6 +111,22 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
     semble absente de cette edition du Codex (peut-etre absorbee/mentionnee dans le commentaire
     de la circulaire de 2014 sans chapitre dedie) - a verifier avant de considerer ce point
     couvert.
+- ✅ **113 sections extraites du "Guide du tresorier" 2025** (2026-08-24,
+  `scripts_ponctuels/extract_guide_tresorier.py`, document `guide_tresorier_2025`) : contrairement
+  au Codex, ce livre n'est pas structure en "Art. N." mais en chapitres/sous-sections numerotees
+  (ex. "4.1.5. Question technique : le calcul du supplement communal") - script de decoupage
+  distinct, par plage de pages (chapitres 1 a 5, pages 11-230) puis par numerotation X.Y.Z.
+  Stocke dans `sections_circulaire[]` (cle reutilisee, structurellement generique malgre son nom)
+  avec `document.type = "guide_pratique"`. Ce n'est PAS un texte officiel mais un guide pratique
+  commercial (doctrine Vanden Broele) : regle ajoutee au SYSTEM_PROMPT (groupe A3) pour ne jamais
+  le presenter comme la loi elle-meme, meme quand il la cite et l'explique.
+  - Piege specifique a ce PDF (absent du Codex) : un artefact d'extraction inserait un espace
+    parasite apres certaines premieres lettres capitales de mot ("T out" pour "Tout", "L
+    'exercice" pour "L'exercice") - corrige par regex apres verification qu'il ne fallait PAS
+    fusionner "A" (legitimement le mot "a"/"à" une fois l'accent retire, ex. "A defaut" = deux
+    mots reels) - voir le script pour le detail du raisonnement.
+  - Annexes (pages 231-264 : tableau des pieces justificatives, calendrier du tresorier,
+    adresses utiles, bibliographie) et index NON extraits a ce stade - a evaluer separement.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
@@ -228,9 +244,9 @@ Déjà appliqué dans `rag_answer.py` (voir `SYSTEM_PROMPT`) : structure en grou
 2. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
    11-31 et 283-294) valent la peine d'être intégrés (contexte/doctrine utile mais hors des 12
    sources légales listées initialement).
-3. Traiter le guide du trésorier (`Ressources_brutes/bases_legales/39_004V_CPDF.pdf`, déjà
-   déposé, pas encore analysé) — probablement pour `usage_logiciel` (pratiques comptables) plutôt
-   que `reglementation_fabriques`, à confirmer en regardant sa table des matières.
+3. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
+   justificatives, calendrier du trésorier, adresses utiles) valent la peine d'être extraites en
+   plus des 5 chapitres déjà faits.
 4. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
    Codex ou seulement fondue dans le commentaire de la circulaire de 2014 ; sinon, l'obtenir
    séparément (Moniteur belge / Wallex).

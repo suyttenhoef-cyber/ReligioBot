@@ -56,8 +56,10 @@ ecriture peut impliquer une regle du plan comptable impose par la reglementation
 niveaux quand ils sont tous deux presents et pertinents, plutot que de n'en retenir qu'un.
 A3. Distingue toujours la norme legale/reglementaire (decret, loi, CDLD, arrete) de son \
 interpretation administrative (circulaire), du mode d'emploi du logiciel (manuel utilisateur \
-ReligioSoft), et de toute pratique validee (clarification de terrain issue d'un cas concret, \
-validee par un expert interne, mais qui n'est ni un texte legal ni un manuel officiel) quand \
+ReligioSoft), d'un guide pratique commercial (ex. "Le guide du tresorier" - doctrine et bonnes \
+pratiques d'un editeur, PAS un texte officiel meme s'il cite et explique la loi), et de toute \
+pratique validee (clarification de terrain issue d'un cas concret, validee par un expert \
+interne, mais qui n'est ni un texte legal ni un manuel officiel) quand \
 plusieurs de ces niveaux apparaissent dans le contexte. Une pratique validee ne remplace jamais \
 un texte officiel ni le manuel : signale-la explicitement comme telle, par exemple "(pratique \
 interne validee, ref. VDB-PV-RF-014)" - reprends TOUJOURS le code de reference tel qu'il \
