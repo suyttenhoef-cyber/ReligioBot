@@ -1,0 +1,188 @@
+[
+    {
+        "id": "chapitre_1er_introduction__le_relev_de_crance",
+        "titre": "Chapitre 1er. Introduction - le relevé de créance",
+        "chemin": "Chapitre 1er. Introduction - le relevé de créance",
+        "page_debut": 2,
+        "page_fin": 2,
+        "contenu_texte": "",
+        "resume": "Le chapitre 1 introduit le relevé de créance et les tâches associées.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "relevé de créance",
+            "introduction",
+            "tâches",
+            "créancier",
+            "débiteur",
+            "montant dû",
+            "échéance",
+            "facturation",
+            "recouvrement",
+            "délai de paiement"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": []
+        },
+        "questions_frequentes": [
+            {
+                "question": "Qu'est-ce qu'un relevé de créance ?",
+                "reponse": "Un document récapitulant les montants dus par un débiteur à un créancier."
+            },
+            {
+                "question": "Quels sont les éléments généralement inclus dans un relevé de créance ?",
+                "reponse": "Le montant dû, l'échéance, les références de facturation, etc."
+            },
+            {
+                "question": "Quel est le rôle du créancier dans le processus de relevé de créance ?",
+                "reponse": "Il établit le relevé, envoie les rappels de paiement et peut entamer des actions de recouvrement."
+            },
+            {
+                "question": "Quelles sont les conséquences d'un non-paiement selon le relevé de créance ?",
+                "reponse": "Des pénalités de retard peuvent être appliquées, voire des actions en justice pour recouvrer la dette."
+            },
+            {
+                "question": "Comment gérer efficacement les délais de paiement dans le relevé de créance ?",
+                "reponse": "En mettant en place des rappels automatiques, en négociant des délais avec le débiteur, etc."
+            }
+        ],
+        "etapes_processus": [
+            "Établir le relevé de créance",
+            "Envoyer le relevé au débiteur",
+            "Suivre les échéances de paiement",
+            "Relancer en cas de retard",
+            "Envisager des actions de recouvrement"
+        ],
+        "relations": [
+            {
+                "concept": "Relevé de créance",
+                "description": "Document récapitulant les montants dus par un débiteur."
+            },
+            {
+                "concept": "Créancier",
+                "description": "Personne ou entité à qui une somme d'argent est due."
+            },
+            {
+                "concept": "Débiteur",
+                "description": "Personne ou entité qui doit de l'argent à un créancier."
+            },
+            {
+                "concept": "Recouvrement",
+                "description": "Ensemble des actions visant à récupérer des sommes dues."
+            },
+            {
+                "concept": "Délai de paiement",
+                "description": "Période accordée au débiteur pour régler sa dette sans pénalités."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "26. Relevés de créance.pdf",
+            "page_source": [
+                2,
+                2
+            ],
+            "date_extraction": "2025-05-27T12:05:02.487190"
+        }
+    },
+    {
+        "id": "chapitre_2_tlcharger_les_relevs_de_crance",
+        "titre": "Chapitre 2. Télécharger les relevés de créance",
+        "chemin": "Chapitre 2. Télécharger les relevés de créance",
+        "page_debut": 3,
+        "page_fin": 11,
+        "contenu_texte": "Les relevés de créance – Vanden Broele – www.religiosoft.be 1 Chapitre 1er. Introduction – Le relevé de créance Il arrive qu’une personne externe à la fabrique d’église intervienne pour certaines petites prestations et fournitures sans qu’il y ait une pièce « officielle » au nom de la fabrique pour justifier la dépense. Étant donné que toutes ces dépenses doivent également être intégrées dans la comptabilité de la fabrique, il faudra une pièce justificative avant de passer au remboursement à la personne concernée. Le relevé de créance permet de formaliser pour le versement d’une somme à un tiers et sera joint au dossier avec les pièces en annexe au compte annuel à transférer aux autorités de tutelle : la personne à qui l’on transfère le montant devra certifier sur l’honneur que l’achat a été réalisé tel quel et pour la fabrique d’église. Soulignons que le relevé de créance n’est permis que moyennant l’accord de la tutelle et s’applique uniquement aux dépenses de valeur minimale. Pour les montants importants, une facture à proprement parler est toujours requise. Confection du relevé de créance… ReligioSoft facilite la confection du relevé de créance sur base des dettes introduites avant le paiement, mais également sur base du journal financier (après le paiement). L’outil suit la même logique que celui permettant de préparer les « mandats de paiement » et les « droits constatés ». Ainsi, vous pourrez aisément compléter les procédures administratives en vue d’un classement complet. … et stockage en ligne des relevés de créance ! Les rapports téléchargés (en PDF) devront toujours être signés « à la main » par la personne concernée, la signature électronique n’étant pas permise jusqu’à présent. Une fois que vous aurez le relevé signé, vous pourrez le scanner et le stocker dans ReligioSoft en attache à l’écriture à laquelle il se rapporte. Il sera alors incorporé automatiquement dans le classement des pièces en ligne, pour lequel il est déjà permis de partager en ligne (moyennant l’accord de la commune de tutelle). Nous y revenons à la fin du présent dossier. 2 Les relevés de créance – Vanden Broele – www.religiosoft.be Chapitre 2. Introduction – Télécharger les relevés de créance 2.1. Première étape : encodage des écritures Le point de départ pour créer les relevés de créance est l’encodage des écritures dans le logiciel. Deux options possibles : • vous passez via le journal financier pour encoder les opérations bancaires (sur base des extraits bancaires, donc après les paiements effectués) ; • vous encodez en deux étapes, avec l’insertion préalable au paiement des dettes. Sur base de l’encodage des écritures mêmes, une liste complète avec tous les relevés est mise à disposition au fur et à mesure que vous encodez. Il s’agit d’ailleurs toujours d’une seule liste, même si vous combinez les deux méthodes d’encodage. Encodage sur base des extraits bancaires (« comptes bancaires ») Encodage des dettes et créances (avant le paiement, section « comptabilité ») Vous avez encodé une série de dettes/dépenses ? Alors vous pourrez télécharger les relevés de créance en quelques clics. Astuce – L’encodage des écritures Nous n’insisterons pas ici sur les détails de l’encodage des écritures, sauf pour signaler que les relevés de créance suivent la logique des écritures : si vous encodez une facture (via « dettes/créances ») ou une écriture directe (via les comptes bancaires), vous aurez un relevé qui correspond à cette seule écriture. Nous insistons sur l’intérêt de suivre la logique des factures (ou du paiement) dans l’encodage afin d’en simplifier le suivi. Pour les factures avec plusieurs articles (les écritures « ventilées »), une seule écriture pourra suffire (sauf si le paiement se fait en étapes et que vous encodez sur base des extraits bancaires). Nous vous renvoyons au manuel « L’encodage des écritures » pour plus de renseignements, également disponible dans la section « Aide » de ReligioSoft. Les relevés de créance – Vanden Broele – www.religiosoft.be 3 2.2. Deuxième étape : le téléchargement des relevés de créance La partie « Relevés de créance » se trouve sous « Comptabilité ». Vous pouvez y accéder directement via le bouton en haut de la page : Cliquez sur « Comptabilité ». Ensuite « Relevés de créance ». Si vous cliquez sur « Relevés de créance », alors la liste des dépenses pour lesquelles le relevé n’a pas encore été téléchargé via le logiciel s’affichera automatiquement. Les relevés déjà téléchargés avant, ne s’afficheront plus (mais pourront être récupérés via l’option « toutes les dettes (dépenses) » (en haut). Toutes les dépenses encodées via le journal et/ou via « dettes et créances » s’affichent, dans la mesure où le relevé n’a pas encore été téléchargé. 4 Les relevés de créance – Vanden Broele – www.religiosoft.be Vous avez la possibilité de peaufiner la sélection via les champs en haut de la liste : vous limitez à une période bien précise, à un seul exercice comptable, ou vous choisissez un article comptable dans la liste. Ensuite, cliquez sur « Afficher la sélection ». Dans la sélection qui s’affiche, il suffit de cocher les dépenses sur votre gauche ; en cochant tout en haut de la colonne, toutes les dépenses seront sélectionnées en une fois. 1. Cochez les dépenses pour lesquelles vous souhaitez télécharger le relevé de créance. 2. Choisissez le rapport souhaité en bas de page : format A4 (une feuille par relevé) ou A5 (deux relevés par feuille). Une fois la sélection faite, vous générez le rapport avec un ou plusieurs relevés de créance via un des boutons en bas de page. Nous vous en offrons deux types (de gauche à droite) : • Les rapports individuels A4 (un relevé par page A4). • Les rapports individuels A5 (deux relevés par page) – c’est « écologique ». Format A4 – un relevé par feuille Format A5 – deux relevés par feuille Les relevés de créance – Vanden Broele – www.religiosoft.be 5 Avant de consulter (et imprimer) le rapport, il faudra compléter : 1. La date des relevés (la date à laquelle le relevé est établi). Pour les relevés sur base des opérations bancaires, le logiciel propose la date à la veille du paiement ; vous pourrez toujours réorienter. 2. La personne qui « certifie sur l’honneur » quant à la dépense concernée : • Automatiquement, le logiciel récupère le « contact » repris comme « fournisseur » dans l’écriture. • Mais vous pourrez toujours choisir n’importe qui dans la liste complète des contacts. Vous compléte z la date des relevés. Au besoin vous remplacez le contact dans le relevé par une autre personne, sinon le logiciel reprend le contact de la dette/dépense. Ensuite : « Télécharger » ! Une fois le formulaire complété, cliquez sur « Télécharger » et vous aurez le fichier PDF en un seul clic. Si le document affiche des données erronées, vous pourrez toujours reparcourir la petite procédure, éventuellement après avoir corrigé l’écriture concernée (voir ci-dessous). 6 Les relevés de créance – Vanden Broele – www.religiosoft.be 2.3. Modifier les relevés de créance Si certains renseignements repris dans le fichier PDF sont erronés, vous pourrez toujours corriger. Ci-dessous, vous trouvez l’orientation quant à l’origine des données reprises dans le rapport. C’est à cet endroit qu’il faudra mettre à jour les données pour ensuite retourner à l’écran pour télécharger les relevés de créances avec les données à jour. Les coordonnées de la fabrique : « Accueil » - « Ma fabrique ». L’opération : via le journal bancaire ou les dettes/créances. La date du relevé est celle qui a été choisie juste avant de télécharger le relevé – voir le formulaire avec les choix ci-dessus. La personne qui certifie sur l’honneur : c’est le contact repris dans l’écriture ou la personne sélectionnée dans le formulaire avec les choix juste avant de télécharger le document. Vous corrigez les données ailleurs dans le logiciel et vous retournez à l’écran avec les relevés de créance pour télécharger à nouveau le rapport : si le relevé ne s’affiche pas dans la liste, il faudra cocher l’option « toutes les dettes (dépenses) », pour aboutir à la bonne sélection, car les relevés déjà téléchargés sont invisibles suite au premier téléchargement. Ensuite, cliquez sur « Afficher la sélection » (ou peaufinez encore la sélection avec le champ pour l‘article). Dans la liste qui s’affiche, vous pourrez également passer via l’icône PDF sur votre droite, qui vous permettra de télécharger chaque relevé déjà téléchargé et reparcourir les mêmes démarches pour le mettre à jour. Les relevés de créance – Vanden Broele – www.religiosoft.be 7 2.4. Stocker les relevés de créance signés en ligne Pour les fabriques d’église qui partagent les pièces justificatives en ligne, il est possible de faire de même pour les relevés de créance. Il faudra d’abord faire signer et numériser les relevés imprimés. Lorsque vous numérisez les relevés papier, il est important de choisir le format « PDF » et une résolution « moyenne ». A globalement parler, ce sont les mêmes démarches que pour incorporer les factures et les extraits : via le journal (ou la dette), vous attachez le document PDF dument signé (que vous avez scanné et stocké sur votre ordinateur) en cliquant sur l’icône grise sur votre droite. Ensuite, vous allez chercher le fichier PDF sur votre ordinateur local, vous sélectionnez et sauvegardez. Idéalement, vous combinez ce stockage en ligne avec les autres pièces que vous souhaitez annexer à l’opération (l’extrait bancaire et/ou le mandat de paiement). Cliquez sur l’icône grise sur votre droite, dans la ligne de l’écriture. Ensuite, « Ajouter une pièce » et vous sélectionnez le fichier sur votre ordinateur local. La pièce s’ajoute dans la liste (vous pouvez y ajouter d’autres documents) ; n’oubliez pas de « Sauvegarder ». Ajoutez un descriptif (optionnel) et « Sauvegarder ». 8 Les relevés de créance – Vanden Broele – www.religiosoft.be Dans la liste avec les écritures, l’icône est devenue un trombone rouge, indiquant qu’il y a une pièce qui se cache derrière. Tant qu’on n’a pas clôturé le compte annuel, on pourra toujours y retourner pour remplacer la pièce par une autre, ou pour y ajouter d’autres pièces encore. Toutes ces pièces seront alors consolidées dans le grand-livre des pièces, que le trésorier pourra partager avec la tutelle en ligne. Astuce – Le stockage des pièces justificatives en ligne Pour plus de renseignements sur le stockage en ligne des pièces justificatives, la consolidation de ces pièces dans le grand-livre et le partage en ligne avec la tutelle, nous renvoyons au dossier y consacré dans la section « Aide » de ReligioSoft. Les relevés de créance – Vanden Broele – www.religiosoft.be 9",
+        "resume": "Le chapitre 2 traite du processus de téléchargement des relevés de créance dans le logiciel ReligioSoft, en passant par l'encodage des écritures, la génération des relevés, leur modification et leur stockage en ligne.",
+        "categorie": "Gestion des relevés de créance",
+        "mots_cles": [
+            "relevés de créance",
+            "encodage des écritures",
+            "téléchargement",
+            "modifications",
+            "stockage en ligne",
+            "logiciel ReligioSoft"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Automatiquement",
+                "Afficher",
+                "s’affiche",
+                "Confection"
+            ],
+            "montants": [],
+            "noms": [
+                "qu’on n’",
+                "Télécharger",
+                "Accueil",
+                "L’outil",
+                "Format A5",
+                "Encodage",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment créer les relevés de créance dans ReligioSoft ?",
+                "reponse": "Les relevés de créance sont créés en encodant les écritures dans le logiciel, puis en les téléchargeant selon les étapes décrites."
+            },
+            {
+                "question": "Comment modifier un relevé de créance erroné ?",
+                "reponse": "Pour corriger des informations erronées, il faut mettre à jour les données dans le logiciel et télécharger à nouveau le relevé."
+            },
+            {
+                "question": "Comment stocker les relevés de créance signés en ligne ?",
+                "reponse": "Les relevés signés peuvent être numérisés au format PDF et attachés aux écritures dans ReligioSoft pour un stockage en ligne."
+            },
+            {
+                "question": "Quelles sont les étapes pour télécharger un relevé de créance ?",
+                "reponse": "Les étapes incluent la sélection des dépenses, le choix du format de rapport, la complétion des informations et le téléchargement du fichier PDF."
+            },
+            {
+                "question": "Quelle est la différence entre encodage via le journal financier et via dettes/créances ?",
+                "reponse": "L'encodage via le journal financier se fait après les paiements, tandis que l'encodage via dettes/créances se fait avant le paiement des dettes."
+            }
+        ],
+        "etapes_processus": [
+            "Encodage des écritures dans le logiciel ReligioSoft",
+            "Sélection des dépenses pour les relevés de créance",
+            "Choix du format de rapport et complétion des informations",
+            "Téléchargement du relevé de créance au format PDF",
+            "Modification des relevés erronés si nécessaire",
+            "Stockage en ligne des relevés signés et des pièces justificatives"
+        ],
+        "relations": [
+            {
+                "concept": "Encodage des écritures",
+                "description": "Étape initiale pour créer les relevés de créance dans ReligioSoft."
+            },
+            {
+                "concept": "Téléchargement des relevés de créance",
+                "description": "Processus clé pour obtenir les relevés au format PDF."
+            },
+            {
+                "concept": "Stockage en ligne des relevés",
+                "description": "Permet de conserver les relevés signés et les pièces justificatives dans le logiciel."
+            },
+            {
+                "concept": "Format A4 vs A5",
+                "description": "Choix entre un relevé par page ou deux relevés par page lors du téléchargement des relevés de créance."
+            },
+            {
+                "concept": "Correction des relevés",
+                "description": "Possibilité de modifier les informations erronées dans les relevés avant de les télécharger à nouveau."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "26. Relevés de créance.pdf",
+            "page_source": [
+                3,
+                11
+            ],
+            "date_extraction": "2025-05-27T12:05:09.389809"
+        }
+    }
+]

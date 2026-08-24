@@ -1,0 +1,162 @@
+[
+    {
+        "id": "chapitre_1er_introduction__les_ajustements_internes",
+        "titre": "Chapitre 1er. Introduction - Les ajustements internes",
+        "chemin": "Chapitre 1er. Introduction - Les ajustements internes",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "Les ajustements internes (version 3 – août 2024) Chapitre 1er. Introduction – Les ajustements internes 1 Chapitre 2. Les ajustements internes dans ReligioSoft 2 2.1. Finaliser l’encodage des écritures 2 2.2. Générer les ajustements internes automatisés 3",
+        "resume": "Le chapitre 1er présente une introduction sur les ajustements internes dans ReligioSoft, incluant la finalisation de l'encodage des écritures et la génération d'ajustements internes automatisés.",
+        "categorie": "Logiciel de gestion financière",
+        "mots_cles": [
+            "ajustements internes",
+            "ReligioSoft",
+            "encodage des écritures",
+            "génération automatisée",
+            "comptabilité"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": []
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quels sont les ajustements internes dans ReligioSoft ?",
+                "reponse": "Les ajustements internes incluent la finalisation de l'encodage des écritures et la génération automatisée."
+            },
+            {
+                "question": "Comment finaliser l'encodage des écritures dans ReligioSoft ?",
+                "reponse": "Pour finaliser l'encodage des écritures, suivez les étapes spécifiques fournies dans le logiciel."
+            },
+            {
+                "question": "Peut-on personnaliser les ajustements internes automatisés dans ReligioSoft ?",
+                "reponse": "Oui, il est possible de personnaliser les ajustements internes automatisés selon les besoins de l'entreprise."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Ajustements internes",
+                "description": "Processus de correction et d'ajustement des données financières internes."
+            },
+            {
+                "concept": "ReligioSoft",
+                "description": "Logiciel de gestion financière utilisé pour effectuer des ajustements internes et gérer les écritures comptables."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "15. LesAjustementsInternes.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:02:34.421234"
+        }
+    },
+    {
+        "id": "chapitre_2_les_ajustements_internes_dans_religiosoft",
+        "titre": "Chapitre 2. Les ajustements internes dans ReligioSoft",
+        "chemin": "Chapitre 2. Les ajustements internes dans ReligioSoft",
+        "page_debut": 2,
+        "page_fin": 7,
+        "contenu_texte": "Chapitre 1er. Introduction – Les ajustements internes Pour rappel : il existe deux types de changement au budget : 1. Les « ajustements internes » : les ajustements internes ne concernent que les dépenses du service ordinaire du chapitre II. Il est permis de changer les prévisions à l’intérieur du chapitre (donc sans en impacter le total), mais uniquement s’il y avait déjà un crédit prévu aux articles en question. Pour les fabriques d’église catholiques, il s’agit des articles D16 à D50 qui ne sont pas à zéro dans le budget (ou la modification budgétaire) déjà approuvé. La liste avec les ajustements internes, qu’on prépare en fin d’exercice, est reprise dans le dossier du compte annuel transmis aux autorités de tutelle. 2. Les « vraies » modifications budgétaires : tout changement apporté au budget qui ne respecte pas les critères des « ajustements internes » nécessite une « vraie » modification budgétaire. Pour ce type de modification, la date limite pour la transmission aux autorités de tutelle est la mi-octobre. De cette façon, l’évêché et ensuite la commune peuvent statuer sur la modification avant la fin de l’année. En toute logique, le trésorier vérifie en cours d’exercice comment le compte annuel évolue par rapport au budget afin de garantir que tous les changements importants sont réglés avec une modification budgétaire avant la mi-octobre. Passé cette date, il ne reste que l’ajustement interne comme solution. Astuce – Et si, après la mi-octobre, il y a un dépassement qui ne peut être réglé via un ajustement interne ? Il arrive que, peu avant la clôture de l’exercice, une dépense imprévue génère un dépassement qui ne peut être neutralisé via un ajustement interne. En principe, on ne transmet plus de modifications budgétaires après la mi-octobre. Il faudra se concerter avec la commune pour voir quelles sont les options. Pour certains dépassements, il pourra suffire, par exemple, d’expliquer l’origine du dépassement dans les observations en annexe au compte annuel. Pour d’autres dépenses imprévues, il sera sans aucun doute nécessaire de s’arranger autrement. Les ajustements internes concernent une procédure très légère : il suffit d’ajouter la liste avec les dépassements ajustés au dossier du compte annuel, qu’on transmet avant le 25 avril. Pour le reste, il n’y a donc pas de procédure de tutelle spécifique. Traditionnellement, le trésorier prépare le document en question juste avant la réunion du conseil de fabrique lors de laquelle le compte annuel sera arrêté. Astuce – Vous n’avez jamais entendu parler d’un ajustement interne ? C’est bien possible, car la pratique n’est pas générale : un tiers des trésoriers wallons ne la connaît pas. Traditionnellement, les trésoriers qui ne connaissent pas l’ajustement interne ne modifient pas leur budget pour ces « petits dépassements » qui n’impactent en rien le total prévu au niveau du chapitre : ils se limitent à en justifier l’origine dans une note annexée au compte annuel même. C’est une approche différente. Les ajustements internes – Vanden Broele – wallonie.religio.be 1 Chapitre 2. Les ajustements internes dans ReligioSoft Afin de pouvoir identifier les dépassements au niveau du compte annuel, il faut que l’encodage des écritures soit complété dans le programme. Sur base des écritures encodées dans ReligioSoft, et les dépassements qui en découlent, le logiciel pourra ensuite vous offrir un tableau parfaitement ajusté, sans que vous ne deviez manipuler les chiffres vous-même. Il ne vous restera qu’à imprimer le rapport et à le faire signer. Il faut donc distinguer deux étapes ! 1. Finaliser l’encodage des écritures 2. Générer les ajustements internes automatisés 2.1. Finaliser l’encodage des écritures Élément crucial dans la création des ajustements internes automatisés : il faut compléter l’encodage des écritures. Si vous générez les ajustements internes avant de finaliser l’encodage des écritures, il se peut toujours qu’un dépassement apparaisse plus tard, suite à un paiement tardif, qui aurait pu être neutralisé « en interne ». Une vue complète sur les dépassements actuels Il est conseillé de vérifier d’abord les tableaux du compte annuel, afin d’avoir une vue complète sur tous les dépassements (réels ou imminents) : • Consultez le compte annuel (via « Accueil » ou « Comptabilité »). • Cliquez ensuite sur « tableaux » (sur votre droite). • Les articles en dépassement sont toujours indiqués en rouge. Pour les trésoriers qui encodent aussi les factures, les lignes en orange concernent les dépassements « imminents », c’est-à-dire imminents tant que les factures n’ont pas été apurées dans le système, mais qui deviendront « réels » une fois les paiements réglés (et encodés). 2 Les ajustements internes – Vanden Broele – wallonie.religio.be Lors de l’encodage des écritures, le logiciel vous signale également l’état des lieux de l’article sélectionné. Tout dépassement « réel » ou « imminent » sera clairement marqué. Partout où il s’affiche l’icône avec les trois lignes rouges, vous pouvez télécharger le rapport avec l’historique des écritures (par article). Ainsi, vous vérifiez en quelques clics si tout a été encodé correctement. Astuce – Je me suis trompé lors de l’encodage ! Vous constatez une erreur d’encodage ? Retournez alors aux comptes bancaires pour modifier l’écriture concernée via le journal. Ce sera vite fait. ReligioSoft tiendra compte de toutes vos corrections dans les rapports que vous téléchargez par la suite, y compris donc les ajustements internes automatisés. Dès que la dernière écriture de l’exercice en cours se trouve dans le système, vous aurez une vue complète sur tous les dépassements et tout sera prêt pour générer les ajustements internes (voir le point 2.2.). Pour les dépassements qui ne peuvent être réglés « en interne », vous vous concertez avec la commune ou vous en justifiez le contexte spécifique dans le dossier du compte annuel. 2.2. Générer les ajustements internes automatisés Toutes les écritures se trouvent dans le système ? Passons aux ajustements internes mêmes. Sous « Accueil », choisissez le budget en cours. Important : avant d’introduire un ajustement interne, vérifiez bien si vous avez correctement finalisé toute étape antérieure (budget ou modification budgétaire) : la quatrième date doit être remplie dans la section avec le « suivi ». Ensuite, cliquez sur le bouton « Ajustements internes (chap. II, dép. ord.) » qui s’affiche sur votre gauche. Sous « Accueil », cliquez sur le budget en cours. Les ajustements internes – Vanden Broele – wallonie.religio.be 3 Créez les ajustements internes en cliquant sur le bouton sur votre gauche. Parcourez les étapes – le logiciel 1ère étape : le logiciel explique et vous signale s’il y a des signale s’il y a encore d’autres dépassements qui ne peuvent dépassements être neutralisés via un ajustement interne (il faudra motiver). Dès que vous avez introduit les dates dans la 2e étape (voir la capture 2e étape : remplissez les dates d’écran), vous pouvez télécharger le rapport de l’ajustement. … et téléchargez le rapport ! Comme ailleurs dans le logiciel, vous avez le choix entre le rapport officiel (avec le plan comptable officiel) ou la version qui incorpore les articles spécifiques à la fabrique également. Astuce – Les dépassements au niveau « spécifique à la fabrique » Les « vrais » dépassements ne concernent que le niveau officiel du plan comptable. Un dépassement au niveau d’un article spécifique à la fabrique ne pose aucun problème. Les articles spécifiques à la fabriques sont faciles à identifier : le numéro d’article se termine par une minuscule (par exemple : 50.I.a – logiciel informatique). 4 Les ajustements internes – Vanden Broele – wallonie.religio.be Vérifiez dans le rapport si tout s’est bien passé. Ensuite, imprimez-le. L’ajustement interne s’affichera dans l’écran avec le budget. Et vous pouvez toujours télécharger le rapport de nouveau. Cliquez sur le bouton « rapport ». L’ajustement s’affiche en bas de page. Astuce 1 – Est-il possible d’ajouter des précisions par article ? Pour les trésoriers qui le souhaitent, le logiciel prévoit la possibilité d’intégrer des précisions par dépassement : cliquez sur « modifier », introduisez vos précisions et sauvegardez. Si vous téléchargez le rapport, les commentaires seront incorporés dans l’ajustement interne (en haut de la page). Pour ajouter une explication par dépassement, cliquez sur « « modifier ». Astuce 2 – Je me suis trompé. Que dois-je faire ? Vous pouvez toujours refaire le rapport des ajustements internes, après avoir corrigé les écritures via le journal. Voici les démarches à suivre : 1. Apportez les corrections nécessaires via le journal. 2. Supprimez l’ajustement erroné en cliquant sur la poubelle sur votre droite. 3. Cliquez sur « Ajustements internes (chap. II, dép. ord.) » pour créer un nouvel ajustement interne. 4. Suivez les démarches détaillées ci-dessus pour générer le rapport correct. Les ajustements internes – Vanden Broele – wallonie.religio.be 5",
+        "resume": "Les ajustements internes dans ReligioSoft permettent de modifier les dépenses du service ordinaire du chapitre II sans impacter le total du budget. Il est crucial de finaliser l'encodage des écritures avant de générer les ajustements internes automatisés dans le logiciel.",
+        "categorie": "Logiciel de gestion financière",
+        "mots_cles": [
+            "ajustements internes",
+            "ReligioSoft",
+            "encodage des écritures",
+            "dépassements",
+            "modifications budgétaires",
+            "compte annuel",
+            "trésorier",
+            "budget",
+            "rapport",
+            "factures"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "s’arranger",
+                "– Vanden Broele – wallonie.religio.be",
+                "– Vanden Broele",
+                "wallonie.religio.be 3 Créez",
+                "Ajustements internes",
+                "wallonie.religio.be 1 Chapitre 2"
+            ],
+            "montants": [],
+            "noms": [
+                "Finaliser",
+                "wallonie.religio.be Vérifiez",
+                "Accueil",
+                "Astuce",
+                "Parcourez",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Qu'est-ce que les ajustements internes dans ReligioSoft ?",
+                "reponse": "Les ajustements internes permettent de modifier les dépenses du chapitre II sans impacter le total du budget."
+            },
+            {
+                "question": "Quand doit-on finaliser l'encodage des écritures dans ReligioSoft ?",
+                "reponse": "Il est crucial de finaliser l'encodage des écritures avant de générer les ajustements internes automatisés."
+            },
+            {
+                "question": "Comment identifier les dépassements dans ReligioSoft ?",
+                "reponse": "Les dépassements sont indiqués en rouge dans les tableaux du compte annuel, avec une distinction entre dépassements réels et imminents."
+            },
+            {
+                "question": "Que faire en cas d'erreur d'encodage dans ReligioSoft ?",
+                "reponse": "En cas d'erreur d'encodage, retournez aux comptes bancaires pour modifier l'écriture concernée via le journal."
+            },
+            {
+                "question": "Quelles sont les étapes pour générer les ajustements internes dans ReligioSoft ?",
+                "reponse": "Finaliser l'encodage des écritures, puis générer les ajustements internes en suivant les étapes décrites dans le logiciel."
+            }
+        ],
+        "etapes_processus": [
+            "Finaliser l'encodage des écritures dans ReligioSoft.",
+            "Vérifier les dépassements dans les tableaux du compte annuel.",
+            "Générer les ajustements internes automatisés en suivant les étapes du logiciel.",
+            "Ajouter des précisions par dépassement si nécessaire.",
+            "Corriger les erreurs d'encodage en refaisant le rapport des ajustements internes."
+        ],
+        "relations": [
+            {
+                "concept": "Ajustements internes",
+                "description": "Permettent de modifier les dépenses du chapitre II sans impacter le total du budget."
+            },
+            {
+                "concept": "Encodage des écritures",
+                "description": "Étape cruciale pour générer les ajustements internes automatisés dans ReligioSoft."
+            },
+            {
+                "concept": "Dépassements",
+                "description": "Doivent être identifiés et traités via des ajustements internes ou des modifications budgétaires."
+            },
+            {
+                "concept": "Compte annuel",
+                "description": "Contient les informations sur les ajustements internes et les dépassements à transmettre aux autorités de tutelle."
+            },
+            {
+                "concept": "Trésorier",
+                "description": "Responsable de la gestion des ajustements internes et des modifications budgétaires dans ReligioSoft."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "15. LesAjustementsInternes.pdf",
+            "page_source": [
+                2,
+                7
+            ],
+            "date_extraction": "2025-05-27T12:02:43.276630"
+        }
+    }
+]

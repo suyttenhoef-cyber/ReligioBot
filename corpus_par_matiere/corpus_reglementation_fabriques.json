@@ -1,0 +1,102 @@
+{
+  "_matiere": "reglementation_fabriques",
+  "documents": [
+    {
+      "document_id": "decret_imperial_30_12_1809",
+      "titre": "Decret imperial du 30 decembre 1809 concernant les fabriques d'eglise",
+      "type": "decret",
+      "date_texte": "1809-12-30",
+      "statut": "en_vigueur",
+      "notes": "Texte fondateur du regime des fabriques d'eglise, toujours en vigueur en Region wallonne. Texte integral a obtenir (Moniteur belge / Wallex)."
+    },
+    {
+      "document_id": "loi_04_03_1870",
+      "titre": "Loi du 4 mars 1870 sur le temporel des cultes",
+      "type": "loi",
+      "date_texte": "1870-03-04",
+      "statut": "partiellement_abroge",
+      "notes": "Procedures de tutelle ; l'essentiel a ete transfere vers le CDLD par le decret du 13 mars 2014. Texte integral a obtenir."
+    },
+    {
+      "document_id": "cdld",
+      "titre": "Code de la Democratie Locale et de la Decentralisation (CDLD)",
+      "type": "code",
+      "statut": "en_vigueur",
+      "notes": "Extraits pertinents : Partie Ire, Livre III, Titre II, Ch. Ier (art. L1321-1 a L1321-2) ; Partie III, Livre Ier, Titre Ier, Ch. Ier a VI/I (art. L3111-1 a L3116-1/1) et Titre VI (art. L3161-1 a L3162-3). Texte integral a obtenir."
+    },
+    {
+      "document_id": "circulaire_18_07_2014",
+      "titre": "Circulaire du 18 juillet 2014 relative a la convention pluriannuelle communes/provinces - fabriques d'eglise",
+      "type": "circulaire",
+      "date_texte": "2014-07-18",
+      "statut": "en_vigueur",
+      "notes": "Outils utilisables par toute fabrique, pas seulement les fabriques pilotes. Texte integral a obtenir."
+    },
+    {
+      "document_id": "circulaire_12_12_2014",
+      "titre": "Circulaire du 12 decembre 2014 relative a la tutelle sur les actes et aux pieces justificatives",
+      "type": "circulaire",
+      "date_texte": "2014-12-12",
+      "statut": "en_vigueur",
+      "notes": "Modifiee en 2019 pour les annexes. Texte de reference pratique pour le tresorier, resume les 3 textes precedents. Texte integral a obtenir."
+    },
+    {
+      "document_id": "decret_18_05_2017",
+      "titre": "Decret du 18 mai 2017 relatif a la reconnaissance et aux obligations des etablissements cultuels",
+      "type": "decret",
+      "date_texte": "2017-05-18",
+      "statut": "en_vigueur",
+      "notes": "Fusion, desaffectation, obligations administratives. Texte integral a obtenir."
+    },
+    {
+      "document_id": "agw_25_01_2018",
+      "titre": "Arrete du Gouvernement wallon du 25 janvier 2018",
+      "type": "arrete",
+      "date_texte": "2018-01-25",
+      "statut": "en_vigueur",
+      "notes": "Execution du decret du 18 mai 2017 : modalites et documents modeles. Texte integral a obtenir."
+    },
+    {
+      "document_id": "agw_25_02_2021",
+      "titre": "Arrete du Gouvernement wallon du 25 fevrier 2021",
+      "type": "arrete",
+      "date_texte": "2021-02-25",
+      "statut": "en_vigueur",
+      "notes": "Notification electronique des decisions de tutelle, execution de l'art. L3115-1 CDLD. Texte integral a obtenir."
+    },
+    {
+      "document_id": "circulaire_21_01_2019",
+      "titre": "Circulaire relative aux pieces justificatives du 21 janvier 2019",
+      "type": "circulaire",
+      "date_texte": "2019-01-21",
+      "statut": "en_vigueur",
+      "notes": "Texte integral a obtenir."
+    },
+    {
+      "document_id": "circulaire_20_06_2024",
+      "titre": "Circulaire du 20 juin 2024 relative aux operations patrimoniales des pouvoirs locaux",
+      "type": "circulaire",
+      "date_texte": "2024-06-20",
+      "statut": "en_vigueur",
+      "notes": "Texte integral a obtenir."
+    },
+    {
+      "document_id": "circulaire_30_05_2013",
+      "titre": "Circulaire du 30 mai 2013 relative a l'octroi des subventions par les pouvoirs locaux",
+      "type": "circulaire",
+      "date_texte": "2013-05-30",
+      "statut": "en_vigueur",
+      "notes": "Texte integral a obtenir."
+    },
+    {
+      "document_id": "circulaires_budgetaires_communales",
+      "titre": "Circulaires budgetaires communales annuelles (2015 et suivantes)",
+      "type": "circulaire",
+      "statut": "en_vigueur",
+      "notes": "Renouvelees chaque annee ; contiennent aussi des directives pour le suivi des fabriques d'eglise. Verifier la version la plus recente au moment de l'extraction et prevoir une veille annuelle."
+    }
+  ],
+  "articles": [],
+  "sections_circulaire": [],
+  "pratiques_validees": []
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "id": "document_complet",
+        "titre": "Document complet",
+        "chemin": "Document complet",
+        "page_debut": 1,
+        "page_fin": 4,
+        "contenu_texte": "ReligioSoft en quelques clics Ce dossier vous guide à travers les fonctionnalités de base offertes par ReligioSoft. Le premier volet vous expliquera « l’architecture » de base de l’outil. Dans le deuxième volet, nous parcourrons les démarches (en résumé) « par besoin spécifique ». Les autres guides d’utilisateur vous offrent plus de détails par procédure. Tous les manuels sont également disponibles en ligne : cliquez sur « Aide » (en haut de la page) dès que vous vous êtes connecté(e). I. Le logiciel se compose de trois parties 1. L’accueil 2. Les comptes bancaires 3. La comptabilité 1. L’accueil comprend : a. L’accès à tous vos dossiers via « Mes dossiers » (si vous ne gérez qu’une seule fabrique cet icône ne vous sera d’aucune utilité) ; b. « Ma fabrique », qui vous permet de gérer la composition du conseil de fabrique (et les profils des fabriciens) ainsi que les coordonnées de la fabrique ; c. « Délibérations » : vous pouvez stocker et partager les délibérations du conseil de fabrique selon vos souhaits (en interne et même en externe). d. Un accès direct aux étapes les plus importantes dans le cadre de la tutelle i. Compte de l’exercice précédent (à gauche) ; ii. Compte et budget (et modifications budgétaires) de l’exercice en cours (au milieu) ; iii. Budget de l’exercice suivant (à votre droite). e. Cet écran vous signalera également s’il y a des étapes à compléter dans le dossier. ReligioSoft en quelques clics – procédures de base – Vanden Broele – wallonie.religio.be 1 2. Les comptes bancaires, où vous trouverez : a. Tous les comptes bancaires ; b. Le contrôle des résultats financier et comptable ; c. Les rapports les plus importants. Utilisez cet accès pour encoder vos écritures sur base de vos extraits bancaires. 3. La comptabilité regroupe toutes les autres fonctionnalités : a. Les mandats de paiement ; b. Les contacts (fournisseurs et créanciers) ; c. Le plan comptable (par exercice) ; d. Les dettes et créances (pour les trésoriers qui encodent leurs factures avant le paiement) ; e. Les fiches de projet ; f. Les relevés de créance ; g. Les droits constatés ; h. L’exportation des virements bancaires ; i. Vous y avez également accès aux budgets et comptes. II. Manuel concis des démarches les plus courantes 1. Encoder les écritures sur base des extraits bancaires Tout ce qui concerne la « trésorerie » (« le financier ») se trouve sous « Comptes bancaires » (en haut de l’écran). Si vous cliquez dessus vous aurez accès aux différents comptes bancaires. Cliquez ensuite sur un des comptes bancaires pour encoder sur ce compte toutes vos écritures. C’est via ce journal que les autres rapports seront alimentés (le compte annuel, le grand-livre, etc.). 2. Télécharger les mandats de paiement Choisissez « Comptabilité », ensuite « Mandats » (à votre gauche). La liste des dépenses non encore mandatées s’affiche automatiquement. Il suffit de cocher les mandats souhaités et de les télécharger (en bas de page). Une fois que vous aurez téléchargé les mandats, il sera toujours possible de faire n’importe quelle sélection et de la télécharger à nouveau (même des mandats individuels) : choisissez « toutes les dettes » en haut de la page (et déterminez vous-même la période dont vous avez besoin). Cliquez sur « afficher la sélection » à votre droite, cochez les dépenses et téléchargez le rapport en bas de page. 3. Consulter le budget Cliquez sur « Accueil » et ensuite « Budget et MB 2024 » (au milieu) ou « Budget 2025 » (sur votre droite). 2 ReligioSoft en quelques clics – procédures de base – Vanden Broele – wallonie.religio.be Il s’affichera une page reprenant les différentes étapes : • Version de la fabrique ; • Version de l’évêché ; • Version de la commune ; • Validation par le trésorier (qui accepte (ou refuse) les rectifications apportées par les autorités de tutelle). Par étape vous pouvez : - Consulter et confectionner les tableaux : cliquez sur « tableaux » ; tous les articles s’afficheront, avec des colonnes supplémentaires pour mieux pouvoir analyser l’état des lieux. - Faire le suivi de cette étape : cliquez sur suivi et remplissez la date au fur et à mesure que le conseil arrête un document ou que les versions approuvées ou rectifiées vous parviennent ; le suivi peut être délégué aux responsables communaux. - Télécharger le rapport PDF : cliquez sur l’icône PDF sur votre droite. 4. Consulter le compte annuel Cliquez sur « Accueil » et ensuite sur « Compte annuel 2024 » (au milieu). Une page reprenant les différentes étapes apparaît alors : • Version de la fabrique ; • Version de l’évêché ; • Version de la commune ; • Validation par le trésorier (qui accepte les rectifications apportées par la tutelle). Par étape, vous pouvez : - Consulter les tableaux complets : cliquez sur « tableaux » ; tous les articles s’afficheront, avec des colonnes supplémentaires pour mieux pouvoir analyser l’état des affaires, en évolution. - Faire le suivi de cette étape : cliquez sur suivi et remplissez la date au fur et à mesure que le conseil arrête un document ou que les versions approuvées ou rectifiées vous parviennent ; le suivi peut être délégué aux responsables communaux. - Télécharger le rapport PDF : cliquez sur l’icône PDF sur votre droite. 5. Consulter le grand-livre Via « Accueil » cliquez sur « Compte annuel 2024 ». Ensuite, vous choisissez « tableaux » (sur votre droite, dans la ligne de la fabrique). Tous les articles s’affichent : vous cliquez sur les trois lignes rouges dans la ligne de l’article comptable pour télécharger la liste avec les écritures encodées pour cet article. À votre gauche, vous pouvez aussi télécharger le grand-livre complet, pour tous les articles, en une seule fois (bouton noir). 6. Télécharger le rapport de trésorerie Cliquez en haut sur « Comptes bancaires ». Apparaît alors sur votre gauche un bouton « Trésorerie ». Vous avez le choix entre le rapport pour le compte annuel de l’exercice en question ou d’en faire un rapport sur base d’une date précise. ReligioSoft en quelques clics – procédures de base – Vanden Broele – wallonie.religio.be 3 7. Consulter le journal complet Cliquez en haut sur « Comptes bancaires ». Apparaît alors sur la gauche de l’écran un bouton noir « Journal complet ». Vous avez le choix entre le rapport PDF et l’exportation Excel. L’exportation Excel comprend aussi les soldes financier et comptable, ce qui vous permet d’effectuer un contrôle efficace. 8. Fiche de fournisseur Vous souhaitez obtenir un aperçu de toutes les écritures liées à un de vos contacts en particulier ? Cliquez sur « Comptabilité », ensuite « Mes contacts ». À côté de chaque contact (à votre droite), vous pouvez télécharger l’historique des écritures via les trois lignes rouges. 9. Fiche de projet Les fiches de projet permettent de regrouper une série d’écritures, même au-delà des confins d’un exercice. Pour ajouter une fiche, cliquez sur « Comptabilité » en haut de la page, ensuite « Projets » au milieu. Après avoir ajouté le projet, vous pouvez coupler les écritures via le journal, au fur et à mesure que vous encodez. 10. Stocker (et partager) vos délibérations Dans la section « Délibérations » sous « Accueil », vous pouvez stocker toutes vos délibérations. Vous avez le choix de partager tout document « en interne » (avec les personnes à qui vous avez octroyé un droit) ou « en externe » (avec les autorités de tutelle). Cette section ne se limite en principe pas aux délibérations : vous pouvez y stocker (et partager) l’obituaire, des contrats, etc. 11. Modifier les coordonnées des mandataires ou de la fabrique Pour modifier les coordonnées de la fabrique ou des fabriciens, cliquez sur « Accueil » et ensuite sur « Ma fabrique ». Les données de la fabrique se trouvent sous « Coordonnées de l’organisation » (à votre gauche). Les fabriciens et leurs profils respectifs sont accessibles via « Gestion des accès ». 12. Octroyer un droit de lecture Pour octroyer un droit de lecture (pour le dossier complet), vous cliquez sur « Accueil » et ensuite sur « Ma fabrique ». Ensuite, cliquez sur votre gauche sur « Gestion des accès » : vous pouvez modifier le profil des personnes déjà reprises et octroyer un droit spécifique via le volet de droite, et/ou ajouter encore des personnes. 4 ReligioSoft en quelques clics – procédures de base – Vanden Broele – wallonie.religio.be",
+        "resume": "Le document présente les fonctionnalités de base de ReligioSoft, divisées en trois parties : l'accueil, les comptes bancaires et la comptabilité. Il explique comment accéder et utiliser ces différentes fonctionnalités pour gérer les finances et les documents administratifs.",
+        "categorie": "Logiciel de gestion financière",
+        "mots_cles": [
+            "ReligioSoft",
+            "accueil",
+            "comptes bancaires",
+            "comptabilité",
+            "délibérations",
+            "mandats de paiement",
+            "budget",
+            "grand-livre",
+            "trésorerie",
+            "fiche de projet"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Octroyer",
+                "ReligioSoft",
+                "Compte",
+                "Gestion des accès",
+                "Comptes",
+                "Vous"
+            ],
+            "montants": [],
+            "noms": [
+                "c.",
+                "Télécharger",
+                "Manuel concis",
+                "Consulter",
+                "Utilisez",
+                "c. «",
+                "Accueil",
+                "Cliquez",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment encoder les écritures sur base des extraits bancaires ?",
+                "reponse": "Sous 'Comptes bancaires', cliquez sur un compte bancaire pour encoder les écritures."
+            },
+            {
+                "question": "Comment consulter le budget ?",
+                "reponse": "Cliquez sur 'Accueil' puis sur 'Budget' pour accéder aux différentes étapes et télécharger le rapport PDF."
+            },
+            {
+                "question": "Comment stocker et partager des délibérations ?",
+                "reponse": "Sous 'Accueil', utilisez la section 'Délibérations' pour stocker et partager des documents en interne ou en externe."
+            },
+            {
+                "question": "Comment modifier les coordonnées des mandataires ?",
+                "reponse": "Sous 'Accueil', accédez à 'Ma fabrique' pour modifier les coordonnées de la fabrique et des fabriciens."
+            },
+            {
+                "question": "Comment octroyer un droit de lecture ?",
+                "reponse": "Sous 'Accueil', allez dans 'Ma fabrique' puis 'Gestion des accès' pour modifier les profils et octroyer des droits spécifiques."
+            }
+        ],
+        "etapes_processus": [
+            "Accéder à l'accueil et gérer les dossiers, la fabrique et les délibérations",
+            "Utiliser les comptes bancaires pour encoder des écritures et consulter les rapports financiers",
+            "Accéder à la comptabilité pour gérer les mandats de paiement, les contacts, le plan comptable, etc.",
+            "Consulter le budget, le compte annuel, le grand-livre, le rapport de trésorerie et le journal complet",
+            "Gérer les fiches de fournisseur, les projets, les délibérations, les coordonnées et les droits d'accès"
+        ],
+        "relations": [
+            {
+                "concept": "Comptes bancaires",
+                "description": "Utilisés pour encoder des écritures et consulter les résultats financiers"
+            },
+            {
+                "concept": "Budget",
+                "description": "Permet de suivre les différentes étapes de validation et de télécharger des rapports PDF"
+            },
+            {
+                "concept": "Délibérations",
+                "description": "Permet de stocker et partager des documents administratifs en interne ou en externe"
+            },
+            {
+                "concept": "Coordonnées de la fabrique",
+                "description": "Permet de modifier les informations relatives à la fabrique et aux fabriciens"
+            },
+            {
+                "concept": "Droits d'accès",
+                "description": "Permet de gérer les profils et d'octroyer des droits spécifiques aux utilisateurs"
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "01. ReligiosoftEnQuelquesClics2024.pdf",
+            "page_source": [
+                1,
+                4
+            ],
+            "date_extraction": "2025-05-27T12:05:43.119059"
+        }
+    }
+]

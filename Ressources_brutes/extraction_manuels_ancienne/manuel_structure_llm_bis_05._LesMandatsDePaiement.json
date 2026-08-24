@@ -1,0 +1,170 @@
+[
+    {
+        "id": "chapitre_1er_introduction__limportance_du_mandat",
+        "titre": "Chapitre 1er. Introduction - L’importance du mandat",
+        "chemin": "Chapitre 1er. Introduction - L’importance du mandat",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "Les mandats de paiement (version 3 – août 2024) Chapitre 1er. Introduction – L’importance du mandat 1 Chapitre 2. Télécharger vos mandats 2",
+        "resume": "Le chapitre d'introduction met en avant l'importance des mandats de paiement, version 3 datée d'août 2024.",
+        "categorie": "Finance",
+        "mots_cles": [
+            "mandats de paiement",
+            "version 3",
+            "août 2024",
+            "téléchargement",
+            "importance"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Introduction –"
+            ],
+            "montants": [],
+            "noms": [
+                "Télécharger"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quelle est la version des mandats de paiement mentionnée ?",
+                "reponse": "Version 3 datée d'août 2024."
+            },
+            {
+                "question": "Quand a été publié ce chapitre d'introduction ?",
+                "reponse": "En août 2024."
+            },
+            {
+                "question": "Que met en avant ce chapitre ?",
+                "reponse": "L'importance des mandats de paiement."
+            },
+            {
+                "question": "Où peut-on télécharger les mandats ?",
+                "reponse": "Dans le chapitre 2."
+            },
+            {
+                "question": "Quelle est la thématique principale de ce chapitre ?",
+                "reponse": "L'importance du mandat de paiement."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "mandats de paiement",
+                "description": "Au cœur du contenu, version 3 en août 2024."
+            },
+            {
+                "concept": "importance du mandat",
+                "description": "Thème central du chapitre d'introduction."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "05. LesMandatsDePaiement.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:19:45.083718"
+        }
+    },
+    {
+        "id": "chapitre_2_tlcharger_vos_mandats",
+        "titre": "Chapitre 2. Télécharger vos mandats",
+        "chemin": "Chapitre 2. Télécharger vos mandats",
+        "page_debut": 2,
+        "page_fin": 7,
+        "contenu_texte": "Chapitre 1er. Introduction – L’importance du mandat Avant que le trésorier puisse payer les factures, il lui faut un mandat de paiement : le président et le secrétaire de fabrique doivent en effet marquer leur accord pour le paiement, sinon le trésorier devra à lui seul assumer la responsabilité du paiement. En cas de discussion quant à la légitimité du paiement, c’est sur la base du mandat que l’on pourra trancher qui en est responsable : le trésorier qui a exécuté « en cavalier seul » ou le président et le secrétaire qui ont signé. Il est obligatoire d’avoir un mandat de paiement par facture. Les mandats feront partie du dossier des pièces justificatives joint en annexe au compte annuel lors de sa transmission aux autorités de tutelle. Sans mandats, le dossier est incomplet. En principe, le mandat doit être signé avant le paiement. En réalité, on constate que ce timing n’est pas toujours respecté : pour la plupart des paiements récurrents, les mandats sont préparés avec un certain pragmatisme après que les paiements aient été effectués. Pour les domiciliations bancaires, on constate cette même souplesse. Il existe plusieurs types de mandats : 1. Le cachet Il est permis d’utiliser un cachet reprenant les infos de base ; ce cachet sera apposé sur la facture pour laquelle un paiement est nécessaire. Le président et le secrétaire ajoutent alors leurs signatures. 2. L’étiquette Certaines fabriques ont créé des étiquettes, suivant le même principe que le cachet, mais celles-ci sont collées sur les factures. 3. Le mandat papier (document séparé) La plupart des fabriques créent un document papier qui s’attache ensuite à la facture dans le classement. Les modèles qui circulent sont nombreux et divers. Les mandats faisant partie intégrante du classement des pièces justificatives, il est crucial que tout mandat puisse être lié à une facture (et inversement). Pour le cachet ou l’étiquette, sur la facture même, il n’y a aucun souci. Pour les feuilles « séparées », il faut rigoureusement incorporer la référence à la facture ; sinon on risque de ne plus pouvoir identifier correctement le mandat et la facture. Astuce – Un mandat papier par facture, c’est beaucoup de papier, non ? Oui, mais il existe un logiciel qui vous offre une solution plus écologique. Ainsi, ReligioSoft prévoit des mandats « collectifs », regroupant plusieurs mandats par feuille. Les mandats de paiement – Vanden Broele – www.religiosoft.be 1 Chapitre 2. Introduction – Télécharger vos mandats 1.1. Première étape : encodage des écritures ReligioSoft a conçu un outil de génération automatisée pour les mandats : sur base de l’encodage des écritures dans le journal, le logiciel crée automatiquement les mandats correspondants. La première étape consiste donc logiquement par l’encodage des écritures. Quelle que soit la méthode d’encodage que vous préférez (sur base des extraits bancaires, via « dettes et créances » ou via l’importation des fichiers CODA), une liste complète avec tous les mandats est mise à disposition au fur et à mesure que vous encodez. Astuce – L’encodage des écritures Les mandats suivent la logique des écritures : si vous encodez une facture (via « dettes/créances ») ou une écriture directe (via les comptes bancaires), vous aurez un mandat qui correspond à cette seule écriture. Nous insistons sur l’intérêt de suivre la logique des factures (ou du paiement) dans l’encodage afin d’en simplifier le suivi. Pour les factures avec plusieurs articles (les écritures « ventilées »), une seule écriture pourra suffire. Nous vous renvoyons au manuel « L’encodage des écritures » pour plus de renseignements. Vous avez encodé une série de dépenses ? Alors vous pouvez télécharger vos mandats en quelques clics. 1.2. Deuxième étape : le téléchargement des mandats Cliquez sur « comptabilité ». 2 Les mandats de paiement – Vanden Broele – www.religiosoft.be La partie « mandats » se trouve sous « comptabilité ». Vous pouvez y accéder directement via le bouton en haut de la page : Choisissez « Mandats ». Si vous cliquez sur « mandats », alors la liste des dépenses pour lesquelles le mandat n’a pas encore été téléchargé s’affichera automatiquement. Les mandats non encore imprimés s’affichent automatiquement. Il suffit de cocher les dépenses (à gauche ; si vous 1. Cochez toutes les dépenses pour cochez en haut lesquelles vous avez besoin d’un mandat. de la colonne, toutes les dépenses seront sélectionnées en une fois). Choisissez le rapport souhaité. Les mandats de paiement – Vanden Broele – www.religiosoft.be 3 Une fois la sélection faite, vous pouvez générer les mandats via un des rapports en bas de page. Nous vous en offrons trois types : - les rapport individuel (un mandat par A4) ; - le rapport individuel (un mandat par A5) ; - le rapport collectif. Avant de pouvoir consulter (et imprimer) le rapport, il faudra compléter la date des mandats (la date à laquelle le mandat est établi et signé) : 1. Remplissez la date des mandats. 2. Téléchargez le rapport complet. Astuce 1 – Les mandataires repris dans les rapports Sous le point 2, on vous indique les noms des mandataires qui seront repris dans les rapports. Si la composition n’est plus à jour, il faudra la modifier via la rubrique « ma fabrique » (sous « Accueil »). Cliquez alors sur « annuler », si vous devez encore y apporter des changements, de cette façon les dépenses s’afficheront automatiquement à nouveau la prochaine fois que vous consulterez la page avec les mandats. Astuce 2 – Les informations financières Certains trésoriers ont une préférence pour un rapport incorporant les informations financières des écritures : on y trouve alors aussi la date d’exécution du paiement et la référence à l’extrait bancaire. Pour y arriver, il suffit de cocher l’option « Ajouter les infos financières au rapport » (voir ci-dessus). Ce rapport vous permet alors de faire le pont entre les écritures de trésorerie d’une part et les mandats et les dettes de l’autre. Cliquez sur « télécharger » et le rapport désiré s’affichera, comprenant le détail complet et la section pour faire signer. 4 Les mandats de paiement – Vanden Broele – www.religiosoft.be Astuce 1 – Le profil du fournisseur Les coordonnées du fournisseur sont reprises, si elles sont disponibles. Si ces données manquent, vous pouvez toujours les compléter via « comptabilité » - « contacts ». Astuce 2 – Les écritures « ventilées » : plusieurs articles pour une seule facture Pour les écritures ventilées, il y a un mandat « complet » qui peut être copié afin de compléter le classement « par article ». Pour les salaires (par exemple, une facture avec les articles D17 et D50C, et encore R18A), vous aurez un mandat pour la facture entière, soit si vous avez introduit une écriture ventilée dont le montant total correspond au paiement et au montant « net » de la facture, soit si vous avez introduit une seule dette via « comptabilité » - « dettes et créances ». Astuce 3 – Télécharger à nouveau les mandats Une fois que vous avez téléchargé les mandats, ceux-ci ne s’affichent plus automatiquement. Vous pouvez toujours les retrouver en sélectionnant « toutes les dettes » en haut de la page et en indiquant la période concernée ; ensuite vous choisissez « afficher la sélection » : Vous pouvez télécharger n’importe quel mandat individuel via l’icône PDF à droite ou en choisissant un des boutons de rapportage en bas de l’écran (n’oubliez pas de cocher à gauche). 1.3. Modifier vos mandats Si, dans vos mandats, vous constatez des erreurs, il est toujours possible d’apporter des changements. Étant donné que les mandats reprennent les données encodées via les écritures, il faudra modifier les écritures pour ensuite retourner vers la page avec les mandats pour télécharger à nouveau les mandats désirés. Pour apporter des changements aux écritures, nous renvoyons au manuel sur l’encodage des écritures (annexe 1re). N’oubliez certainement pas de réimprimer vos mandats si vous modifiez les écritures, sinon les mandats risquent d’être incorrects. Astuce – La date du mandat/Les mandataires Si les mandataires ne s’affichent pas correctement, il faut mettre mettre à jour la composition du conseil (et les profils) dans la section « Ma fabrique » (sous « accueil »). La date du mandat est insérée en téléchargeant un ou plusieurs mandats (voir ci-dessus). Les mandats de paiement – Vanden Broele – www.religiosoft.be 5",
+        "resume": "Ce chapitre explique le processus de téléchargement des mandats de paiement via le logiciel ReligioSoft, en passant par l'encodage des écritures jusqu'à la génération des mandats. Il présente également les différentes étapes pour télécharger, modifier et consulter les mandats.",
+        "categorie": "Gestion des mandats de paiement",
+        "mots_cles": [
+            "mandat de paiement",
+            "ReligioSoft",
+            "encodage des écritures",
+            "téléchargement",
+            "modifications",
+            "rapports",
+            "logiciel comptable",
+            "factures",
+            "dépenses",
+            "processus automatisé"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Vanden Broele",
+                "Vanden Broele – www.religiosoft.be",
+                "Introduction –",
+                "Certains trésoriers",
+                "Vanden Broele – www.religiosoft.be 3",
+                "R18A",
+                "CODA"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Télécharger",
+                "Accueil",
+                "Astuce",
+                "Modifier",
+                "télécharger n’",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment générer automatiquement les mandats de paiement avec ReligioSoft ?",
+                "reponse": "ReligioSoft crée automatiquement les mandats en se basant sur l'encodage des écritures dans le journal."
+            },
+            {
+                "question": "Peut-on modifier les mandats de paiement une fois générés ?",
+                "reponse": "Oui, il est possible d'apporter des changements aux mandats en modifiant les écritures correspondantes."
+            },
+            {
+                "question": "Quels types de rapports sont disponibles pour les mandats de paiement ?",
+                "reponse": "Il existe trois types de rapports : individuel par A4, individuel par A5 et collectif."
+            },
+            {
+                "question": "Comment consulter les mandats de paiement déjà générés ?",
+                "reponse": "Les mandats peuvent être consultés et téléchargés via la section 'mandats' dans le logiciel ReligioSoft."
+            },
+            {
+                "question": "Quelle est l'importance des mandats de paiement dans la gestion financière ?",
+                "reponse": "Les mandats de paiement sont essentiels pour établir la responsabilité des paiements et compléter le dossier des pièces justificatives."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Encodage des écritures",
+                "description": "La génération des mandats de paiement est basée sur l'encodage des écritures dans le journal."
+            },
+            {
+                "concept": "Rapports de mandats",
+                "description": "Les rapports individuels et collectifs permettent de visualiser et de télécharger les mandats de paiement."
+            },
+            {
+                "concept": "Modifications des mandats",
+                "description": "Les changements dans les écritures nécessitent une mise à jour des mandats pour éviter les erreurs."
+            },
+            {
+                "concept": "Responsabilité des paiements",
+                "description": "Les mandats de paiement définissent clairement qui est responsable des paiements effectués."
+            },
+            {
+                "concept": "Gestion écologique",
+                "description": "ReligioSoft propose des solutions plus écologiques en regroupant plusieurs mandats sur une seule feuille."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "05. LesMandatsDePaiement.pdf",
+            "page_source": [
+                2,
+                7
+            ],
+            "date_extraction": "2025-05-27T12:19:54.305145"
+        }
+    }
+]

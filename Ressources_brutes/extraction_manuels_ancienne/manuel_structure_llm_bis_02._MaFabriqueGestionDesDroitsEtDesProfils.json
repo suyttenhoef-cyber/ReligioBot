@@ -1,0 +1,542 @@
+[
+    {
+        "id": "chapitre_1er_religiosoft__outil_comptable_et_de_partage",
+        "titre": "Chapitre 1er. ReligioSoft - outil comptable et de partage",
+        "chemin": "Chapitre 1er. ReligioSoft - outil comptable et de partage",
+        "page_debut": 1,
+        "page_fin": 2,
+        "contenu_texte": "Ma fabrique Gestion des profils et des droits (version 4 – août 2024) Chapitre 1er. ReligioSoft – outil comptable et de partage 1 Chapitre 2. Les données de votre établissement 3 Chapitre 3. La composition du conseil 5 Chapitre 4. L’octroi des droits 7 Annexe 1 – Modifier votre mot de passe 13 Annexe 2 – Création d’un compte / Activation d’un droit 15",
+        "resume": "Le chapitre 1er de Ma fabrique présente ReligioSoft, un outil comptable et de partage.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "Gestion des profils",
+            "droits",
+            "ReligioSoft",
+            "comptable",
+            "partage",
+            "établissement",
+            "conseil",
+            "octroi des droits",
+            "mot de passe",
+            "création de compte"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Annexe 2",
+                "Annexe 1"
+            ],
+            "montants": [],
+            "noms": [
+                "Gestion",
+                "Activation"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment modifier son mot de passe ?",
+                "reponse": "Se référer à l'Annexe 1 pour les instructions détaillées."
+            },
+            {
+                "question": "Comment créer un compte ou activer un droit ?",
+                "reponse": "Consultez l'Annexe 2 pour un guide pas à pas."
+            },
+            {
+                "question": "Quelles sont les fonctionnalités de ReligioSoft ?",
+                "reponse": "ReligioSoft est un outil comptable et de partage permettant la gestion des profils et des droits."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Gestion des profils",
+                "description": "Permet de définir les utilisateurs et leurs autorisations."
+            },
+            {
+                "concept": "Octroi des droits",
+                "description": "Processus d'attribution des permissions aux utilisateurs."
+            },
+            {
+                "concept": "ReligioSoft",
+                "description": "Outil intégré pour la comptabilité et le partage de données."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "02. MaFabriqueGestionDesDroitsEtDesProfils.pdf",
+            "page_source": [
+                1,
+                2
+            ],
+            "date_extraction": "2025-05-27T12:12:49.701836"
+        }
+    },
+    {
+        "id": "chapitre_2_les_donnes_de_votre_tablissement",
+        "titre": "Chapitre 2. Les données de votre établissement",
+        "chemin": "Chapitre 2. Les données de votre établissement",
+        "page_debut": 3,
+        "page_fin": 4,
+        "contenu_texte": "Chapitre 1er. ReligioSoft – outil de partage par excellence ReligioSoft se veut un logiciel convivial et accessible. Un atout de cet outil en ligne se situe sans aucun doute dans le fait qu’il permet un partage aisé du dossier. Avant d’entrer dans les détails de la procédure d’octroi des droits (voir le chapitre 4), soulignons d’abord qu’il faut clairement distinguer d’une part l’interaction automatisée entre les différents modules (fabrique d’église – évêché – commune) et la possibilité d’octroyer des droits spécifiques par module. 1er principe : le transfert digital automatisé Entre les différents modules, il existe un transfert automatique de documents. Dès que le trésorier valide une étape dans le dossier en ligne, les documents en question (et rien d’autre) sont transmis automatiquement au module de l’évêché et de la commune. C’est l’insertion de la date de la séance de conseil de fabrique qui entraine ce transfert. Tant qu’il n’y a pas de date pour telle ou telle phase (par exemple, le compte annuel), aucun document n’est transféré et par conséquent, aucun document n’est consultable par la commune ou l’évêché. Soulignons encore que cette logique correspond à la transmission papier du dossier et que ni la commune ni l’évêché n’a accès au module de la fabrique même : ces différents acteurs ne reçoivent les documents électroniques qu’au fur et à mesure que le trésorier complète le dossier. Dans le cadre de la tutelle spéciale, les autorités de tutelle peuvent alors préparer et transférer leurs rectifications via leur propre module vers le module de la fabrique. De cette façon, l’interaction en ligne entre les modules simplifie la préparation et le suivi du compte annuel et du budget. Bref, pour le transfert automatique vers les modules des autorités, il suffit de remplir la date de la séance de conseil de fabrique. Les documents transmis sous format papier sont alors mis à disposition sous format électronique – et rien de plus. Astuce - Tutelle digitale – simplification administrative ? Oui et non. Signalons que l’interaction électronique entre les différents modules ne remplace pas la procédure papier (par manque de base légale jusqu’à présent). Tous les acteurs devront toujours transmettre tous leurs documents papier comme auparavant. ReligioSoft simplifie déjà le transfert de tous les chiffres compris dans ces documents et garantit que vous ne devrez plus refaire aucun tableau : tout ce qui est disponible électroniquement sera partagé en ligne suivant le même principe que la transmission papier. Vous évitez ainsi toute erreur matérielle suite à la transcription ou le réencodage. De plus, vous aurez vos archives complètes toujours à portée de main. Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 1 2e principe : les droits d’accès « directs » À côté de cette solution pratique de partage automatique des étapes validées par dossier, il existe aussi la possibilité d’octroyer des droits pour un dossier en entier. C’est le gestionnaire de dossier (le trésorier) qui s’en occupe. Vous trouverez ci-dessous la procédure pour ajouter des utilisateurs au dossier. Leur nombre est d’ailleurs illimité. Le trésorier pourra, par exemple, ajouter au dossier le président, le secrétaire ou tout autre membre du conseil, qui bénéficiera alors d’une vue complète sur la comptabilité de la fabrique. Il n’est pas possible d’octroyer un droit de lecture partiel : le bénéficiaire voit vraiment tout, y compris les détails des écritures, etc. Bref, c’est tout ou rien, pour ce qui concerne « le droit par dossier ». Dans le chapitre 4, nous expliquons la procédure pour octroyer ce type de droit, procédure qui reste toujours entre les mains du gestionnaire de dossier (le trésorier). Astuce – Peut-on octroyer un droit de lecture à des personnes « externes » aussi ? Bien que le droit de lecture soit avant tout utilisé pour des raisons d’organisation interne au sein du conseil de fabrique, l’utilité de cette démarche ne se limite certainement pas aux seules personnes de la fabrique en question. Lors de la préparation d’une modification budgétaire, vous pouvez octroyer un droit de lecture pour permettre aux responsables de l’évêché ou de la commune de jeter un coup d’œil sur tout ce que vous avez préparé. Plus besoin de se déplacer ou d’envoyer le projet via email ou par la poste : ReligioSoft vous permet de partager rapidement le dossier sans qu’il y ait le risque de se tromper de version – tout le monde voit le même dossier ! Et vous pouvez toujours supprimer le droit octroyé après la concertation « en ligne » par les responsables de l’évêché ou de la commune. Voilà en guise d’introduction les deux principes de partage intégrés dans ReligioSoft : 1. Le partage automatique, sur base de l’insertion des dates par étape. 2. Le droit de lecture global dans le dossier, géré par le gestionnaire de dossier. Afin de vous permettre de gérer les droits d’accès et les profils de l’établissement et des utilisateurs, ReligioSoft a prévu une section distincte qui s’appelle « Ma fabrique ». Il y est possible de : - Mettre à jour le profil de la fabrique même : le nom, les coordonnées, etc. – voir le chapitre 2. - Apporter des changements à la composition du conseil (et aux profils) – voir le chapitre 3. - Octroyer un droit de lecture supplémentaire – voir le chapitre 4. - Modifier votre mot de passe – voir l’annexe 1re. Les rapports générés par le logiciel reprendront automatiquement les coordonnées de votre fabrique et des mandataires. En cas de changement, il est utile d’apporter toutes les modifications nécessaires dans la section « ma fabrique » afin d’éviter que les rapports comportent des informations non actualisées. 2 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be",
+        "resume": "ReligioSoft est un logiciel permettant le partage automatique de documents entre différents modules, ainsi que l'octroi de droits d'accès globaux par le gestionnaire de dossier. La plateforme offre également la possibilité d'ajouter des utilisateurs illimités et de partager des dossiers avec des personnes externes, tout en simplifiant la gestion des profils et des droits via la section 'Ma fabrique'.",
+        "categorie": "Gestion de documents et droits d'accès",
+        "mots_cles": [
+            "ReligioSoft",
+            "partage automatique",
+            "gestionnaire de dossier",
+            "droits d'accès",
+            "utilisateurs externes",
+            "Ma fabrique",
+            "profils",
+            "documents électroniques",
+            "transfert automatique",
+            "tutelle spéciale"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "- Octroyer",
+                "Vanden Broele",
+                "Vanden Broele – www.religiosoft.be"
+            ],
+            "montants": [],
+            "noms": [
+                "évêché n’",
+                "- Modifier",
+                "qu’",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment fonctionne le partage automatique des documents dans ReligioSoft ?",
+                "reponse": "Les documents sont automatiquement transférés entre les modules dès qu'une étape est validée par le trésorier."
+            },
+            {
+                "question": "Peut-on octroyer un droit de lecture à des personnes externes dans ReligioSoft ?",
+                "reponse": "Oui, il est possible d'octroyer un droit de lecture pour partager des dossiers avec des personnes externes, comme les responsables de l'évêché ou de la commune."
+            },
+            {
+                "question": "Comment mettre à jour les profils et les droits dans ReligioSoft ?",
+                "reponse": "Cela se fait via la section 'Ma fabrique', où vous pouvez gérer les profils, les droits d'accès et les utilisateurs."
+            },
+            {
+                "question": "Quels sont les principes de partage intégrés dans ReligioSoft ?",
+                "reponse": "Les principes sont le partage automatique basé sur les dates d'étapes et le droit de lecture global géré par le gestionnaire de dossier."
+            },
+            {
+                "question": "Quels sont les avantages de partager des dossiers via ReligioSoft ?",
+                "reponse": "Cela permet de simplifier la gestion des documents, d'éviter les erreurs de transcription et de garantir que tous les utilisateurs voient la même version des dossiers."
+            }
+        ],
+        "etapes_processus": [
+            "Transfert automatique des documents entre modules",
+            "Octroi de droits d'accès globaux par le gestionnaire de dossier",
+            "Ajout d'utilisateurs illimités aux dossiers",
+            "Partage de dossiers avec des personnes externes",
+            "Gestion des profils et des droits via 'Ma fabrique'"
+        ],
+        "relations": [
+            {
+                "concept": "Transfert automatique des documents",
+                "description": "Permet le partage automatique des documents entre les modules dès qu'une étape est validée."
+            },
+            {
+                "concept": "Droits d'accès globaux",
+                "description": "Gérés par le gestionnaire de dossier, ces droits permettent à un utilisateur d'avoir une vue complète sur la comptabilité de la fabrique."
+            },
+            {
+                "concept": "Utilisateurs externes",
+                "description": "Possibilité d'octroyer un droit de lecture à des personnes externes, comme les responsables de l'évêché ou de la commune."
+            },
+            {
+                "concept": "Gestion des profils",
+                "description": "Effectuée via la section 'Ma fabrique', permettant de mettre à jour les profils, les droits d'accès et les utilisateurs de l'établissement."
+            },
+            {
+                "concept": "Partage de dossiers",
+                "description": "Facilite la collaboration en permettant de partager rapidement des dossiers sans risque d'erreur de version."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "02. MaFabriqueGestionDesDroitsEtDesProfils.pdf",
+            "page_source": [
+                3,
+                4
+            ],
+            "date_extraction": "2025-05-27T12:12:56.583019"
+        }
+    },
+    {
+        "id": "chapitre_3_la_composition_du_conseil",
+        "titre": "Chapitre 3. La composition du conseil",
+        "chemin": "Chapitre 3. La composition du conseil",
+        "page_debut": 5,
+        "page_fin": 6,
+        "contenu_texte": "Chapitre 2. Les données de votre établissement Dans ReligioSoft, les rapports sont entièrement automatisés. Si vous avez tout préparé correctement dans le logiciel, vous aurez un rapportage complet reprenant tous les détails nécessaires, sans devoir réencoder quoi que ce soit. Pour ce qui concerne les coordonnées de votre établissement, vous pouvez les mettre à jour via la partie « ma fabrique » (sous « accueil »). Les coordonnées de votre établissement et celles du gestionnaire s’affichent. En bas de page se trouve la liste des mandataires, et, au-dessous, les éventuels autres titulaires d’un droit de lecture. Pour modifier les données de votre établissement, cliquez sur le petit crayon bleu au-dessus de la section « coordonnées de l’organisation ». Cliquez sur le petit crayon pour modifier le profil de votre établissement. Tous les champs sont accessibles. Vous pouvez modifier et cliquer sur « sauvegarder » en bas de page. Les corrections apportées s’afficheront alors dans tous les rapports générés à partir de cet instant. Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 3 Astuce 1 – L’adresse de correspondance C’est dans cette section que vous déterminez l’adresse de correspondance : le siège de la fabrique ou l’adresse d’un des fabriciens. Astuce 2 – Modifier votre profil de gestionnaire : suivez la même logique ! Pour modifier votre profil de gestionnaire, vous pouvez suivre la même logique. Cliquez sur le petit crayon bleu en haut de la section de manière à pouvoir corriger le profil, puis sauvegardez et le tour est joué. Astuce 3 – Vous souhaitez retourner immédiatement au volet « comptabilité » ? « Ma fabrique » constitue en quelque sorte un volet séparé. Pour retourner à votre comptabilité, vous cliquez sur « Religiosoft » en haut de la page. Pour quitter la section « ma fabrique » et retourner à la section avec la comptabilité, vous cliquez sur « Religiosoft » en haut de la page, dans la barre noire. 4 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be",
+        "resume": "Le chapitre 3 aborde la composition du conseil dans ReligioSoft, permettant de mettre à jour les coordonnées de l'établissement, les mandataires et les titulaires de droits de lecture. Il explique comment modifier les données et les profils, ainsi que comment revenir à la section comptabilité.",
+        "categorie": "Gestion des profils et des droits",
+        "mots_cles": [
+            "ReligioSoft",
+            "rapports automatisés",
+            "coordonnées",
+            "mandataires",
+            "droit de lecture",
+            "modifications",
+            "profil de gestionnaire",
+            "comptabilité",
+            "ma fabrique",
+            "Vanden Broele"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Religiosoft",
+                "Vanden Broele",
+                "Astuce 1 –",
+                "Vanden Broele – www.religiosoft.be"
+            ],
+            "montants": [],
+            "noms": [
+                "Astuce 2"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment mettre à jour les coordonnées de l'établissement dans ReligioSoft ?",
+                "reponse": "Vous pouvez le faire via la partie 'ma fabrique' sous 'accueil'."
+            },
+            {
+                "question": "Comment modifier le profil de gestionnaire ?",
+                "reponse": "Cliquez sur le petit crayon bleu en haut de la section pour corriger le profil, puis sauvegardez les modifications."
+            },
+            {
+                "question": "Comment revenir à la section comptabilité depuis 'ma fabrique' ?",
+                "reponse": "Cliquez sur 'ReligioSoft' en haut de la page dans la barre noire pour retourner à la comptabilité."
+            }
+        ],
+        "etapes_processus": [
+            "Mettre à jour les coordonnées de l'établissement",
+            "Modifier le profil de gestionnaire",
+            "Revenir à la section comptabilité"
+        ],
+        "relations": [
+            {
+                "concept": "Coordonnées de l'établissement",
+                "description": "Incluent les informations sur le siège de la fabrique et les fabriciens."
+            },
+            {
+                "concept": "Ma fabrique",
+                "description": "Permet la gestion des profils et des droits dans ReligioSoft."
+            },
+            {
+                "concept": "Modification des données",
+                "description": "Permet de corriger les informations qui seront reflétées dans les rapports générés."
+            },
+            {
+                "concept": "Retour à la comptabilité",
+                "description": "Indique comment passer de la section 'ma fabrique' à la section comptabilité dans ReligioSoft."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "02. MaFabriqueGestionDesDroitsEtDesProfils.pdf",
+            "page_source": [
+                5,
+                6
+            ],
+            "date_extraction": "2025-05-27T12:13:01.187490"
+        }
+    },
+    {
+        "id": "chapitre_4_loctroi_des_droits",
+        "titre": "Chapitre 4. L’octroi des droits",
+        "chemin": "Chapitre 4. L’octroi des droits",
+        "page_debut": 7,
+        "page_fin": 12,
+        "contenu_texte": "Chapitre 3. La composition du conseil Suite à l’encodage de votre dossier par nos services lors du démarrage, la composition du conseil de fabrique se trouve déjà dans le logiciel. Vous y aurez toujours accès via la section « ma fabrique » (sous « accueil »). Sous « Accès », vous trouvez non seulement les mandataires mais également les autres personnes disposant d’un droit de lecture. Si vous cliquez sur le petit crayon bleu à côté du titre de la section Cliquez sur le petit crayon « composition », vous pouvez bleu pour apporter les remplacer/ajouter les mandataires changements nécessaires. et modifier leur profil. Pour modifier, cliquez sur le bouton « modifier » qui s’affiche à côte de la personne/du mandat : Pour modifier le profil ou la fonction, cliquez sur « modifier ». Le logiciel vous demandera de spécifier vos intentions : Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 5 1. Modifier le profil (sans changer la fonction) Si vous choisissez la première option, le formulaire avec le profil s’affiche. Le profil de toute personne comprend deux volets : à gauche se trouvent les coordonnées personnelles, à droite les infos relatives au logiciel dont les droits (pour tout ce qui concerne les droits : voir le chapitre 4). À gauche : le profil complet. À droite : le droit spécifique. N’oubliez pas de sauvegarder ! Tous les champs sont accessibles. Modifiez et cliquez sur « sauvegarder » en bas de page. Les corrections apportées seront ainsi affichées dans tous les rapports. 2. Remplacer la personne (changement au niveau des fonctions) Si vous souhaitez remplacer la personne, cliquez sur « insérer quelqu’un d’autre pour cette fonction ». Il s’affiche ensuite la liste avec les personnes déjà connues dans le système. Trois possibilités : 1. Choisissez la personne qui assume 2 désormais la fonction. 1 2. Ajoutez une nouvelle personne si la personne ne s’affiche pas dans la 3 liste. 3. Cliquez sur « position vacante » si personne n’est élu. Vous aurez encore la possibilité de compléter ou de modifier le profil de la personne en question, et, éventuellement, d’octroyer un droit spécifique dans le dossier (voir ci-dessous, le chapitre 4). Il suffira de retourner au profil pour « modifier ». Astuce – Vous souhaitez retourner à l’Accueil ? « Ma fabrique » constitue en quelque sorte un volet séparé. Pour retourner à votre comptabilité, cliquez sur « Religiosoft » en haut à gauche de la page. 6 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be Chapitre 4. L’octroi des droits 4.1. Les trois droits : droit de gestion, droit d’écriture et droit de lecture Regardons de plus près cette possibilité d’octroyer un droit spécifique pour le dossier en entier. Les droits d’accès sont au nombre de trois. 1. Le droit de gestion : il y a un « gestionnaire » pour chaque dossier. Le gestionnaire est le responsable du dossier et gère non seulement la mise à jour (imputations, budget, etc.) mais également les droits d’accès. Traditionnellement, c’est le trésorier qui assume ce rôle. Astuce – Le gestionnaire de dossier Le gestionnaire est désigné lors du démarrage du dossier. Pour nos services, il restera la personne de contact pour toute communication. 2. Le droit d’écriture : le droit d’écriture permet lui aussi de mettre à jour le dossier, mais tout ce qui concerne les droits d’accès reste l’exclusivité du gestionnaire. Astuce – Le gestionnaire de dossier Le droit d’écriture n’est octroyé qu’exceptionnellement, pour régler, par exemple, l’absence prolongée du gestionnaire. Pour le reste, il faut éviter toute confusion pour ce qui concerne la mise à jour du dossier. Bref, le droit d’écriture n’est utilisé que dans des circonstances exceptionnelles et comme solution provisoire. 3. Le droit de lecture : grâce au droit de lecture, l’utilisateur peut consulter le dossier dans son intégralité, sans pour autant pouvoir en modifier le contenu. Le droit de lecture est donc le choix logique pour partager votre dossier sans risquer de modification parasite. Astuce – Le droit de lecture Dans la plupart des cas, le droit de lecture est octroyé à tous les fabriciens intéressés pour simplifier la concertation interne et pouvoir mieux préparer les séances du conseil. De plus, le service aux fabriques d’église profitera lui aussi d’un droit de lecture pour vous guider à travers les méandres de la comptabilité. Attention ! C’est vous, le gestionnaire. Vous restez maître à bord de votre dossier à tout moment. ReligioSoft n’intervient jamais pour octroyer des droits, sauf s’il s’agit d’un remplacement du gestionnaire. Dans ce cas spécifique, il suffit que le gestionnaire démissionnaire nous signale ce qui doit être fait. Pour le reste, vous gérez les droits selon vos souhaits. Nous encourageons le partage comme moyen de collaboration, et notre helpdesk reste à votre disposition si vous avez des questions à ce sujet. Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 7 4.2. Octroyer un droit spécifique En toute logique, le suivi des droits spécifiques est organisé via la même section que celle où se trouve la composition du conseil, à savoir sous « Ma fabrique » (sous « Accueil »). Sous « Accès » vous Sous « Accès », vous trouvez les fabriciens ainsi trouvez les que les personnes externes mandataires ainsi que qui ont un droit spécifique. toute autre personne à laquelle un droit a été octroyé. Il faut distinguer trois catégories d’utilisateurs, selon leur rôle dans le contexte plus large de la fabrique. Vous trouverez ci-après la procédure par catégorie (A, B et C). - Ceux qui font partie du conseil (les mandataires mêmes) via Composition (A). - Les utilisateurs externes (par exemple, un comptable) via Autres accès (B). - Les utilisateurs qui assument un rôle « officiel », dans le cadre de la tutelle (les responsables de l’évêché et de la commune) ; pour cette catégorie, il y a deux possibilités pour octroyer un droit : - via Autres accès (B) (accès individuel, pour une seule personne) ; - via Accès par organisation (C) (accès pour tous les collaborateurs en charge). Vous jugez toujours par vous-même de l’intérêt d’octroyer un droit à quelqu’un. ReligioSoft encourage le partage tant en interne (pour les fabriciens concernés) qu’en externe, en fonction de la concertation avec les autorités de tutelle. Cette approche peut certainement vous permettre de discuter et de corriger le cas échéant un projet de budget ou de modification budgétaire, après en avoir concerté avec les autorités de tutelle. Un accord « officieux » préalable vous permettra sans aucun doute d’éviter des rectifications lors de la procédure de tutelle spéciale. 8 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be Astuce – Partage « traditionnel » via mail Si vous voulez partager un seul document (par exemple, le budget en cours de préparation) et que vous êtes plutôt réticent pour octroyer un droit de lecture permanent, vous pouvez toujours télécharger le document en question sur votre ordinateur local et l’envoyer en pièce jointe d’un email adressé aux personnes concernées. A. Octroyer un droit à un mandataire (via « Composition ») Lorsque vous démarrez avec ReligioSoft, la composition complète du conseil se trouve déjà dans votre dossier. Il suffira d’accorder le droit spécifique par mandataire. Cliquez sur le petit crayon pour pouvoir apporter les changements nécessaires. Si vous cliquez sur le petit crayon bleu à côté du titre de la section « composition » (sous « Accès »), vous pouvez remplacer/ajouter les mandataires et modifier leur droit directement via le bouton « Modifier ». Pour modifier, cliquez sur le bouton « modifier » qui s’affiche à côte de la personne/du mandat : Pour modifier le profil cliquez sur « Modifier ». Le logiciel vous demandera de spécifier vos intentions : Vous choisissez la première option. Pour insérer quelqu’un d’autre, voir la procédure dans le chapitre 3 ci-dessus. Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 9 Le formulaire avec le profil s’affiche. Sur votre droite, il s’affiche les infos relatives au logiciel dont les droits. Sur votre droite, vous cliquez sur le menu déroulant sous « Accès ». Indiquez le droit souhaité et sauvegardez. À gauche : le profil complet. Indiquez le droit dans le menu déroulant... … ensuite, sauvegardez. Si vous octroyez un droit, le bénéficiaire reçoit automatiquement un email lui signalant qu’il est possible de se connecter à votre dossier. Par conséquent, il n’est pas possible d’octroyer un droit si l’adresse mail manque dans le profil. Il suffit de sauvegarder et l’email part. Attention ! Le bénéficiaire doit disposer d’un compte personnel. Si la personne que vous invitez n’a pas encore de compte dans le logiciel, elle devra s’enregistrer (voir l’annexe 2 à ce sujet). Pour toute personne déjà inscrite dans le système, il suffira de se connecter via le lien de validation dans l’invitation. En cas de souci, n’hésitez pas à nous contacter via cultes@religiosoft.be Astuce – Et si je change d’avis ? Vous souhaitez retirer un droit précédemment octroyé ? Rien de plus simple : vous cliquez sur « Modifier » et vous changez le droit (inactif). B. Ajouter un utilisateur externe (via « Autres accès ») Si vous souhaitez octroyer un droit à un utilisateur externe, choisissez le bouton « Autres accès » en bas de la section « Accès ». Ici aussi, il faudra disposer d’une adresse email active, car la communication du droit octroyé se fera via email. Sans adresse email, il est impossible d’octroyer un droit. Complétez ensuite le formulaire et définissez le droit en bas à droite. Cliquez sur le crayon bleu vous pour ajouter (ou modifier) des titulaires de droits « externes ». 10 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be",
+        "resume": "Ce chapitre explique comment octroyer des droits spécifiques aux utilisateurs dans un logiciel de gestion de fabrique, notamment les droits de gestion, d'écriture et de lecture. Il détaille les étapes pour modifier les profils, remplacer des personnes et octroyer des droits, tout en soulignant l'importance du partage et de la communication avec les autorités de tutelle.",
+        "categorie": "Gestion des droits d'accès",
+        "mots_cles": [
+            "droit de gestion",
+            "droit d'écriture",
+            "droit de lecture",
+            "composition du conseil",
+            "profil utilisateur",
+            "octroi de droits",
+            "partage de dossier",
+            "autorités de tutelle",
+            "gestionnaire de dossier",
+            "accès utilisateur"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Religiosoft",
+                "Vanden Broele",
+                "Vanden Broele – www.religiosoft.be",
+                "Octroyer"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "s’enregistrer",
+                "n’hésitez",
+                "Accueil",
+                "Astuce",
+                "Astuce –",
+                "Modifiez",
+                "Ajouter",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment modifier un profil utilisateur ?",
+                "reponse": "Pour modifier un profil, cliquez sur le bouton 'modifier' à côté de la personne concernée et suivez les instructions pour apporter les changements nécessaires."
+            },
+            {
+                "question": "Qu'est-ce que le droit de lecture ?",
+                "reponse": "Le droit de lecture permet à un utilisateur de consulter le dossier sans pouvoir le modifier, favorisant ainsi le partage d'informations sans risque de modification."
+            },
+            {
+                "question": "Comment octroyer un droit spécifique à un mandataire ?",
+                "reponse": "Pour octroyer un droit à un mandataire, accédez à la section 'Composition', cliquez sur le crayon bleu à côté du titre et suivez les instructions pour définir le droit souhaité."
+            },
+            {
+                "question": "Que faire si un utilisateur externe doit avoir accès au dossier ?",
+                "reponse": "Pour ajouter un utilisateur externe, utilisez la section 'Autres accès', complétez le formulaire avec son adresse email et définissez le droit correspondant."
+            },
+            {
+                "question": "Qui est généralement le gestionnaire de dossier ?",
+                "reponse": "Le gestionnaire de dossier est traditionnellement le trésorier, responsable de la mise à jour du dossier et de la gestion des droits d'accès."
+            }
+        ],
+        "etapes_processus": [
+            "Accéder à la section 'Ma fabrique' dans le logiciel",
+            "Sélectionner 'Gestion des profils et des droits'",
+            "Modifier les profils des utilisateurs si nécessaire",
+            "Remplacer ou ajouter des mandataires dans la composition du conseil",
+            "Octroyer des droits spécifiques en fonction des rôles des utilisateurs"
+        ],
+        "relations": [
+            {
+                "concept": "Droit de gestion",
+                "description": "Responsabilité du gestionnaire de dossier pour la mise à jour et la gestion des droits d'accès."
+            },
+            {
+                "concept": "Partage de dossier",
+                "description": "Encouragé pour faciliter la collaboration interne et externe, sous réserve d'une communication claire avec les autorités de tutelle."
+            },
+            {
+                "concept": "Autorités de tutelle",
+                "description": "Importance de la concertation avec les autorités pour l'octroi de droits spécifiques et la gestion des dossiers."
+            },
+            {
+                "concept": "Profil utilisateur",
+                "description": "Comprend les coordonnées personnelles et les droits d'accès au logiciel, modifiables par le gestionnaire de dossier."
+            },
+            {
+                "concept": "Gestionnaire de dossier",
+                "description": "Responsable de la gestion du dossier, de la mise à jour des informations et de l'octroi des droits aux utilisateurs."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "02. MaFabriqueGestionDesDroitsEtDesProfils.pdf",
+            "page_source": [
+                7,
+                12
+            ],
+            "date_extraction": "2025-05-27T12:13:13.965244"
+        }
+    },
+    {
+        "id": "annexe_1__modifier_votre_mot_de_passe",
+        "titre": "Annexe 1 - Modifier votre mot de passe",
+        "chemin": "Annexe 1 - Modifier votre mot de passe",
+        "page_debut": 13,
+        "page_fin": 14,
+        "contenu_texte": "Cliquez sur « Ajouter une nouvelle personne » : Remplissez les champs du profil de la personne que vous souhaitez ajouter. Vous remplissez le profil et ensuite vous pouvez octroyer le droit de lecture. N’oubliez pas de remplir l’adresse email, sinon il sera impossible de choisir le droit. Une fois le champ « adresse email » complété, vous pouvez octroyer un droit. Dès que vous cliquez sur « sauvegarder » en bas de page, le bénéficiaire reçoit par email une invitation à se connecter et/ou créer son compte personnel. C. Octroyer un droit aux autres intervenants (via « Autres accès » ou « Accès par organisation ») Afin de simplifier les démarches pour octroyer un droit de lecture à une organisation, ReligioSoft a prévu de choisir directement les organisations avec lesquelles votre établissement entre en contact. Soulignons qu’en activant ce droit par organisation, tous les responsables désignés en interne par cette organisation auront accès au dossier. Soulignons d’abord qu’il ne s’agit pas du partage « automatique » par étape (voir ci-dessus) mais du partage du dossier en entier (toutes les écritures, rapports, etc.). Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 11 Si vous préférez octroyer un droit de lecture à un individu plutôt qu’à l’organisation (plusieurs personnes), suivez l’approche expliquée sous le point B. ci-dessus. La démarche est simple : cliquez sur le petit crayon bleu à côté de « Accès par organisation » (sous « Accès »), choisissez ensuite le droit et sauvegardez. Cliquez sur le petit crayon bleu… … choisissez le droit à octroyer… … et sauvegardez. Astuce – Et si je change d’avis ? Aucun souci : vous retournez sur cette page, où vous pouvez toujours modifier le droit selon vos souhaits. 12 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be",
+        "resume": "Le processus consiste à ajouter une nouvelle personne en remplissant son profil et en lui octroyant des droits de lecture. Il est possible d'octroyer des droits par organisation ou individu, avec la possibilité de modifier ces droits ultérieurement.",
+        "categorie": "Gestion des profils et des droits d'accès",
+        "mots_cles": [
+            "Ajouter une nouvelle personne",
+            "Droit de lecture",
+            "Accès par organisation",
+            "Gestion des profils",
+            "Sauvegarder",
+            "Invitation par email",
+            "Modification des droits",
+            "Accès individuel",
+            "Accès complet au dossier",
+            "Ma fabrique"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Vanden Broele",
+                "Vanden Broele – www.religiosoft.be",
+                "ReligioSoft"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "qu’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment ajouter une nouvelle personne ?",
+                "reponse": "Cliquez sur 'Ajouter une nouvelle personne' et remplissez les champs du profil."
+            },
+            {
+                "question": "Comment octroyer un droit de lecture par organisation ?",
+                "reponse": "Sélectionnez l'organisation et sauvegardez pour donner accès complet au dossier."
+            },
+            {
+                "question": "Comment modifier les droits d'accès ?",
+                "reponse": "Retournez sur la page, modifiez les droits selon vos souhaits et sauvegardez."
+            },
+            {
+                "question": "Que se passe-t-il si je ne remplis pas l'adresse email ?",
+                "reponse": "Il sera impossible de choisir le droit de lecture pour la personne ajoutée."
+            },
+            {
+                "question": "Puis-je octroyer des droits à plusieurs personnes individuellement ?",
+                "reponse": "Oui, suivez l'approche expliquée pour accorder des droits individuels."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Ajout de nouvelle personne",
+                "description": "Processus de remplissage du profil et octroi de droits."
+            },
+            {
+                "concept": "Droit de lecture par organisation",
+                "description": "Possibilité d'accorder un accès complet au dossier à tous les responsables désignés par l'organisation."
+            },
+            {
+                "concept": "Modification des droits",
+                "description": "Capacité de revenir sur la page pour ajuster les droits d'accès."
+            },
+            {
+                "concept": "Accès individuel",
+                "description": "Option de donner des droits spécifiques à une personne plutôt qu'à une organisation."
+            },
+            {
+                "concept": "Ma fabrique",
+                "description": "Plateforme de gestion des profils et des droits de Vanden Broele."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "02. MaFabriqueGestionDesDroitsEtDesProfils.pdf",
+            "page_source": [
+                13,
+                14
+            ],
+            "date_extraction": "2025-05-27T12:13:18.148709"
+        }
+    },
+    {
+        "id": "annexe_2__cration_dun_compte__activation_dun_droit",
+        "titre": "Annexe 2 - Création d’un compte / Activation d’un droit",
+        "chemin": "Annexe 2 - Création d’un compte / Activation d’un droit",
+        "page_debut": 15,
+        "page_fin": 19,
+        "contenu_texte": "Annexe 1 – Modifier votre mot de passe Pour modifier votre mot de passe, cliquez sur « Ma fabrique ». Choisissez « mon compte » en haut, dans la barre noire. Ce « compte » est bel et bien le compte qui est utilisé pour tous vos droits (si vous êtes impliqué(e) dans plusieurs dossiers). La page avec le profil de votre compte « Vanden Broele » s’affiche. Cliquez sur « Modifier » pour changer votre profil et/ou votre mot de passe. Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 13 Astuce – Votre compte Vanden Broele Votre compte Vanden Broele est utilisé comme profil unique pour tous vos droits dans le système. C’est le compte qui vous permet d’avoir accès à une série de dossiers avec un même nom d’utilisateur. Ce compte ne comprend que vos nom et adresse mail, et garantit une identification unique. Par dossier, il existe encore un profil « individuel », dont le détail peut varier, selon vos souhaits. Votre profil de « gestionnaire » pour un dossier spécifique se trouve sous « Accès » (voir ci-dessus). Sur la page avec votre profil, vous pouvez modifier vos données et changer de mot de passe. À gauche, votre profil personnel À droite, la possibilité de changer de mot de passe 14 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be Annexe 2 – Création d’un compte/Activation d’un droit Lorsque le gestionnaire de dossier octroie un droit, le bénéficiaire doit toujours « activer » son droit. Sinon, il ne saura pas se connecter. Comme signalé ci-dessous (au chapitre 4), le bénéficiaire reçoit toujours une invitation via email pour se connecter dès qu’un droit lui est octroyé. Ci- dessous, nous esquissons les procédures permettant à toute personne concernée de s’enregistrer en ligne et d’activer ces invitations envoyées par mail. Astuce – N’hésitez pas à transmettre ces instructions si le besoin s’en fait sentir ! Vous pouvez retrouver tous les manuels (dont celui-ci) dans la section « Aide ». du logiciel. Notre helpdesk reste à votre disposition pour vous aider via cultes@religiosoft.be Selon le cas, il existe deux scénarios qu’il faut bien distinguer : - soit le bénéficiaire n’a aucun droit dans le programme : voir le scénario 1 ci-dessous ; - soit le « bénéficiaire » a déjà un droit dans un autre dossier (par exemple, le secrétaire fait le cumul dans différentes fabriques d’église et a déjà un droit de lecture dans l’autre dossier) : voir le scénario 2 ci-dessous. Scénario 1. L’utilisateur n’a pas encore de compte personnel Si l’utilisateur n’a pas encore de compte personnel dans le système, il devra s’enregistrer avant de pouvoir activer le droit qui vient de lui être octroyé. Le futur utilisateur reçoit un email signalant qu’il aura accès au dossier dès qu’il disposera d’un compte personnel. Il suffira de cliquer sur le lien dans le mail et de compléter les démarches ci-dessous. 1. Avec carte d’identité ou sans ? Vous pouvez créer un compte personnel en utilisant votre carte d’identité ou de façon « traditionnelle ». Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 15 2. Création du compte personnel même Il suffit de remplir les cases (retenez bien votre identifiant et mot de passe !) et vous aurez immédiatement accès au logiciel. Dès que le bénéficiaire confirme, le droit est activé et l’utilisateur a accès au dossier : il suffit de cliquer sur « Ouvrir ». Il suffit de cliquer sur « Ouvrir » pour accéder au dossier même. Et voilà le dossier : Astuce – Votre compte Vanden Broele – « Mon compte » Votre compte Vanden Broele est utilisé comme profil unique regroupant tous vos droits dans le système. C’est le compte qui vous permet d’avoir accès à une série de dossiers avec un seul nom d’utilisateur. Ce compte comprend votre nom et email, et garantit une identification unique. Par dossier, il existe encore un profil individuel sous « Accès » (voir ci-dessus). Via « Mon compte » vous avez accès à votre compte « Vanden Broele » qui sert à regrouper tous vos droits sous un seul compte. Pour modifier le profil de gestionnaire pour un dossier spécifique, cliquez sur « Gestion des accès ». 16 Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be Scénario 2 : L’utilisateur a déjà (au moins) un droit dans un autre dossier L’utilisateur reçoit un email signalant qu’il aura désormais accès à votre dossier avec son nom d’utilisateur et son mot de passe actuels. Il confirmera via un lien dans l’email et devra se connecter pour finaliser l’ajout du droit d’accès en question à sa liste. Dès que l’utilisateur se connecte, le droit est activé et l’utilisateur a accès au dossier. Il suffit de cliquer sur « Ouvrir » et le dossier (ou la liste avec les différents dossiers) s’affichera. Il cliquera sur « ouvrir » pour avoir accès au(x) dossier(s). Astuce – Plusieurs dossiers ? Pour les utilisateurs qui ont un droit dans différents dossiers, il s’ajoute une étape supplémentaire lors de la navigation : la liste avec les différents dossiers s’affiche. Il suffit de cliquer sur le bouton bleu (RS) à gauche pour accéder à un dossier spécifique. Pour retourner à la liste avec tous les dossiers, choisissez « Mes dossiers », sous « accueil ». Ma fabrique – Gestion des profils et des droits – Vanden Broele – www.religiosoft.be 17",
+        "resume": "La section décrit le processus de création d'un compte et d'activation d'un droit dans un système en ligne, en détaillant les étapes pour les utilisateurs sans compte et ceux ayant déjà des droits dans d'autres dossiers.",
+        "categorie": "Gestion des comptes utilisateurs",
+        "mots_cles": [
+            "compte utilisateur",
+            "activation de droit",
+            "profil unique",
+            "gestion des accès",
+            "invitation par email",
+            "création de compte",
+            "identification unique",
+            "droit d'accès",
+            "liste de dossiers",
+            "modification de mot de passe"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "RS",
+                "Vanden Broele",
+                "Gestion des accès",
+                "Annexe 1"
+            ],
+            "montants": [],
+            "noms": [
+                "Vanden Broele",
+                "Votre",
+                "Astuce",
+                "Sinon",
+                "n’",
+                "qu’",
+                "Activation"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment modifier son mot de passe ?",
+                "reponse": "Pour modifier votre mot de passe, cliquez sur 'Ma fabrique', puis sur 'mon compte' dans la barre noire."
+            },
+            {
+                "question": "Que faire si l'utilisateur n'a pas de compte personnel ?",
+                "reponse": "L'utilisateur doit s'enregistrer en utilisant un lien reçu par email pour activer le droit qui lui a été octroyé."
+            },
+            {
+                "question": "Comment accéder à un dossier spécifique ?",
+                "reponse": "Pour accéder à un dossier spécifique, cliquez sur 'Ouvrir' une fois le droit activé."
+            },
+            {
+                "question": "Que faire si l'utilisateur a déjà des droits dans d'autres dossiers ?",
+                "reponse": "L'utilisateur doit confirmer via un lien reçu par email et se connecter pour finaliser l'ajout du droit d'accès à sa liste."
+            },
+            {
+                "question": "Comment gérer plusieurs dossiers avec des droits différents ?",
+                "reponse": "Pour les utilisateurs avec des droits dans différents dossiers, une liste s'affiche pour choisir le dossier spécifique à ouvrir."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Compte utilisateur",
+                "description": "Utilisé comme profil unique pour regrouper tous les droits dans le système."
+            },
+            {
+                "concept": "Activation de droit",
+                "description": "Nécessaire pour que l'utilisateur puisse se connecter et accéder aux dossiers."
+            },
+            {
+                "concept": "Gestion des accès",
+                "description": "Permet de modifier les droits et profils pour chaque dossier spécifique."
+            },
+            {
+                "concept": "Invitation par email",
+                "description": "Envoyée aux utilisateurs pour activer les droits octroyés."
+            },
+            {
+                "concept": "Modification de mot de passe",
+                "description": "Peut être effectuée via la section 'Mon compte' pour garantir la sécurité des comptes."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "02. MaFabriqueGestionDesDroitsEtDesProfils.pdf",
+            "page_source": [
+                15,
+                19
+            ],
+            "date_extraction": "2025-05-27T12:13:29.541880"
+        }
+    }
+]

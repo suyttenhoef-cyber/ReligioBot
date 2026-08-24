@@ -1,0 +1,100 @@
+[
+    {
+        "id": "document_complet",
+        "titre": "Document complet",
+        "chemin": "Document complet",
+        "page_debut": 1,
+        "page_fin": 2,
+        "contenu_texte": "Le compte annuel 2024 en quelques clics Ce dossier résumé vous guidera à travers la procédure du compte annuel 2024 dans ReligioSoft. Pour des informations plus détaillées, nous vous renvoyons au manuel « Le compte annuel 2024 » et le dossier traitant des annexes (disponibles dans la section « Aide » du logiciel). 1. Vérifiez si le compte annuel 2023 a été finalisé dans le système Avant d’entamer la clôture du compte 2024, il faut finaliser le compte annuel 2023, c’est-à-dire l’approbation de celui-ci par les autorités de tutelle (normalement, c’est déjà fait en fonction de la confection du budget 2025) ; pour vérifier : • Cliquez sur « Accueil » - « Compte annuel 2023 ». • Cliquez sur « tableaux » dans la ligne de la commune (la troisième ligne). • Ajoutez les montants rectifiés dans la colonne de droite et sauvegardez. Si rien n’a été rectifié, passez immédiatement à l’étape suivante. Important : si c’est la commune qui met à jour ses tableaux via son module, vous passez immédiatement au dernier point. • Sur votre gauche : cliquez sur « suivi du compte annuel » - remplissez la date de la commune et sauvegardez. • Remplissez la date de validation (par le trésorier, c’est la 4e case) et sauvegardez. ➔ Le résultat approuvé du compte 2023 sera repris dans le compte 2024 (à l’art. R19 ou D51). 2. Encodage de toutes les écritures de 2024 dans le logiciel L’important, c’est l’encodage des écritures (via le journal). Une fois que toutes les écritures se trouvent dans le système, les rapports les plus importants seront générés automatiquement. Vous complétez le journal des comptes bancaires dans l’ordre chronologique, jusqu’à la dernière écriture de 2024. En toute logique, vous encodez en même temps les premières écritures de 2025, si vous passez outre le 31 décembre 2024. ➔ Faites attention à l’exercice que vous indiquez dans le formulaire de l’écriture : entre le 1er janvier et le 31 mars, vous avez la possibilité de choisir entre 2024 et 2025. ➔ Contrôlez le solde de vos comptes bancaires après l’encodage : le solde dans ReligioSoft doit être le même que le solde qui s’affiche sur le dernier extrait bancaire. 3. La vérification du compte annuel 2024 Consultez le compte annuel via « compte annuel 2024 » - « tableaux ». Sur votre gauche, vous pouvez télécharger le rapport du compte annuel. Au milieu, vous pouvez consulter le détail. • Vérifiez s’il y a des dépassements budgétaires (il faudra ajuster ou justifier). • Le solde comptable global du compte, est-il correct ? • Contrôlez si tous les montants ont été encodés comme prévus. ➔ Vous pouvez toujours retourner aux comptes bancaires pour modifier les écritures via le journal. ➔ Pour les cas particuliers, vous ajoutez vos précisions dans la section avec les « observations ». 4. La préparation des annexes et l’impression du dossier Si les écritures sont correctes et si tout s’affiche correctement dans le rapport du compte annuel 2024, il est temps de finaliser le dossier. Le compte annuel 2024 en quelques clics – Vanden Broele – wallonie.religio.be 1 • Téléchargez et imprimez le rapport du compte annuel 2024 via les « tableaux » (onglet sur la gauche). • Préparez le classement avec les factures et les souches. Vous pouvez télécharger le grand-livre par article via les « tableaux » (onglet sur la gauche). Ce rapport pourra servir pour préparer les intercalaires. • N’oubliez pas non plus les mandats de paiement (vous pouvez les télécharger via l’onglet « comptabilité » en cliquant sur « mandats »). • Le dossier comprendra également la situation patrimoniale de la fabrique (la liste avec les biens mobiliers et immobiliers les plus importants). • Si vous gérez vous-même les projets extraordinaires (grosses réparations) de la fabrique, il faudra ajouter un résumé de l’évolution du projet. Vous pouvez vous servir des fiches de projet dans le programme ou résumer dans la section avec les « observations ». • Le dossier doit être complété avec la délibération du conseil de fabrique. Pour télécharger ce document, choisissez « compte annuel 2024 » puis « tableaux », ensuite « proposition de délibération » sur votre gauche. • Pour les trésoriers qui appliquent le principe des ajustements internes pour le chapitre II des dépenses (section ordinaire), le logiciel prévoit un rapport automatisé : - Cliquez sur « Accueil », ensuite « Budget et MB 2024 ». - Sur votre gauche, il y a le bouton rouge pour télécharger les ajustements internes. Important : dès que les documents sont définitifs (arrêtés par le conseil de fabrique), vous verrouillez le compte annuel dans ReligioSoft : • Sous « compte annuel 2024 », cliquez sur « suivi » (dans la ligne de la fabrique) ; • Insérez la date du conseil de fabrique ; • Indiquez les annexes que vous souhaitez partager dans la section en bas ; • Sauvegardez. Ensuite il faudra compléter au fur et à mesure que vous recevrez les décisions des autorités de tutelle. Astuce – Et pour démarrer 2025 ? Vous pouvez encoder les écritures de 2025 de la même façon qu’en 2024. Vous respectez toujours la chronologie, sur base des extraits bancaires. Mais attention aux points suivants : • Si vous souhaitez apporter des changements au plan comptable pour 2025, il faudra le faire avant d’encoder les écritures de 2025. • Dès que vous clôturez l’exercice 2024 (en insérant la date du conseil), vous serez redirigé(e) vers l’exercice 2025, où vous trouverez le journal à partir du 1er janvier 2025. • Pour le reste, c’est la même approche qu’en 2024. 2 Le compte annuel 2024 en quelques clics – Vanden Broele – wallonie.religio.be",
+        "resume": "Ce document détaille les étapes pour finaliser le compte annuel 2024 dans le logiciel ReligioSoft, incluant la vérification du compte, l'encodage des écritures, la préparation des annexes et l'impression du dossier. Il fournit des instructions précises pour chaque étape du processus.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "compte annuel",
+            "ReligioSoft",
+            "encodage",
+            "vérification",
+            "annexes",
+            "délibération",
+            "ajustements internes",
+            "dossier",
+            "conseil de fabrique",
+            "exercice"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Vanden Broele",
+                "wallonie.religio.be 1"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Vérifiez",
+                "Insérez",
+                "Préparez",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment vérifier si le compte annuel 2023 a été finalisé dans le système ?",
+                "reponse": "Cliquez sur 'Accueil' - 'Compte annuel 2023' et suivez les instructions pour vérifier et finaliser le compte annuel 2023."
+            },
+            {
+                "question": "Quelles sont les étapes pour encodage des écritures de 2024 dans ReligioSoft ?",
+                "reponse": "Suivez l'ordre chronologique pour compléter le journal des comptes bancaires avec toutes les écritures de 2024, en veillant à contrôler le solde des comptes."
+            },
+            {
+                "question": "Comment finaliser le dossier du compte annuel 2024 ?",
+                "reponse": "Téléchargez et imprimez le rapport du compte annuel, préparez les annexes, les mandats de paiement, la situation patrimoniale, et la délibération du conseil de fabrique pour compléter le dossier."
+            },
+            {
+                "question": "Comment démarrer l'exercice 2025 dans ReligioSoft ?",
+                "reponse": "Après avoir finalisé l'exercice 2024, insérez la date du conseil de fabrique pour verrouiller le compte annuel, puis commencez à encoder les écritures de 2025 en respectant la chronologie."
+            },
+            {
+                "question": "Quelles sont les étapes pour ajuster les écritures internes pour le chapitre II des dépenses ?",
+                "reponse": "Consultez le rapport automatisé dans la section 'Budget et MB 2024' pour télécharger les ajustements internes et suivez les instructions pour les appliquer correctement."
+            }
+        ],
+        "etapes_processus": [
+            "Vérifier la finalisation du compte annuel 2023 dans le système",
+            "Encoder toutes les écritures de 2024 dans le logiciel en respectant l'ordre chronologique",
+            "Vérifier le compte annuel 2024 et ajuster si nécessaire",
+            "Préparer les annexes, les mandats de paiement, la situation patrimoniale et la délibération du conseil de fabrique",
+            "Finaliser le dossier du compte annuel 2024 et verrouiller le compte dans ReligioSoft",
+            "Démarrer l'exercice 2025 en respectant la chronologie des écritures et en ajustant le plan comptable si nécessaire"
+        ],
+        "relations": [
+            {
+                "concept": "Compte annuel 2023",
+                "description": "Doit être finalisé avant d'entamer le compte annuel 2024"
+            },
+            {
+                "concept": "Encodage des écritures",
+                "description": "Essentiel pour générer automatiquement les rapports importants"
+            },
+            {
+                "concept": "Vérification du compte annuel",
+                "description": "Permet de s'assurer de l'exactitude des montants et des dépassements budgétaires"
+            },
+            {
+                "concept": "Dossier du compte annuel 2024",
+                "description": "Inclut les annexes, les mandats de paiement, la situation patrimoniale et la délibération du conseil de fabrique"
+            },
+            {
+                "concept": "Exercice 2025",
+                "description": "Doit être démarré après la finalisation du compte annuel 2024 en respectant la chronologie des écritures"
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "18. Le compte annuel 2024 en quelques clics.pdf",
+            "page_source": [
+                1,
+                2
+            ],
+            "date_extraction": "2025-05-27T12:02:53.005191"
+        }
+    }
+]

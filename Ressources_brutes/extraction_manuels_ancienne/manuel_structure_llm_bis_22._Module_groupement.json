@@ -1,0 +1,244 @@
+[
+    {
+        "id": "chapitre_1_introduction",
+        "titre": "Chapitre 1. Introduction",
+        "chemin": "Chapitre 1. Introduction",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "Le module pour le groupement de fabriques (version 1 - juin 2016)  Chapitre 1. Introduction 1  Chapitre 2. Le suivi des budgets, MB et comptes annuels 2  Chapitre 3. Les délibérations des fabriques 6",
+        "resume": "Le chapitre 1 de l'introduction présente le module pour le groupement de fabriques, version 1 datant de juin 2016.",
+        "categorie": "Gestion des fabriques",
+        "mots_cles": [
+            "module",
+            "groupement de fabriques",
+            "suivi des budgets",
+            "délibérations",
+            "comptes annuels"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Introduction 1"
+            ],
+            "montants": [],
+            "noms": []
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quelle est la version du module pour le groupement de fabriques présentée dans ce chapitre ?",
+                "reponse": "Version 1 datant de juin 2016."
+            },
+            {
+                "question": "Quels sujets sont abordés dans les chapitres suivants ?",
+                "reponse": "Le suivi des budgets, MB et comptes annuels dans le chapitre 2, et les délibérations des fabriques dans le chapitre 3."
+            },
+            {
+                "question": "Quelle est la date de publication de ce contenu ?",
+                "reponse": "Juin 2016."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "module pour le groupement de fabriques",
+                "description": "Présenté dans ce chapitre d'introduction."
+            }
+        ],
+        "confiance": 0.85,
+        "metadonnees": {
+            "source_pdf": "22. Module groupement.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:03:58.006254"
+        }
+    },
+    {
+        "id": "chapitre_2_le_suivi_des_budgets_mb_et_comptes_annuels",
+        "titre": "Chapitre 2. Le suivi des budgets, MB et comptes annuels",
+        "chemin": "Chapitre 2. Le suivi des budgets, MB et comptes annuels",
+        "page_debut": 2,
+        "page_fin": 5,
+        "contenu_texte": "Chapitre 1er. Introduction ReligioSoft se veut un outil complet, qui ne se limite pas à la gestion comptable au niveau des fabriques, mais qui vise à incorporer tous les acteurs. Le module pour le groupement de fabriques vous offre la possibilité de consulter les budgets, les modifications budgétaires et les comptes annuels dès que ceux-ci sont arrêtés par le conseil de fabrique, ainsi que les versions ultérieures de ces documents suite aux décisions des autorités de tutelle. À côté de la consultation en ligne des budgets, comptes et modifications budgétaires, le module pour le groupement de fabriques vous offre encore d’autres fonctionnalités :  Consultation des délibérations – voir le chapitre 3.  Des versions consolidées pour chaque étape (budget, modification budgétaire, compte annuel) sur la totalité de votre territoire – voir le chapitre 2.  Des consolidations pluriannuelles des comptes annuels (par fabrique) – voir le chapitre 2. Voici la structure de base du module (via « Accueil ») : « Délibérations » : les délibérations des fabriques. « Mon organisation » : les personnes qui ont accès au dossier. Pour le suivi des différents documents, il suffit de cliquer sur une des étapes. Signalons encore que l’équipe de ReligioSoft reste à votre disposition, tant pour ce qui concerne vos demandes concernant le logiciel que pour toute question relative au suivi comptable des fabriques : cultes@religiosoft.be ou T. 02 308 29 06. Le module pour le groupement de fabriques – Éditions Vanden Broele – www.religiosoft.be 1 Chapitre 2. Le suivi des budgets, MB et comptes annuels Important : dans tout ce qui suit, nous prenons le suivi du compte annuel 2015 comme exemple. Vous pouvez suivre les mêmes démarches pour les autres étapes (budgets et modifications budgétaires, accessibles via le bouton « budget »). Consultons le compte annuel 2015 de la fabrique (fictive) de Saint Brandan, en 3 étapes : 1. Choisissez l’étape (compte annuel 2015, ou budget 2017…) ; 2. Sélectionnez la fabrique ; 3. Consultez les tableaux 1. Choisissez l’étape Sous « Accueil », les différentes étapes s’affichent. À gauche se trouvent les comptes annuels de l’exercice précédent (2015), au milieu vous trouvez les budgets (et les MB) de l’exercice en cours (2016), et sur votre droite vous avez accès aux budgets de l’exercice suivant (2017). Choisissez le compte annuel 2015. Sous « Accueil », cliquez sur « Compte annuel 2015 ». 2. Sélectionnez la fabrique Toutes les fabriques s’affichent sous « compte annuel 2015 ». Au-delà de 20 fabriques, vous devrez changer de page, ou utiliser le moteur de recherche en haut de la page. 2 Le module pour le groupement de fabrique – Éditions Vanden Broele – www.religiosoft.be Les fabriques s’affichent. Vous pouvez introduire le nom de la fabrique, le numéro BCE ou la localité pour les retrouver rapidement. L’état des lieux par fabrique est indiqué par un bouton coloré, qui vous dirige vers l’aperçu complet de la fabrique. Parcourons les différentes couleurs selon l’ordre « chronologique » :  Bouton gris = en préparation  le trésorier n’a pas encore finalisé sa part du travail (il manque la date de la fabrique dans le module de la fabrique). Vous devrez attendre jusqu’à ce que le trésorier ait rempli la date de son côté.  Bouton rouge = arrêté par la fabrique  le trésorier a rempli la date ; les autorités de tutelle peuvent statuer.  Bouton bleu = décision de l’organe représentatif  l’évêché a complété sa partie.  Bouton orange = décision de la commune, à valider par la fabrique  la commune a apporté ses corrections, mais le trésorier de la fabrique doit encore tout valider (accepter).  Bouton vert = décision de la commune acceptée par la fabrique  tout est finalisé suite à la validation par le trésorier (module de la fabrique) : les rectifications de la commune seront reprises partout dans le module de la fabrique. Soulignons encore que tant l’évêché (l’organe représentatif) que la commune peuvent apporter leurs corrections. Si l’évêché a déjà corrigé, ses corrections s’afficheront dans le module de la commune. Tant qu’une date manque dans le système (voir ci-dessous), vous ne verrez jamais les tableaux concernés. Important : tant que le trésorier ne valide pas l’approbation de la commune dans le module de la fabrique, la version de la fabrique sera maintenue dans le dossier ! 3. Consultez les chiffres Si vous cliquez sur le bouton coloré, la page avec l’aperçu de l’étape pour la fabrique en question s’affichera : Le module pour le groupement de fabriques – Éditions Vanden Broele – www.religiosoft.be 3",
+        "resume": "Le chapitre 2 présente le suivi des budgets, modifications budgétaires et comptes annuels dans le module pour le groupement de fabriques de ReligioSoft. Il explique comment consulter et suivre les différentes étapes, notamment en choisissant l'étape, sélectionnant la fabrique et consultant les chiffres.",
+        "categorie": "Logiciel de gestion financière",
+        "mots_cles": [
+            "ReligioSoft",
+            "comptes annuels",
+            "budgets",
+            "modifications budgétaires",
+            "suivi financier",
+            "fabriques",
+            "consolidations pluriannuelles",
+            "délibérations",
+            "consultation en ligne",
+            "module de groupement"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Éditions Vanden Broele – www.religiosoft.be 1",
+                "Important",
+                "ReligioSoft",
+                "Compte",
+                "s’",
+                "Éditions Vanden Broele"
+            ],
+            "montants": [],
+            "noms": [
+                "Choisissez",
+                "Bouton",
+                "Accueil",
+                "jusqu’",
+                "Saint Brandan",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment consulter les budgets et comptes annuels dans ReligioSoft ?",
+                "reponse": "Vous pouvez consulter les budgets, modifications budgétaires et comptes annuels en choisissant l'étape, sélectionnant la fabrique et consultant les chiffres."
+            },
+            {
+                "question": "Quelles fonctionnalités offre le module pour le groupement de fabriques de ReligioSoft ?",
+                "reponse": "Le module permet de consulter les budgets, modifications budgétaires et comptes annuels, ainsi que les délibérations, les versions consolidées et les consolidations pluriannuelles."
+            },
+            {
+                "question": "Comment savoir si un compte annuel a été validé par la fabrique ?",
+                "reponse": "La couleur du bouton associé à la fabrique indique l'état d'avancement : gris (en préparation), rouge (arrêté par la fabrique), bleu (décision de l'organe représentatif), orange (décision de la commune à valider) et vert (décision de la commune acceptée)."
+            },
+            {
+                "question": "Que faire si une date manque dans le système de suivi ?",
+                "reponse": "Tant qu'une date manque, les tableaux concernés ne seront pas visibles. Il est important que le trésorier valide l'approbation de la commune pour finaliser la version du dossier."
+            },
+            {
+                "question": "Comment contacter l'équipe de ReligioSoft pour des questions ?",
+                "reponse": "Vous pouvez contacter l'équipe de ReligioSoft par email à cultes@religiosoft.be ou par téléphone au T. 02 308 29 06 pour toute question relative au suivi comptable des fabriques."
+            }
+        ],
+        "etapes_processus": [
+            "Choisir l'étape (compte annuel, budget...)",
+            "Sélectionner la fabrique",
+            "Consulter les chiffres"
+        ],
+        "relations": [
+            {
+                "concept": "Validation du compte annuel",
+                "description": "La couleur du bouton associé à la fabrique indique l'état de validation du compte annuel par la fabrique et les autorités."
+            },
+            {
+                "concept": "Suivi financier",
+                "description": "Le module pour le groupement de fabriques permet un suivi détaillé des budgets, modifications budgétaires et comptes annuels pour chaque fabrique."
+            },
+            {
+                "concept": "Consolidations pluriannuelles",
+                "description": "Le module offre la possibilité de consulter des consolidations pluriannuelles des comptes annuels par fabrique."
+            },
+            {
+                "concept": "Contact avec l'équipe de ReligioSoft",
+                "description": "Les utilisateurs peuvent contacter l'équipe de ReligioSoft pour toute question relative au logiciel ou au suivi comptable des fabriques."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "22. Module groupement.pdf",
+            "page_source": [
+                2,
+                5
+            ],
+            "date_extraction": "2025-05-27T12:04:09.015603"
+        }
+    },
+    {
+        "id": "chapitre_3_les_dlibrations_des_fabriques",
+        "titre": "Chapitre 3. Les délibérations des fabriques",
+        "chemin": "Chapitre 3. Les délibérations des fabriques",
+        "page_debut": 6,
+        "page_fin": 8,
+        "contenu_texte": "Suivant la logique de la tutelle, nous distinguons donc trois versions et encore une validation supplémentaire :  La version de la fabrique : les chiffres préparés par la fabrique.  La version de l’évêché : le service aux fabriques d’église y apporte ses corrections.  La version de la commune : le responsable communal y ajoute ses rectifications.  La validation par le trésorier : ce bouton permet au trésorier d’accepter votre décision en ligne. Si celui-ci ne fait rien, les rectifications ne seront pas reprises dans le dossier. Par version, il y a un bouton « Suivi » (c’est là que les acteurs introduisent la date de la décision, au fur et à mesure) et encore un bouton « Tableaux » (ce sont les chiffres, qui, dans le module des autorités de tutelle, peuvent être modifiés). Pour consulter les chiffres d’une étape, cliquez sur « Tableaux » sur votre droite (ou bien la version de la fabrique, celle de l’évêché ou, si disponible, celle de la commune). Cliquez sur « Tableaux ». Les chiffres s’afficheront et vous verrez immédiatement les articles auxquels ont été apportés des modifications en caractères gras. Les montants modifiés sont en gras.  Astuce – Les « balances » : l’aperçu des chiffres à portée de main Pour afficher les balances, cliquez sur « balances » en haut de la page (sur votre droite) pour avoir un aperçu des totaux rectifiés. Vous verrez alors immédiatement l’impact des rectifications sur tous les totaux. 4 Le module pour le groupement de fabrique – Éditions Vanden Broele – www.religiosoft.be Sur votre gauche vous pouvez télécharger tous les rapports. Pour télécharger le rapport rectifié, cliquez sur « compte annuel 2015 » dans la colonne de gauche (en haut). Il existe également une exportation en fichier excel, et même une version « pluriannuelle » des comptes de la fabrique. Pour consulter les autres versions de cette étape, cliquez sur « aperçu du compte 2015. Pour retourner à la liste avec tous les dossiers, cliquez sur votre gauche sur « compte 2015 – tous les dossiers ». Vous pouvez ensuite consulter les autres dossiers.  Astuce – Les dates de suivi Si les autorités de tutelle (ou la fabrique) ont omis de remplir la date de la décision, leur version ne sera pas disponible dans votre module. Vous pouvez toujours vérifier la date sous « suivi ». Il est important d’insister sur un suivi discipliné du côté de la fabrique, car si le trésorier oublie, rien ne s’affichera dans les modules « supérieurs ». Pour retourner à l’ensemble des fabriques : cliquez sur « compte 2015 – tous les dossiers » (toujours sur votre gauche). Sur votre gauche il s’affiche le rapport pour télécharger les comptes annuels consolidés. Une consolidation des comptes annuels est disponible. Le module pour le groupement de fabriques – Éditions Vanden Broele – www.religiosoft.be 5 Chapitre 3. Les délibérations Afin de simplifier le partage en ligne, ReligioSoft prévoit un espace de stockage partagé qui permet aux fabriques de partager avec les autorités de tutelle toutes leurs délibérations. Vous y avez accès via « Accueil ». Les délibérations se trouvent sous « Accueil ». Toutes les délibérations s’affichent (dans la mesure où les fabriques les ajoutent au système). Vous pouvez trier sur base de l’établissement concerné : Pour limiter la sélection, choisissez un établissement en particulier. 6 Le module pour le groupement de fabrique – Éditions Vanden Broele – www.religiosoft.be",
+        "resume": "Ce chapitre décrit le processus de validation des chiffres des fabriques par l'évêché et la commune, avec une validation finale par le trésorier en ligne. Il explique également comment consulter, rectifier et suivre les chiffres, ainsi que partager les délibérations en ligne.",
+        "categorie": "Gestion des comptes et délibérations",
+        "mots_cles": [
+            "fabrique",
+            "évêché",
+            "commune",
+            "trésorier",
+            "rectifications",
+            "balances",
+            "suivi",
+            "décision",
+            "rapports",
+            "consolidation"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Éditions Vanden Broele – www.religiosoft.be 5",
+                "s’"
+            ],
+            "montants": [],
+            "noms": [
+                "Accueil",
+                "Astuce"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment valider les chiffres des fabriques?",
+                "reponse": "Les chiffres passent par une validation de la fabrique, de l'évêché, de la commune et enfin du trésorier en ligne."
+            },
+            {
+                "question": "Comment consulter les chiffres rectifiés?",
+                "reponse": "Cliquez sur 'Tableaux' pour voir les chiffres avec les modifications en gras."
+            },
+            {
+                "question": "Comment partager les délibérations en ligne?",
+                "reponse": "Utilisez l'espace de stockage partagé sous 'Accueil' pour partager les délibérations avec les autorités de tutelle."
+            },
+            {
+                "question": "Comment télécharger les rapports rectifiés?",
+                "reponse": "Cliquez sur 'compte annuel 2015' dans la colonne de gauche pour télécharger le rapport rectifié."
+            },
+            {
+                "question": "Que faire si les dates de suivi ne sont pas remplies?",
+                "reponse": "Assurez-vous que les dates de décision sont remplies pour que les versions soient disponibles dans le module."
+            }
+        ],
+        "etapes_processus": [
+            "Préparation des chiffres par la fabrique",
+            "Correction par l'évêché",
+            "Rectification par la commune",
+            "Validation en ligne par le trésorier",
+            "Consultation et suivi des chiffres",
+            "Partage des délibérations en ligne"
+        ],
+        "relations": [
+            {
+                "concept": "Validation des chiffres",
+                "description": "Processus impliquant la fabrique, l'évêché, la commune et le trésorier pour valider les chiffres."
+            },
+            {
+                "concept": "Rectifications",
+                "description": "Les corrections apportées aux chiffres sont mises en évidence en gras pour consultation."
+            },
+            {
+                "concept": "Suivi discipliné",
+                "description": "L'importance de remplir les dates de décision pour assurer la disponibilité des versions dans le module."
+            },
+            {
+                "concept": "Partage en ligne",
+                "description": "Utilisation de l'espace de stockage partagé pour partager les délibérations avec les autorités de tutelle."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "22. Module groupement.pdf",
+            "page_source": [
+                6,
+                8
+            ],
+            "date_extraction": "2025-05-27T12:04:16.546687"
+        }
+    }
+]

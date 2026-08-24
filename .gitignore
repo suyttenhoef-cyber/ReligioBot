@@ -1,0 +1,35 @@
+# Secrets - NE JAMAIS committer
+.env
+.streamlit/secrets.toml
+*.key
+
+# Environnement virtuel Python
+venv/
+env/
+.venv/
+
+# Fichiers Python compiles
+__pycache__/
+*.pyc
+
+# Embeddings : versionnes volontairement (voir README, section "Pipeline")
+# car Streamlit Community Cloud ne peut pas executer embed_chunks.py au
+# deploiement - regenerer et re-committer ces 2 fichiers a chaque
+# modification du corpus via :
+#   python3 chunk_builder.py corpus_par_matiere/ chunks.jsonl
+#   python3 embed_chunks.py chunks.jsonl embeddings.npz
+
+# Configuration locale de l'outil Claude Code (specifique a ce poste)
+.claude/
+
+# Ancien prototype (Old/) : code et extractions exploratoires anterieurs a
+# ce projet, non repris dans la structure propre - conserve localement
+# comme reference mais pas versionne
+Old/
+
+# Rapport de test ponctuel - artefact d'execution locale
+rapport_test.json
+
+# Divers
+.DS_Store
+*.log

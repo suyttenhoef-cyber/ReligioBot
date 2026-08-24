@@ -1,0 +1,259 @@
+[
+    {
+        "id": "chapitre_1er_introduction",
+        "titre": "Chapitre 1er. Introduction",
+        "chemin": "Chapitre 1er. Introduction",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "L’approbation du compte annuel 2024 Chapitre 1er. Introduction 1 Chapitre 2. Le compte était parfait 2 Chapitre 3. Le compte présentait quelques imperfections… 5",
+        "resume": "Le chapitre d'introduction présente l'approbation du compte annuel 2024 et annonce les chapitres suivants qui traitent de la qualité du compte.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "approbation",
+            "compte annuel",
+            "imperfections",
+            "chapitre",
+            "introduction"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Introduction 1"
+            ],
+            "montants": [],
+            "noms": []
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quel sujet est abordé dans le chapitre d'introduction ?",
+                "reponse": "Le chapitre d'introduction parle de l'approbation du compte annuel 2024."
+            },
+            {
+                "question": "Quels chapitres suivent l'introduction ?",
+                "reponse": "Les chapitres suivants traitent de la qualité du compte annuel."
+            },
+            {
+                "question": "Quelle est la principale information donnée dans ce chapitre ?",
+                "reponse": "Ce chapitre annonce l'approbation du compte annuel et introduit les chapitres suivants."
+            },
+            {
+                "question": "Quelles sont les imperfections mentionnées dans le chapitre ?",
+                "reponse": "Le chapitre mentionne quelques imperfections dans le compte annuel."
+            },
+            {
+                "question": "Quelle année concerne le compte annuel mentionné ?",
+                "reponse": "Le compte annuel mentionné est celui de l'année 2024."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "approbation du compte annuel",
+                "description": "Processus d'approbation du compte annuel pour l'année 2024."
+            },
+            {
+                "concept": "imperfections dans le compte",
+                "description": "Identification et description des imperfections présentes dans le compte annuel."
+            },
+            {
+                "concept": "chapitre d'introduction",
+                "description": "Introduction générale au contenu du document et annonce des chapitres suivants."
+            }
+        ],
+        "confiance": 0.85,
+        "metadonnees": {
+            "source_pdf": "06b. ApprobationDuCompteAnnuel2024.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:19:58.732660"
+        }
+    },
+    {
+        "id": "chapitre_2_le_compte_tait_parfait",
+        "titre": "Chapitre 2. Le compte était parfait",
+        "chemin": "Chapitre 2. Le compte était parfait",
+        "page_debut": 2,
+        "page_fin": 4,
+        "contenu_texte": "Chapitre 1er. Introduction Il arrive que les chiffres du compte annuel transmis aux autorités de tutelle ne puissent pas être conservés : la commune et/ou l’évêché ont apporté des rectifications de sorte que le résultat du compte n’est plus le même. Par conséquent, vous devrez en tenir compte dans ReligioSoft pour que les prochaines étapes du dossier s’accordent avec ce qui a été statué par l’évêché et l’administration communale. Même dans le cas où aucune rectification n’a été apportée, il est nécessaire d’indiquer l’état des lieux dans le logiciel : cette information sera alors reprise dans les rapports des étapes ultérieures. Signalons que ReligioSoft prévoit la possibilité pour la commune et l’évêché d’encoder les rectifications directement en ligne via un module spécifique. Si l’évêché et/ou la commune participent, vous aurez donc toutes les rectifications à votre disposition immédiatement. Dans ce cas, il suffit d’introduire la date de validation (« par le trésorier »). Sinon, vous pouvez corriger les chiffres vous-même. Nous y reviendrons. Récapitulons d’abord le principe de base (qui s’applique également au budget) : 1. Si vous validez les chiffres rectifiés (ou non), ces chiffres approuvés seront incorporés dans tous les nouveaux documents à partir de cette date. 2. Tant que vous n’accepterez pas les rectifications dans le logiciel, les chiffres arrêtés par le conseil de fabrique seront maintenus ; les rectifications de la tutelle n’auront alors aucun impact sur les autres étapes dans le dossier. En cas de recours, par exemple, vous ne devez pas mettre la date de validation par le trésorier. Dès que vous êtes d’accord avec la décision de la tutelle, vous complétez. Astuce – La décision de la commune/de l’évêché ne nous est pas parvenue ? Que faire ? Dès que le délai prévu vient à échéance sans qu’une décision ne soit prise et communiquée, le document en question est censé être approuvé. Une décision hors délai (même s’il y a des rectifications) équivaut également, en principe, à une approbation complète du document initial. En cas de doute, prenez contact avec les administrations concernées. Question de timing : complétez l’approbation du compte 2024 en fonction du budget 2026 ! Il est important de compléter l’approbation du compte annuel 2024 dans ReligioSoft avant de finaliser le budget 2026 : le résultat présumé de 2025 (incorporé dans le budget 2026) devra tenir compte du résultat final du compte annuel 2024, avec les éventuelles rectifications par les autorités de tutelle comprises. Pour le compte 2025 également, le résultat définitif du compte annuel 2024 sera important : il y sera incorporé comme le résultat de l’exercice précédent (le point de départ comptable de 2025). Afin de simplifier les démarches dans le logiciel, nous vous proposons deux procédures distinctes. Vous pourrez compléter dès que vous recevrez la lettre de la commune avec la décision du conseil communal. Sous « Accueil » le logiciel vous signale ce qui reste à faire ! Si rien n’a été modifié au compte annuel, consultez le chapitre 2. Si certaines rectifications ont été apportées, consultez le chapitre 3. L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be 1 Chapitre 2. Le compte était parfait Toutes nos félicitations ! Vous aurez moins de travail pour mettre à jour votre dossier. Sous « Accueil » (en 2025), vous trouvez sur votre gauche le bouton « Compte annuel 2024 » : cliquez dessus. Cliquez sur « Compte annuel 2024 », sous « Accueil ». L’aperçu des quatre étapes du compte annuel 2024 s’affiche : 1. La version de la fabrique, que vous avez préparée et transmise précédemment. 2. La version de l’évêché : c’est la version qui comprend les rectifications de l’évêché. 3. La version de la commune : le même document, avec les rectifications de la commune ; si votre compte n’avait pas besoin d’être rectifié, les chiffres resteront en toute logique identiques. 4. La validation par le trésorier : cette quatrième étape est importante, car elle décide de la version du compte annuel 2024 qui sera reprise dans les étapes ultérieures : a. La date n’est pas remplie : la version de la fabrique sera maintenue partout ; b. La date est remplie : le compte 2024 rectifié (par la commune) sera repris partout. Comme pour le budget et les modifications budgétaires, l’idée est toujours de remplir les quatre dates au fur et à mesure que les informations vous parviennent. Même s’il n’y a aucune rectification, il faut veiller à ce que chaque étape soit complétée, car le statut précis pourra alors être repris dans tout document ultérieur. 2 L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be",
+        "resume": "Le chapitre 2 explique comment gérer un compte annuel parfait sans rectifications. Il détaille les étapes de validation du compte annuel 2024 dans ReligioSoft.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "compte annuel",
+            "rectifications",
+            "ReligioSoft",
+            "validation",
+            "trésorier",
+            "décision",
+            "budget",
+            "étapes",
+            "fabrique",
+            "évêché"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "wallonie.religio.be 1 Chapitre 2",
+                "Compte"
+            ],
+            "montants": [],
+            "noms": [
+                "Accueil",
+                "Sinon",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Que faire si aucune décision de la commune ou de l'évêché n'est communiquée ?",
+                "reponse": "En l'absence de décision, le document est considéré comme approuvé."
+            },
+            {
+                "question": "Pourquoi est-il important de compléter l'approbation du compte annuel 2024 avant le budget 2026 ?",
+                "reponse": "Pour que le résultat du compte 2024 influence le budget 2026."
+            },
+            {
+                "question": "Comment savoir si des rectifications ont été apportées au compte annuel ?",
+                "reponse": "Consultez les étapes du compte annuel 2024 dans ReligioSoft."
+            },
+            {
+                "question": "Que signifie la validation par le trésorier dans le processus ?",
+                "reponse": "Elle détermine la version du compte annuel 2024 à utiliser pour les étapes suivantes."
+            },
+            {
+                "question": "Comment intégrer les rectifications dans les documents ultérieurs ?",
+                "reponse": "Il faut remplir les étapes du compte annuel 2024 au fur et à mesure des informations reçues."
+            }
+        ],
+        "etapes_processus": [
+            "Préparer et transmettre la version de la fabrique du compte annuel.",
+            "Consulter la version rectifiée par l'évêché et la commune.",
+            "Valider le compte annuel en fonction de la date de validation par le trésorier.",
+            "Assurer que chaque étape du compte annuel 2024 est complétée pour refléter le statut précis."
+        ],
+        "relations": [
+            {
+                "concept": "Compte annuel",
+                "description": "Document financier détaillant les transactions d'une entité sur une année."
+            },
+            {
+                "concept": "Rectifications",
+                "description": "Modifications apportées aux chiffres du compte annuel par la commune et/ou l'évêché."
+            },
+            {
+                "concept": "Validation",
+                "description": "Processus de confirmation des chiffres du compte annuel pour les étapes ultérieures."
+            },
+            {
+                "concept": "Budget",
+                "description": "Prévision des recettes et des dépenses pour une période donnée, influencé par le compte annuel précédent."
+            },
+            {
+                "concept": "Trésorier",
+                "description": "Personne responsable de la gestion financière et de la validation des comptes."
+            },
+            {
+                "concept": "Décision de la tutelle",
+                "description": "Validation finale des rectifications et approbation du compte annuel par les autorités de tutelle."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "06b. ApprobationDuCompteAnnuel2024.pdf",
+            "page_source": [
+                2,
+                4
+            ],
+            "date_extraction": "2025-05-27T12:20:09.508007"
+        }
+    },
+    {
+        "id": "chapitre_3_le_compte_prsentait_quelques_imperfections",
+        "titre": "Chapitre 3. Le compte présentait quelques imperfections…",
+        "chemin": "Chapitre 3. Le compte présentait quelques imperfections…",
+        "page_debut": 5,
+        "page_fin": 12,
+        "contenu_texte": "Parcourons les démarches ! Par étape, vous avez accès au « suivi/partage en ligne » (où les dates sont complétées) et aux « tableaux » (les colonnes reprenant les chiffres, rectifiés ou non). 1. La version de la fabrique En principe, la première date (celle de la fabrique) a déjà été remplie auparavant. Si ce n’est pas le cas, vous la complétez avant de continuer (cliquez sur « suivi/partage en ligne », introduisez la date et « sauvegardez »). 2. La version de l’évêché En principe, c’est l’évêché qui rectifie ces chiffres. Ensuite, la commune reprend ces rectifications dans sa version. Vous n’y touchez pas. 3. La version de la commune Il y a deux possibilités :  soit c’est la commune qui s’en charge dans le système : la date sera remplie et vous aurez accès aux tableaux de la commune via « tableaux ». Vous pourrez alors compléter « la validation par le trésorier » (voir ci-dessous, le point 4.).  soit c’est la fabrique qui s’en occupe. Alors vous complétez sur base de la lettre de la commune : o cliquez sur « suivi/partage en ligne » dans la ligne de la commune ; o introduisez la date dans la ligne de la commune et sauvegardez. Introduisez la date de la commune et sauvegardez. Ensuite, passez au point 4. Vous avez un doute qui fait quoi ? Sous « accueil », on vous signale qui gère les tableaux de la tutelle. Sous « Accueil », il est indiqué qui gère les tableaux de la tutelle dans le logiciel. L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be 3 4. La validation par le trésorier La version de la fabrique sera maintenue partout jusqu’à ce que vous ayez complété cette quatrième étape. Il suffit d’introduire la date (du jour même) pour confirmer que vous êtes d’accord avec les décisions de la tutelle. ReligioSoft les intègrera alors dans toute étape ultérieure sans aucune démarche de votre part. Même lorsqu’il n’y a aucune rectification, vous devez compléter pour assurer que la mention que le compte en question a été approuvé apparaisse dans les documents ultérieurs. Bref, c’est la date de validation que vous ajoutez vous- même qui détermine tout. Concrètement : sous « suivi/partage en ligne », introduisez la quatrième date ; sauvegardez. Introduisez la date de validation par la fabrique et sauvegardez. Attention à la chronologie Il est impossible de remplir la date de validation « par le trésorier » si l’étape de la commune n’a pas encore été finalisée. Le logiciel vous signale sous « Accueil » s’il y a encore des étapes à finaliser pour le budget, le compte ou la modification budgétaire : Sous « Accueil », le logiciel vous signale toujours ce qui reste à faire ! 4 L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be Chapitre 3. Le compte présentait quelques imperfections… Si le compte présentait quelques imperfections, vous devrez compléter via le programme le suivi des rectifications apportées par la tutelle. 1. Ajoutez les rectifications et la date des décisions et validez les rectifications pour finaliser le suivi. 2. Régularisez les rectifications via le compte de rectification en 2025. Attention ! On ne touche pas au journal historique… Il ne faut pas manipuler les écritures historiques dans le système : il suffit de rectifier et de valider les totaux des articles mêmes. La version corrigée est ensuite générée automatiquement. La version historique de votre compte annuel, sur base des écritures mêmes, sera toujours accessible dans le système. Évidemment, s’il y a des rejets, il faudra encore intervenir lors de l’exercice en cours (2025) pour régulariser « le financier ». Nous y reviendrons ci-dessous. 3.1. Ajouter les rectifications et la date des décisions Sous « Accueil » (en 2025), vous trouvez sur votre gauche le bouton « Compte annuel 2024 » : cliquez dessus. Cliquez sur « Compte annuel 2024 », sous « Accueil ». L’aperçu des quatre étapes du compte annuel 2024 s’affiche : 1. La version de la fabrique, que vous avez préparée et transmise auparavant. 2. La version de l’évêché : c’est la version qui comprend les rectifications de l’évêché. L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be 5 3. La version de la commune : le même document, mais avec les rectifications de la commune. 4. La validation par le trésorier : cette quatrième étape est importante, car elle décide la version du compte annuel 2024 qui sera reprise dans les étapes ultérieures : a. La date n’est pas remplie : la version de la fabrique sera maintenue partout ; b. La date est remplie : le compte 2024 rectifié sera repris partout. Comme pour le budget et les modifications budgétaires, l’idée est toujours de remplir les quatre dates au fur et à mesure que les informations vous parviennent. Parcourons ! Par étape, vous avez accès au « suivi/partage en ligne » (où les dates sont complétées) et aux « tableaux » (les colonnes reprenant les chiffres, rectifiés ou non). 1. La version de la fabrique En principe, la première date (celle de la fabrique) a déjà été remplie auparavant. Si ce n’est pas le cas, vous devez la compléter avant de continuer (via « suivi/partage en ligne »). 2. La version de l’évêché En principe, c’est l’évêché qui rectifie ces chiffres. Ensuite, la commune reprend ces rectifications dans sa version. Vous n’y touchez pas. Passons donc au point 3. 3. La version de la commune Il y a deux possibilités : la commune le fait ou vous le faites. Vous avez un doute qui fait quoi ? Sous « Accueil », on vous signale qui gère les tableaux de la tutelle. Sous « Accueil », il est indiqué qui gère les tableaux de la tutelle dans le logiciel. Si c’est la commune qui s’en charge dans le système : la date sera remplie et vous aurez accès aux tableaux de la commune via « tableaux ». Le logiciel vous signalera sous « Accueil ». Si c’est la fabrique qui s’en occupe. Alors, vous complétez vous-même sur base de la délibération communale (tout en maintenant les éventuelles rectifications par l’évêché). o Cliquez sur « tableaux » : les colonnes s’affichent Cliquez sur « tableaux ». 6 L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be o Dans la colonne sur votre droite, remplacez les montants des articles impactés par les chiffres rectifiés (il s’agit toujours du montant total, pas de la différence) : Dans la colonne de la commune, ajoutez les montants corrects sur base de la délibération communale. o Sauvegardez (en bas de page sur votre gauche) : o Vérifiez les nouveaux totaux via l’onglet « balances » (en haut de la page) pour être sûr(e) qu’aucune erreur ne s’y est glissée : Via « balances », vous vérifiez si tout s’est bien passé. Le résultat rectifié s’affiche sur votre droite. o Tout est correct ? Cliquez, à votre gauche, sur « suivi du compte 2024 » : Cliquez sur « suivi du compte 2024 » pour finaliser. o Introduisez la date dans la ligne de la commune et sauvegardez : Introduisez la date de la commune et sauvegardez. Ensuite, passez au point 4. L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be 7 4. La validation par le trésorier La version de la fabrique sera maintenue partout jusqu’à ce que vous ayez complété cette quatrième étape. Il suffit d’introduire la date (du jour même) pour confirmer que vous êtes d’accord avec les décisions de la tutelle. ReligioSoft les intègrera alors dans toute étape ultérieure sans que vous deviez parcourir d’autres démarches. Bref, c’est la date de validation que vous ajoutez vous-même qui détermine tout. Concrètement : sous « suivi/partage digital », introduisez la quatrième date ; sauvegardez. Introduisez la date de validation des décisions de la tutelle par la fabrique et sauvegardez. Attention à la chronologie Il est impossible de remplir la date de validation « par le trésorier » si l’étape de la commune n’a pas encore été finalisée. Le logiciel vous signale l’impact de la validation sur les étapes ultérieures : si le résultat comptable a été impacté par les rectifications que vous venez d’accepter, le logiciel créera un compte de rectification (sous « comptes bancaires ») pour incorporer, en 2025, les écritures rectifiées en 2024, en cas de besoin. Voir le point 3.2. ci-dessous. 3.2. Régulariser les rectifications via le compte de rectification en 2025 Helpdesk Les explications ci-dessous sont plutôt techniques. Notre helpdesk vous aidera volontiers à compléter les opérations nécessaires : cultes@religiosoft.be ou T. 02 308 29 06. Si le résultat comptable du compte 2024 n’est plus le même suite aux rectifications apportées par la tutelle, le logiciel créera un compte d’attente qui permettra de faire le nécessaire pour régler les rectifications dans l’exercice en cours. 8 L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be Deux exemples : 1. La commune a rejeté définitivement une dépense de 50 euros. Logiquement, ce montant devra être versé sur un des comptes de la fabrique et encodé par le trésorier. 2. Le trésorier a encodé une dépense sur l’exercice 2024 alors qu’il s’agissait d’une écriture pour 2025. Il faudra encore ajouter la dépense en 2025 pour respecter la décision de la tutelle. Dans ces deux cas, le résultat comptable de 2024 est modifié et, en toute logique, il y aura aussi un impact financier : le rejet d’une dépense augmentera le résultat comptable et le résultat financier. Le rejet d’une recette les diminuera. Il faudra pousser la logique au bout au niveau financier. Pour garantir la concordance entre les résultats comptable et financier, le logiciel ajoute un compte de rectification, qui représente « l’impact financier » des rectifications comptables et qui vous permettra de faire le nécessaire durant l’exercice en cours (2025). Le compte de rectification s’affiche en haut de la liste. Ce compte de rectification est créé au moment de la validation par le trésorier du compte annuel (la quatrième étape, voir ci-dessus) et s’affichera à partir de l’exercice qui suit l’exercice sur lequel il porte (pour le compte annuel 2024 : à partir de 2025). Nous nous limitons ici à présenter les exemples les plus courants ; notre helpdesk reste à votre disposition pour regarder ensemble ce qui doit être fait pour mener à bien l’intégration de la décision de la commune : cultes@religiosoft.be ou 02 308 29 06. Principe de base : le compte de rectification doit être mis à zéro, sur base des mouvements financiers ou comptables nécessaires pour régler l’impact des rectifications apportées par la tutelle. Comment « régulariser » les rectifications dans l’exercice en cours ? Quelques cas concrets. 1. Rejet définitif d’une dépense Le compte annuel 2024 se clôturait avec un résultat de 2 541,58 euros. La commune a rejeté une dépense de 25 euros. Nouveau résultat : 2566,58 euros, car une dépense de moins. En 2025, ces 25 euros doivent retourner à la fabrique. ReligioSoft ajoute le compte de rectification de 25 euros, car le résultat du compte annuel 2024 augmente (en supposant qu’il n’y a pas d’autres rectifications). Les 25 euros s’ajoutent donc immédiatement aux moyens disponibles. Au moment où les 25 euros sont versés, vous les encodez comme un transfert interne du compte de rectification vers le compte bancaire suivant la logique de l’extrait bancaire. Vous n’encodez donc pas comme une recette comptable, car le montant ne peut être comptabilisé, étant donné qu’il est déjà pris en compte dans le résultat rectifié de l’exercice 2024. L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be 9 Pour les rejets provisoires (à réencoder sur un exercice ultérieur), le trésorier pourra réinscrire le montant via le journal du compte de rectification à l’art. D62A des dépenses. 2. Recette encodée dans le mauvais exercice Le compte annuel 2024 se clôturait avec un résultat de 3 647,12 euros. La commune a constaté que la fabrique a déjà encodé en 2024 une partie du supplément communal ordinaire pour 2025 : 1 000 euros. Nouveau résultat : 2 647,12 euros. En 2025, ces 1 000 euros devront être encodés sur le compte 2025. ReligioSoft ajoute le compte de rectification de -1 000 euros, car le résultat comptable a diminué. Les moyens disponibles diminuent donc, mais la fabrique devra « comptabiliser » en 2025 le supplément communal de 1 000 euros. Comment ? Via le compte de rectification, la fabrique encode une recette de 1 000 euros qui représente la part du supplément communal encodée erronément en 2024. Le résultat augmentera en 2025. Remarquez qu’il est impossible de réencoder le même montant via le compte à vue, car l’écriture de 2024 (pour le même montant) s’y trouve encore et ne peut être supprimée étant donné que le journal de 2024 reste bloqué après la clôture du compte annuel 2024. Important : il faut exécuter ces mouvements bien avant la fin de l’exercice en cours. En toute logique, vous réglez immédiatement après avoir reçu la délibération communale. De cette façon, le compte de rectification sera à zéro et lors de la clôture de l’exercice en cours (2025), tout sera correct. Notre helpdesk vous donnera volontiers un coup de main en cas de besoin. Une fois le compte de rectification à zéro, vous pouvez l’archiver via le crayon rouge sur votre droite (sous « Comptes bancaires »). Cliquez sur le crayon rouge sur votre droite. Cochez « Archivé » … et sauvegardez. Astuce – Documentez dans la section « les observations du trésorier » ! Vous pouvez tout à fait ajouter une remarque concernant ces mouvements exceptionnels dans la section « observations » du compte annuel 2025 (sous « Comptes bancaires », vous pouvez compléter via le bouton « observations » sur votre gauche ou via les « tableaux » du compte annuel 2025). Vous y mentionnerez éventuellement la référence aux extraits bancaires afin de simplifier la vérification de ces opérations. 10 L’approbation du compte annuel 2024 – Vanden Broele – wallonie.religio.be",
+        "resume": "Le texte décrit les étapes à suivre pour rectifier les imperfections dans un compte annuel, en passant par les versions de la fabrique, de l'évêché et de la commune, jusqu'à la validation par le trésorier et la régularisation des rectifications via un compte de rectification.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "suivi/partage en ligne",
+            "tableaux",
+            "validation par le trésorier",
+            "compte de rectification",
+            "dépense rejetée",
+            "recette encodée",
+            "observations du trésorier"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Compte",
+                "D62A",
+                "Comptes"
+            ],
+            "montants": [],
+            "noms": [
+                "Remarquez qu’",
+                "Introduisez",
+                "Accueil",
+                "n’",
+                "n’encodez",
+                "Recette"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment introduire la date de validation par le trésorier ?",
+                "reponse": "Sous 'suivi/partage digital', introduisez la quatrième date et sauvegardez."
+            },
+            {
+                "question": "Que faire en cas de rejet d'une dépense par la commune ?",
+                "reponse": "Le montant rejeté doit être versé sur un compte de la fabrique et encodé par le trésorier."
+            },
+            {
+                "question": "Comment régulariser une recette encodée dans le mauvais exercice ?",
+                "reponse": "Utilisez un compte de rectification pour rétablir l'équilibre financier."
+            },
+            {
+                "question": "Comment archiver un compte de rectification ?",
+                "reponse": "Cochez 'Archivé' et sauvegardez sous 'Comptes bancaires'."
+            },
+            {
+                "question": "Où documenter les mouvements exceptionnels ?",
+                "reponse": "Ajoutez des remarques dans la section 'observations' du compte annuel pour simplifier la vérification."
+            }
+        ],
+        "etapes_processus": [
+            "Version de la fabrique",
+            "Version de l'évêché",
+            "Version de la commune",
+            "Validation par le trésorier",
+            "Régularisation via le compte de rectification"
+        ],
+        "relations": [
+            {
+                "concept": "Validation par le trésorier",
+                "description": "Détermine la version du compte annuel qui sera utilisée dans les étapes ultérieures."
+            },
+            {
+                "concept": "Compte de rectification",
+                "description": "Utilisé pour régulariser les rectifications comptables et financières."
+            },
+            {
+                "concept": "Observations du trésorier",
+                "description": "Section pour documenter les mouvements exceptionnels dans le compte annuel."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "06b. ApprobationDuCompteAnnuel2024.pdf",
+            "page_source": [
+                5,
+                12
+            ],
+            "date_extraction": "2025-05-27T12:20:15.904081"
+        }
+    }
+]

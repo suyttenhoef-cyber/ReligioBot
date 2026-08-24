@@ -1,0 +1,331 @@
+[
+    {
+        "id": "chapitre_1er_pourquoi_une_fiche_de_projet_",
+        "titre": "Chapitre 1er. Pourquoi une fiche de projet ?",
+        "chemin": "Chapitre 1er. Pourquoi une fiche de projet ?",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "Les fiches de projet (version 1 - mars 2025) Chapitre 1er. Pourquoi une fiche de projet ? 1 Chapitre 2. La création d’une fiche de projet 2 Chapitre 3. Le suivi des écritures 5 Chapitre 4. Le rapport 7",
+        "resume": "La section aborde l'importance des fiches de projet, mettant en avant leur utilité pour la gestion et le suivi des projets.",
+        "categorie": "Gestion de projet",
+        "mots_cles": [
+            "fiche de projet",
+            "création",
+            "suivi des écritures",
+            "rapport"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": []
+        },
+        "questions_frequentes": [
+            {
+                "question": "Pourquoi est-il important d'avoir une fiche de projet ?",
+                "reponse": "Une fiche de projet permet de centraliser les informations essentielles et de faciliter le suivi et la gestion du projet."
+            },
+            {
+                "question": "Quels sont les chapitres généralement présents dans une fiche de projet ?",
+                "reponse": "Les chapitres peuvent inclure la création du projet, le suivi des écritures, la réalisation du rapport, etc."
+            },
+            {
+                "question": "Comment peut-on utiliser la fiche de projet pour améliorer la communication ?",
+                "reponse": "En partageant la fiche de projet avec les parties prenantes, on favorise une meilleure compréhension et une communication efficace sur l'avancement du projet."
+            }
+        ],
+        "etapes_processus": [
+            "Création de la fiche de projet",
+            "Suivi des écritures",
+            "Réalisation du rapport"
+        ],
+        "relations": [
+            {
+                "concept": "Fiche de projet",
+                "description": "Document central regroupant les informations clés d'un projet."
+            },
+            {
+                "concept": "Suivi des écritures",
+                "description": "Processus de mise à jour régulière des informations relatives à l'avancement du projet."
+            },
+            {
+                "concept": "Rapport",
+                "description": "Document final résumant les résultats et les enseignements du projet."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "09. FichesDeProjet.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:01:49.096899"
+        }
+    },
+    {
+        "id": "chapitre_2_la_cration_dune_fiche_de_projet",
+        "titre": "Chapitre 2. La création d’une fiche de projet",
+        "chemin": "Chapitre 2. La création d’une fiche de projet",
+        "page_debut": 2,
+        "page_fin": 4,
+        "contenu_texte": "Chapitre 1er. Pourquoi une fiche de projet ? Dans son désir de simplifier la gestion comptable de toute fabrique d’église, ReligioSoft vous offre la possibilité de faire le suivi de toutes sortes de projets. La « fiche de projet » permet d’atteindre ce but, même lorsqu’il s’agit de projets pluriannuels. En gros, il peut exister deux raisons d’être pour les fiches de projet : 1. Le suivi des grosses réparations (et de tout autre projet important) est obligatoire et un document de suivi doit être ajouté au dossier du compte annuel. 2. Pour certains autres défis comptables, il s’avère parfois aussi utile de se servir d’une fiche de projet pour mieux pouvoir gérer la succession des écritures, même s’il n’existe aucune obligation juridique de partager ces informations en externe. Par exemple : - le suivi de toutes les recettes et dépenses liées à une propriété immobilière ; - le suivi des mouvements du patrimoine (placements, fondations, etc.) ; - le suivi des festivités de commémoration ; - … La fiche de projet simplifiera sans aucun doute votre analyse à long terme de tout groupement d’écritures. La logique de la fiche de projet est fort simple : 1. Vous créez une fiche (voir le chapitre 2). 2. Au fur et à mesure que vous encodez, vous couplez les écritures au projet souhaité (voir le chapitre 3). 3. Ensuite, vous pouvez télécharger le rapport de suivi (voir le chapitre 4). Commençons par la création d’une fiche de projet ! Les fiches de projet – Vanden Broele – wallonie.religio.be 1 Chapitre 2. La création d’une fiche de projet Les fiches de projets se trouvent sous la partie « Comptabilité ». Cliquez sur le bouton en haut de la page et, entre les différents outils comptables, vous trouvez « Projets ». Cliquez sur « Comptabilité ». Ensuite : « Projets ». Pour ajouter un nouveau projet, cliquez sur le bouton « ajouter un projet » en bas de page. Comme ailleurs dans le programme, il faut d’abord remplir quelques champs afin de bien détailler le projet ; ensuite vous sauvegardez. Pour ajouter un projet : cliquez en bas de page sur « ajouter un projet ». Attention – Le début du projet : quel exercice faut-il choisir ? Vous créez le projet via le premier exercice durant lequel le projet aura un impact dans le suivi comptable. Logiquement, c’est l’exercice de la première écriture du projet. Si vous faites le suivi pour un bâtiment à partir de 2025, vous ajoutez le projet en 2025. S’il y a déjà des écritures pour 2024 qui sont concernées, vous l’ajoutez plutôt en 2024. Le projet s’affichera dans les écritures suivant cette même logique. Vous pouvez changer d’exercice en cas de besoin : choisissez un autre exercice via le menu sur votre gauche, à côté du logo de ReligioSoft avant d’ajouter le projet. 2 Les fiches de projet – Vanden Broele – wallonie.religio.be",
+        "resume": "La section décrit l'importance de créer une fiche de projet pour simplifier la gestion comptable, en fournissant des exemples d'utilisation et des instructions pour créer un nouveau projet dans le logiciel ReligioSoft.",
+        "categorie": "Gestion de projet",
+        "mots_cles": [
+            "fiche de projet",
+            "suivi comptable",
+            "écritures",
+            "exercice comptable",
+            "logiciel ReligioSoft",
+            "gestion financière",
+            "rapport de suivi",
+            "projets pluriannuels",
+            "comptabilité",
+            "gestion des dépenses"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "wallonie.religio.be 1 Chapitre 2"
+            ],
+            "montants": [],
+            "noms": [
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Pourquoi est-il important de créer une fiche de projet ?",
+                "reponse": "La fiche de projet simplifie la gestion comptable en permettant de suivre les dépenses et recettes liées à un projet spécifique."
+            },
+            {
+                "question": "Comment ajouter un nouveau projet dans ReligioSoft ?",
+                "reponse": "Pour ajouter un nouveau projet, cliquez sur 'Comptabilité', puis sur 'Projets', et enfin sur 'Ajouter un projet' en bas de la page."
+            },
+            {
+                "question": "Comment choisir l'exercice de début du projet ?",
+                "reponse": "Il est recommandé de choisir l'exercice correspondant à la première écriture impactant le projet dans le suivi comptable."
+            },
+            {
+                "question": "Quels sont les types de projets pouvant être gérés avec une fiche de projet ?",
+                "reponse": "Les projets tels que les réparations importantes, la gestion immobilière, les placements financiers, les événements commémoratifs, etc., peuvent être gérés avec une fiche de projet."
+            },
+            {
+                "question": "Comment générer un rapport de suivi pour un projet ?",
+                "reponse": "Pour générer un rapport de suivi, suivez les étapes décrites dans le chapitre 4 du logiciel ReligioSoft."
+            }
+        ],
+        "etapes_processus": [
+            "Accéder à la section 'Comptabilité' dans ReligioSoft",
+            "Sélectionner 'Projets'",
+            "Cliquer sur 'Ajouter un projet'",
+            "Remplir les champs détaillant le projet",
+            "Sauvegarder les informations du projet"
+        ],
+        "relations": [
+            {
+                "concept": "Fiche de projet",
+                "description": "Outil permettant de suivre les dépenses et recettes liées à un projet spécifique pour simplifier la gestion comptable."
+            },
+            {
+                "concept": "Exercice comptable",
+                "description": "Période de temps durant laquelle les opérations financières d'une organisation sont enregistrées."
+            },
+            {
+                "concept": "Rapport de suivi",
+                "description": "Document généré pour analyser les performances et l'évolution d'un projet en termes financiers."
+            },
+            {
+                "concept": "Gestion financière",
+                "description": "Ensemble des activités visant à planifier, contrôler et suivre les ressources financières d'une entité."
+            },
+            {
+                "concept": "Logiciel ReligioSoft",
+                "description": "Plateforme informatique utilisée pour la gestion comptable et financière, offrant des fonctionnalités telles que la création de fiches de projet."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "09. FichesDeProjet.pdf",
+            "page_source": [
+                2,
+                4
+            ],
+            "date_extraction": "2025-05-27T12:01:54.912711"
+        }
+    },
+    {
+        "id": "chapitre_3_le_suivi_des_critures",
+        "titre": "Chapitre 3. Le suivi des écritures",
+        "chemin": "Chapitre 3. Le suivi des écritures",
+        "page_debut": 5,
+        "page_fin": 6,
+        "contenu_texte": "Parcourons les champs ! Le n° de projet : ce champ est créé automatiquement et reprend l’exercice et un numéro unique ; il n’y a rien à faire. Date : la date de création ou du début du projet. Statut : actif, sauf si vous archivez le projet après sa conclusion. Nom : le nom du projet – par exemple : « Remplacement toiture de l’église (2025) », « Jubilée 2025 », etc. Estimation : le budget global (pluriannuel) prévu pour le projet en question ; vous pourrez toujours modifier ce champ au besoin. Recettes antérieures : toute fiche de projet servira à faire le suivi des écritures (voir ci-dessous). Si jamais, il y a un historique antérieur (pour un exercice qui ne se trouve pas encodé dans le système), vous pouvez résumer le total des recettes de cette période préalable à l’encodage sur ReligioSoft dans cette case. Ce total sera pris en compte dans le rapport du projet. Par exemple, pour un projet à mi-chemin de son exécution, démarré en 2024, mais pour lequel vous encodez dans le système à partir du 1er janvier 2025, vous ajoutez la somme de toutes les recettes datant d’avant le 1er janvier 2025 dans ce champ. Dépenses antérieures : même logique que pour les recettes antérieures, mais pour les dépenses. Libellé : vous pouvez détailler, si nécessaire. Complétez le formulaire et sauvegardez. Le projet s’ajoute en haut de l’écran : Le projet existe dans le système. Vous pouvez toujours modifier les données de base du projet en cliquant sur l’icône du crayon rouge sur votre droite. Il est également possible de supprimer via la poubelle. Les trois lignes en rouge permettent le téléchargement du rapport complet des Les fiches de projet – Vanden Broele – wallonie.religio.be 3 écritures et le résumé du projet. Les totaux s’affichent également dans l’écran même, accompagnés de l’estimation globale que vous avez ajoutée dans le formulaire. Astuce – Archiver un projet Si le projet est finalisé et que vous n’avez plus besoin de la fiche, vous pouvez l’archiver en cliquant sur le petit crayon rouge à votre droite. Le formulaire de la fiche s’ouvre. Sous « statut » (sur votre droite dans le formulaire), choisissez « finalisé » et le projet n’apparaîtra plus lors de l’encodage. Vous pouvez toujours activer le projet à nouveau, au besoin. Cliquez sur le crayon rouge sur votre droite. Choisissez « Archivé » et sauvegardez. Le projet existe. Passons maintenant aux écritures ! 4 Les fiches de projet – Vanden Broele – wallonie.religio.be",
+        "resume": "Le suivi des écritures dans le système implique de renseigner des informations telles que le numéro de projet, la date, le statut, le nom du projet, l'estimation budgétaire, les recettes et dépenses antérieures, et d'archiver les projets une fois finalisés.",
+        "categorie": "Gestion de projet",
+        "mots_cles": [
+            "numéro de projet",
+            "statut",
+            "estimation",
+            "recettes",
+            "dépenses",
+            "archiver projet",
+            "formulaires",
+            "rapport complet",
+            "téléchargement",
+            "sauvegarde"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": [
+                "Estimation",
+                "Dépenses",
+                "Complétez",
+                "Recettes",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment archiver un projet une fois finalisé ?",
+                "reponse": "Pour archiver un projet, cliquez sur le crayon rouge à droite, choisissez 'finalisé' sous 'statut' et sauvegardez."
+            },
+            {
+                "question": "Comment modifier les données de base d'un projet existant ?",
+                "reponse": "Pour modifier les données d'un projet, cliquez sur l'icône du crayon rouge à droite du projet."
+            },
+            {
+                "question": "Comment ajouter des recettes ou dépenses antérieures à un projet ?",
+                "reponse": "Pour ajouter des recettes ou dépenses antérieures, saisissez les montants dans les champs correspondants du formulaire."
+            },
+            {
+                "question": "Comment télécharger le rapport complet des écritures d'un projet ?",
+                "reponse": "Pour télécharger le rapport complet, cliquez sur les trois lignes en rouge et choisissez l'option de téléchargement."
+            },
+            {
+                "question": "Comment activer un projet archivé ?",
+                "reponse": "Pour activer un projet archivé, cliquez sur le crayon rouge à droite, choisissez 'Archivé' et sauvegardez."
+            }
+        ],
+        "etapes_processus": [
+            "Renseigner les informations du projet dans le formulaire",
+            "Sauvegarder les données du projet",
+            "Archiver le projet une fois finalisé"
+        ],
+        "relations": [
+            {
+                "concept": "Recettes antérieures",
+                "description": "Montant total des recettes avant l'encodage dans le système, à inclure pour un suivi complet."
+            },
+            {
+                "concept": "Dépenses antérieures",
+                "description": "Montant total des dépenses avant l'encodage dans le système, à prendre en compte pour une gestion précise du projet."
+            },
+            {
+                "concept": "Archivage de projet",
+                "description": "Processus de mise en sommeil d'un projet finalisé pour le retirer de l'encodage actif."
+            },
+            {
+                "concept": "Téléchargement de rapport",
+                "description": "Possibilité d'obtenir un rapport détaillé des écritures du projet pour analyse ou archivage."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "09. FichesDeProjet.pdf",
+            "page_source": [
+                5,
+                6
+            ],
+            "date_extraction": "2025-05-27T12:02:00.482017"
+        }
+    },
+    {
+        "id": "chapitre_4_le_rapport",
+        "titre": "Chapitre 4. Le rapport",
+        "chemin": "Chapitre 4. Le rapport",
+        "page_debut": 7,
+        "page_fin": 9,
+        "contenu_texte": "Chapitre 3. Le suivi des écritures L’historique de tout projet se crée via les écritures mêmes. Lors de l’encodage, vous avez la possibilité de choisir n’importe quel projet que vous avez ajouté dans le programme, de sorte que l’écriture s’ajoute directement à l’historique du projet. Bref, encoder les écritures, c’est en même temps alimenter l’historique de vos projets. Pour coupler une écriture à un projet, vous vous servez – en toute logique – du champ « projet » : si vous cliquez dessus, tous les projets « actifs » pour cet exercice s’affichent. Vous sélectionnez le projet souhaité. Par exemple, lorsque vous recevez le subside extraordinaire : Sous le champ « Projet », la liste des projets en cours de réalisation s’affiche. Même chose pour le paiement de la facture pour le même projet : Dès que vous sauvegardez l’écriture, le lien entre l’écriture et le projet est établi : l’historique du projet se complète au fur et à mesure que vous encodez via les comptes bancaires. Astuce – Comment modifier l’historique d’un projet ? Si jamais vous voulez réaménager l’historique d’un projet, il suffira, en toute logique, de désélectionner le projet via les écritures mêmes. De la même façon, vous pouvez toujours ajouter un projet même après l’encodage et coupler toutes les écritures concernées. Voir ci-dessous. Les fiches de projet – Vanden Broele – wallonie.religio.be 5 Astuce – Les projets et les dettes/créances Si vous encodez via les dettes/créances (sous « Comptabilité ») plutôt que via les comptes bancaires directement, il est également possible de choisir un projet dans la liste. Le principe reste le même. Coupler les écritures à un projet APRÈS l’encodage des écritures Si vous avez déjà encodé une série d’écritures et que vous décidez après d’ajouter un projet, vous pouvez certainement y arriver sans trop de soucis : 1. Créez votre projet (voir le chapitre 2). 2. Ensuite, recherchez les écritures déjà encodées dans le système (voir l’astuce ci-dessous). 3. Cliquez sur une écriture pour la modifier. 4. Choisissez le projet désiré sous « projet ». 5. Sauvegardez. Cliquez sur l’écriture à modifier. Choisissez le projet souhaité. Sauvegardez. Astuce – Comment retrouver les écritures concernées ? Pour retrouver les écritures du projet, choisissez « Comptes bancaires » en haut de la page. Ensuite : - soit vous parcourez les différents comptes bancaires chronologiquement. Vous cliquez sur l’écriture que vous voulez ajouter au projet, vous indiquez le projet et vous sauvegardez ; - soit vous téléchargez l’exportation Excel du journal complet (sous « Comptes bancaires » sur votre gauche »), qui vous permettra de retrouver rapidement toute écriture sur base d’une date, d’un fournisseur, etc. Sur base du détail repris dans cette liste complète, vous pouvez retrouver les écritures dans le journal du compte bancaire en question ; vous modifiez l’écriture et vous sauvegardez. 6 Les fiches de projet – Vanden Broele – wallonie.religio.be Chapitre 4. Le rapport Après l’encodage des écritures, vous pouvez consulter le rapport du projet qui se trouve via « Comptabilité » sous « Projets ». Via « Comptabilité », cliquez sur « Projets ». Les projets que vous avez créés s’affichent, ainsi que l’état des lieux (le total des recettes et des dépenses). Sur votre droite, cliquez sur l’icône aux trois lignes rouges pour télécharger le rapport du projet : Cliquez sur les trois lignes rouges pour télécharger le rapport. Vous pouvez vous-même déterminer la période des écritures qui doit être affichée (par exercice). Ce rapport peut s’ajouter au dossier du compte annuel pour fournir une meilleure vue d’ensemble sur le progrès de tout projet. Pour les projets pluriannuels, toutes les écritures du début jusqu’à la fin seront reprises dans le rapport. Les fiches de projet – Vanden Broele – wallonie.religio.be 7",
+        "resume": "Le chapitre 4 traite de la consultation du rapport du projet après l'encodage des écritures, permettant de visualiser l'état financier du projet. Il explique comment accéder au rapport via la section 'Comptabilité' et comment personnaliser la période affichée.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "rapport du projet",
+            "état financier",
+            "consultation",
+            "Comptabilité",
+            "recettes",
+            "dépenses",
+            "exercice",
+            "projet pluriannuel",
+            "dossier du compte annuel",
+            "progression"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Comptes"
+            ],
+            "montants": [],
+            "noms": [
+                "Créez",
+                "Astuce"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment consulter le rapport du projet ?",
+                "reponse": "Vous pouvez accéder au rapport du projet via la section 'Comptabilité' sous 'Projets'."
+            },
+            {
+                "question": "Quelles informations sont disponibles dans le rapport ?",
+                "reponse": "Le rapport affiche le total des recettes et des dépenses du projet, ainsi que la possibilité de personnaliser la période affichée."
+            },
+            {
+                "question": "Comment ajouter le rapport au dossier du compte annuel ?",
+                "reponse": "Le rapport peut être ajouté au dossier du compte annuel pour offrir une vue d'ensemble sur le progrès du projet."
+            },
+            {
+                "question": "Quelles écritures sont incluses dans le rapport pour les projets pluriannuels ?",
+                "reponse": "Toutes les écritures du début jusqu'à la fin du projet sont reprises dans le rapport pour les projets pluriannuels."
+            },
+            {
+                "question": "Comment personnaliser la période des écritures affichées dans le rapport ?",
+                "reponse": "Vous pouvez déterminer la période des écritures à afficher en fonction de l'exercice financier du projet."
+            }
+        ],
+        "etapes_processus": [
+            "Accéder à la section 'Comptabilité' du programme",
+            "Sélectionner l'option 'Projets' pour consulter la liste des projets créés",
+            "Cliquer sur l'icône aux trois lignes rouges pour télécharger le rapport du projet",
+            "Personnaliser la période des écritures affichées selon l'exercice financier du projet",
+            "Ajouter le rapport au dossier du compte annuel pour une vue d'ensemble sur le progrès du projet"
+        ],
+        "relations": [
+            {
+                "concept": "rapport du projet",
+                "description": "Permet de visualiser le total des recettes et des dépenses d'un projet, ainsi que son évolution financière."
+            },
+            {
+                "concept": "dossier du compte annuel",
+                "description": "Le rapport du projet peut être ajouté au dossier du compte annuel pour fournir une vue d'ensemble plus détaillée sur la situation financière du projet."
+            },
+            {
+                "concept": "projet pluriannuel",
+                "description": "Toutes les écritures du début jusqu'à la fin du projet sont incluses dans le rapport pour les projets pluriannuels, offrant une vision globale sur la progression du projet sur plusieurs années."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "09. FichesDeProjet.pdf",
+            "page_source": [
+                7,
+                9
+            ],
+            "date_extraction": "2025-05-27T12:02:07.788796"
+        }
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "id": "chapitre_1er_introduction__la_situation_patrimoniale",
+        "titre": "Chapitre 1er. Introduction - la situation patrimoniale",
+        "chemin": "Chapitre 1er. Introduction - la situation patrimoniale",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "La situation patrimoniale (version 3 – août 2024) Chapitre 1er. Introduction – la situation patrimoniale 1 Chapitre 2. La situation patrimoniale dans ReligioSoft 2 2.1. Encoder les objets 2 2.2. Clôturer la situation patrimoniale 4 2.3. Mise à jour de la situation patrimoniale 8",
+        "resume": "Le chapitre d'introduction présente la situation patrimoniale dans ReligioSoft, abordant l'encodage des objets, la clôture et la mise à jour de cette situation.",
+        "categorie": "Gestion du patrimoine",
+        "mots_cles": [
+            "situation patrimoniale",
+            "ReligioSoft",
+            "encodage",
+            "clôture",
+            "mise à jour",
+            "objets"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": [
+                "Clôturer"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Qu'est-ce que la situation patrimoniale dans ReligioSoft ?",
+                "reponse": "C'est la gestion des objets patrimoniaux."
+            },
+            {
+                "question": "Comment encoder les objets dans ReligioSoft ?",
+                "reponse": "Il faut suivre la procédure d'encodage spécifiée."
+            },
+            {
+                "question": "Quand doit-on clôturer la situation patrimoniale ?",
+                "reponse": "La clôture se fait à la fin d'une période définie."
+            },
+            {
+                "question": "Comment mettre à jour la situation patrimoniale ?",
+                "reponse": "Il faut effectuer les ajustements nécessaires selon les changements."
+            },
+            {
+                "question": "Quelle est l'importance de la situation patrimoniale ?",
+                "reponse": "Elle permet de suivre et de contrôler les biens de l'entité."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Encodage des objets",
+                "description": "Nécessaire pour intégrer les biens dans le système."
+            },
+            {
+                "concept": "Clôture de la situation patrimoniale",
+                "description": "Marque la fin d'une période comptable."
+            },
+            {
+                "concept": "Mise à jour de la situation patrimoniale",
+                "description": "Essentielle pour refléter les changements récents."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "14. LaSituationPatrimoniale.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:02:20.365472"
+        }
+    },
+    {
+        "id": "chapitre_2_la_situation_patrimoniale_dans_religiosoft",
+        "titre": "Chapitre 2. La situation patrimoniale dans ReligioSoft",
+        "chemin": "Chapitre 2. La situation patrimoniale dans ReligioSoft",
+        "page_debut": 2,
+        "page_fin": 8,
+        "contenu_texte": "Chapitre 1er. Introduction – la situation patrimoniale Parmi les annexes à joindre obligatoirement au dossier du compte annuel (ainsi qu’au dossier du budget), il y a la situation patrimoniale. Celle-ci comprend, entre autres, le patrimoine financier et le patrimoine immobilier. Afin de permettre une mise à jour efficace et harmonisée des biens mobiliers et immobiliers de la fabrique, ReligioSoft a incorporé un outil de suivi consacré entièrement à cette partie de la comptabilité. La situation patrimoniale comprend quatre rubriques distinctes : 1. Les biens immobiliers : il est indispensable de mentionner les bâtiments et les terrains appartenant à la fabrique. Même si la fabrique n’est pas propriétaire, l’église et le presbytère font partie de la situation patrimoniale, avec une mention spécifique concernant la propriété et l’affectation. 2. Les biens mobiliers : l’idée n’étant pas de surcharger la liste avec toutes sortes d’objets qui n’ont aucun impact sur la situation patrimoniale, il suffit d’intégrer les objets précieux et les œuvres d’art que possède la fabrique. 3. Les placements et capitaux : les capitaux de la fabrique qui ne font pas partie des « moyens disponibles » sont répertoriés. Il est important de bien distinguer les genres : un compte d’épargne fait partie des « moyens disponibles » (le solde financier fait partie du résultat comptable) ou il s’incorpore dans la section des capitaux et placements (cet argent ne fait pas partie du solde comptable). Voir l’astuce ci-dessous. Les placements et capitaux des fondations seront également ajoutés dans cette catégorie (on mentionnera les charges de la fondation dans le détail). 4. Les emprunts et dettes : la situation patrimoniale resterait incomplète sans mention des éventuels emprunts et dettes de la fabrique. Il suffit de les insérer, avec leurs modalités précises, pour avoir une vue complète sur l’impact (ce qui se reflète en même temps dans le budget de la fabrique, au niveau des amortissements et/ou remboursements). Astuce – Les moyens disponibles et les placements et autres capitaux Pour beaucoup de fabriques, la distinction entre les moyens disponibles et la situation patrimoniale n’est pas nette. Très souvent, il y a un compte d’épargne qui comprend en même temps une partie du résultat comptable ainsi que des moyens « non comptabilisés » (qu’il vaut mieux isoler dans la section des placements). Si la scission entre ces deux catégories n’est pas nette, vous pourrez toujours préciser dans les « observations ». La situation patrimoniale – Vanden Broele – wallonie.religio.be 1 Chapitre 2. La situation patrimoniale dans ReligioSoft La logique globale est simple : la situation patrimoniale peut être introduite dans le système par l’encodage des différents objets. Automatiquement, un rapport pourra être téléchargé, que vous imprimerez et joindrez au dossier. La situation patrimoniale peut être couplée à une étape spécifique et archivée en ligne au moment où vous finalisez le compte ou le budget. Par la suite, vous pourrez toujours mettre à jour les objets et créer une nouvelle version de la situation patrimoniale (pour le nouveau budget ou le compte). De cette façon, vous aurez une série de versions de la situation patrimoniale au fur et à mesure que les exercices se succèdent. Il faut distinguer trois procédures dans le système : 1. Encodage des biens (premier encodage) - voir le point 2.1. 2. Clôture de la situation patrimoniale actuelle (pour le compte ou le budget) - voir le point 2.2. 3. Mise à jour de la situation patrimoniale - voir le point 2.3. => visionnez notre vidéo d’encodage de la situation patrimoniale sous la section « Aide ». 2.1. Encodage des biens Cliquez sur « comptabilité », ensuite « situation patrimoniale ». Les 4 boutons pour encoder se trouvent Pour encoder un objet, cliquez en bas de page. Cliquez dessus… sur un des boutons en bas de page. Les quatre boutons représentent les 4 rubriques distinctes de la situation patrimoniale. Remplissez le formulaire qui s’affiche et sauvegardez. Par type d’objet, il existe un Remplissez le formulaire (voir formulaire spécifique avec une les explications) et sauvegardez. série de champs. Parcourons les champs communs (c’est le volet de gauche du formulaire). 2 La situation patrimoniale – Vanden Broele – wallonie.religio.be • Intitulé : le « nom » de l’objet ; • Numéro unique : s’il existe déjà un inventaire, vous pouvez insérer l’identifiant unique de cette liste ; • Date d’acquisition : ce champ est obligatoire ; si la date précise n’est pas connue, vous insérez plutôt une date approximative (par ex. : 01/01/1920); • Valeur/montant : si la valeur est vraiment connue, introduisez-la dans ce champ ; sinon vous laissez vide ; voir aussi l’astuce ci-dessous ; • Mise à jour : lorsque vous mettez à jour, introduisez la date de la mise à jour afin de pouvoir vérifier toute mise à jour par la suite ; • Description : une petite description afin de pouvoir clairement identifier l’objet ; • Fondation : si l’objet (placement, terrain, bâtiment) fait partie d’une fondation, il faudra en stipuler les modalités ; • Statut : si un objet doit être supprimé de la liste, vous pouvez indiquer via le champ « statut » ; sinon c’est toujours « actif ». Un objet « supprimé » sera repris dans une catégorie séparée dans le rapport de la situation patrimoniale et ne s’affichera plus dans la liste de la mise à jour suite à la clôture de cette étape. Astuce – La valeur des objets repris dans la situation patrimoniale Le but de la situation patrimoniale étant de faire le suivi des biens de la fabrique afin de garantir la continuité de façon transparente, il n’est pas envisagé de faire estimer la valeur des objets pour lesquels il n’existe pas d’indication fondée (par exemple, pour la plupart des objets précieux et les œuvres d’art). Pour les terrains et les bâtiments, la mention du bien suffit. Pour les placements, et éventuellement aussi pour les biens récemment acquis, il est logique de toujours mentionner la valeur précise. Par catégorie, il y a également une série de champs supplémentaires, propres à la rubrique. Ces champs s’affichent dans le volet sur votre droite dans le formulaire. Biens immobiliers : • Ajoutez les données du cadastre ainsi que l’adresse. • Un champ spécifique est prévu pour le propriétaire. • N’oubliez pas les revenus et les charges. • Si le bien est loué, mentionnez le locataire. La situation patrimoniale – Vanden Broele – wallonie.religio.be 3 Biens mobiliers : • Le n° IRPA : c’est la référence vers la base de données de l’IRPA. • Pour les biens mobiliers, il est indispensable de mentionner la localisation précise. • Les champs « propriétaire » et « dépositaire » vous permettent de bien distinguer ce qui appartient à la fabrique ou pas. Placements et capitaux : • Il suffit de mentionner les références aux documents de la banque. • N’oubliez pas les détails spécifiques du placement (durée, taux d’intérêts et l’échéance). Emprunts et dettes : • Même principe que pour les placements : insérez les références au dossier de la banque. • Mentionnez les détails spécifiques de l’emprunt. Au fur et à mesure que vous encodez les objets, la liste se complète : Pour télécharger le rapport Pour corriger un objet, cliquez sur complet, cliquez sur le bouton le crayon rouge sur votre droite. noir sur votre gauche. Astuce – Erreur d’encodage ? Corrigez via le crayon ! Pour corriger une éventuelle erreur, cliquez sur le crayon sur votre gauche. Modifiez les champs et sauvegardez. Via le bouton noir sur votre gauche, vous pouvez télécharger le rapport complet de la situation patrimoniale actuelle (mise à jour). Dès que la liste est parfaitement à jour, vous pouvez la clôturer. 4 La situation patrimoniale – Vanden Broele – wallonie.religio.be 2.2. Clôturer la situation patrimoniale actuelle Si vous mettez à jour la situation patrimoniale, c’est pour la joindre au dossier d’un budget ou d’un compte. Par étape (budget ou compte), il y aura donc dans le système une version distincte de la situation patrimoniale. Une fois que vous avez encodé et/ou modifié les objets, vous pouvez clôturer la version actuelle de la situation patrimoniale et la coupler à une étape de la comptabilité (budget/compte). Vous ne clôturerez que si tout est complet. Dès que la liste est à jour, vous pouvez la clôturer via le bouton rouge sur votre gauche. Sur votre gauche, cliquez sur le bouton rouge « clôturer cette version ». Dans le formulaire qui s’affiche, vous pouvez spécifier de quelle version il s’agit : 1. Choisissez l’étape via le menu déroulant. 2. Introduisez la date de validation (la date à laquelle la version est à jour). 3. Dans le champ en bas, avec les observations, vous pouvez introduire vos éventuelles remarques concernant cette mise à jour ; celles-ci seront reprises dans le rapport de la situation patrimoniale. 4. Sauvegardez. Important ! En clôturant/sauvegardant cette version, celle-ci sera partagée avec les autorités de tutelle via le module de la commune et celui de l’évêché. Dès que vous sauvegardez, vous pouvez retourner à la liste actuelle des objets (que vous venez de mettre à jour) ou consulter les archives, où se trouve maintenant la version clôturée. La version clôturée s’affiche dans les archives ! La situation patrimoniale – Vanden Broele – wallonie.religio.be 5 • Pour modifier le détail de la version clôturée : cliquez sur le crayon (sur votre droite). • Pour consulter la liste des objets : cliquez sur les trois lignes rouges (sur votre droite). • Pour télécharger le rapport : cliquez sur le bouton gris (sur votre droite). • Pour supprimer une version clôturée : cliquez sur la poubelle (sur votre droite). Par exercice, vous aurez en principe deux versions de la situation patrimoniale : une pour le budget et encore une en fin d’exercice, pour le compte annuel. Toutes les versions antérieures resteront stockées dans le système : vous y aurez toujours accès via les archives. Astuce – Partage en mode « consultation » avec le conseil de fabrique Si vous avez octroyé un droit de lecture aux autres fabriciens, ceux-ci pourront également consulter la situation patrimoniale via le système. Important ! Il n’est pas possible de modifier le détail des objets dans une version déjà clôturée. Il faudra supprimer cette version clôturée (via la poubelle), mettre à jour les objets via l’écran principal et clôturer à nouveau. 2.3. Mise à jour de la situation patrimoniale Après la clôture de la première version de la situation patrimoniale, vous mettrez à jour la situation patrimoniale au moment où un nouveau dossier est préparé (pour le compte ou le budget). Il suffira de modifier les objets qui ont subi des changements depuis la dernière mise à jour et de clôturer à nouveau la situation patrimoniale mise à jour. Parcourons les démarches : 1. Cliquez sur « Comptabilité », ensuite « Situation patrimoniale ». 2. Dans la liste qui s’affiche, vérifiez si tout est correct. 3. Pour consulter/modifier un objet : cliquez sur le crayon rouge en bout de ligne. 4. Si vous modifiez un objet, n’oubliez pas de spécifier la date de la mise à jour. 5. Pour ajouter un objet, cliquez sur un des boutons en bas de page. 6. Si un objet ne fait plus partie de la situation patrimoniale, indiquez « supprimé » dans le champ « statut ». Le rapport le mentionnera alors explicitement comme « objet supprimé depuis la dernière mise à jour » et l’objet ne sera plus repris par la suite. 7. Si tout est à jour, cliquez sur « clôturer cette version » (voir les explications sous le point 2.2. ci-dessus) et téléchargez ensuite le rapport. 6 La situation patrimoniale – Vanden Broele – wallonie.religio.be",
+        "resume": "La section décrit la gestion de la situation patrimoniale dans ReligioSoft, incluant les biens immobiliers, les biens mobiliers, les placements et capitaux, ainsi que les emprunts et dettes. Le processus implique l'encodage des biens, la clôture de la situation patrimoniale actuelle et la mise à jour régulière des objets.",
+        "categorie": "Gestion patrimoniale",
+        "mots_cles": [
+            "ReligioSoft",
+            "biens immobiliers",
+            "biens mobiliers",
+            "placements",
+            "emprunts",
+            "clôture",
+            "encodage",
+            "mise à jour",
+            "comptabilité",
+            "processus"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "wallonie.religio.be 1 Chapitre 2",
+                "Vanden Broele",
+                "IRPA",
+                "Description"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Mentionnez",
+                "Astuce",
+                "Modifiez",
+                "Numéro",
+                "n’",
+                "Biens"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quels éléments sont inclus dans la situation patrimoniale dans ReligioSoft ?",
+                "reponse": "Les biens immobiliers, les biens mobiliers, les placements et capitaux, ainsi que les emprunts et dettes."
+            },
+            {
+                "question": "Comment clôturer une version de la situation patrimoniale ?",
+                "reponse": "Cliquez sur le bouton 'clôturer cette version', spécifiez l'étape et la date de validation, ajoutez des observations si nécessaire, puis sauvegardez."
+            },
+            {
+                "question": "Comment mettre à jour la situation patrimoniale dans ReligioSoft ?",
+                "reponse": "Vérifiez les objets, modifiez si nécessaire en spécifiant la date de mise à jour, ajoutez de nouveaux objets si besoin, indiquez les objets supprimés, puis clôturez la version et téléchargez le rapport."
+            },
+            {
+                "question": "Quelle est l'importance de distinguer les moyens disponibles des placements et capitaux ?",
+                "reponse": "Cette distinction permet une gestion transparente des ressources financières de la fabrique et une meilleure compréhension de l'impact financier."
+            },
+            {
+                "question": "Comment corriger une erreur d'encodage dans la situation patrimoniale ?",
+                "reponse": "Cliquez sur l'icône du crayon pour modifier les champs erronés, puis sauvegardez les modifications."
+            }
+        ],
+        "etapes_processus": [
+            "Encodage des biens",
+            "Clôture de la situation patrimoniale actuelle",
+            "Mise à jour de la situation patrimoniale"
+        ],
+        "relations": [
+            {
+                "concept": "Biens immobiliers",
+                "description": "Inclut les bâtiments et terrains de la fabrique avec des détails sur la propriété et l'affectation."
+            },
+            {
+                "concept": "Biens mobiliers",
+                "description": "Comprend les objets précieux et les œuvres d'art possédés par la fabrique."
+            },
+            {
+                "concept": "Placements et capitaux",
+                "description": "Répertorie les capitaux de la fabrique et les placements, en distinguant les moyens disponibles des ressources non comptabilisées."
+            },
+            {
+                "concept": "Emprunts et dettes",
+                "description": "Mentionne les éventuels emprunts et dettes de la fabrique avec leurs modalités précises."
+            },
+            {
+                "concept": "Clôture de la version",
+                "description": "Permet de finaliser une version de la situation patrimoniale et de la partager avec les autorités de tutelle."
+            },
+            {
+                "concept": "Mise à jour des objets",
+                "description": "Processus de modification des biens existants, d'ajout de nouveaux objets et de suppression des objets obsolètes dans la situation patrimoniale."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "14. LaSituationPatrimoniale.pdf",
+            "page_source": [
+                2,
+                8
+            ],
+            "date_extraction": "2025-05-27T12:02:29.273349"
+        }
+    }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "chapitre_1er_introduction_le_budget_volue",
+    "titre": "Chapitre 1er. Introduction - Le budget évolue",
+    "chemin": "Chapitre 1er. Introduction - Le budget évolue",
+    "page_debut": 1,
+    "page_fin": 2,
+    "contenu_texte": "La modification budgétaire (version 2025) Chapitre 1er. Introduction – Le budget évolue 1 Chapitre 2. La modification budgétaire dans ReligioSoft 3 2.1. Créer la modification budgétaire 3 2.2. Ajouter les majorations et diminutions 5 2.3. Imprimer le rapport 8 2.4. Le suivi/partage de la modification budgétaire 10 Annexe 1 – La délibération « automatisée » 12",
+    "resume": "Le chapitre 1 introduit la modification budgétaire version 2025 dans ReligioSoft, détaillant la création, l'ajout de majorations/diminutions, l'impression du rapport et le suivi/partage de la modification. Une délibération automatisée est présentée en annexe.",
+    "categorie": "Gestion budgétaire",
+    "mots_cles": [
+      "modification budgétaire",
+      "ReligioSoft",
+      "création",
+      "majorations",
+      "diminutions",
+      "impression rapport",
+      "suivi",
+      "partage",
+      "délibération automatisée"
+    ],
+    "entites": {
+      "dates": [],
+      "organisations": [],
+      "montants": [],
+      "noms": [
+        "Imprimer"
+      ]
+    },
+    "questions_frequentes": [
+      {
+        "question": "Comment créer une modification budgétaire dans ReligioSoft ?",
+        "reponse": "Dans ReligioSoft, allez dans « Accueil > Budget en cours », puis cliquez sur « Apporter des modifications au budget ». Remplissez la date, le titre (ex. MB1), et ajoutez vos observations. N'oubliez pas de sauvegarder."
+      },
+      {
+        "question": "Comment ajouter des majorations et diminutions dans la modification budgétaire ?",
+        "reponse": "Cliquez sur le bouton « Tableaux » à droite de l’écran. Dans la colonne « Modification », introduisez les montants à majorer ou diminuer. Cliquez sur l’icône rouge pour ajouter une explication, puis sauvegardez."
+      },
+      {
+        "question": "Comment imprimer le rapport de la modification budgétaire ?",
+        "reponse": "Une fois les chiffres complétés et sauvegardés, cliquez sur le bouton noir à gauche intitulé « rapport de la modification » pour télécharger le rapport."
+      },
+      {
+        "question": "Comment suivre et partager la modification budgétaire ?",
+        "reponse": "Sous « suivi/partage de la modification », complétez la date de la séance du conseil de fabrique. Cela verrouille les chiffres et rend le rapport disponible pour les autorités de tutelle."
+      },
+      {
+        "question": "Qu'est-ce que la délibération automatisée en annexe ?",
+        "reponse": "L'annexe 1 présente la délibération automatisée, un outil complémentaire pour la gestion budgétaire."
+      }
+    ],
+    "etapes_processus": [
+      "Créer la modification budgétaire",
+      "Ajouter les majorations et diminutions",
+      "Imprimer le rapport",
+      "Suivre et partager la modification budgétaire"
+    ],
+    "relations": [
+      {
+        "concept": "Modification budgétaire",
+        "description": "Processus central décrit dans le chapitre 1 et détaillé dans le chapitre 2."
+      },
+      {
+        "concept": "ReligioSoft",
+        "description": "Plateforme logicielle utilisée pour la gestion budgétaire selon le contenu."
+      },
+      {
+        "concept": "Délibération automatisée",
+        "description": "Outil présenté en annexe pour automatiser certaines tâches liées à la gestion budgétaire."
+      }
+    ],
+    "confiance": 0.9,
+    "metadonnees": {
+      "source_pdf": "08. ModificationBudgétaire 2025.pdf",
+      "page_source": [
+        1,
+        2
+      ],
+      "date_extraction": "2025-05-27T12:01:28.482670"
+    },
+    "exemples_utilisation": [],
+    "alertes": [],
+    "liens_intersections": [],
+    "niveau_utilisateur": "intermédiaire",
+    "importance": "moyenne"
+  },
+  {
+    "id": "chapitre_2_la_modification_budgtaire_dans_religiosoft",
+    "titre": "Chapitre 2. La modification budgétaire dans ReligioSoft",
+    "chemin": "Chapitre 2. La modification budgétaire dans ReligioSoft",
+    "page_debut": 3,
+    "page_fin": 11,
+    "contenu_texte": "Chapitre 1er. Introduction – Le budget évolue Tout trésorier se voit confronté au défi incessant de la planification. Heureusement, le budget n’est pas immuable : vous avez la possibilité d’apporter des modifications au budget (initial) approuvé par la commune. Tout comme pour le budget, toute modification budgétaire vise à être le reflet réel de ce qui est envisagé. Il n’est pas opportun d’ajouter des prévisions pour des dépenses ou recettes dont on sait qu’elles ne seront jamais réalisées. L’idéal serait de ne pas devoir recourir à une modification budgétaire – ou de les limiter. Mieux le budget initial est préparé, moins on aura de surprises en cours d’exercice. Un suivi proactif au niveau du compte annuel peut également réduire la multiplication des dépassements de budget : lors de la préparation de tout nouveau budget, il est logique de prendre en compte les évolutions du dernier compte annuel. Quoi qu’il arrive, il est toujours intéressant de limiter le nombre de modifications budgétaires par exercice et donc de tenter de regrouper tous les changements à apporter au sein d’une seule modification budgétaire qui, traditionnellement, est transmise au mois de septembre ou peu avant la date limite de la transmission à la tutelle (la mi-octobre). Le dossier de la modification budgétaire comprend au moins deux documents : 1. La modification budgétaire (avec le tableau affichant les changements apportés au budget) ; 2. La délibération du conseil de fabrique (voir l’annexe 1re au présent dossier pour savoir comment télécharger dans le logiciel). Signalons encore qu’il faut distinguer deux types de changements au budget (et donc deux types de procédure) : 1. Les « ajustements internes » : les ajustements internes concernent les dépenses au service ordinaire. Il est permis de changer les prévisions à l’intérieur du chapitre II, section ordinaire (articles D16 – D50), donc sans en impacter le total, mais uniquement s’il y avait déjà un crédit prévu aux articles en question. Les ajustements internes sont envoyés aux autorités de tutelle concernées en annexe du compte annuel. Il s’agit normalement d’une simple liste reprenant les changements apportés et le solde total (et inchangé) du chapitre concerné. 2. Les « vraies » modifications budgétaires : tout changement apporté au budget qui ne respecte pas les critères des « ajustements internes » est une « vraie » modification budgétaire (article sans prévision, prévisions extraordinaires, dépassement du chapitre, etc.). Astuce – Vous n’avez jamais entendu parler d’un ajustement interne ? C’est bien possible, car la pratique n’est pas générale : un tiers des trésoriers ne connaît pas cette façon de faire. Traditionnellement, les trésoriers qui ne connaissent pas l’ajustement interne ne modifient pas leur budget pour ces « petits dépassements », qui n’impactent en rien le total prévu au niveau du chapitre : ils se limitent à en justifier l’origine dans les observations en annexe du compte annuel. C’est une approche différente. Dans ce manuel, nous nous limitons à ces vraies modifications budgétaires. Pour plus d’infos relatives aux ajustements internes, voir le dossier sur le compte annuel. La modification budgétaire – Vanden Broele – wallonie.religio.be 1 Une vue complète sur les dépassements Pour obtenir un aperçu complet de tous les dépassements (réels ou imminents), consultez le compte Cliquez sur « Accueil », ensuite annuel (via « Accueil » ou « Compte annuel 2025 » en bas. « Comptabilité » - cliquez ensuite sur « tableaux » sur votre droite). Ensuite : « tableaux » (de la fabrique). Il s’affiche les tableaux complets du compte en cours. Les dépassements virtuels sur base des factures s’affichent en orange, les dépassements réels en rouge. Pour consulter les transactions par article, cliquez sur l’icône aux trois lignes rouges. Les lignes en dépassement sont toujours indiquées en rouge. Pour les trésoriers qui encodent aussi les factures (avant le paiement), les lignes en orange concernent des dépassements « imminents », c’est-à-dire qui sont imminents, tant que les factures n’ont pas été apurées dans le système, mais qui deviendront « réels » une fois les paiements réglés (et encodés). Si vous avez un doute quant à la situation d’un article, téléchargez l’historique de l’article via l’icône aux trois lignes rouges. Astuce – Détecter les dépassements lors de l’encodage du journal Lors de l’encodage des écritures, le logiciel vous signale également l’état des lieux de l’article sélectionné. Tout dépassement « réel » ou « imminent » sera clairement marqué dans le formulaire de la dépense. Là aussi, vous pouvez toujours télécharger la liste avec les transactions par article (l’icône rouge s’affiche en haut). 2 La modification budgétaire – Vanden Broele – wallonie.religio.be Chapitre 2. La modification budgétaire dans ReligioSoft La procédure pour introduire une modification budgétaire dans ReligioSoft est des plus simples. Voici les quatre étapes : 1. Créer la modification budgétaire 2. Ajouter les majorations et diminutions 3. Imprimer le rapport 4. Et après ? Le suivi/partage de la modification budgétaire 2.1. Créer la modification budgétaire Sous « Accueil », choisissez le budget en cours. Vous pourrez ensuite apporter des modifications et en faire le suivi, au fur et à mesure que vous recevrez les décisions des autorités de tutelle. Sous « Accueil », cliquez sur le budget en cours. Les 4 étapes du budget initial s’affichent. Pour ajouter une modification, cliquez sur « Apporter des modifications au budget ». Astuce 1 – Modification budgétaire et budget initial Avant d’introduire une modification budgétaire, il faut que le budget initial soit approuvé dans le logiciel. ReligioSoft vous avertit si ce n’est pas le cas. Il suffira d’ajouter les éventuelles rectifications de la tutelle via le bouton « tableaux » pour ensuite introduire les dates qui manquent. Dès que la date de validation du trésorier est encodée (la date à laquelle le trésorier confirme qu’il est d’accord avec la décision de la commune), vous pouvez, en toute logique, ajouter une modification budgétaire qui prendra comme point de départ les chiffres du budget initial, tels que rectifiés/approuvés par la commune. La modification budgétaire – Vanden Broele – wallonie.religio.be 3 Astuce 2 – Encore une modification budgétaire ? Bien qu’il ne soit pas opportun de multiplier les modifications budgétaires, il est possible d’en avoir besoin de plus d’une lors d’un seul exercice. Dans ReligioSoft, vous pouvez tout à fait en préparer plusieurs : l’important est surtout de garantir que la version de la modification budgétaire qui précède soit définitivement approuvée (et verrouillée dans le système, grâce à la validation par le trésorier, qui introduit la date). Pour le reste, la logique est la même pour toutes les modifications budgétaires. Cliquez sur « apporter des modifications au budget », un formulaire vous permettant de créer la modification budgétaire s’affiche. Vous y complétez la date (la date à laquelle vous ajoutez la modification budgétaire) et introduisez ensuite le titre. 1. Remplissez la date de la création de la modification budgétaire. 2. Ajoutez l’intitulé (MB 1, MB 2, etc.). 3. Il est possible d’ajouter un texte permettant de préciser les circonstances précises qui ont mené à la modification budgétaire que vous préparez. 4. Sauvegardez. Vous avez la possibilité d’ajouter toutes vos observations et explications concernant cette modification budgétaire dans la case en-dessous. Ce texte sera repris dans le rapport de la modification budgétaire, justement afin de fournir le contexte « en lettres » pour mieux cadrer les chiffres. Astuce 1 – Les observations et explications écrites Nous proposons de préparer ce texte sur votre ordinateur local et de le copier/coller ensuite dans cette case. N’oubliez surtout pas de « sauvegarder » si vous modifiez. Astuce 2 – Est-il obligatoire de prévoir un texte d’accompagnement ? Il est logique de motiver les changements que vous apportez au budget. Il y a deux méthodes possibles dans le logiciel (que vous pouvez tout à fait combiner) : • celle d’ajouter un texte global dans la case mentionnée ci-dessus ; • celle de motiver, article par article, ce qui vous pousse à revoir les prévisions initiales approuvées par les autorités de tutelle ; nous y reviendrons ci-dessous dans la partie sur l’élaboration des chiffres. Si la modification comporte une série de changements divers sans le moindre lien entre les articles concernés, il vaut mieux détailler article par article. Si, par contre, la modification concerne une série de changements ayant une seule et même origine, il est conseillé d’en décrire la nature dans une note stratégique pour ensuite en détailler l’impact au niveau des articles individuels, article par article. Vous pouvez toujours compléter cette section par la suite. Vous y aurez toujours accès. 4 La modification budgétaire – Vanden Broele – wallonie.religio.be Une fois le formulaire dûment rempli, sauvegardez : un bloc supplémentaire apparaît immédiatement dans l’écran avec le budget. Vous trouvez alors, en haut le budget (avec ses 4 étapes complétées), et en bas, un bloc quasiment identique, reprenant également les 4 étapes (non encore complétées, évidemment). Et voilà le nouveau bloc reprenant les quatre étapes de la modification budgétaire ! La logique du suivi est partout la même : on commence avec la version de la fabrique, ensuite la version de l’évêché et celle de la commune. La quatrième étape est cruciale : le trésorier valide alors les éventuelles rectifications apportées par les autorités de tutelle. Si cette dernière étape manque, ce sont les chiffres initiaux qui seront maintenus (ceux de la fabrique). Astuce – Le point de départ de la modification budgétaire La modification budgétaire que vous ajoutez prend comme point de départ la dernière version de la dernière étape : en principe, c’est la version du budget initial après approbation par la commune (approbation qui doit être validée par le trésorier dans le système) ou bien la version de la modification budgétaire après approbation par la commune (également validée par le trésorier dans le système). Si l’approbation de la commune de la dernière version du budget n’est pas complétée, la modification budgétaire n’en tiendra pas compte. 2.2. Ajouter les majorations et diminutions La modification budgétaire est visible. Il vous faut maintenant la compléter. Cliquez sur le bouton « tableaux » sur votre droite pour modifier les chiffres à partir du budget initial (ou de la modification précédente). Sur votre droite, cliquez sur « Tableaux » pour ensuite modifier les chiffres du budget. Les tableaux complets sont affichés. La modification budgétaire – Vanden Broele – wallonie.religio.be 5 Pour modifier les chiffres du budget, introduisez les majorations/diminutions dans la colonne qui est prévue : « Modification ». Sur votre droite s’affiche le budget modifié. S’affichent (de gauche à droite) : 1. Le budget (avant modification !) 2. Le compte en cours (sur base du journal encodé) 3. Le solde (budget – compte) (optionnel) 4. Les modifications : ici vous ajoutez les diminutions et les majorations 5. Le nouveau budget (après modification) 6. Les crédits disponibles après modification Astuce 1 – Les dépassements Tout comme dans les tableaux du compte annuel, les dépassements sont affichés en rouge (dépassements réels) ou en orange (dépassements imminents, pour les trésoriers qui encodent aussi les factures dans le logiciel). Dès que la majoration que vous introduisez efface le dépassement, le rouge disparaît dans la colonne reprenant le solde disponible. Astuce 2 – Dettes et créances « engagées » Si vous encodez sur base des dettes et créances, vous pouvez ajouter des colonnes pour qu’apparaissent les montants engagés (non encore apurés) : vous cochez dans le menu sur votre gauche. Il suffit de modifier les montants par article sans toucher aux totaux : le logiciel complète les autres niveaux automatiquement et calculera le nouveau supplément communal ordinaire (article R17). Ce supplément ne peut pas être modifié directement ! Sur votre droite, vous pouvez ajouter une petite explication concernant le changement de la prévision. Cliquez sur l’icône en rouge : Cliquez sur l’icône en rouge sur votre droite. Ajoutez quelques mots pour expliquer pourquoi la prévision doit être modifiée. Cliquez sur « OK ». 6 La modification budgétaire – Vanden Broele – wallonie.religio.be La justification par article sera alors automatiquement reprise dans le rapport (voir ci-dessous). Vous avez la liberté de préparer une modification budgétaire sans la finaliser. Vous pouvez la compléter et l’imprimer à tout moment. Attention – Sauvegarder ! N’oubliez pas de sauvegarder vos données au fur et à mesure que vous ajoutez les majorations et diminutions. Si vous ne sauvegardez pas, tout changement apporté depuis la dernière fois où vous avez cliqué le bouton « sauvegarder » sera perdu. Astuce – Le résultat présumé : peut-on le modifier ? Non. En principe, on n’y touche jamais. Le SPW déconseille toute tentative de « corriger » le résultat présumé sur base du résultat de l’exercice récemment clôturé. Il est important de noter que le résultat « réel » de l’exercice précédant l’exercice sur lequel porte la modification budgétaire est déjà automatiquement repris dans le budget de deux exercices plus tard. Il ne faut donc certainement pas modifier le budget de l’exercice en cours, car le budget suivant tiendra déjà compte de toute évolution du résultat au niveau de ce compte. En tenir compte deux fois, c’est une fois de trop. Important ! 1. Il faut certainement se concerter avec la commune si une augmentation du supplément communal est nécessaire suite à l’ajout de certaines dépenses (ou si certains crédits pour des recettes prévues au budget initial doivent être diminués). 2. Pour les projets extraordinaires, suivez la même logique : l’impact au niveau du financement via la commune (ou via les autres pouvoirs impliqués) mérite d’être signalé au préalable. Astuce – Les balances Les balances du rapport sont accessibles directement via le bouton en haut sur votre droite. Vous y retrouvez le total des différents chapitres ainsi que les montants des articles clef (le supplément ordinaire, le résultat présumé, etc.). Sur votre gauche, le logiciel vous signale l’éventuelle augmentation du supplément communal. Pour avoir rapidement accès à la vue d’ensemble de la modification, cliquez sur « Balances » au-dessus des tableaux. Sur votre gauche, s’affiche l’éventuelle augmentation du supplément communal. La modification budgétaire – Vanden Broele – wallonie.religio.be 7 Finaliser la modification budgétaire Sous « suivi/partage de la modification », vous pouvez compléter la date de la séance du conseil de fabrique (même avant la réunion). Dès que vous remplissez la date de la séance du conseil, les chiffres de la modification budgétaire seront verrouillés et le rapport sera mis à disposition des autorités de tutelle (voir aussi sous le point 4. ci-dessous). Tant que la modification n’est pas définitive (au niveau de la fabrique), vous ne mettez pas encore la date. Sur votre gauche, vous pouvez télécharger le rapport. Via « suivi/partage de la modification », vous pouvez remplir la date de la séance du conseil de fabrique. Remplissez la date du conseil de fabrique. Ensuite, sauvegardez. 2.3. Imprimer le rapport Une fois les chiffres complétés et sauvegardés, vous pouvez télécharger le rapport complet afin de le faire signer par les fabriciens compétents : cliquez sur le bouton noir sur votre gauche. Cliquez sur « rapport de la modification » pour télécharger le rapport. 8 La modification budgétaire – Vanden Broele – wallonie.religio.be Astuce – Deux types de rapport ! Il existe deux types de rapports pour les modifications budgétaires : ➔ La version officielle comprend tous les articles du plan comptable officiel auxquels une modification a été apportée sans pour autant reprendre les articles propres à la fabrique que vous avez éventuellement ajoutés au plan comptable. ➔ La version « enrichie » reprend aussi les articles propres à la fabrique, si vous en avez ajouté au sein du plan comptable officiel. Important : dans tout rapport, l’article du supplément communal ordinaire (R17) est repris, même si celui-ci n’est pas impacté. Vous voyez toujours le détail. En principe, le trésorier se sert de la version officielle, la version enrichie étant plutôt utilisée en interne. Le rapport comprend 6 sections : 1. La page de garde mentionne les coordonnées de la fabrique et des mandataires, ainsi que l’étape de départ (le budget initial ou la modification qui précède). 2. Les observations et explications : il s’agit du texte de motivation « globale » pour la modification en question, que vous pouvez introduire via le bouton noir (ou via le formulaire global de la modification (voir ci-dessus)). 3. Le tableau avec tous les chiffres modifiés. 4. La motivation individuelle des majorations et diminutions (par article). 5. Les balances. 6. La section pour signer. La page d e garde reprend les coordonnées et compre nd les infos concernant les étapes antérieures. Ensuite, il y a les observations et le tableau avec les articles modifiés. La justification par article est reprise. La modification budgétaire – Vanden Broele – wallonie.religio.be 9",
+    "resume": "La section décrit la procédure de modification budgétaire dans ReligioSoft en quatre étapes simples : création de la modification, ajout des majorations et diminutions, impression du rapport, et finalisation avec le suivi et partage. Il est souligné l'importance de limiter les modifications budgétaires et de bien motiver les changements apportés.",
+    "categorie": "Gestion budgétaire",
+    "mots_cles": [
+      "modification budgétaire",
+      "ReligioSoft",
+      "ajustements internes",
+      "dépassements de budget",
+      "compte annuel",
+      "trésorier",
+      "budget initial",
+      "procédure",
+      "rapport de modification",
+      "suivi"
+    ],
+    "entites": {
+      "dates": [],
+      "organisations": [
+        "wallonie.religio.be 1",
+        "Dettes",
+        "MB 1",
+        "– Modification",
+        "Compte",
+        "SPW"
+      ],
+      "montants": [],
+      "noms": [
+        "Imprimer",
+        "Accueil",
+        "Astuce",
+        "vous préparez",
+        "Détecter"
+      ]
+    },
+    "questions_frequentes": [
+      {
+        "question": "Quelles sont les quatre étapes pour introduire une modification budgétaire dans ReligioSoft ?",
+        "reponse": "Les étapes sont : créer la modification, ajouter les majorations et diminutions, imprimer le rapport, et finaliser avec le suivi et partage."
+      },
+      {
+        "question": "Quelle est la différence entre les ajustements internes et les vraies modifications budgétaires ?",
+        "reponse": "Les ajustements internes concernent les dépenses au service ordinaire sans impacter le total, tandis que les vraies modifications incluent tout changement ne respectant pas ces critères."
+      },
+      {
+        "question": "Quand doit-on limiter le nombre de modifications budgétaires ?",
+        "reponse": "Il est recommandé de limiter le nombre de modifications et de regrouper les changements dans une seule modification transmise généralement en septembre ou avant la date limite de transmission à la tutelle."
+      },
+      {
+        "question": "Comment peut-on justifier les changements apportés au budget ?",
+        "reponse": "Il est conseillé de motiver les changements en ajoutant un texte global ou en détaillant les modifications article par article pour mieux cadrer les chiffres."
+      },
+      {
+        "question": "Quelle est l'importance de la validation par le trésorier dans le processus de modification budgétaire ?",
+        "reponse": "La validation par le trésorier garantit que les rectifications apportées par les autorités de tutelle sont prises en compte et que le rapport peut être partagé avec les autorités compétentes."
+      }
+    ],
+    "etapes_processus": [
+      "Créer la modification budgétaire",
+      "Ajouter les majorations et diminutions",
+      "Imprimer le rapport",
+      "Finaliser avec le suivi et partage"
+    ],
+    "relations": [
+      {
+        "concept": "Budget initial",
+        "description": "Point de départ pour toute modification budgétaire dans ReligioSoft."
+      },
+      {
+        "concept": "Ajustements internes",
+        "description": "Changements autorisés à l'intérieur du chapitre ordinaire sans impacter le total."
+      },
+      {
+        "concept": "Validation par le trésorier",
+        "description": "Étape cruciale pour garantir l'approbation des rectifications par les autorités de tutelle."
+      },
+      {
+        "concept": "Motivation des changements",
+        "description": "Nécessaire pour expliquer les raisons des modifications apportées au budget."
+      },
+      {
+        "concept": "Limite des modifications",
+        "description": "Recommandation de limiter le nombre de modifications pour assurer une gestion budgétaire efficace."
+      }
+    ],
+    "confiance": 0.98,
+    "metadonnees": {
+      "source_pdf": "08. ModificationBudgétaire 2025.pdf",
+      "page_source": [
+        3,
+        11
+      ],
+      "date_extraction": "2025-05-27T12:01:36.383012"
+    },
+    "exemples_utilisation": [],
+    "alertes": [],
+    "liens_intersections": [],
+    "niveau_utilisateur": "intermédiaire",
+    "importance": "élevée"
+  },
+  {
+    "id": "annexe_1_la_dlibration_automatise_",
+    "titre": "Annexe 1 - La délibération « automatisée »",
+    "chemin": "Annexe 1 - La délibération « automatisée »",
+    "page_debut": 12,
+    "page_fin": 15,
+    "contenu_texte": "Le tableau des balances vous offre une vue d’ensemble. En bas de page, il suffira d’ajouter encore les signatures. Astuce 1 – Les mandataires et les coordonnées de la fabrique Si les personnes ou coordonnées reprises dans le rapport ne sont pas correctes, vous pouvez toujours les corriger via la section « Ma fabrique » (sous « Accueil »). Astuce 2 – La date de la séance du conseil Si vous voulez que la date de la séance du conseil soit reprise sur le rapport, il suffit de la compléter via le bouton « suivi/partage » (sur votre gauche). Voir aussi les explications ci-dessous (2.4.). 2.4. Le suivi/partage de la modification budgétaire Suivant la logique des autres étapes, vous pouvez faire le suivi des modifications budgétaires de la même façon : sous « suivi/partage en ligne », vous remplissez les dates au fur à mesure que les différentes décisions (du conseil de fabrique, de l’évêché, de la commune) sont prises. Astuce – Qui encode dans le système les rectifications apportées par la tutelle ? ReligioSoft offre la possibilité à l’évêché et à la commune de le faire directement via leur tableau (le reste du dossier n’est pas partagé !) : leurs rectifications s’afficheront de votre côté et vous pourrez procéder à l’étape 4. Si votre commune ne se charge pas des rectifications dans le système, son tableau pourra être complété par vous-même sur base de la délibération communale. Dès que vous remplissez la date du conseil via « suivi/partage en ligne », le bouton devient vert. Téléchargez le rapport via l’icône PDF sur la droite. 10 La modification budgétaire – Vanden Broele – wallonie.religio.be Parcourons les quatre étapes ! 1. La version de la fabrique Dès que vous aurez introduit la date du jour, les chiffres de votre version seront bloqués et le document PDF de la modification budgétaire (et rien d’autre) sera mis à disposition des autorités de tutelle. Pour revenir en arrière, il suffira d’enlever la date, sauf si les autres acteurs ont déjà apportés des changements aux chiffres initiaux : dans ce cas-là, les chiffres ne seront plus accessibles. Pourtant, toute rectification ne sera définitive que si vous validez (voir l’étape 4). 2. La version de l’évêché L’évêché peut apporter tous ses changements via son module à lui. Logiquement, la commune en tiendra compte. Vous ne devez rien faire. 3. La version de la commune La version de la commune constitue en principe la version approuvée définitivement. Elle comprendra logiquement aussi les corrections apportées par l’évêché. Cette version n’est pas automatiquement définitive dans le logiciel. Il reste en effet possible de refuser les éventuelles rectifications. Voir l’étape 4. Si la commune ne se charge pas de l’encodage dans le système, vous pouvez compléter vous- même : 1. Cliquez sur « tableaux » dans la ligne de la commune. 2. Remplacez les chiffres corrigés par les nouveaux montants (il s’agit toujours du total de l’article, pas de la différence). 3. Sauvegardez. 4. Ensuite, introduisez la date de la décision de la commune via « suivi/partage » (sur votre gauche) et sauvegardez. 5. Complétez l’étape 4. 4. La validation par le trésorier Aucune approbation des autres acteurs n’est reprise automatiquement ailleurs dans le système. Il faut toujours remplir une date supplémentaire pour accepter la version approuvée par la commune (même si aucune rectification n’a été apportée). Ce mécanisme permet de refuser la version rectifiée. Dans ReligioSoft, vous suivez la même logique que dans la réalité, mais c’est la date qui détermine l’effet : • si vous êtes d’accord, ajoutez la date ; • si vous refusez, ne mettez pas la date. Si vous n’introduisez pas la date, le logiciel ne tiendra pas compte de la version de la commune, mais maintiendra partout les chiffres initiaux arrêtés par le conseil de fabrique. Astuce – Je n’accepte pas la version approuvée par la commune. Il faudra motiver. Bien que l’on n’encourage pas les recours, la possibilité existe et si vous n’êtes pas d’accord avec la décision de la tutelle, vous pouvez toujours y recourir. L’important, c’est de bien préparer tous les documents avant de les transmettre officiellement. Au besoin, une concertation au préalable lors de la préparation de la modification budgétaire vous permettra d’éviter les malentendus (et les recours). La modification budgétaire – Vanden Broele – wallonie.religio.be 11 Annexe 1 – La délibération « automatisée » Pour tout document que vous transmettez dans le cadre de la tutelle « spéciale » (le budget, la modification budgétaire et le compte annuel), il faut ajouter la délibération du conseil de fabrique qui statue sur le document qui sera transmis. Cette délibération est alors ajoutée en annexe au dossier. C’est obligatoire. ReligioSoft vous offre la possibilité de télécharger une proposition de délibération bien préparée, tout en vous laissant la liberté d’y apporter encore les changements nécessaires, selon les circonstances spécifiques. Dans les tableaux de la modification budgétaire (version fabrique), cliquez sur « proposition de délibération » (sur votre gauche) : La proposition de délibération s’affiche sur votre gauche. Le logiciel vous guide à travers quelques étapes et vous pourrez compléter le détail au fur et à mesure. Parcourons : 1. La composition du conseil de fabrique - présences et absences : vérifiez la composition et indiquez qui est absent lors du conseil. Si la composition n’est pas correcte, quittez (« annuler ») et choisissez « Ma fabrique » sous « Accueil » pour d’abord modifier la composition du conseil. Ensuite, vous pouvez recommencer. Si tout est ok, cliquez sur « Suivant ». 2. Les balances : le logiciel vous affiche le tableau des balances qui sera repris dans la délibération. Si le tableau n’est pas correct, vous pouvez toujours modifier les chiffres dans les tableaux. Si tout est correct, cliquez sur « Suivant ». 12 La modification budgétaire – Vanden Broele – wallonie.religio.be 3. La séance et le vote Remplissez les dates demandées et indiquez le vote (étape facultative). Ensuite, cliquez sur « Suivant ». 4. Les annexes En principe, il faut ajouter au dossier le tableau récapitulatif (qui fait partie du rapport financier). Vous pouvez modifier selon vos souhaits et signaler l’ajout d’autres pièces. Ensuite, cliquez sur « Suivant ». 5. Téléchargement Le travail est terminé. Vous pouvez maintenant télécharger le document Word via le bouton rouge en bas de page. Dans ce document Word, vous pouvez toujours modifier le texte selon vos souhaits avant impression. Et voilà le rapport ! Important ! La délibération n’est pas stockée dans le programme : il faut la télécharger et la sauvegarder sur votre ordinateur local. Dès que le document est signé, vous pouvez l’incorporer sous format numérisé dans la section « Délibérations » (sous « Accueil »). Évidemment, vous pouvez toujours parcourir la petite procédure à nouveau et refaire le document, si nécessaire. La modification budgétaire – Vanden Broele – wallonie.religio.be 13",
+    "resume": "La section décrit le processus automatisé de délibération pour les documents transmis dans le cadre de la tutelle, en guidant l'utilisateur à travers les étapes de préparation, de validation et de téléchargement des délibérations nécessaires.",
+    "categorie": "Gestion des documents administratifs",
+    "mots_cles": [
+      "délibération automatisée",
+      "modification budgétaire",
+      "tableau des balances",
+      "suivi/partage en ligne",
+      "version de la fabrique",
+      "version de l'évêché",
+      "version de la commune",
+      "validation par le trésorier",
+      "composition du conseil de fabrique",
+      "balances"
+    ],
+    "entites": {
+      "dates": [],
+      "organisations": [
+        "Annexe 1",
+        "ReligioSoft"
+      ],
+      "montants": [],
+      "noms": [
+        "Accueil",
+        "L’évêché"
+      ]
+    },
+    "questions_frequentes": [
+      {
+        "question": "Comment ajouter les signatures en bas de page du tableau des balances ?",
+        "reponse": "Il suffit d'ajouter les signatures manuellement une fois le tableau des balances complété."
+      },
+      {
+        "question": "Comment modifier les coordonnées de la fabrique dans le rapport ?",
+        "reponse": "Les coordonnées peuvent être corrigées via la section 'Ma fabrique' sous 'Accueil'."
+      },
+      {
+        "question": "Que faire si la version de la commune n'est pas approuvée ?",
+        "reponse": "Il est possible de refuser les rectifications apportées par la commune en ne validant pas la date de la décision lors de l'étape 4."
+      },
+      {
+        "question": "Où télécharger la proposition de délibération préparée ?",
+        "reponse": "La proposition de délibération peut être téléchargée dans les tableaux de la modification budgétaire, en cliquant sur 'proposition de délibération'."
+      },
+      {
+        "question": "Comment finaliser le processus de délibération automatisée ?",
+        "reponse": "Une fois toutes les étapes complétées, le document Word peut être téléchargé pour impression et sauvegarde locale."
+      }
+    ],
+    "etapes_processus": [
+      "Préparation de la délibération en ajoutant la composition du conseil de fabrique et les balances",
+      "Remplissage des dates et indication du vote lors de la séance du conseil",
+      "Ajout des annexes au dossier et personnalisation du tableau récapitulatif",
+      "Téléchargement du document Word finalisé et sauvegarde locale",
+      "Incorporation de la délibération signée dans la section 'Délibérations'"
+    ],
+    "relations": [
+      {
+        "concept": "Version de la fabrique",
+        "description": "Bloque les chiffres une fois la date du jour introduite, pour la création du document PDF de la modification budgétaire."
+      },
+      {
+        "concept": "Version de l'évêché",
+        "description": "Permet à l'évêché d'apporter des changements sans intervention de l'utilisateur, influençant la version finale de la commune."
+      },
+      {
+        "concept": "Version de la commune",
+        "description": "Constitue la version approuvée définitive, incluant les corrections de l'évêché, mais nécessitant une validation supplémentaire pour être acceptée."
+      },
+      {
+        "concept": "Validation par le trésorier",
+        "description": "Nécessite une date supplémentaire pour accepter la version approuvée par la commune, permettant de refuser les rectifications si nécessaire."
+      }
+    ],
+    "confiance": 0.92,
+    "metadonnees": {
+      "source_pdf": "08. ModificationBudgétaire 2025.pdf",
+      "page_source": [
+        12,
+        15
+      ],
+      "date_extraction": "2025-05-27T12:01:44.203648"
+    },
+    "exemples_utilisation": [],
+    "alertes": [],
+    "liens_intersections": [],
+    "niveau_utilisateur": "intermédiaire",
+    "importance": "moyenne"
+  }
+]

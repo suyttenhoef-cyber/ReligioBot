@@ -1,0 +1,545 @@
+[
+    {
+        "id": "chapitre_1_introduction",
+        "titre": "Chapitre 1. Introduction",
+        "chemin": "Chapitre 1. Introduction",
+        "page_debut": 1,
+        "page_fin": 2,
+        "contenu_texte": "Le module de la commune (version 4 – juin 2020) Chapitre 1. Introduction 1 Chapitre 2. Approbation des budgets et comptes annuels 3 Chapitre 3. La délibération communale automatisée 11 3.1. Générer la délibération 11 3.2. Stocker et partager la délibération 20 Annexes 23 Annexe 1re – Les délibérations des fabriques 23 Annexe 2 – Le compte annuel : justificatifs en ligne 24 Annexe 3 – Gérer les droits dans votre module 27",
+        "resume": "Le module de la commune (version 4 – juin 2020) présente une introduction suivie des chapitres sur l'approbation des budgets, la délibération communale automatisée et des annexes.",
+        "categorie": "Gestion communale",
+        "mots_cles": [
+            "module de la commune",
+            "approbation des budgets",
+            "délibération automatisée",
+            "compte annuel",
+            "gestion des droits"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Annexe 2",
+                "Introduction 1",
+                "Annexe 3"
+            ],
+            "montants": [],
+            "noms": [
+                "Stocker"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment générer une délibération ?",
+                "reponse": "Pour générer une délibération, suivez les étapes décrites dans la section 3.1 du chapitre 3."
+            },
+            {
+                "question": "Comment stocker et partager une délibération ?",
+                "reponse": "Vous pouvez stocker et partager une délibération en suivant les instructions fournies dans la section 3.2 du chapitre 3."
+            },
+            {
+                "question": "Comment gérer les droits dans le module ?",
+                "reponse": "La gestion des droits dans le module est expliquée en détail dans l'annexe 3 du document."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "délibération communale automatisée",
+                "description": "Ce processus est détaillé dans le chapitre 3 du document."
+            },
+            {
+                "concept": "compte annuel",
+                "description": "Les justificatifs en ligne du compte annuel sont présentés dans l'annexe 2."
+            },
+            {
+                "concept": "gestion des droits",
+                "description": "Les étapes pour gérer les droits sont expliquées dans l'annexe 3."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "20. Module Commune Version délibérations.pdf",
+            "page_source": [
+                1,
+                2
+            ],
+            "date_extraction": "2025-05-27T12:03:19.513732"
+        }
+    },
+    {
+        "id": "chapitre_2_approbation_des_budgets_et_comptes_annuels",
+        "titre": "Chapitre 2. Approbation des budgets et comptes annuels",
+        "chemin": "Chapitre 2. Approbation des budgets et comptes annuels",
+        "page_debut": 3,
+        "page_fin": 10,
+        "contenu_texte": "Chapitre 1er. Introduction ReligioSoft se veut un outil complet, qui ne se limite pas à la gestion comptable au niveau des fabriques, mais qui vise à incorporer tous les acteurs. Le module de la commune vous offre la possibilité de faire le suivi des budgets, modifications budgétaires et comptes annuels dès que ceux-ci sont arrêtés par le conseil de fabrique. Sur base de ces versions mises à disposition sous format digital, vous pouvez apporter toutes vos rectifications sans devoir retaper l’entièreté des tableaux. Vous retrouvez toutes les explications dans le chapitre 2. À côté de cette procédure de base de l’approbation en ligne, le module de la commune vous offre encore d’autres fonctionnalités : La génération des délibérations communales – voir le chapitre 3. La consultation des délibérations de la fabrique – voir l’annexe 1re. Pour ce qui concerne le compte annuel, le logiciel prévoit un partage plus poussé des pièces justificatives (voir l’annexe 2). La génération de versions consolidées pour chaque étape (budget, modification budgétaire, compte annuel) sur la totalité de votre territoire – voir le chapitre 2. Des consolidations pluriannuelles des comptes annuels (par fabrique) – voir le chapitre 2. La possibilité de gérer les droits du module et donc d’octroyer un accès aux responsables concernés (voir l’annexe 3). Voici la structure de base du module (via « Accueil ») : « Délibérations » : les délibérations des fabriques (ann. 1re). « Mon organisation » : gestion des droits d’accès (ann. 3). Pour utiliser l’outil pour générer les délibérations Pour l’approbation des communales, il faudra configurer sous différents documents, il « Configuration délibérations » (chap. 3). Ensuite, suffit de cliquer sur une vous pouvez préparer les documents par étape. des étapes (chap. 2). Signalons encore que l’équipe de ReligioSoft reste à votre disposition, tant pour ce qui concerne vos demandes concernant le logiciel que pour toute question relative au suivi comptable des fabriques : cultes@religiosoft.be ou T. 02 308 29 06. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 1 2 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Chapitre 2. Approbation des budgets et comptes annuels Important : dans tout ce qui suit, nous prenons le suivi du compte annuel 2019 comme exemple. Vous pouvez suivre les mêmes démarches pour les autres étapes (les budgets et les modifications budgétaires, accessibles via le bouton « Budget » (exercice suivant) ou « Budget et MB » (exercice en cours), toujours via « Accueil »). Approuvons le compte annuel d’une fabrique d’église, en 5 étapes : 1. Choisissez l’étape (le compte annuel 2019, ou le budget 2021…) ; 2. Sélectionnez la fabrique ; 3. Modifiez les chiffres ; 4. Complétez la date de suivi ; 5. Et après ? La validation par le trésorier. 1. Choisissez l’étape Sous « Accueil », les différentes étapes s’affichent. À gauche se trouvent les comptes annuels de l’exercice précédent (2019), au milieu vous trouvez les budgets (et les MB) de l’exercice en cours (2020), et sur votre droite vous avez accès aux budgets de l’exercice suivant (2021). Cette même logique s’applique d’ailleurs à tous les exercices suivants. Choisissez le compte annuel 2019 (ou l’étape qui vous intéresse). Sous « Accueil », cliquez sur « Compte annuel 2019 ». Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 3 2. Sélectionnez la fabrique Toutes les fabriques sous votre tutelle s’affichent sous « Compte annuel 2019 ». Au-delà de 20 fabriques, vous devrez changer de page, ou utiliser le moteur de recherche en haut de la page. Les fabriques s’affichent. Vous pouvez introduire le nom de la fabrique, le numéro BCE ou la localité pour la retrouver rapidement. L’état des lieux par fabrique est indiqué par un bouton coloré, qui vous dirige vers l’aperçu complet de la fabrique. Parcourons les différentes couleurs selon l’ordre « chronologique » : Bouton gris = en préparation le trésorier n’a pas encore finalisé sa part du travail (il manque la date du conseil de fabrique dans le module de la fabrique). Vous devrez attendre jusqu’à ce que le trésorier ait rempli la date de son côté (ou l’en avertir). Bouton rouge = arrêté par la fabrique le trésorier a rempli la date du conseil de fabrique dans son module ; vous pouvez statuer (mais il manque encore la décision de l’évêché). Bouton bleu = décision de l’organe représentatif l’évêché a complété sa partie en insérant la date de décision de l’organe représentatif ; vous pouvez apporter vos corrections. Bouton orange = décision de la commune, à valider par la fabrique vous avez apporté vos corrections et inséré la date du conseil communal, mais le trésorier de la fabrique doit encore tout valider (accepter) pour marquer son accord. Bouton vert = décision de la commune acceptée par la fabrique le trésorier a marqué son accord via le module de la fabrique et tout est finalisé : les rectifications de la commune seront reprises partout dans les rapports ultérieurs préparés par la fabrique d’église. En résumé, vous ne pourrez modifier que si le bouton est rouge ou bleu. 4 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Soulignons encore que tant l’évêché (l’organe représentatif) que la commune peuvent apporter leurs rectifications. Si l’évêché a déjà rectifié, ses constats s’afficheront dans votre module et vous pourrez ensuite reprendre ces propositions – rien ne sera imposé. Vous décidez vous-même, bien qu’il soit logique d’incorporer les remarques de l’organe représentatif. Astuce – Accès à la délibération de l’organe représentatif L’organe représentatif a également la possibilité de partager sa décision, pour compléter les chiffres mêmes. Vous retrouverez cette décision dans l’avant-dernière colonne de droite, où vous pouvez la télécharger. La commune pourra également y ajouter sa délibération (voir le chapitre 3). Ce sont toujours les dates à insérer sous « suivi » qui déterminent le partage des étapes complétées. Si vous ne mettez pas la date du conseil communal, rien ne sera visible dans le module de la fabrique d’église. Si le trésorier n’a pas mis la date du conseil de fabrique, le dossier en question ne sera pas non plus disponible dans votre module. 3. Modifiez les chiffres Si vous cliquez sur le bouton coloré, la page avec l’aperçu de l’étape pour la fabrique en question s’affichera : Suivant la logique de la tutelle, nous distinguons trois versions et encore une validation supplémentaire : La version de la fabrique : les chiffres préparés par la fabrique. La version de l’évêché : le service aux fabriques d’église y apporte ses rectifications. La version de la commune : le responsable communal y ajoute ses rectifications. La validation par le trésorier : ce bouton permet au trésorier d’accepter votre décision en ligne. Si celui-ci ne fait rien, les rectifications ne seront pas reprises dans le dossier. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 5 Par version, il y a un bouton « Suivi » (c’est là qu’on met les dates de validation, au fur et à mesure) et encore un bouton « Tableaux » (ce sont les chiffres qu’on peut modifier). La dernière colonne reprend l’éventuelle délibération, si celle-ci a été stockée en ligne par l’organe représentatif ou la commune. Avant d’approuver, il faudra d’abord vérifier et/ou rectifier les chiffres. Cliquez donc sur « Tableaux » sur votre droite. Cliquez sur « Tableaux ». Vous avez accès aux chiffres. La colonne de droite est accessible et vous permet de rectifier les montants suite à vos analyses préparatoires ; ensuite, sauvegardez. Remplacez le montant initial par le montant rectifié. N’oubliez pas de sauvegarder ! Astuce – Le compte annuel – les annexes Étant donné que le dossier du compte annuel comprend également une série d’annexes qui risquent d’augmenter le volume du dossier, ReligioSoft prévoit déjà la possibilité de partager ces documents en ligne également. Nous insistons sur ces possibilités dans l’annexe 2. Signalons encore que le SPW (DGO5) s’est prononcé positivement pour une transmission électronique des pièces justificatives en annexe au dossier du compte, à partir du compte annuel 2016 – une évolution qui est également soutenue par les différents Diocèses wallons. 6 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Quelques instructions pratiques lorsque vous rectifiez les chiffres ! Il vous suffit de modifier le niveau le plus bas (l’article même) ; le logiciel recalcule les totaux et le tableau récapitulatif ; dans le cas du budget, le supplément communal est calculé automatiquement et ne pourra être modifié qu’indirectement. Les montants qui sont déjà en gras représentent des montants que l’évêché propose de modifier ; vous pouvez vous en inspirer. Tout ce que vous modifiez vous-même sera en gras également. N’oubliez pas de « sauvegarder » en bas de page (sur votre gauche). Astuce – Les « balances » : l’aperçu des chiffres à portée de main Pour afficher les balances, cliquez sur « balances » en haut de la page (sur votre droite) ; vous aurez ainsi un aperçu des totaux rectifiés. Vous verrez alors immédiatement l’impact des rectifications sur tous les totaux. Une fois que les rectifications sont complètes, vous téléchargez les rapports. Pour télécharger le rapport rectifié, cliquez sur « compte annuel 2019 » dans la colonne de gauche (en haut). Afin de vous faciliter la tâche, vous pouvez également télécharger les chiffres rectifiés en fichier excel. Vous pouvez alors copier les tableaux et les coller dans vos documents, pour préparer la décision du conseil communal, par exemple. Génération de la délibération communale et stockage/partage en ligne A partir de juin 2020, il est également possible de générer une proposition de délibération et/ou de stocker et partager la décision communale en ligne. Ces procédures optionnelles sont abordées dans le chapitre 3. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 7 4. Complétez la date de suivi Dès que vous avez complété toutes vos rectifications, ajoutez immédiatement la date (anticipée) du conseil communal. Sur base de cette date, les chiffres resteront bloqués dans le système et le trésorier aura immédiatement la possibilité d’accepter les rectifications. Si la décision n’est pas définitive, il vaut mieux ne pas mettre la date et patienter encore un peu, car l’insertion de la date provoque le partage en ligne via les modules de la fabrique d’église et de l’évêché. Pour retourner à l’aperçu du dossier : cliquez sur « aperçu du compte 2019 » sur votre gauche. Si vous avez déjà rempli la date de suivi, le bouton de la commune s’affichera en vert. Pour retourner à l’ensemble des fabriques : cliquez sur « compte 2019 – tous les dossiers » (toujours sur votre gauche). Le dossier que vous venez d’approuver s’affichera en orange (voir ci-dessous), en attente de la validation par le trésorier. Les dossiers approuvés s’affichent en orange. Une consolidation des comptes annuels est disponible. 8 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be",
+        "resume": "Le chapitre 2 traite de l'approbation des budgets et comptes annuels dans le logiciel ReligioSoft, en décrivant les étapes pour choisir une étape, sélectionner une fabrique, modifier les chiffres, compléter la date de suivi et valider par le trésorier.",
+        "categorie": "Gestion financière",
+        "mots_cles": [
+            "ReligioSoft",
+            "compte annuel",
+            "budgets",
+            "approbation",
+            "trésorier",
+            "rectifications",
+            "délibérations",
+            "consolidations",
+            "pièces justificatives",
+            "module de la commune"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "SPW",
+                "Astuce",
+                "Important",
+                "Génération",
+                "ReligioSoft",
+                "Compte",
+                "qu’"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Choisissez",
+                "Bouton",
+                "Remplacez",
+                "wallonie.religio.be Soulignons",
+                "Accueil",
+                "jusqu’",
+                "Modifiez",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment choisir une étape dans le logiciel ReligioSoft ?",
+                "reponse": "Sous 'Accueil', cliquez sur l'étape souhaitée, par exemple 'Compte annuel 2019'."
+            },
+            {
+                "question": "Que signifient les boutons colorés lors de la sélection d'une fabrique ?",
+                "reponse": "Ils indiquent l'état d'avancement de l'approbation, du gris (en préparation) au vert (décision de la commune acceptée)."
+            },
+            {
+                "question": "Comment modifier les chiffres d'une fabrique dans le logiciel ?",
+                "reponse": "Cliquez sur 'Tableaux' pour accéder aux chiffres et les rectifier selon vos besoins."
+            },
+            {
+                "question": "Quelle est l'importance de compléter la date de suivi dans le processus d'approbation ?",
+                "reponse": "La date de suivi déclenche le partage en ligne des rectifications et permet au trésorier d'accepter les modifications."
+            },
+            {
+                "question": "Comment télécharger les rapports rectifiés dans ReligioSoft ?",
+                "reponse": "Cliquez sur 'compte annuel 2019' dans la colonne de gauche pour télécharger les rapports, et sur 'balances' pour visualiser les totaux rectifiés."
+            }
+        ],
+        "etapes_processus": [
+            "Choisir l'étape souhaitée (compte annuel, budget en cours, budget suivant)",
+            "Sélectionner la fabrique concernée",
+            "Modifier les chiffres et rectifier les montants",
+            "Compléter la date de suivi pour déclencher la validation",
+            "Valider par le trésorier pour finaliser l'approbation"
+        ],
+        "relations": [
+            {
+                "concept": "Compte annuel",
+                "description": "Document financier détaillant les recettes et les dépenses d'une fabrique pour une année donnée."
+            },
+            {
+                "concept": "Trésorier",
+                "description": "Personne responsable de la gestion financière et de l'approbation des comptes au sein d'une fabrique."
+            },
+            {
+                "concept": "Délibérations",
+                "description": "Décisions officielles prises par les organes représentatifs (fabrique, commune) concernant les budgets et comptes annuels."
+            },
+            {
+                "concept": "Rectifications",
+                "description": "Corrections apportées aux chiffres des comptes annuels pour assurer leur exactitude et conformité."
+            },
+            {
+                "concept": "Consolidations",
+                "description": "Regroupement des données financières de plusieurs fabriques pour obtenir une vue d'ensemble."
+            },
+            {
+                "concept": "Pièces justificatives",
+                "description": "Documents justifiant les transactions financières et les montants reportés dans les comptes annuels."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "20. Module Commune Version délibérations.pdf",
+            "page_source": [
+                3,
+                10
+            ],
+            "date_extraction": "2025-05-27T12:03:28.055446"
+        }
+    },
+    {
+        "id": "chapitre_3_la_dlibration_communale_automatise",
+        "titre": "Chapitre 3. La délibération communale automatisée",
+        "chemin": "Chapitre 3. La délibération communale automatisée",
+        "page_debut": 11,
+        "page_fin": 22,
+        "contenu_texte": "Astuce – Les comptes consolidés Sur votre gauche, vous pouvez télécharger la consolidation avec tous les comptes annuels : cochez les fabriques dont vous souhaitez consolider les comptes, et vous aurez un fichier complet. 5. Et après ? La validation par le trésorier Dès que le compte est approuvé dans le système, le trésorier peut valider vos rectifications via le module de la fabrique d’église. Tant qu’il n’accepte pas les corrections, il n’y aura pas d’impact dans le dossier de la fabrique même. Dès que le trésorier aura ajouté la date de validation de son côté, le bouton orange sera vert et vous serez sûr(e) que tout est définitif : dans toute nouvelle étape dans le dossier, le logiciel reprendra automatiquement les rectifications introduites. Important : il faudra retourner à cet écran pour vérifier si tous les trésoriers ont finalement complété la validation des rectifications apportées par la commune. De cette façon vous aurez la certitude que tous les dossiers sont à jour. Au cas où, vous pouvez toujours demander à la fabrique de remplir la dernière date dans le module de la fabrique, ce qui garantira la cohérence du dossier grâce à l’intégration de cette étape validée par le trésorier dans toute étape ultérieure. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 9 10 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Chapitre 3. La délibération communale automatisée A partir de juin 2020, ReligioSoft prévoit la possibilité de générer une proposition de délibération pour le conseil communal. Le responsable communal pourra par la suite peaufiner ce document. Cette proposition incorporera immédiatement tous les chiffres et autres renseignements déjà présents dans le logiciel, permettant ainsi en même temps un suivi aisé et une intégration facile. A part la préparation de la délibération facilitée par le logiciel, toutes les villes et communes se servant du module communal pourront désormais également stocker et partager les décisions du conseil communal par étape et par fabrique d’église, même s’il s’agit d’un document préparé dans un autre logiciel. La procédure pour générer la délibération communale (pour le budget, la modification budgétaire et le compte annuel) est élaborée dans la section 3.1. Pour apprendre plus quant au stockage et partage en ligne de la délibération communale, consultez la section 3.2. Ces deux nouveaux outils peuvent être utilisés l’un indépendamment de l’autre, le but étant surtout d’encourager le partage entre les différents modules de ReligioSoft afin que tous les acteurs aient accès sous format numérique aux dossiers papier transmis. 3.1. Générer la délibération communale Une fois que la fabrique d’église a rempli la date de décision du conseil de fabrique, vous avez accès au dossier du budget, de la modification budgétaire ou du compte annuel, selon le cas. Ensuite les autorités diocésaine et communale peuvent compléter leurs tableaux (voir le chapitre 2) et générer la délibération proposée par ReligioSoft. L’organe représentatif et la commune ont d’ailleurs les mêmes outils à disposition et la plateforme prévoit un partage des documents définitifs dans les deux (ou trois) sens afin de garantir un partage complet (voir la section 3.2). Avant de pouvoir générer les délibérations, il faudra compléter la configuration, afin d’assurer que les rapports seront le plus complets possible ; c’est une action qu’il ne faudra exécuter qu’une seule fois, pour activer l’outil. Ensuite vous pouvez compléter par étape et par fabrique, avec un maximum d’intégration quant aux données disponibles dans le dossier. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 11 A. Configuration du module de génération des délibérations (action unique !) Sous « Accueil », choisissez « Configuration délibérations ». Indiquez vos préférences et complétez les renseignements requis. 1. Sous « Accueil » cliquez sur « Configuration délibérations » pour activer la création des délibérations. 2. Indiquez votre préférence… 3. Complétez les champs et sauvegardez. Les renseignements que vous ne remplissez pas, resteront également absents dans la délibération automatisée (mais vous pourrez toujours compléter plus tard…). Et sauvegardez. 12 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Astuce – Intégration automatique dans la délibération Si vous complétez les coordonnées du service en charge de la tutelle, celles-ci seront également reprises en bas de page de la délibération. Sur base de ces préparations, toutes les délibérations afficheront les renseignements corrects. En principe, il ne faudra plus y retourner, sauf pour apporter des changements « définitifs » (par exemple si le directeur général est remplacé ou si le conseil communal subit des changements). Tout est prêt pour préparer les délibérations individuelles ! B. Générer la proposition de délibération (par étape, par fabrique) Une fois la configuration complétée, vous pouvez faire comme d’habitude (voir le chapitre 2) : vous consultez les tableaux par fabrique d’église ayant déjà inséré la date du conseil de fabrique, pour y approuver (et/ou rectifier) les chiffres, par exemple pour le budget 2021 : sous « Accueil » sélectionnez « Budget 2021 » ; sélectionnez une fabrique qui a déjà arrêté son budget ; cliquez sur « tableaux » dans la ligne de la commune, sur votre droite ; vous mettez à jour les chiffres (rectifications, remarques) ; ensuite vous pouvez télécharger la délibération automatisée en suivant les étapes ci-dessous. La procédure est d’ailleurs exactement la même pour le compte annuel et la modification budgétaire. A gauche, vous avez le volet pour générer et stocker la délibération. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 13 Astuce – Les remarques de la tutelle Si vous avez des remarques à insérer, vous pouvez passer via le bouton « remarques de la tutelle » (toujours dans la colonne de gauche) et y insérer toutes vos précisions. Celles-ci seront alors incorporées dans la (proposition de) délibération (avec une possibilité de les peaufiner encore). Pour entamer la génération de la délibération, cliquez sur « proposition de délibération » dans la colonne de gauche pour entamer la génération de la délibération. Le logiciel vous guidera et vous invitera à compléter les champs nécessaires afin d’avoir une décision correcte et complète. Ci-dessous nous parcourons les différentes étapes du flux – sept au total –, tout en signalant les astuces et particularités. Il ne faudra compléter que quelques champs. Etape 1re – Renseignements de la commune Cette première feuille reprend les renseignements globaux de votre commune, tels qu’insérés sous « Configuration délibérations » (voir ci-dessus). Vous pouvez modifier selon vos besoins, bien qu’en principe, il y aura peu de nécessité. Ensuite, cliquez « Suivant » en bas du formulaire. 14 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Etape 2 – Dates de la fabrique et de l’organe représentatif L’étape 2 vous invite à compléter les dates de la procédure. Si l’évêché a déjà rempli ses dates, celles- ci seront reprises automatiquement – sinon vous complétez vous-même. Astuce – Pas de décision de l’organe représentatif ? Si l’organe représentatif n’a pas statué, vous pouvez cocher l’option « Non » dans la section concernée et indiquer la date du constat (qui, en toute logique, se situera hors du délai de vingt jours dont dispose l’organe représentatif). Etape 3 – Décision du conseil communal La troisième étape concerne la décision du conseil communal même. Vous insérez la date du conseil communal, le type de séance et vous changez la liste des membres du conseil communal en fonction de leur présence/absence. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 15 Attention : le budget (ou le compte) ne sera pas partagé avec les autres acteurs que si vous cochez l’option prévue pour partager. Si vous préférez partager plus tard plutôt, il faudra retourner pour insérer la date du conseil communal dans la section « suivi » (au même moment où vous chargerez la délibération définitive, probablement). Astuce 1 – Prorogation ? En cas de prorogation vous cochez l’option « Oui » à côte de « Prorogation des délais ». Ensuite vous indiquez la date de la décision et la fin de la prorogation. Astuce 2 – Vote non unanime ? Au cas où le vote n’est pas unanime, indiquez « vote non unanime » et insérez le nombre de votes par catégorie. Astuce 3 – La composition du conseil de fabrique est retenue Si vous changez la composition du conseil communal dans la procédure même, le logiciel vous proposera le conseil communal changé pour chaque procédure que vous parcourez par la suite, pourvu que vous complétiez ces procédures le jour même. Le lendemain, le logiciel reprendra la composition traditionnelle telle qu’elle s’affiche sous « Configuration délibérations » (sous « Accueil »). 16 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Etape 4 – Avis du directeur financier (et fabriques d’église pluricommunales) Pour les villes et communes qui souhaitent incorporer l’avis du directeur financier l’étape 4 prévoit des peaufinements qui seront également intégrés dans la proposition de délibération. En cas d’un avis défavorable, vous pouvez compléter les remarques et l’orientation finale (ces précisions seront reprises dans la délibération même). Astuce – Fabriques d’église pluricommunales Si plusieurs communes sont impliquées, le logiciel affichera les autres communes (à part la commune « principale »). Vous pouvez insérer la date de la décision et la date de sa réception, par commune. Etape 5 – Tableau récapitulatif L’étape 5 vous affiche les rectifications apportées ainsi que le tableau récapitulatif tel qu’il a été préparé dans le logiciel, avec à chaque fois les chiffres avant rectification ainsi que les chiffres supposés définitifs suite à l’approbation (dans la colonne de droite). Vérifiez si c’est correct et cliquez sur « Suivant ». Si vous souhaitez apporter des changements, il faudra plutôt « Annuler » la procédure et mettre à jour les tableaux, pour ensuite la redémarrer. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 17 Etape 6 – Décision et remarques de la tutelle Pour compléter les éventuelles remarques de la tutelle l’étape 6 vous affiche la case avec les précisions que vous avez peut-être déjà introduites lorsque vous étiez en train de changer les chiffres dans les tableaux (via la case « Remarques de la tutelle »). Vous pouvez toujours peaufiner. Astuce – Approbation sans / avec rectifications – non approbation ? Sur base du fait qu’il y a des rectifications dans les tableaux par rapport à la version introduite par la fabrique d’église, le logiciel détermine s’il s’agit d’une approbation sans ou avec rectifications et insérera les stipulations nécessaires dans la délibération. Même dans le cas d’une approbation sans rectifications, vous pouvez ajouter vos remarques afin d’orienter au mieux la fabrique d’église (par exemple pour éviter les dépassements budgétaires, ...). Au besoin, vous pouvez même en faire une délibération arrêtant la non approbation du budget ou du compte… Etape 7 – Téléchargement de la délibération Cliquez sur « Télécharger » en bas de la colonne de gauche et le word pourra être ouvert via l’onglet en bas de page (ou en haut, tout dépend de votre logiciel de navigation). 18 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Et voilà le document word que vous pouvez toujours peaufiner sur votre ordinateur local, si le besoin s’en fait sentir. Vous parcourez la même procédure pour toutes les fabriques d’église dont le dossier est prêt à approuver. Astuce – Faire marche en arrière ? Il sera toujours possible de revenir sur vos pas et de reparcourir la procédure : si vous refaites le document via le flux, ce sera toujours la dernière version des étapes qui vous sera proposée, car le logiciel retient le détail complet de tout ce que vous avez introduit auparavant. Il suffira donc de contrôler et de compléter les données via le même flux. Si les chiffres mêmes ne sont pas impactés, il est peut-être plus facile de modifier la version word téléchargée antérieurement. Si vous avez coché l’option pour bloquer l’étape du budget / du compte (voir l’étape 3 ci-dessus : la décision du conseil communal), il faudra supprimer la date de suivi de la commune pour pouvoir reparcourir la procédure : passez d’abord via le bouton « suivi » pour libérer l’étape. Une fois que vous aurez une décision finale (en pdf, ou autre type de fichier, avec les signatures et/ou les dates définitives), vous pourrez stocker ce document en ligne et le partager avec les modules de la fabrique d’église et de l’organe représentatif – voir la section 3.2. Stocker et partager la délibération communale. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 19 3.2. Stocker et partager la délibération communale Le stockage et le partage des délibérations communales se font indépendamment de l’utilisation de l’outil pour générer les délibérations dans le logiciel : des documents préparés dans d’autres outils peuvent également être ajoutés au système. 1. Charger la délibération Pour charger une délibération (sur le budget, le compte annuel ou la modification budgétaire), consultez les tableaux de la fabrique, version « commune ». Via le bouton « charger la délibération » sur votre gauche, vous pouvez aller chercher un fichier sur votre ordinateur et l’ajouter en ligne. Il faudra compléter la date du conseil de fabrique (sauf si elle était déjà remplie via le flux ou sous « Suivi »). S’il n’y a pas de date, le logiciel bloquera automatiquement l’étape en question et garantira un partage immédiat au niveau des modules de la fabrique et de la commune (car la décision marque la fin de la procédure). Si vous ne souhaitez pas partager, il suffira de décocher l’option qui s’affiche. Vous pourrez alors insérer la date du conseil communal plus tard (toujours sous « Suivi »). Important : cette procédure ne remplace toujours pas la communication officielle à adresser à la fabrique d’église ! Mais elle facilite (et accélère) en tout cas la transmission de la décision motivée du conseil communal. Evidemment, il est conseillé de charger le document « le plus officiel ». 20 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be",
+        "resume": "Le chapitre 3 traite de la délibération communale automatisée avec ReligioSoft, permettant de générer des propositions de délibération pour le conseil communal à partir des chiffres et renseignements déjà présents dans le logiciel, facilitant ainsi le suivi et le partage des décisions. Il décrit également les étapes pour configurer et générer les délibérations, ainsi que pour stocker et partager ces documents.",
+        "categorie": "Logiciel de gestion communale",
+        "mots_cles": [
+            "délibération communale",
+            "ReligioSoft",
+            "génération automatique",
+            "conseil communal",
+            "configuration délibérations",
+            "stockage en ligne",
+            "partage de documents",
+            "étapes de processus",
+            "module de la commune",
+            "fabrique d'église"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "– Renseignements",
+                "Suivi",
+                "ReligioSoft",
+                "qu’",
+                "Prorogation"
+            ],
+            "montants": [],
+            "noms": [
+                "Télécharger",
+                "Décision",
+                "Stocker",
+                "Accueil",
+                "Astuce",
+                "Vérifiez",
+                "Générer",
+                "Remarques",
+                "S’",
+                "qu’",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment générer une proposition de délibération pour le conseil communal avec ReligioSoft ?",
+                "reponse": "Vous pouvez générer une proposition de délibération en suivant les étapes décrites dans le chapitre 3 du module de la commune."
+            },
+            {
+                "question": "Quelles sont les actions à effectuer pour configurer les délibérations dans ReligioSoft ?",
+                "reponse": "Sous 'Accueil', choisissez 'Configuration délibérations', indiquez vos préférences et complétez les renseignements requis."
+            },
+            {
+                "question": "Comment stocker et partager une délibération communale avec ReligioSoft ?",
+                "reponse": "Vous pouvez charger la délibération via le bouton 'charger la délibération', ajouter un fichier, compléter la date du conseil de fabrique et choisir de partager ou non."
+            },
+            {
+                "question": "Quels sont les avantages de l'automatisation des délibérations communales avec ReligioSoft ?",
+                "reponse": "L'automatisation facilite la génération rapide de propositions de délibération, le suivi des décisions et le partage efficace des documents entre les acteurs concernés."
+            },
+            {
+                "question": "Comment garantir la cohérence des délibérations avec ReligioSoft ?",
+                "reponse": "En complétant correctement les étapes du processus de génération, en vérifiant les données et en peaufinant les remarques, vous assurez la qualité et la pertinence des délibérations produites."
+            }
+        ],
+        "etapes_processus": [
+            "Configurer les délibérations en accédant à 'Configuration délibérations' sous 'Accueil'.",
+            "Générer la proposition de délibération en complétant les étapes décrites dans le chapitre 3 du module de la commune.",
+            "Stocker et partager la délibération en chargeant le document, complétant la date du conseil de fabrique et choisissant de partager ou non."
+        ],
+        "relations": [
+            {
+                "concept": "Délibération communale",
+                "description": "Document généré automatiquement pour le conseil communal avec les chiffres et renseignements du logiciel."
+            },
+            {
+                "concept": "ReligioSoft",
+                "description": "Logiciel permettant l'automatisation des délibérations communales et le suivi des décisions."
+            },
+            {
+                "concept": "Configuration délibérations",
+                "description": "Action unique pour activer la création des délibérations et assurer la complétude des rapports."
+            },
+            {
+                "concept": "Stockage en ligne",
+                "description": "Possibilité de sauvegarder les délibérations générées et de les partager avec les acteurs concernés."
+            },
+            {
+                "concept": "Partage de documents",
+                "description": "Facilité offerte par ReligioSoft pour échanger les délibérations entre les modules de la fabrique d'église et de l'organe représentatif."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "20. Module Commune Version délibérations.pdf",
+            "page_source": [
+                11,
+                22
+            ],
+            "date_extraction": "2025-05-27T12:03:37.176544"
+        }
+    },
+    {
+        "id": "annexe_1re__les_dlibrations_des_fabriques",
+        "titre": "Annexe 1re - Les délibérations des fabriques",
+        "chemin": "Annexe 1re - Les délibérations des fabriques",
+        "page_debut": 23,
+        "page_fin": 23,
+        "contenu_texte": "Astuce – Stockage de différents fichiers ? Il n’est pas possible de stocker plusieurs fichiers par étape. Si le détail de la décision constitue une annexe séparée, vous pourrez toujours créer un pdf consolidé comprenant la décision et le détail en un seul fichier, qui, lui, pourra être chargé aisément. Si vous souhaitez faire marche en arrière quant au stockage de la délibération, consultez le point 3. ci-dessous pour supprimer et remplacer la délibération chargée. 2. Consulter la délibération Une fois que vous aurez chargé la délibération en ligne, vous pourrez la consulter via le bouton « consulter la délibération ». Le fichier s’affichera également sous « Aperçu » : Et dans la liste affichant toutes les fabriques d’église : Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 21",
+        "resume": "Le texte explique comment stocker des fichiers et consulter les délibérations des fabriques en ligne, avec la possibilité de créer un PDF consolidé. Il mentionne également la possibilité de supprimer et remplacer une délibération chargée.",
+        "categorie": "Gestion de documents",
+        "mots_cles": [
+            "stockage de fichiers",
+            "délibérations des fabriques",
+            "pdf consolidé",
+            "suppression de fichier",
+            "consultation en ligne"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": [
+                "Consulter",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Est-il possible de stocker plusieurs fichiers par étape ?",
+                "reponse": "Non, il n'est pas possible de stocker plusieurs fichiers par étape."
+            },
+            {
+                "question": "Comment consulter une délibération en ligne ?",
+                "reponse": "Une fois chargée, vous pouvez la consulter en cliquant sur le bouton 'consulter la délibération'."
+            },
+            {
+                "question": "Comment supprimer et remplacer une délibération chargée ?",
+                "reponse": "Consultez le point 3. ci-dessous pour savoir comment supprimer et remplacer une délibération chargée."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Stockage de fichiers",
+                "description": "Nécessaire pour conserver les délibérations des fabriques en ligne."
+            },
+            {
+                "concept": "Consultation en ligne",
+                "description": "Permet de visualiser les délibérations chargées."
+            },
+            {
+                "concept": "Création de PDF consolidé",
+                "description": "Option pour regrouper la décision et le détail en un seul fichier."
+            },
+            {
+                "concept": "Suppression de fichier",
+                "description": "Possibilité de retirer une délibération chargée."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "20. Module Commune Version délibérations.pdf",
+            "page_source": [
+                23,
+                23
+            ],
+            "date_extraction": "2025-05-27T12:03:41.135027"
+        }
+    },
+    {
+        "id": "annexe_2__le_compte_annuel__justificatifs_en_ligne",
+        "titre": "Annexe 2 - Le compte annuel : justificatifs en ligne",
+        "chemin": "Annexe 2 - Le compte annuel : justificatifs en ligne",
+        "page_debut": 24,
+        "page_fin": 26,
+        "contenu_texte": "Astuce – Accès à la délibération de l’organe représentatif Si l’organe représentatif a également chargé sa décision, vous la retrouverez dans l’avant-dernière colonne (voir ci-dessus). Attention : le partage automatisé via les autres modules (de la fabrique d’église et de l’organe représentatif) est entièrement régi par la date du conseil communal insérée sous « suivi ». Pas de date, pas de partage extérieur. Dès que la date est insérée, le dossier (et la délibération chargée) est partagé (et bloqué au niveau du module de la commune). Il est toujours possible de remodifier les chiffres en supprimant la date du conseil communal sous « suivi », tant que le trésorier de fabrique n’a pas encore complété la date de validation de son côté… 3. Supprimer et remplacer la délibération Si la délibération chargée dans le logiciel s’avère plus éphémère que prévu, vous pouvez la supprimer et en charger une autre : passez via le bouton « supprimer la délibération » ; ensuite vous pourrez en ajouter une autre via le bouton « charger la délibération ». 22 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Annexes Annexe 1re – Les délibérations des fabriques Afin de simplifier le partage en ligne dans l’autre sens également, ReligioSoft prévoit un espace de stockage en ligne qui permet aux fabriques d’église de partager avec les autorités de tutelle toutes leurs délibérations. Vous y avez accès via « Accueil ». Les délibérations se trouvent sous « Accueil ». Toutes les délibérations s’affichent (dans la mesure où les fabriques les ajoutent au système). Vous pouvez trier sur base de l’établissement concerné : Pour limiter la sélection, choisissez un établissement en particulier. Astuce – Section délibérations La section « Délibérations » peut être conçue comme un espace de stockage pour tous les documents importants de la fabrique d’église. Celle-ci pourra y stocker les listings (journaux) des banques, l’obituaire, un devis, ... Bref, tous les documents utiles qui ne sont pas générés directement par le logiciel, et que la fabrique souhaite partager en ligne avec la tutelle (ou en interne, car le partage est optionnel). Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 23 Annexe 2 – Le compte annuel : consultation des justificatifs en ligne Suite à une question posée par les Évêchés, le Service Public de Wallonie (DGO5) a publié son point de vue concernant la possibilité de dématérialisation pour les dossiers du budget et du compte annuel. Il conclut : 1. Par manque de modalités juridiques permettant la transmission électronique du budget ou du compte, le dossier (et la délibération) doit toujours être transmis sous format papier. La date de réception de ce courrier détermine le calcul des délais de tutelle. 2. Afin de remédier au défi opérationnel de la transmission des pièces justificatives, il est désormais permis de transférer le classement des justificatifs électroniquement à condition que l’ensemble des acteurs concernés aient adhéré au même logiciel. Cette communication, qui date de janvier 2017, autorise le transfert digital des justificatifs dans le cadre de la tutelle spéciale (comptes, budgets et modifications budgétaires), bien qu’il faille toujours l’accord de la commune et de l’évêché afin de garantir l’harmonisation des démarches locales. Actuellement, plusieurs communes acceptent déjà le transfert digital pour cette partie du dossier, et les Évêchés encouragent également cette évolution. Les documents les plus importants (le budget ou le compte même, la délibération du conseil de fabrique) doivent toujours être transmis sous format papier (et dument signés !) afin de garantir un suivi cohérent au niveau légal, car c’est la réception des documents papier qui fera donc toujours courir les délais de tutelle. Dans le module de la fabrique, ReligioSoft prévoit la possibilité de stocker tous les documents sous format digital, et, depuis 2017, un outil spécifique a été incorporé pour archiver les factures et les extraits bancaires intelligemment. Tous ces documents peuvent ensuite être partagés avec les modules de tutelle au moment de la clôture. La logique est très simple : Le trésorier stocke les pièces justificatives via le journal (par écriture). Le logiciel créera alors automatiquement un classement digital, par article comptable. Au moment de la clôture (insertion de la date du conseil de fabrique sous « suivi »), le trésorier peut régler le transfert digital des pièces justificatives. Dans leur module à eux, la commune et l’évêché auront accès à un grand-livre classant toutes les pièces par article et par ordre chronologique et ne devront donc plus feuilleter les fardes traditionnelles à la recherche de la bonne pièce. Il reste crucial que la fabrique communique de façon transparente quant au type de transfert pour les pièces afin d’éviter tout malentendu. Au niveau de la commune, le défi est de garantir des démarches harmonisées pour toutes les fabriques afin de limiter les différentes façons dont les fabriques partagent leur dossier. Très souvent, une directive communale est préparée pour aligner toutes les fabriques suite à une concertation quant à l’opportunité d’un partage en ligne des pièces justificatives. 24 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be",
+        "resume": "La section traite de la consultation des justificatifs en ligne du compte annuel, autorisant le transfert digital des pièces justificatives dans le cadre de la tutelle spéciale, tout en maintenant l'envoi des documents les plus importants sous format papier.",
+        "categorie": "Gestion des comptes et justificatifs en ligne",
+        "mots_cles": [
+            "délibération",
+            "tutelle spéciale",
+            "transfert digital",
+            "clôture",
+            "factures",
+            "extraits bancaires",
+            "logiciel de gestion",
+            "fabrique d'église",
+            "module de la commune",
+            "harmonisation des démarches"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Service Public de Wallonie",
+                "Section",
+                "s’avère"
+            ],
+            "montants": [],
+            "noms": [
+                "Accueil",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Peut-on supprimer et remplacer une délibération chargée dans le logiciel ?",
+                "reponse": "Oui, en passant par le bouton 'supprimer la délibération' puis 'charger la délibération'."
+            },
+            {
+                "question": "Quels documents doivent toujours être transmis sous format papier malgré la possibilité de transfert digital des justificatifs ?",
+                "reponse": "Les documents les plus importants tels que le budget, le compte annuel et la délibération du conseil de fabrique."
+            },
+            {
+                "question": "Comment se fait le classement des pièces justificatives dans le module de la fabrique ?",
+                "reponse": "Les pièces justificatives sont stockées via le journal par écriture, créant un classement digital par article comptable."
+            },
+            {
+                "question": "Quelle est la logique derrière le transfert digital des pièces justificatives entre la fabrique, la commune et l'évêché ?",
+                "reponse": "Le trésorier peut régler le transfert digital des pièces justificatives au moment de la clôture, facilitant l'accès aux documents pour les modules de tutelle."
+            },
+            {
+                "question": "Comment les fabriques peuvent-elles garantir des démarches harmonisées pour le partage en ligne des pièces justificatives ?",
+                "reponse": "Une directive communale est souvent préparée pour aligner toutes les fabriques suite à une concertation sur l'opportunité du partage en ligne."
+            }
+        ],
+        "etapes_processus": [
+            "Stockage des pièces justificatives via le journal par écriture dans le module de la fabrique",
+            "Classement automatique des pièces par article comptable",
+            "Insertion de la date du conseil de fabrique sous 'suivi' pour régler le transfert digital des pièces justificatives",
+            "Accès des modules de tutelle à un grand-livre classant les pièces par article et ordre chronologique",
+            "Communication transparente de la fabrique quant au type de transfert pour éviter les malentendus"
+        ],
+        "relations": [
+            {
+                "concept": "Transfert digital des justificatifs",
+                "description": "Autorisé dans le cadre de la tutelle spéciale pour les comptes et budgets, nécessitant l'accord de la commune et de l'évêché pour garantir l'harmonisation des démarches."
+            },
+            {
+                "concept": "Stockage des documents sous format digital",
+                "description": "Permet aux fabriques de partager leurs documents avec les autorités de tutelle, facilitant l'accès aux informations lors de la clôture des comptes."
+            },
+            {
+                "concept": "Directive communale",
+                "description": "Utilisée pour aligner les fabriques sur les démarches harmonisées en matière de partage en ligne des pièces justificatives, évitant les différentes approches."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "20. Module Commune Version délibérations.pdf",
+            "page_source": [
+                24,
+                26
+            ],
+            "date_extraction": "2025-05-27T12:03:48.065801"
+        }
+    },
+    {
+        "id": "annexe_3__grer_les_droits_dans_votre_module",
+        "titre": "Annexe 3 - Gérer les droits dans votre module",
+        "chemin": "Annexe 3 - Gérer les droits dans votre module",
+        "page_debut": 27,
+        "page_fin": 33,
+        "contenu_texte": "Astuce – Manuel pour les fabriques d’église Dans la présente annexe, nous n’insistons que sur le partage au niveau des modules de tutelle. Pour les fabriques d’église il existe un manuel spécifique détaillant la procédure pour stocker les pièces. Soulignons encore que la fabrique peut également partager d’autres documents via le système : le grand-livre (l’aperçu des écritures par article), la situation patrimoniale, les ajustements internes, … Ces documents s’affichent dans l’écran avec les tableaux sur votre gauche. Pour consulter les pièces justificatives en ligne : cliquez sur « Compte annuel 2019 » (sous « Accueil ») ; sélectionnez la fabrique concernée ; cliquez sur le bouton avec l’état des lieux ; via « tableaux » (dans la ligne de la commune) vous tomberez sur les chiffres et les rapports de la fabrique. Vous pouvez télécharger toutes les pièces par article via l’attache qui s’affiche dans la liste même. Par article, il n’y a qu’un seul fichier, qui comprend toutes les factures (et éventuellement aussi d’autres pièces) stockées par le trésorier par écriture. Afin de simplifier toute vérification sur base du journal financier, le logiciel ajoute, par pièce, quelques renseignements utiles. Le rapport (par article) mentionne (de gauche à droite) : 1. L’article comptable ; 2. La référence au paiement (sur base du journal) ; En haut de la facture digitale, le 3. L’identifiant unique de l’écriture ; rapport mentionne 4. Le nombre de pièces pour cette écriture ; 1. l’article ; 5. Le nombre de pages du classement pour cet 2. le paiement ; article (en bas de page). 3. l’identifiant unique ; 4. le nombre de pièces Exemple concret : supposons que le trésorier a pour cette écriture. correctement ajouté les 12 factures pour l’électricité ; le rapport pour l’article comptable « D05 - Eclairage » (un seul document pdf) comprendra les 12 factures par ordre chronologique ; bref, 12 pages au total avec la mention du paiement toujours en haut. Vous pouvez ainsi feuilleter le classement par article, comme s’il s’agissait de la farde papier « traditionnelle ». Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 25 Astuce – Le grand-livre Si vous souhaitez vérifier la liste des pièces par article à l’aide du grand-livre, vous pouvez télécharger ce document sur votre gauche. Le grand-livre peut également être partagé par le trésorier. Signalons encore que le trésorier peut partager d’autres annexes également : les ajustements internes et la situation patrimoniale. 26 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Annexe 3 – Gérer les droits dans votre module Par dossier, il y a un seul gestionnaire. Cette personne est connue chez ReligioSoft et sera tenue au courant de toutes les évolutions. Le gestionnaire de dossier fera le suivi des dossiers en ligne et pourra également octroyer des droits à d’autres personnes au sein de l’administration communale. La procédure pour octroyer des droits est très simple et comporte deux principes : Vous déterminez les « fonctions » au sein de votre organisation (A.) Vous ajoutez une personne pour chaque fonction et déterminez un droit spécifique (B.) Sous « Accueil », choisissez « Mon organisation ». Cliquez sur « Mon organisation ». La page avec les utilisateurs actuels s’affiche. Le gestionnaire de dossier est déjà mentionné (suite à l’intervention de nos services). Avant d’ajouter des personnes supplémentaires, vous déterminez d’abord les fonctions au sein de votre organisation (A.) ; ensuite vous ajoutez les « bénéficiaires », tout en fixant le droit spécifique (B.). Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 27 A. Ajouter une fonction Sur votre gauche, cliquez sur « gestion des fonctions » pour ajouter les fonctions au sein de votre organisation. Pour ajouter les fonctions nécessaires (par exemple : chef de service, responsable en charge des fabriques), il suffit de cliquer sur « nouvelle fonction ». Complétez, déterminez le droit et sauvegardez. Cliquez sur « Gestion des fonctions ». Ensuite : « Nouvelle fonction ». Complétez et sauvegardez. Astuce – Les différents droits Il faut immédiatement déterminer le droit « normal » pour cette fonction. Toute personne assumant cette fonction au sein du dossier, aura ce droit spécifique. En toute logique, il faudra ajouter tout bénéficiaire séparément (voir l’étape B. ci-dessous). Nous conseillons de limiter le droit d’écriture au gestionnaire du dossier. En principe, vous n’octroyez que le droit de consultation. B. Ajouter une personne Après avoir déterminé les fonctions, vous pouvez ajouter les personnes. À côté de la fonction, cliquez maintenant sur le petit menu : choisissez « Ajouter une nouvelle personne ». Choisissez « Ajouter une nouvelle personne » … 28 Le module de la commune – Éditions Vanden Broele – wallonie.religio.be Complétez le formulaire et sauvegardez. N’oubliez pas d’indiquer le droit spécifique sur votre droite : Déterminez le droit spécifique. Complétez les coordonnées de la personne ... La personne apparaît dans la liste. La personne recevra un mail pour activer son compte personnel (ou le droit, s’il est déjà actif dans le système). Dès que le droit est activé, la petite icône sur votre droite s’affichera en vert. Astuce – Les différents droits Lire = consultation de toutes les données dans le module ; le bénéficiaire ne peut rien changer. Écrire = le bénéficiaire a accès à tous les tableaux et peut donc modifier les chiffres des fabriques. Nous conseillons de limiter le droit d’écriture au gestionnaire du dossier. En principe, vous n’octroyez que le droit de consultation. Pour changer de gestionnaire de dossier, veuillez nous contacter : cultes@religiosoft.be ou T. 02 308 29 06. Le module de la commune (version juin 2020) – Éditions Vanden Broele – www.religiosoft.be 29",
+        "resume": "La section explique comment gérer les droits dans un module, en détaillant la procédure pour attribuer des fonctions et des droits spécifiques aux utilisateurs. Il est également mentionné comment ajouter des personnes et déterminer leurs droits, en limitant généralement le droit d'écriture au gestionnaire du dossier.",
+        "categorie": "Gestion des droits d'accès",
+        "mots_cles": [
+            "gestionnaire de dossier",
+            "fonctions",
+            "droits d'accès",
+            "utilisateurs",
+            "consultation",
+            "écriture",
+            "module de la commune",
+            "ReligioSoft",
+            "procédure",
+            "ajout de personnes"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "wallonie.religio.be Annexe 3",
+                "Gestion des fonctions",
+                "Compte",
+                "ReligioSoft"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Manuel",
+                "Accueil",
+                "Astuce",
+                "n’octroyez",
+                "Ajouter",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment déterminer les fonctions au sein de l'organisation ?",
+                "reponse": "Pour déterminer les fonctions, il faut cliquer sur 'Gestion des fonctions' et ajouter une nouvelle fonction en spécifiant les droits."
+            },
+            {
+                "question": "Quels sont les différents droits disponibles pour les utilisateurs ?",
+                "reponse": "Les droits disponibles sont 'Lire' pour la consultation et 'Écrire' pour la modification des données."
+            },
+            {
+                "question": "Comment ajouter une nouvelle personne avec des droits spécifiques ?",
+                "reponse": "Pour ajouter une personne, il faut cliquer sur 'Ajouter une nouvelle personne', compléter le formulaire et déterminer les droits spécifiques."
+            },
+            {
+                "question": "Comment changer de gestionnaire de dossier ?",
+                "reponse": "Pour changer de gestionnaire de dossier, il est recommandé de contacter cultes@religiosoft.be ou d'appeler au T. 02 308 29 06."
+            },
+            {
+                "question": "Quels documents peuvent être partagés via le système pour les fabriques d'église ?",
+                "reponse": "Les documents partageables incluent le grand-livre, la situation patrimoniale, les ajustements internes, etc."
+            }
+        ],
+        "etapes_processus": [
+            "Déterminer les fonctions au sein de l'organisation en cliquant sur 'Gestion des fonctions'.",
+            "Ajouter une nouvelle fonction en spécifiant les droits associés.",
+            "Ajouter une nouvelle personne en complétant le formulaire et en déterminant les droits spécifiques.",
+            "Limiter généralement le droit d'écriture au gestionnaire du dossier.",
+            "Contacter cultes@religiosoft.be ou appeler au T. 02 308 29 06 pour changer de gestionnaire de dossier."
+        ],
+        "relations": [
+            {
+                "concept": "Gestionnaire de dossier",
+                "description": "Personne responsable du suivi des dossiers en ligne et de l'octroi des droits aux utilisateurs."
+            },
+            {
+                "concept": "Droits d'accès",
+                "description": "Permissions spécifiques accordées aux utilisateurs pour consulter ou modifier les données."
+            },
+            {
+                "concept": "Module de la commune",
+                "description": "Plateforme logicielle utilisée pour gérer les informations liées aux fabriques d'église."
+            },
+            {
+                "concept": "Fonctions",
+                "description": "Rôles définis au sein de l'organisation pour attribuer des responsabilités spécifiques aux utilisateurs."
+            },
+            {
+                "concept": "Consultation",
+                "description": "Droit permettant à un utilisateur de visualiser les données sans pouvoir les modifier."
+            },
+            {
+                "concept": "Écriture",
+                "description": "Droit permettant à un utilisateur de modifier les données dans le système."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "20. Module Commune Version délibérations.pdf",
+            "page_source": [
+                27,
+                33
+            ],
+            "date_extraction": "2025-05-27T12:03:54.322993"
+        }
+    }
+]

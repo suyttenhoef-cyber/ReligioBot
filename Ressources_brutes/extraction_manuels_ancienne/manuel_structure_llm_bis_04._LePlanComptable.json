@@ -1,0 +1,192 @@
+[
+    {
+        "id": "chapitre_1er_introduction__le_plan_comptable",
+        "titre": "Chapitre 1er. Introduction : le plan comptable",
+        "chemin": "Chapitre 1er. Introduction : le plan comptable",
+        "page_debut": 1,
+        "page_fin": 3,
+        "contenu_texte": "Le plan comptable (version 2 – août 2024) Chapitre 1er. Introduction : le plan comptable 1 Chapitre 2. Adapter le plan aux besoins de votre fabrique 4 Chapitre 1er. Introduction : le plan comptable 1.1. Qu’est-ce qu’un plan comptable ? Le plan comptable est une liste officielle comprenant tous les chapitres, sections et articles (recettes et dépenses) qui sont utilisés dans les rapports du budget, des modifications budgétaires et du compte annuel. C’est le squelette de la comptabilité. Pour chaque culte reconnu, il existe un modèle bien défini, qui tient compte de ses spécificités : pour le culte catholique, on y trouvera le vin de messe et le presbytère, entre autres ; pour le culte islamique, il y aura l’achat de tapis, le Coran, etc. Le plan comptable du culte catholique, dont se sont inspirés les autres cultes financés au niveau communal pour affiner leur propre plan, s’organise en gros comme suit : Les recettes • Recettes ordinaires (chapitre I) • Recettes extraordinaires (chapitre II) Les dépenses • Dépenses (ordinaires) relatives à la célébration du culte arrêtées par l’évêque (chapitre I) • Dépenses soumises à l’approbation de l’évêque et du conseil communal (chapitre II) I. Dépenses ordinaires II. Dépenses extraordinaires Dans les différents chapitres, on trouvera les articles mêmes, avec parfois encore un niveau supplémentaire au-dessus, regroupant les articles selon leur affectation « globale » (par exemple : « objets de consommation », « réparations d’entretiens », etc.). Contrairement aux autres cultes reconnus, il n’existe pas un seul plan comptable pour toutes les fabriques d’église catholiques : pour des raisons historiques, chaque diocèse a développé un plan incorporant des spécificités qui lui sont propres : 4 diocèses, 4 plans comptables différents (bien qu’il faille souligner que les différences n’impactent qu’une série d’articles et pas la structure globale des plans comptables). À côté de ces variantes par diocèse, certains trésoriers (et fournisseurs de logiciel comptable) se sont permis de modifier les libellés des articles « officiels ». Il s’ensuit que le plan comptable d’une fabrique est parfois difficile à comparer avec le plan d’une fabrique voisine, pour la seule et simple raison qu’il n’y a aucune garantie que les trésoriers appliquent la même logique. Le problème se pose surtout au niveau des articles « divers » : le R18, le R28, le D35, le D50, entre autres. 1.2. Le plan comptable dans ReligioSoft ReligioSoft vous propose automatiquement le plan qui convient et vous offre en même temps la possibilité d’affiner ce plan : vous pouvez ajouter un niveau « propre à la fabrique », sous les articles officiels. De cette façon, vous pourrez toujours personnaliser le plan comptable sans modifier les articles (et libellés) officiels, qui seront donc identiques pour tous les trésoriers du Le plan comptable – Vanden Broele – www.religiosoft.be 1",
+        "resume": "Le plan comptable est une liste officielle comprenant les chapitres, sections et articles utilisés dans les rapports financiers des cultes. Chaque culte a son propre modèle de plan comptable, adapté à ses spécificités. Les différences entre les plans comptables des fabriques d'église catholiques peuvent rendre la comparaison difficile.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "plan comptable",
+            "recettes",
+            "dépenses",
+            "culte",
+            "diocèse",
+            "trésoriers",
+            "ReligioSoft",
+            "articles",
+            "fabrique",
+            "logiciel comptable"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": [
+                "Dépenses",
+                "qu’",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Qu'est-ce qu'un plan comptable ?",
+                "reponse": "Un plan comptable est une liste officielle des chapitres, sections et articles utilisés dans les rapports financiers."
+            },
+            {
+                "question": "Pourquoi chaque culte a-t-il son propre modèle de plan comptable ?",
+                "reponse": "Chaque culte a des spécificités qui nécessitent un modèle de plan comptable adapté."
+            },
+            {
+                "question": "Comment ReligioSoft gère-t-il le plan comptable ?",
+                "reponse": "ReligioSoft propose automatiquement un plan comptable adapté et permet des personnalisations sans modifier les articles officiels."
+            },
+            {
+                "question": "Pourquoi la comparaison des plans comptables des fabriques d'église catholiques peut-elle être difficile ?",
+                "reponse": "Les trésoriers et fournisseurs de logiciel comptable peuvent modifier les libellés des articles, créant des variations entre les plans."
+            },
+            {
+                "question": "Quelles sont les différences entre les plans comptables des diocèses ?",
+                "reponse": "Chaque diocèse a développé son propre plan comptable incorporant des spécificités qui lui sont propres, bien que les différences n'impactent généralement qu'une série d'articles."
+            }
+        ],
+        "etapes_processus": [
+            "Identifier les recettes ordinaires et extraordinaires",
+            "Classer les dépenses selon leur nature et approbation requise",
+            "Personnaliser le plan comptable dans ReligioSoft si nécessaire"
+        ],
+        "relations": [
+            {
+                "concept": "Plan comptable",
+                "description": "Liste officielle des chapitres, sections et articles utilisés dans les rapports financiers."
+            },
+            {
+                "concept": "Culte",
+                "description": "Chaque culte a son propre modèle de plan comptable adapté à ses spécificités."
+            },
+            {
+                "concept": "Diocèse",
+                "description": "Chaque diocèse a son propre plan comptable avec des spécificités propres, créant des variations entre les plans."
+            },
+            {
+                "concept": "Trésoriers",
+                "description": "Certains trésoriers peuvent modifier les libellés des articles officiels, rendant la comparaison des plans comptables difficile."
+            },
+            {
+                "concept": "ReligioSoft",
+                "description": "Logiciel qui propose un plan comptable adapté et permet des personnalisations sans altérer les articles officiels."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "04. LePlanComptable.pdf",
+            "page_source": [
+                1,
+                3
+            ],
+            "date_extraction": "2025-05-27T12:14:16.602492"
+        }
+    },
+    {
+        "id": "chapitre_2_adapter_le_plan_aux_besoins_de_votre_fabrique",
+        "titre": "Chapitre 2. Adapter le plan aux besoins de votre fabrique",
+        "chemin": "Chapitre 2. Adapter le plan aux besoins de votre fabrique",
+        "page_debut": 4,
+        "page_fin": 8,
+        "contenu_texte": "même diocèse. Cette distinction entre le niveau officiel et celui propre à la fabrique sera respectée avec rigueur dans les rapports : par défaut, et en toute logique, ceux-ci ne comprendront que le niveau officiel (sauf si vous en décidez autrement). Afin de permettre de distinguer les articles officiels de ceux propres à la fabrique (ajoutés par le trésorier) ReligioSoft suit une logique transparente pour leur numérotation : 1. Tous les articles avec un numéro, et éventuellement suivis d’une majuscule, sont « officiels » : R01 (loyers), D01 (pain d’autel), D50A (charges sociales), etc. 2. Les articles propres à la fabrique portent une minuscule à la fin : R01.a (Loyers – Chaussée de Namur 23) ; D50A.a (charges sociales – Pierre de Laval) ; D56.a (Grosses réparations – Remplacement de la toiture). Pour la plupart des fabriques d’église, le plan comptable officiel suffit amplement. Pour les fabriques d’église avec une comptabilité plus exigeante, le plan comptable s’avère parfois trop restreint. La possibilité d’affiner le plan comptable peut aider : il permet d’ajouter plus de détails pour certains articles plus « dominants » dans la comptabilité spécifique de la fabrique. Il faut bien réfléchir avant d’affiner le plan comptable. 2.3. Affiner le plan comptable : quelques directives pour agir avec sagesse 1. L’affinement est-il informatif ? Tout affinement est sensé avoir une valeur ajoutée. Au niveau comptable, il faut supposer que les articles que vous ajoutez vous permettront de mieux faire le suivi du détail du budget et du compte annuel, parce que le plan comptable officiel ne reflète pas tous les besoins de votre établissement. Par exemple, au cas où le patrimoine comprend plusieurs bâtiments qui sont loués. Pour simplifier le suivi de ces revenus, il est utile d’affiner l’art. R01 (Loyers) par bâtiment. Ainsi, il y aura autant d’articles qu’il y a de loyers tandis qu’au niveau officiel tout sera rassemblé sur un seul article (comprenant alors des dizaines d’imputations). Résultat après affinement : Art. R01 – Loyers (article officiel) • R01.a – Chaussée de Namur 23 • R01.b – Rue des Quatre Fils Aymon 25 • R01.c – Boulevard Saint-Michel 89b Ou la fabrique engage plusieurs bénévoles : Art. D50M – Divers (article officiel) • D50M.a – Bénévolat - Gilberte Delatour • D50M.b – Bénévolat - André Lateur • D50M.c – Bénévolat - Georges Bardot De la même façon, le trésorier peut distinguer différents types d’entretien, etc. 2 Le plan comptable – Vanden Broele – www.religiosoft.be 2. Le budget sera-t-il lui aussi affiné ? Pour profiter au maximum d’un plan comptable affiné à la mesure de vos besoins, il est logique de budgétiser au niveau supplémentaire que vous avez jugé utile d’ajouter. Ceci simplifiera le contrôle des imputations, qui elles aussi seront imputées à ce niveau inférieur : vous raisonnerez toujours « de bas en haut » et vous préparerez en toute logique votre budget au niveau le plus bas (le plus souvent « officiel », parfois « propre à la fabrique »). Soulignons une fois de plus qu’il suffira toujours de transmettre les documents officiels comprenant la logique du plan comptable officiel et rien de plus. Les affinements sont plutôt « internes » et ne sont donc en principe pas ajoutés aux rapports officiels. Afin de ne pas trop compliquer les choses, ReligioSoft vous offrira toujours le rapport officiel (sans les articles propres à la fabrique), sauf si vous en décidez autrement. Ce choix s’affiche toujours lorsque vous téléchargez les rapports (voir l’image ci-dessus affichant les trois types de rapports qui existent dans le programme). 3. L’affinement est-il durable ? Si l’affinement que vous envisagez ne servira que pour un seul exercice ou pour un nombre très limité d’imputations, il faut se demander si ça vaut vraiment la peine, l’idée étant d’arriver à un plan comptable qui survivra pendant plusieurs exercices. Aussi, pour ce qui concerne la dénomination des nouveaux articles, faut-il agir avec circonspection. Pour les loyers, par exemple, il vaut mieux renvoyer à l’adresse qu’au locataire. Astuce – La logique du plan comptable : vous pouvez toujours réorienter ! Si vous avez fait la transition vers ReligioSoft récemment, il est toujours utile de bien revoir la logique du plan comptable. Surtout si vous avez profité de la possibilité de changer le libellé des articles du plan comptable, vous pouvez maintenant changer d’approche et affiner en ajoutant un article « propre à la fabrique ». Nous parcourons la procédure ci-dessous, dans le chapitre 2. Important ! Le plan comptable officiel évolue lui aussi encore : les nombreux articles divers seront parfois « réaffectés » afin d’en préciser l’usage. Nous vous tiendrons au courant de toute évolution, qui sera toujours annoncée avant la préparation du nouveau budget et pour laquelle vous ne devrez rien faire par vous-même dans le système. Le plan comptable – Vanden Broele – www.religiosoft.be 3 Chapitre 2. Adapter le plan comptable aux besoins de votre fabrique ReligioSoft vous propose un plan comptable par exercice. En toute logique, vous fixez le plan comptable lors de la préparation du budget de l’exercice suivant. Par exemple, lorsque vous préparez le budget 2025, vous analysez tout d’abord la logique du plan comptable 2025 pour ensuite supprimer ou ajouter des articles sur base des besoins actuels ou futurs. Si vous ne faites rien, le plan comptable actuel sera automatiquement maintenu dans tout nouvel exercice : vous n’intervenez donc que s’il y a un besoin d’affiner. Astuce – Peut-on changer le plan comptable durant l’exercice ? Il est possible de changer les articles en cours d’exercice, sauf si l’article en question est déjà utilisé pour certaines écritures. Ceci garantit un encodage logique pendant tout l’exercice. Tout affinement que vous apportez au plan comptable, sera incorporé partout dans le logiciel pour l’exercice en question (au niveau des imputations, du budget et du compte annuel) et pour tout exercice qui suit, sauf si vous décidez de modifier à nouveau le plan comptable de l’année suivante. Important – le choix du plan comptable Étant donné qu’il existe un plan comptable par exercice, il faut faire attention à bien choisir le bon plan comptable avant d’apporter des changements. Si les changements doivent s’appliquer au budget et/ou aux écritures de 2025, choisissez le plan comptable 2025. Si le plan comptable ne doit être impacté qu’à partir de 2026, choisissez le plan comptable 2026. Affinement du plan comptable Pour affiner le plan comptable, cliquez sur « Plan comptable 2025 », sous « Comptabilité ». Cliquez sur « Comptabilité »… … puis sur « Plan comptable 2025 ». 4 Le plan comptable – Vanden Broele – www.religiosoft.be Le plan comptable actuel s’affiche, y compris ses affinements « historiques ». Pour ajouter un article : • Cliquez sur la flèche sur votre droite, dans la ligne de l’article que vous désirez affiner. • Une fenêtre s’ouvre. Remplissez le libellé du nouveau sous-article et sauvegardez. Pour modifier un article : • Cliquez sur le crayon rouge sur votre droite dans la ligne de l’article. • Une fenêtre s’ouvre. Modifiez le nom et sauvegardez. Astuce – Et les exercices précédents ? La modification apportée au plan comptable ne s’appliquera jamais aux exercices précédents : ceux-ci suivront la logique que vous aviez définie à l’époque. Si maintenant vous consultez l’écran avec le budget ou le compte, ou si vous encodez les écritures, les articles propres à la fabrique s’afficheront automatiquement. Dans le budget, il y a maintenant une ligne supplémentaire. Dans les rapports du budget ou du compte, le plan comptable officiel s’affichera sans les articles propres à la fabrique. Pour incorporer les affinements : voir l’astuce ci-dessous ! Le plan comptable – Vanden Broele – www.religiosoft.be 5 Astuce – Les types de rapport Pour ce qui est des documents officiels, ceux-ci n’incorporent jamais les articles « propres à la fabrique » sauf si vous choisissez explicitement de le faire. Avant le téléchargement du rapport (du budget, du compte, etc.), le programme vous offre le choix entre le rapport « officiel » et le rapport « enrichi » (avec les articles propres à la fabrique), à côté du rapport écologique (pour usage en interne). Pour intégrer les articles que vous avez ajoutés vous-même au plan comptable, il suffit donc de choisir « rapport enrichi ». Le rapportage vis-à-vis des autorités de tutelle ne comprendra que le niveau officiel, sans le détail des articles propres à la fabrique. 6 Le plan comptable – Vanden Broele – www.religiosoft.be",
+        "resume": "Le chapitre aborde l'adaptation du plan comptable aux besoins spécifiques d'une fabrique, en expliquant comment affiner le plan comptable pour mieux suivre le budget et les comptes annuels, tout en soulignant l'importance de la durabilité de ces affinements.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "plan comptable",
+            "affinement",
+            "budget",
+            "comptabilité",
+            "imputations",
+            "rapports",
+            "articles propres",
+            "logiciel",
+            "exercice",
+            "modifications"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Vanden Broele – www.religiosoft.be",
+                "D50A",
+                "Vanden Broele – www.religiosoft.be 2",
+                "– Loyers",
+                "ReligioSoft"
+            ],
+            "montants": [],
+            "noms": [
+                "André Lateur",
+                "préparerez",
+                "Astuce",
+                "Modifiez",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Pourquoi affiner le plan comptable ?",
+                "reponse": "L'affinement permet de mieux suivre le détail du budget et des comptes annuels, en répondant aux besoins spécifiques de la fabrique."
+            },
+            {
+                "question": "Peut-on changer le plan comptable en cours d'exercice ?",
+                "reponse": "Oui, sauf si les articles sont déjà utilisés pour des écritures, garantissant ainsi un encodage logique pendant tout l'exercice."
+            },
+            {
+                "question": "Comment choisir le bon plan comptable ?",
+                "reponse": "Il faut choisir le plan comptable correspondant à l'année des changements souhaités pour le budget et les écritures."
+            },
+            {
+                "question": "Quels rapports incluent les articles propres à la fabrique ?",
+                "reponse": "Seul le rapport enrichi les inclut, tandis que les rapports officiels ne comprennent que le niveau officiel."
+            },
+            {
+                "question": "Comment ajouter un article au plan comptable ?",
+                "reponse": "Il suffit de cliquer sur la flèche ou le crayon à côté de l'article concerné, puis de remplir ou modifier le libellé du nouvel article."
+            }
+        ],
+        "etapes_processus": [
+            "Analyser la logique du plan comptable pour déterminer les besoins actuels ou futurs de la fabrique.",
+            "Affiner le plan comptable en ajoutant des articles pour mieux suivre le budget et les comptes annuels.",
+            "Choisir le bon plan comptable correspondant à l'année des changements souhaités.",
+            "Modifier ou ajouter des articles en cours d'exercice si nécessaire, en veillant à l'encodage logique.",
+            "Sélectionner le rapport enrichi pour inclure les articles propres à la fabrique dans les documents générés."
+        ],
+        "relations": [
+            {
+                "concept": "Plan comptable",
+                "description": "Structure de comptes utilisée pour enregistrer les opérations financières d'une entité."
+            },
+            {
+                "concept": "Affinement du plan comptable",
+                "description": "Processus d'ajout ou de modification d'articles pour répondre aux besoins spécifiques de suivi financier."
+            },
+            {
+                "concept": "Budget",
+                "description": "Estimation des recettes et des dépenses pour une période donnée, basée sur le plan comptable."
+            },
+            {
+                "concept": "Articles propres à la fabrique",
+                "description": "Articles ajoutés pour distinguer les dépenses ou recettes spécifiques à la fabrique des éléments officiels."
+            },
+            {
+                "concept": "Rapport enrichi",
+                "description": "Document incluant les articles propres à la fabrique, contrairement aux rapports officiels qui se limitent au niveau officiel."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "04. LePlanComptable.pdf",
+            "page_source": [
+                4,
+                8
+            ],
+            "date_extraction": "2025-05-27T12:14:25.052240"
+        }
+    }
+]

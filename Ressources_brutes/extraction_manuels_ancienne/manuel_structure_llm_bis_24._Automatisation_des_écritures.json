@@ -1,0 +1,296 @@
+[
+    {
+        "id": "chapitre_1er_lautomatisation_des_critures",
+        "titre": "Chapitre 1er. L’automatisation des écritures",
+        "chemin": "Chapitre 1er. L’automatisation des écritures",
+        "page_debut": 1,
+        "page_fin": 2,
+        "contenu_texte": "Automatisation des écritures ----- Exportation des ordres de paiement – injection des fichiers CODA (version 5 – août 2024) Chapitre 1er. L’automatisation des écritures 1 Chapitre 2. L’exportation des ordres de paiement 3 2.1. Introduction des factures 3 2.2. Création de l’enveloppe 5 2.3. Validation de l’enveloppe dans BelfiusWeb 9 2.4. Apurer les factures et les autres transactions 10 Chapitre 3. L’injection des fichiers CODA 12 3.1. Préparations 12 3.2. Validation des transactions injectées 13 3.3. Vérification du journal / correction des écritures 16 Annexe : accord pour le transfert des fichiers CODA 19",
+        "resume": "Ce chapitre traite de l'automatisation des écritures, en se concentrant sur l'exportation des ordres de paiement et l'injection des fichiers CODA, avec des étapes détaillées pour chaque processus.",
+        "categorie": "Gestion financière",
+        "mots_cles": [
+            "automatisation des écritures",
+            "exportation",
+            "ordres de paiement",
+            "fichiers CODA",
+            "BelfiusWeb",
+            "validation",
+            "transactions",
+            "injection",
+            "journal",
+            "écritures"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "CODA"
+            ],
+            "montants": [],
+            "noms": [
+                "Annexe"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quels sont les principaux sujets abordés dans ce chapitre ?",
+                "reponse": "Ce chapitre traite de l'automatisation des écritures, de l'exportation des ordres de paiement et de l'injection des fichiers CODA."
+            },
+            {
+                "question": "Quelle est l'importance de la validation des transactions injectées ?",
+                "reponse": "La validation des transactions injectées est cruciale pour garantir l'exactitude des données financières."
+            },
+            {
+                "question": "Comment apurer les factures et les autres transactions ?",
+                "reponse": "L'apurement des factures et des autres transactions est réalisé dans le processus décrit à l'étape 2.4."
+            },
+            {
+                "question": "Quelle est l'utilité de la vérification du journal et de la correction des écritures ?",
+                "reponse": "La vérification du journal et la correction des écritures permettent de rectifier d'éventuelles erreurs comptables."
+            },
+            {
+                "question": "Quelle est la version des fichiers CODA mentionnée dans ce chapitre ?",
+                "reponse": "La version des fichiers CODA mentionnée est la version 5 datée d'août 2024."
+            }
+        ],
+        "etapes_processus": [
+            "Introduction des factures",
+            "Création de l'enveloppe",
+            "Validation de l'enveloppe dans BelfiusWeb",
+            "Apurement des factures et des autres transactions",
+            "Préparations pour l'injection des fichiers CODA",
+            "Validation des transactions injectées",
+            "Vérification du journal / correction des écritures"
+        ],
+        "relations": [
+            {
+                "concept": "Exportation des ordres de paiement",
+                "description": "Ce processus est lié à la création de l'enveloppe et à l'apurement des factures."
+            },
+            {
+                "concept": "Injection des fichiers CODA",
+                "description": "Ce processus nécessite des préparations, une validation des transactions injectées et une vérification du journal pour corriger les écritures."
+            },
+            {
+                "concept": "Validation des transactions",
+                "description": "La validation des transactions est effectuée à la fois pour l'enveloppe des ordres de paiement et pour les fichiers CODA injectés."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "24. Automatisation des écritures.pdf",
+            "page_source": [
+                1,
+                2
+            ],
+            "date_extraction": "2025-05-27T12:04:32.498293"
+        }
+    },
+    {
+        "id": "chapitre_2_lexportation_des_ordres_de_paiement",
+        "titre": "Chapitre 2. L’exportation des ordres de paiement",
+        "chemin": "Chapitre 2. L’exportation des ordres de paiement",
+        "page_debut": 3,
+        "page_fin": 11,
+        "contenu_texte": "Chapitre 1er. L’automatisation des écritures Afin de simplifier l’encodage des écritures, ReligioSoft prévoit un flux complet permettant d’automatiser l’encodage des écritures. Vous aurez moins de boulot, car il est possible de combiner la gestion comptable et les ordres de paiement. La logique est simple : au lieu d’introduire les paiements dans le module en ligne de la banque, vous préparez les ordres de paiement dans ReligioSoft. Ensuite, vous les transférerez vers le module en ligne de la banque, où il suffira de signer l’enveloppe transférée. Suite à l’exécution des paiements, vous pourrez « apurer » les factures payées sur base des fichiers digitaux transférés par la banque à ReligioSoft. Vous ne devrez pas tout réencoder, car les informations se trouvent déjà dans le logiciel ! Ce service gratuit vous est offert en collaboration étroite avec Belfius banque. La logique actuelle 1. Le trésorier reçoit la facture. 2. Il se connecte au module en ligne de Belfius, où il introduit l’ordre de paiement. 3. Suite à l’exécution du paiement, le trésorier reçoit les extraits bancaires. 4. Il encode les transactions dans ReligioSoft. Le trésorier encode donc deux fois les mêmes données : une fois pour faire exécuter le paiement (dans Belfius) et encore une fois dans ReligioSoft pour l’encodage dans le cadre de la gestion comptable de la fabrique. La nouvelle logique 1. Le trésorier reçoit la facture. 2. Il introduit la facture (ou les factures) comme une écriture dans ReligioSoft. 3. Il prépare une enveloppe avec tous les ordres de paiement à exécuter dans ReligioSoft. 4. Il transfère cette enveloppe à Belfius avec un clic de souris. 5. Dans Belfius, il suffira de valider l’enveloppe transférée (sans rien réencoder !). 6. Les extraits bancaires seront transférés à la section « comptes bancaires » dans ReligioSoft où le trésorier pourra valider les paiements exécutés sur base du fichier digital. Les transactions pour lesquelles il n’existait pas d’ordre de paiement (ainsi que les recettes) seront automatiquement insérées dans le logiciel sur base des extraits. Il suffira de vérifier et de valider plutôt que de retaper le tout. Bref, l’encodage se fait une seule fois, à savoir dans ReligioSoft. Ensuite, tout est automatisé entre le logiciel et le module de Belfius, avec un minimum d’interventions, y compris l’insertion des transactions dans le logiciel suite au paiement (transfert du fichier pour payer, validation du fichier dans Belfius, vérification des paiements dans ReligioSoft). Automatisation des écritures – Vanden Broele – wallonie.religio.be 1 Pourquoi changer de méthode ? Soulignons tout d’abord qu’il n’existe aucune obligation de changer de méthode : vous pouvez toujours faire comme auparavant et n’encoder les transactions qu’après le paiement. Si vous souhaitez simplifier les démarches au niveau des paiements, l’outil d’exportation dans ReligioSoft réduira les efforts. En même temps, vous aurez toujours une vue complète sur toutes vos factures non encore payées dans le logiciel : tous les « engagements » apparaîtront également dans les tableaux sur base des factures déjà introduites, ce qui simplifiera la vue globale sur l’impact au niveau du compte et du budget. La banque concernée Belfius. Il suffit d’avoir un compte à vue chez Belfius avec un contrat « BelfiusWeb » et accès à la rubrique « Transfert de fichiers/suivi ». Ce service ne coûte rien, ni au niveau de Belfius ni au niveau de votre abonnement à ReligioSoft. Alors, vous pourrez : a. exporter les fichiers avec les ordres de paiement vers BelfiusWeb ; b. importer les fichiers digitaux fournis par Belfius sans frais supplémentaires. Pour l’injection des fichiers, il faudra d’abord marquer votre accord (voir l’annexe au présent document). Le présent manuel aborde les deux volets de l’automatisation : l’exportation des paiements (voir le chapitre 2) et l’injection des fichiers CODA (voir le chapitre 3). 2 Automatisation des écritures – Vanden Broele – wallonie.religio.be Chapitre 2. L’exportation des ordres de paiement dans ReligioSoft L’exportation des ordres de paiement dans ReligioSoft se fait sur base d’une enveloppe avec factures (et les transferts de compte à compte) que vous introduisez dans le système. Voici les démarches au niveau du logiciel : 1. Introduction des factures (et transferts internes) dans ReligioSoft. 2. Création de l’enveloppe avec les ordres de paiement dans ReligioSoft. 3. Validation de l’enveloppe dans le module de la banque. 4. Apurer les factures et les autres transactions sur base des extraits bancaires via « comptes bancaires » dans ReligioSoft. 2.1. L’introduction des factures (et des transferts internes) Avant de pouvoir créer l’enveloppe à transférer à la banque, vous introduisez d’abord vos factures ainsi que les éventuels transferts internes (les mouvements de compte à compte) sous « Comptabilité » - « Dettes et créances ». Nous renvoyons au manuel sur l’encodage des écritures. Nous vous signalons quelques particularités pour ce qui concerne le 1 lien avec les ordres de paiement, car, pour certains champs, il est 2 indispensable de bien saisir ce qui se passera par la suite. 3 Quatre champs spécifiques méritent toute votre attention. 4 1. La date d’échéance sera proposée dans l’enveloppe comme date d’exécution pour ce paiement ; vous pourrez toujours modifier lors de la création de l’enveloppe ; si vous laissez vide, le logiciel proposera le jour d’aujourd’hui comme date d’exécution. Vous pourrez toujours modifier cette date au moment où vous composez l’enveloppe. 2. Le contact = le bénéficiaire ; il faudra remplir le numéro IBAN et BIC (et de préférence aussi l’adresse) dans le profil, pour que les coordonnées bancaires soient reprises dans l’enveloppe à exporter. Sinon, vous ne pourrez pas ajouter cette écriture à l’enveloppe. Cliquez sur le crayon sur votre droite (à côté du champ avec le contact) pour vérifier. Complétez et sauvegardez. Automatisation des écritures – Vanden Broele – wallonie.religio.be 3 3. Le libellé, c’est la description « comptable » de l’écriture, qui n’a donc rien à voir avec la « communication » du paiement bancaire. Ce texte n’apparaîtra donc pas sur les extraits bancaires. Vous remplissez plutôt pour distinguer les différentes écritures pour un même article comptable (sur base d’un renvoi à la facture ou la période dont il s’agit). 4. La communication (structurée ou autre) : c’est la communication bancaire, qui apparaîtra donc sur les extraits bancaires (contrairement au « libellé », qui est purement « comptable » et propre à ReligioSoft).Vous complétez comme vous le faites normalement dans le module de la banque : ou bien vous mettez une communication « libre » ou bien une communication « structurée ». Il suffit de cocher l’option « Structurée » et le champ sera configuré pour la communication structurée standardisée (avec un contrôle sur le « modulo 97 », afin d’éviter une faute de frappe). En résumé, complétez bien le profil des contacts et faites la distinction entre le libellé (le descriptif « comptable ») et la communication libre ou structurée (qui est « bancaire » et qui sera reprise sur les extraits bancaires). Pour les mouvements de compte à compte (les transferts internes), vous pouvez les insérer via le bouton gris « transfert interne » en bas de page. Les mêmes remarques que pour les factures s’appliquent aux transferts internes (voir ci-dessus). Pour les comptes bancaires concernés (le compte source et le compte bénéficiaire), vous pouvez compléter le numéro IBAN (et BIC) via « comptes bancaires » (cliquez sur le crayon à côté du compte, sur votre droite). Astuce – Les « compensations » Si vous introduisez un montant à payer plutôt comme une recette « en négatif », ce montant sera également repris dans la sélection pour l’exportation. Les dépenses compensées (note de crédit en dépenses), par contre, n’apparaîtront pas dans la liste à exporter. Au fur et à mesure que vous encodez les factures, la liste sous « dettes et créances » deviendra plus longue. Toutes ces écritures vous seront proposées lors de la création de l’enveloppe à transférer à la banque. Si vous avez bien préparé les factures et les transferts internes, la création de l’enveloppe à exporter sera aisée. 4 Automatisation des écritures – Vanden Broele – wallonie.religio.be 2.2. La création de l’enveloppe Pour rassembler une série de paiements à effectuer dans une enveloppe, cliquez sur « Ordres de paiement » sous « Comptabilité » : Astuce – Activation de l’outil La première fois que vous visitez le module pour exporter, il faudra d’abord activer l’outil dans la colonne de gauche (il suffit de cocher l’option « activé »). Le logiciel ajoutera des avertissements lors de l’encodage afin de mieux vous guider lors de l’exportation des paiements. La procédure d’exportation même se compose de 4 petites étapes : 1. Sélection du compte bancaire. 2. Composition de l’enveloppe (sélection des paiements à effectuer). 3. Transfert/téléchargement du fichier . 4. Confirmation du transfert/téléchargement. 1re étape – Sélection du compte bancaire Choisissez le compte « source » (= le compte avec lequel vous allez payer l’enveloppe). Chaque enveloppe sera liée à un seul compte bancaire. Attention ! Le logiciel n’affiche que les comptes Belfius (sur base du numéro du compte (IBAN)). S’il manque un compte, vérifiez d’abord sous « comptes bancaires » si le profil du compte bancaire est complet. Cliquez sur la liste et sélectionnez : Automatisation des écritures – Vanden Broele – wallonie.religio.be 5 … ensuite, cliquez « suivant » en bas de page pour passer à la 2e étape. 2e étape – Composition de l’enveloppe Dans la deuxième étape, vous pouvez remplir l’enveloppe avec toutes les factures que vous souhaitez exporter. Les montants non encore exportés s’affichent sur votre gauche, l’enveloppe à remplir sur votre droite. Montants non encore L’enveloppe (vide) exportés Cliquez sur l’icône avec la petite enveloppe dans la ligne d’une écriture pour l’ajouter à l’enveloppe (= le volet à droite). Le logiciel vous invite à indiquer la date d’exécution pour le paiement. Il est également possible de ne payer qu’une partie de la facture (il suffit de manipuler le montant). Ensuite : sauvegardez ! 6 Automatisation des écritures – Vanden Broele – wallonie.religio.be La ligne s’ajoute au volet de droite, qui représente l’enveloppe (à compléter) : L’enveloppe comprend maintenant un ordre de paiement Astuce – Les profils incomplets La ligne qui s’affiche en rouge dans le volet de gauche (voir ci-dessus) ne peut être ajoutée à l’enveloppe à cause du profil incomplet du contact. Cliquez sur le petit bonhomme pour compléter le numéro IBAN (et BIC) et l’adresse. Ensuite, la ligne s’affichera en blanc et pourra être ajoutée à l’enveloppe. Au fur et à mesure que vous ajoutez des lignes, le logiciel vérifie si le solde du compte bancaire suffit encore. Dès que le montant total de l’enveloppe dépasse le solde du compte bancaire, ce dernier s’affiche en rouge. Vous pourrez tout de même continuer, mais il faudra vérifier si ça a un sens de transférer l’enveloppe. Astuce – Transférer tout En bas de page, vous trouvez le bouton « transférer tout ». Cliquez dessus et vous pourrez finaliser les différentes écritures de suite (de haut en bas) sans devoir recliquer sur les petites enveloppes tout le temps. Une fois que l’enveloppe a été remplie selon vos souhaits, cliquez en bas de page sur « suivant » pour finaliser la procédure. Automatisation des écritures – Vanden Broele – wallonie.religio.be 7 3ème étape – Exportation du fichier Dans la troisième étape, le logiciel vous propose d’abord le résumé de l’enveloppe. Vous pouvez toujours retourner à la deuxième étape pour supprimer ou ajouter des montants à payer à l’enveloppe (cliquez sur « précédent », en bas). Pour envoyer l’enveloppe à Belfius, cliquez sur le bouton rouge en bas : « transférer le fichier au module en ligne de Belfius». 4ème étape – Confirmation du transfert/téléchargement Le logiciel vous confirme si tout s’est bien passé. Astuce – Envoyer l’enveloppe à nouveau Il est toujours possible de transférer (ou de télécharger) une enveloppe à nouveau. Cliquez sur le bouton gris « Archives » dans le volet de gauche, et la liste avec toutes les enveloppes déjà exportées s’affichera. Pour envoyer (ou télécharger) à nouveau, cliquez sur la flèche rouge sur votre droite. 8 Automatisation des écritures – Vanden Broele – wallonie.religio.be 2.3. Validation de l’enveloppe dans le module de la banque Une fois le boulot dans ReligioSoft complété, il est temps de vous connecter au module en ligne BelfiusWeb. Dans le volet de droite, l’outil vous signale s’il y a des fichiers à signer. Cliquez sur le texte souligné. Sur votre droite, BelfiusWeb vous signale s’il y a des fichiers en attente. Vous tomberez sur la page avec toutes les transactions à signer encore. S’il y a des fichiers transférés, il en est fait mention en bas de page. Cliquez dessus ! Ensuite, cochez (à gauche) et cliquez sur « signer ». Automatisation des écritures – Vanden Broele – wallonie.religio.be 9",
+        "resume": "Le chapitre 2 décrit le processus d'exportation des ordres de paiement dans ReligioSoft, incluant l'introduction des factures, la création de l'enveloppe avec les ordres de paiement, la validation dans le module de la banque, et l'apurement des transactions. Il met en avant l'automatisation des paiements pour simplifier la gestion comptable.",
+        "categorie": "Gestion des paiements et comptabilité",
+        "mots_cles": [
+            "ReligioSoft",
+            "ordres de paiement",
+            "automatisation",
+            "encodage",
+            "Belfius",
+            "factures",
+            "enveloppe",
+            "validation",
+            "exportation",
+            "comptabilité"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "BIC",
+                "Dettes",
+                "8 Automatisation",
+                "4 Automatisation",
+                "Ordres",
+                "ReligioSoft",
+                "ReligioSoft).Vous complétez",
+                "CODA"
+            ],
+            "montants": [],
+            "noms": [
+                "Vanden Broele",
+                "Transfert",
+                "d’",
+                "L’enveloppe",
+                "enveloppe",
+                "– Envoyer",
+                "Belfius",
+                "Vanden Broele – wallonie.religio.be",
+                "Vanden Broele – wallonie.religio.be 2.2",
+                "Astuce",
+                "S’",
+                "Sinon",
+                "Transférer",
+                "qu’",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quelles sont les étapes pour exporter des ordres de paiement dans ReligioSoft ?",
+                "reponse": "Les étapes incluent l'introduction des factures, la création de l'enveloppe, la validation dans le module de la banque et l'apurement des transactions."
+            },
+            {
+                "question": "Quels sont les avantages de l'automatisation des paiements avec ReligioSoft ?",
+                "reponse": "L'automatisation permet de simplifier l'encodage des paiements, d'éviter la double saisie des données et de faciliter la gestion comptable."
+            },
+            {
+                "question": "Quelles informations doivent être fournies pour créer une enveloppe d'ordres de paiement ?",
+                "reponse": "Il est nécessaire de renseigner les factures, les transferts internes, les coordonnées bancaires des bénéficiaires et les dates d'exécution des paiements."
+            },
+            {
+                "question": "Quelles sont les étapes pour valider une enveloppe dans le module de la banque ?",
+                "reponse": "Une fois l'enveloppe transférée, il faut se connecter au module en ligne de la banque, signer les fichiers en attente et valider les transactions."
+            },
+            {
+                "question": "Quelles sont les conditions pour utiliser le service d'exportation avec Belfius ?",
+                "reponse": "Il faut disposer d'un compte à vue chez Belfius avec un contrat BelfiusWeb et accès à la rubrique Transfert de fichiers/suivi."
+            }
+        ],
+        "etapes_processus": [
+            "Introduction des factures et transferts internes dans ReligioSoft.",
+            "Création de l'enveloppe avec les ordres de paiement dans ReligioSoft.",
+            "Validation de l'enveloppe dans le module de la banque.",
+            "Apurement des factures et autres transactions sur base des extraits bancaires via comptes bancaires dans ReligioSoft."
+        ],
+        "relations": [
+            {
+                "concept": "Factures",
+                "description": "Doivent être introduites dans ReligioSoft pour créer les ordres de paiement."
+            },
+            {
+                "concept": "Enveloppe d'ordres de paiement",
+                "description": "Contient les paiements à effectuer et doit être validée dans le module de la banque."
+            },
+            {
+                "concept": "Automatisation des paiements",
+                "description": "Permet de simplifier l'encodage, d'éviter la double saisie des données et de faciliter la gestion comptable."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "24. Automatisation des écritures.pdf",
+            "page_source": [
+                3,
+                11
+            ],
+            "date_extraction": "2025-05-27T12:04:38.848900"
+        }
+    },
+    {
+        "id": "chapitre_3_linjection_des_fichiers_coda",
+        "titre": "Chapitre 3. L’injection des fichiers CODA",
+        "chemin": "Chapitre 3. L’injection des fichiers CODA",
+        "page_debut": 12,
+        "page_fin": 19,
+        "contenu_texte": "Si la section pour signer les fichiers ne s’affiche pas dans BelfiusWeb, il faudra contacter le service clients pour activer cette option via : eb-contact@belfius.be ou au 02 222 87 10. Quelques astuces ! 1. La prochaine fois que vous créerez une enveloppe dans ReligioSoft, le logiciel ne vous proposera que les montants non encore exportés. Les montants déjà exportés ne seront donc plus visibles. Pour y remédier, voir l’astuce 4. 2. Vous pouvez toujours consulter l’historique des exportations dans la section avec les « archives » dans le module d’exportation (c’est le bouton gris qui s’affiche partout dans le volet de gauche, en haut). Cliquez sur l’icône avec les trois lignes pour consulter la liste des paiements pour cette enveloppe. 3. Pour exporter à nouveau une enveloppe déjà envoyée (mais annulée, par exemple, dans BelfiusWeb), consultez la même rubrique « archives ». Pour envoyer un fichier global à nouveau, cliquez sur la flèche rouge sur votre droite. 4. Pour « libérer » les montants individuels d’un fichier déjà envoyé afin de pouvoir les insérer dans une nouvelle enveloppe, cliquez sur le cadenas brisé. Les factures libérées s’afficheront à nouveau dans la liste de sélection dans l’étape 2 de l’exportation. 2.4. Apurer les factures et les autres transactions sur base des extraits bancaires via « comptes bancaires » dans ReligioSoft ReligioSoft prévoit deux méthodes pour finaliser l’encodage suite à l’encodage des dettes et créances : Méthode A : Le trésorier peut « apurer » les écritures manuellement. Méthode B : Il existe une possibilité d’injecter les fichiers bancaires (CODA) suite à l’exécution du paiement. Méthode A – apurer les écritures manuellement Suite à l’exécution des paiements, vous recevrez les extraits bancaires reprenant tous les paiements exportés finalisés, ainsi que les autres mouvements (recettes, paiements en domiciliation, etc.). Il y aura donc deux types de mouvements qu’il faudra distinguer nettement : 1. Les mouvements pour lesquels il n’existe pas d’écriture dans ReligioSoft. 2. Les mouvements pour lesquels il existe déjà une facture (une dette), une créance (recette) ou un transfert interne dans ReligioSoft (qu’on pourra donc récupérer). 10 Automatisation des écritures – Vanden Broele – wallonie.religio.be Concernant les mouvements pour lesquels il n’existe pas d’écriture sous « comptabilité » - « dettes et créances », vous faites comme auparavant : vous complétez le formulaire de l’écriture sur base de vos extraits bancaires. Pour l’encodage des écritures déjà encodées sous « dettes et créances », par contre, l’encodage final sur base des extraits bancaires devient plus simple : 1. Dans le formulaire, cliquez sur « automatique » au lieu de remplir vous-même le détail ; le logiciel affichera les écritures non encore apurées. 2. Sélectionnez l’écriture pour laquelle le paiement s’affiche sur l’extrait bancaire et le logiciel complétera automatiquement le détail, sauf pour les deux champs en jaune qu’il faudra encore vérifier et/ou mettre à jour, à savoir, la date d’exécution et le numéro de l’opération. 3. Sauvegardez ! L’écriture sera ajoutée au journal et vous pourrez continuer l’encodage des autres écritures de la même façon. Il sera important de toujours bien distinguer les deux types de mouvements : ceux qui existent déjà dans le logiciel sous « dettes et créances » et les nouvelles transactions. En toute logique, vous aurez une alternance entre les deux types de mouvements. Astuce – les mouvements exportés/injectés Dans le journal, les mouvements sur base d’une dette/créance introduite au préalable sont faciles à identifier par la suite grâce à la présence du petit rond noir. Les mouvements injectés ont quant à eux une flèche. N’oubliez pas de vérifier le solde du compte bancaire dans ReligioSoft afin d’être sûr que celui- ci correspond au solde qui s’affiche sur vos extraits bancaires. Méthode B – injection des fichiers CODA ReligioSoft prévoit une injection automatisée des fichiers CODA pour les fabriques d’église abonnées à BelfiusWeb, ce qui permettra d’automatiser encore plus l’encodage des mouvements bancaires. Le principe est simple : les fichiers digitaux avec les transactions exécutées de chez Belfius seront injectées dans le logiciel ; il ne vous restera qu’à valider la liste et à compléter les écritures incomplètes. Consultez le chapitre 3 ci-après pour plus de renseignements. Automatisation des écritures – Vanden Broele – wallonie.religio.be 11 Chapitre 3. L’injection des fichiers CODA À côté de l’exportation pour alimenter les ordres de paiement dans le module de la banque, ReligioSoft offre également la possibilité d’injecter les fichiers bancaires digitaux de BelfiusWeb, ce qui simplifie l’encodage des écritures considérablement. Le détail des transactions déjà connu au niveau de la banque sera repris automatiquement dans le logiciel, de sorte qu’il ne vous restera qu’à valider certains champs spécifiques, au lieu de devoir retaper toutes les données. Attention : il faudra remplir le formulaire en annexe du présent dossier et le transférer par email à BelfiusWeb et à ReligioSoft afin d’activer le transfert entre les deux outils. L’injection démarrera suite à la validation par les services de Belfius (au plus tard 3 jours après l’envoi). 3.1. Préparations Avant d’utiliser l’importation des fichiers bancaires, il faudra : 1. Compléter le profil du compte bancaire dans le logiciel, afin de garantir que chaque compte bancaire puisse être reconnu et identifié univoquement ; vérifiez sous « comptes bancaires » si dans la colonne de gauche le numéro est bien rempli. Via le petit crayon sur votre droite, vous pourrez toujours mettre à jour le profil d’un compte. 2. Configurer le profil du compte bancaire dans ReligioSoft. L’option spécifique se trouve dans le profil du compte bancaire concerné. Attention : vous ne pouvez injecter les transactions que pour un seul compte bancaire dans le logiciel. 3. Compléter le profil des contacts : bien qu’il ne s’agisse pas d’une obligation, il est conseillé de compléter le numéro IBAN dans le profil des contacts (fournisseurs et créanciers) ainsi que l’adresse, avant d’utiliser le module pour injecter les fichiers digitaux, un profil complet permettra de simplifier l’identification des contacts au moment de la validation des transactions importées. Vous pouvez toujours compléter et mettre à jour les profils dans la section « contacts » sous « comptabilité ». Si vous utilisez déjà l’exportation des ordres de paiement (voir le chapitre 2), vous ne rencontrerez aucun obstacle. Dès que vous aurez complété ces trois démarches préparatoires, la validation des écritures injectées devient beaucoup plus simple. 12 Automatisation des écritures – Vanden Broele – wallonie.religio.be 3.2. Validation des transactions injectées Le point de départ pour la validation des fichiers importés, ce sont les comptes bancaires. Suite à la configuration d’un des comptes bancaires pour l’importation des fichiers bancaires, il s’affichera un bouton supplémentaire pour l’importation des fichiers bancaires (voir ci-dessous). Vous ne devez rien faire vous-même pour le reste : automatiquement, BelfiusWeb va transférer les fichiers avec les transactions exécutées vers ReligioSoft au jour le jour. Lorsque le bouton est vert, cela signifie que des fichiers sont en attente de validation. Cliquez dessus pour consulter l’aperçu des transactions à injecter. Après avoir cliqué sur « importation extraits », vous retrouverez automatiquement dans la section « Transactions non encore validées » les mouvements à valider. Voir ci-dessous : Attention : il faut que dans votre module de BelfiusWeb l’option pour le transfert des fichiers soit activée, sinon il sera impossible de recevoir les fichiers dans ReligioSoft. Pour consulter le détail des transactions (et pour les valider), cliquez sur la flèche rouge sur votre droite. La liste avec les transactions bancaires s’affiche : Maintenant vous pouvez valider par ordre chronologique toutes les transactions injectées jusqu’à ce que vous arriviez au bout de la liste : cliquez sur la première pour commencer et le logiciel vous guidera ! Automatisation des écritures – Vanden Broele – wallonie.religio.be 13 Par écriture, il y a quelques possibilités : 1. Les écritures exportées via ReligioSoft vers le module de la banque (comme ordres de paiement) seront reconnues automatiquement lors de l’injection des transactions. 2. Pour les écritures qui n’ont jamais été exportées, le logiciel proposera les dettes/créances/transferts internes « logiques » afin que vous puissiez identifier la transaction sur la base des écritures déjà dans le logiciel (sous « comptabilité ») ; vous aurez toujours la possibilité de créer une nouvelle écriture au besoin. 3. Pour les écritures pour lesquelles il n’existe pas de dette/créance introduite au préalable, vous pourrez valider immédiatement en créant une nouvelle écriture ; si vous ne créez jamais de dettes/créances dans le logiciel (avant de payer donc), c’est la seule option que vous aurez. Résumons encore la logique de l’identification et des propositions automatisées : 1. Dette exportée comme ordre de paiement ? Le logiciel vous propose automatiquement la bonne écriture. 2. Sinon : le logiciel propose sur la base des critères suivants : a. Communication structurée b. Code IBAN du contact c. Montant payé / versé Parcourons quelques exemples concrets : Le logiciel reconnaît et propose deux factures (déjà introduites sous « comptabilité ») pour les assurances, car le numéro IBAN correspond au numéro IBAN du contact dans ReligioSoft : La première facture semble être la bonne ; cliquez sur la flèche pour la sélectionner ; ensuite vous pourrez vérifier le détail en bas de page et valider : 14 Automatisation des écritures – Vanden Broele – wallonie.religio.be Le détail est parfait ? Cliquez sur « sauvegarder ». Le logiciel confirme et passe à l’écriture suivante – encore un paiement pour les assurances. Maintenant le logiciel propose la seule facture pour AXA qui reste dans le système : C’est toujours le même principe : cliquez sur la flèche pour sélectionner. Ensuite, vérifiez et sauvegardez. Une deuxième transaction s’affiche en vert. Le logiciel passe immédiatement à la troisième transaction, pour laquelle il n’y a pas de proposition. Il faudra l’ajouter comme une nouvelle écriture : une recette, une dépense ou un transfert interne. Automatisation des écritures – Vanden Broele – wallonie.religio.be 15 Il s’agit d’une recette – le formulaire s’affiche, vous complétez et sauvegardez : Si vous souhaitez vérifier la liste des dettes et créances ouvertes ou le journal du compte bancaire, il suffit de télécharger les rapports via les boutons noirs dans le volet de gauche. 3.3. Vérification du journal/correction des écritures Une fois la liste complétée, le logiciel vous invite à en vérifier le résultat via le journal même du compte bancaire (cliquez sur le bouton gris sur votre gauche), où vous pourrez toujours apporter des changements aux écritures. Astuces : 1. Les champs « financiers » seront toujours remplis automatiquement dans les formulaires : le numéro de l’opération bancaire, la date du paiement, le montant et la communication bancaire ; dans la mesure où les autres données sont connues dans le logiciel, les formulaires seront complétés automatiquement au fur et à mesure. 2. Contact : les contacts sont proposés sur la base du code IBAN ou du contact déjà choisi dans la dette/créance introduite auparavant. Vous pourrez également changer selon vos souhaits, bien que nous conseillions d’appliquer une méthodique cohérente. 3. Communication bancaire ou libellé comptable ? Pour chaque transaction, le logiciel incorpore la communication bancaire (si le champ était rempli) ; au niveau de la comptabilité, c’est le champ « libellé » qui est important et qui sera repris ; il est toujours possible de copier la communication dans le champ du libellé via l’icône avec la flèche. 16 Automatisation des écritures – Vanden Broele – wallonie.religio.be 4. Transferts internes : pour les transferts internes (les mouvements de compte à compte), les deux parties du mouvement seront ajoutées aux journaux (le compte source et le compte bénéficiaire). Il faudra compléter par la suite la deuxième partie du mouvement via le journal même. 5. Il est toujours possible de télécharger le journal complet déjà validé via le bouton noir « exportation du journal (Excel) » dans le volet de gauche. Vous pouvez ainsi vérifier tout ce qui se trouve déjà dans le journal du compte. Juste en-dessous, le fichier avec les dettes et créances toujours ouvertes est disponible. 6. Corrections à apporter ? Lors de la validation des transactions, vous ne pourrez pas corriger des écritures déjà validées, mais vous pourrez toujours apporter vos changements via le journal même du compte, où « tout reste possible ». Ne vous inquiétez donc certainement pas lorsque vous vous êtes trompé(e) : comme partout ailleurs dans le programme, vous pourrez toujours faire marche en arrière. 7. Le solde bancaire est vérifié (et bloqué) automatiquement dans le module pour l’importation des fichiers bancaires. Vous ne pourrez donc jamais manipuler les montants mêmes. Astuce – Dettes et créances déjà introduites ? Dans la mesure où vous avez déjà introduit les dettes et créances (sous « comptabilité » - « dettes et créances »), la reconnaissance des écritures devient beaucoup plus simple au moment de la validation des écritures suite à l’injection des fichiers bancaires. Consultez le chapitre 1er pour plus de renseignements au sujet de l’exportation des ordres de paiement. Cas particulier : l’importation en fin d’exercice ! Si, en fin d’exercice, un fichier est injecté qui concerne deux exercices (les écritures tardives de 2024) et les premières écritures de 2025 (à partir du 1er janvier 2025), vous aurez une importation qui comprendra deux types d’écritures et vous devrez, en toute logique, bien faire attention à l’exercice concerné. Pour les importations qui dépassent le 31 mars, il faudra bien tenir compte du fait que l’encodage « par exercice » reste limité au 31 mars de l’exercice qui suit : • Vous pourrez encoder les écritures (importées) jusqu’au 31 mars 2025 (via l’exercice 2024 ou l’exercice 2025) ; • Les écritures d’après le 31 mars 2025 devront être encodées via l’exercice 2025 ; pour changer d’exercice : cliquez sur le menu déroulant à côté du logo de ReligioSoft en haut à gauche de la page. Comme c’est le cas pour l’encodage traditionnel, nous conseillons de clôturer l’exercice en cours au plus vite et d’insérer la date du conseil de fabrique dès que le compte annuel a été arrêté. De cette façon, l’exercice sera clôturé correctement et vous n’aurez aucun souci quant au choix correct du nouvel exercice. Automatisation des écritures – Vanden Broele – wallonie.religio.be 17",
+        "resume": "La section décrit le processus d'injection des fichiers CODA dans ReligioSoft pour simplifier l'encodage des écritures bancaires. Il explique comment préparer le logiciel, valider les transactions importées et effectuer des corrections si nécessaire.",
+        "categorie": "Gestion financière",
+        "mots_cles": [
+            "CODA",
+            "ReligioSoft",
+            "encodage",
+            "transactions bancaires",
+            "validation",
+            "comptabilité",
+            "dettes et créances",
+            "injection automatisée",
+            "profil des comptes bancaires",
+            "contacts"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Parcourons",
+                "d’",
+                "16 Automatisation",
+                "12 Automatisation",
+                "Automatisation",
+                "Transactions",
+                "ReligioSoft",
+                "qu’",
+                "Le point de départ pour la validation des fichiers importés",
+                "CODA"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Vanden Broele",
+                "Vanden Broele – wallonie.religio.be",
+                "Astuce",
+                "Sinon",
+                "c. Montant",
+                "n’",
+                "Vanden Broele – wallonie.religio.be 17",
+                "Belfius"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment activer l'option d'injection des fichiers CODA dans ReligioSoft ?",
+                "reponse": "Il faut remplir le formulaire en annexe et le transférer par email à BelfiusWeb et à ReligioSoft pour activer le transfert entre les deux outils."
+            },
+            {
+                "question": "Comment valider les transactions importées dans ReligioSoft ?",
+                "reponse": "Il faut cliquer sur le bouton d'importation des fichiers bancaires pour consulter les transactions à valider, puis les valider une par une en vérifiant les détails."
+            },
+            {
+                "question": "Comment corriger des écritures après validation dans ReligioSoft ?",
+                "reponse": "Les écritures déjà validées ne peuvent pas être corrigées, mais des changements peuvent être apportés via le journal du compte bancaire où 'tout reste possible'."
+            },
+            {
+                "question": "Quels sont les préparatifs nécessaires avant d'utiliser l'importation des fichiers bancaires dans ReligioSoft ?",
+                "reponse": "Il faut compléter le profil du compte bancaire, configurer le profil du compte bancaire dans ReligioSoft et compléter le profil des contacts pour simplifier l'identification des contacts lors de l'importation des fichiers."
+            },
+            {
+                "question": "Comment distinguer les différents types de mouvements bancaires dans ReligioSoft ?",
+                "reponse": "Il faut bien distinguer les mouvements pour lesquels il n'existe pas d'écriture dans ReligioSoft et ceux pour lesquels il existe déjà une facture, une dette ou un transfert interne dans le logiciel."
+            }
+        ],
+        "etapes_processus": [
+            "Préparer le logiciel en complétant le profil du compte bancaire et des contacts.",
+            "Configurer le profil du compte bancaire dans ReligioSoft.",
+            "Valider les transactions importées en cliquant sur le bouton d'importation des fichiers bancaires.",
+            "Vérifier le journal du compte bancaire pour corriger les écritures si nécessaire."
+        ],
+        "relations": [
+            {
+                "concept": "Injection des fichiers CODA",
+                "description": "Processus automatisé d'intégration des fichiers bancaires digitaux de BelfiusWeb dans ReligioSoft pour simplifier l'encodage des transactions."
+            },
+            {
+                "concept": "Profil des comptes bancaires",
+                "description": "Informations nécessaires pour identifier et reconnaître de manière unique chaque compte bancaire dans ReligioSoft."
+            },
+            {
+                "concept": "Validation des transactions",
+                "description": "Étape cruciale pour vérifier et approuver les transactions importées avant leur intégration définitive dans le logiciel."
+            },
+            {
+                "concept": "Corrections d'écritures",
+                "description": "Possibilité d'apporter des modifications aux écritures déjà validées via le journal du compte bancaire dans ReligioSoft."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "24. Automatisation des écritures.pdf",
+            "page_source": [
+                12,
+                19
+            ],
+            "date_extraction": "2025-05-27T12:04:46.510157"
+        }
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "_matiere": "usage_logiciel",
+  "documents": [
+    {
+      "document_id": "manuel_religiosoft_en_quelques_clics",
+      "titre": "ReligioSoft en quelques clics (2024)",
+      "type": "manuel_utilisateur",
+      "statut": "en_vigueur",
+      "notes": "Source: Ressources_brutes/manuels_religiosoft/01. ReligiosoftEnQuelquesClics2024.pdf"
+    }
+  ],
+  "articles": [],
+  "sections_circulaire": [],
+  "pratiques_validees": []
+}

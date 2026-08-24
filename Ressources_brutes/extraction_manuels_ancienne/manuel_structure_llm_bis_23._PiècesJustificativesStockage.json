@@ -1,0 +1,101 @@
+[
+    {
+        "id": "document_complet",
+        "titre": "Document complet",
+        "chemin": "Document complet",
+        "page_debut": 1,
+        "page_fin": 6,
+        "contenu_texte": "Le stockage des pièces justificatives en ligne (version 2 – novembre 2021) 1. Introduction 1 2. Le stockage des pièces justificatives dans ReligioSoft 2 3. Le classement digital des pièces justificatives 3 4. Le transfert du classement digital aux autorités de tutelle 4 Tous les manuels sont disponibles sous format pdf dans ReligioSoft : consultez la section « aide ». 1. Introduction Suite à une question posée par les Évêchés, le Service Public de Wallonie a publié son point de vue concernant la possibilité de dématérialisation pour les dossiers du budget et du compte. Il conclut : 1. Par manque de modalités juridiques permettant la transmission électronique du budget ou du compte, le dossier (et la délibération) doit toujours être transmis sous format papier. La date de réception de ce courrier détermine le calcul des délais de tutelle. 2. Afin de remédier au défi opérationnel de la transmission des pièces justificatives, il est désormais permis de transférer le classement des justificatifs électroniquement à condition que l’ensemble des acteurs concernés aient adhéré au même logiciel. Cette communication, qui date de janvier 2017, autorise le transfert digital des justificatifs dans le cadre de la tutelle spéciale (comptes, budgets et modifications budgétaires), bien qu’il faille toujours l’accord de la commune et de l’évêché afin de garantir l’harmonisation des démarches locales. Actuellement, plusieurs communes acceptent déjà le transfert digital pour cette partie du dossier, et les Évêchés encouragent également cette évolution. ReligioSoft prévoit la possibilité de stocker tous vos documents sous format digital dans le logiciel, et un outil spécifique a été incorporé pour archiver les factures et les extraits bancaires intelligemment. La logique est très simple : • Via le journal, vous annexez par écriture les pièces concernées. • Le logiciel créera alors automatiquement un classement digital, que vous pourrez partager en ligne avec les autorités de tutelle au moment où vous clôturerez le compte. Dans ce classement digital, le logiciel ajoutera en haut du scan de la pièce le détail de la transaction financière concernée afin de permettre une vérification aisée du journal. • Dans leur module à eux, la commune et l’évêché auront accès à un grand-livre classant toutes les pièces par article et par ordre chronologique, suivant les mêmes principes que le classement papier. Pour les documents qui ne sont pas liés directement aux écritures (ou si vous souhaitez stocker en ligne le fichier avec le journal complet de Belfius (leur pdf donc)), vous pouvez utiliser la section « Délibérations » sous « Accueil » et partager via cette partie du logiciel. Le présent dossier vous explique les démarches pour les trois (petites) procédures concernées : 1. Le stockage des pièces justificatives (voir la section 2.) ; 2. Le classement digital (voir la section 3) ; 3. Le transfert du classement digital aux autorités de tutelle (voir la section 4). Le stockage des pièces justificatives en ligne – Vanden Broele – www.religiosoft.be 1 2. Le stockage des pièces justificatives dans ReligioSoft Le stockage des pièces justificatives suit la logique de l’encodage des écritures. Ce principe permet de préparer un classement digital complet sur base des articles comptables, qui incorpore en même temps les infos financières des transactions concernées. Pour ajouter une pièce : consultez le journal via « comptes bancaires ». Une attache s’affiche à côté de Via le journal vous pouvez insérer les chaque écriture. Cliquez dessus pièces via l’attache sur votre droite. pour stocker une pièce. Cliquez ensuite sur « ajouter une pièce » (voir ci-dessous) pour sélectionner une facture en la recherchant sur votre ordinateur local. Complétez le détail et sauvegardez. Cliquez sur le bouton noir… … complétez et sauvegardez. … recherchez la pièce sur votre ordi … Dès que vous sauvegardez, la pièce s’affiche dans la liste des pièces pour cette écriture. La pièce s’affiche dans la liste. Vous pouvez attacher cinq pièces au maximum. Si tout est stocké, vous sauvegardez en bas de la liste. Dès que vous sauvegardez, vous retournerez au journal, où Dans le journal, l’attache s’affiche en rouge. l’attache s’affichera en rouge. Vous pourrez toujours corriger en cliquant dessus. Note : il est également possible d’insérer les pièces via les « dettes et créances », si vous encodez les écritures avant de payer. Le principe est le même : cliquez sur l’attache et complétez. Astuce – Quels types de documents faut-il annexer ? En principe, on annexe la facture ; vous pouvez également y ajouter encore d’autres documents utiles (une note de crédit, l’extrait bancaire, le mandat de paiement signé…). Tout ce que vous insérez dans le système sera repris dans le classement digital final (voir la section 3.). 2 Le stockage des pièces justificatives en ligne – Vanden Broele – www.religiosoft.be 3. Le classement digital des pièces justificatives Étant donné que chaque pièce est maintenant couplée à une écriture spécifique, le logiciel pourra automatiquement créer un classement digital par article, avec toutes les pièces par article, par ordre chronologique et avec mention de la date du paiement (sur base du journal). Pour télécharger ce rapport, cliquez sur « accueil », ensuite « compte annuel 2021 », et « tableaux » (sur votre droite). À côté de chaque article pour lequel des pièces ont été annexées, l’attache s’affiche : cliquez dessus pour télécharger l’ensemble des pièces pour cet article. Cliquez sur l’icône pdf pour télécharger le classement digital d’un article. Le rapport (par article) mentionne (de gauche à droite) : 1. L’article comptable ; 2. La référence au paiement (sur base du journal) ; En haut de la facture digitale, 3. L’identifiant unique de l’écriture ; le rapport mentionne 4. Le nombre de pièces pour cette 1. l’article ; écriture ; 2. le paiement ; 5. Le nombre de pages du classement 3. l’identifiant unique ; pour cet article (en bas de page). 4. le nombre de pièces pour cette écriture. Exemple concret : supposons que vous avez dans le système douze paiements pour l’électricité, et que vous avez correctement ajouté les factures concernées, le rapport pour l’article comptable « D05 - Eclairage » (un seul document pdf) comprendra les 12 factures par ordre chronologique ; bref, 12 pages au total avec la mention du paiement toujours en haut. Vous pouvez ainsi feuilleter le classement par article, comme s’il s’agissait de votre farde papier. Pour apporter des changements au classement : retournez au journal et cliquez sur l’attache de l’écriture à modifier. Apportez vos corrections et sauvegardez. Lorsque vous téléchargerez à nouveau le classement digital, les changements seront repris dans le rapport. Le stockage des pièces justificatives en ligne – Vanden Broele – www.religiosoft.be 3 4. Le transfert du classement digital aux autorités de tutelle Si vous le souhaitez, vous pouvez partager le classement digital avec les autorités de tutelle : il suffit de compléter la date du conseil de fabrique via la section de suivi du compte annuel 2021. Pour partager le classement digital, il suffit de compléter la date du conseil de fabrique. La commune et l’évêché pourront alors télécharger le rapport complet reprenant toutes les pièces, par article. 4 Le stockage des pièces justificatives en ligne – Vanden Broele – www.religiosoft.be",
+        "resume": "Le document présente le stockage des pièces justificatives en ligne dans ReligioSoft, incluant le classement digital et le transfert aux autorités de tutelle. Il explique comment ajouter, classer et partager les pièces de manière électronique.",
+        "categorie": "Gestion documentaire",
+        "mots_cles": [
+            "stockage en ligne",
+            "classement digital",
+            "transfert électronique",
+            "ReligioSoft",
+            "pièces justificatives",
+            "tutelle",
+            "dématérialisation",
+            "logiciel comptable",
+            "factures",
+            "écritures"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Introduction 1 2",
+                "Service Public de Wallonie",
+                "Évêchés"
+            ],
+            "montants": [],
+            "noms": [
+                "Apportez",
+                "Accueil",
+                "Belfius",
+                "Complétez"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment ajouter une pièce justificative dans ReligioSoft ?",
+                "reponse": "Pour ajouter une pièce, consultez le journal via 'comptes bancaires', cliquez sur l'attache à côté de chaque écriture, puis sur 'ajouter une pièce' pour sélectionner et sauvegarder la facture."
+            },
+            {
+                "question": "Comment télécharger le classement digital des pièces par article ?",
+                "reponse": "Pour télécharger le classement digital, cliquez sur 'accueil', puis 'compte annuel 2021', et enfin 'tableaux'. Cliquez sur l'icône pdf à côté de chaque article pour obtenir le rapport."
+            },
+            {
+                "question": "Comment partager le classement digital avec les autorités de tutelle ?",
+                "reponse": "Pour partager le classement digital, il suffit de compléter la date du conseil de fabrique via la section de suivi du compte annuel 2021, permettant ainsi à la commune et à l'évêché de télécharger le rapport complet."
+            },
+            {
+                "question": "Quels types de documents peut-on annexer en plus des factures ?",
+                "reponse": "En plus des factures, on peut annexer d'autres documents utiles comme une note de crédit, un extrait bancaire, ou un mandat de paiement signé, qui seront inclus dans le classement digital final."
+            },
+            {
+                "question": "Quelles sont les étapes pour corriger des informations dans le classement digital ?",
+                "reponse": "Pour apporter des changements au classement, retournez au journal, cliquez sur l'attache de l'écriture à modifier, apportez vos corrections et sauvegardez. Les modifications seront reflétées dans le rapport lors du téléchargement."
+            }
+        ],
+        "etapes_processus": [
+            "Ajouter une pièce justificative via le journal",
+            "Créer un classement digital par article",
+            "Partager le classement digital avec les autorités de tutelle"
+        ],
+        "relations": [
+            {
+                "concept": "Stockage en ligne",
+                "description": "Permet de conserver les pièces justificatives de manière électronique dans un logiciel dédié."
+            },
+            {
+                "concept": "Classement digital",
+                "description": "Automatiquement créé par le logiciel, regroupe les pièces par article et par ordre chronologique pour une consultation facilitée."
+            },
+            {
+                "concept": "Transfert électronique",
+                "description": "Possibilité de partager le classement digital avec les autorités de tutelle pour une gestion simplifiée des pièces justificatives."
+            },
+            {
+                "concept": "Dématérialisation",
+                "description": "Processus de conversion des documents papier en format électronique pour une gestion plus efficace et écologique."
+            },
+            {
+                "concept": "Logiciel comptable",
+                "description": "ReligioSoft offre des fonctionnalités pour stocker, classer et partager les pièces justificatives de manière numérique."
+            },
+            {
+                "concept": "Tutelle",
+                "description": "Les autorités de tutelle peuvent accéder aux pièces justificatives stockées en ligne pour vérifier les comptes et budgets des entités concernées."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "23. PiècesJustificativesStockage.pdf",
+            "page_source": [
+                1,
+                6
+            ],
+            "date_extraction": "2025-05-27T12:04:23.678621"
+        }
+    }
+]

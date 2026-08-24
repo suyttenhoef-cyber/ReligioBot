@@ -1,0 +1,90 @@
+[
+    {
+        "id": "document_complet",
+        "titre": "Document complet",
+        "chemin": "Document complet",
+        "page_debut": 1,
+        "page_fin": 3,
+        "contenu_texte": "ReligioSoft : la gestion des étapes de tutelle (version août 2024) ReligioSoft permet le suivi en ligne des étapes de la tutelle spéciale d’approbation. Ci-dessous, nous esquissons les principes pour garantir un suivi cohérent dans votre dossier. 1. Les dates de suivi : le trésorier reste maître à bord C’est le trésorier qui reste le gestionnaire de dossier. Bien qu’il y ait des échanges avec les modules des autorités de tutelle (communale et canonique), c’est le trésorier qui décidera quelle partie du dossier est partagé avec les autorités de tutelle à quel moment. Par dossier (budget, modification budgétaire, compte annuel) il y a 4 étapes, dont la finalisation est à chaque fois marquée par l’introduction d’une date spécifique dans la section « suivi ». Voir l’exemple pour le compte 2024 ci-contre. C’est partout le même principe ! 1. La date du conseil de fabrique = la date à laquelle le conseil de fabrique arrête le document. IMPORTANT ! Les conséquences de l’insertion de la date du conseil de fabrique sont : 1. Blocage. Le logiciel va bloquer les tableaux en question pour éviter un encodage erroné. L’étape est clôturée au niveau de la fabrique donc et on ne pourra plus changer. 2. Cohérence interne du dossier. Le logiciel fera le transfert des chiffres validés aux autres étapes (ultérieures) dans le logiciel (résultat reporté, résultat présumé, tableaux de comparaison, etc.). 3. Partage externe. Les documents en question seront partagés au niveau de la tutelle, sous format digital, même si vous mettez une date à l’avenir. Insistons : il faudra tout de même envoyer le dossier papier (ou en partie) avec les signatures. Bref, insérer la date du conseil de fabrique signifie « dossier transmis digitalement à la tutelle ». 2. La date de l’organe représentatif (l’évêché) = les responsables du service diocésain pourront insérer via leur module les éventuelles rectifications et clôturer leur étape en insérant la date de leur décision. Cette date déclenche le partage avec votre module, où vous pourrez consulter la décision. ReligioSoft : la gestion des étapes de tutelle – Vanden Broele – wallonie.religio.be 1 3. La date de la commune (conseil communal) = les responsables du service communal en charge de la tutelle pourront insérer via leur module les éventuelles rectifications et clôturer l’étape en insérant la date de leur décision. Et cette date déclenche le partage avec votre module. Deux pistes possibles au niveau de la tutelle communale A. Les responsables communaux utilisent le module de tutelle Si la commune met à jour les tableaux dans le Le logiciel vous oriente dès logiciel, vous patientez et vous allez voir qu’il y a une étape à finaliser apparaître un message vous invitant à compléter la date de validation par le trésorier dès que les responsables communaux auront fait le nécessaire. Ce message s’affichera sous « Accueil ». B. Les responsables communaux n’utilisent pas le module de tutelle Si la commune ne l’utilise pas, vous devrez vous-même compléter les tableaux sur base des remarques de la tutelle. De quoi avez-vous besoin pour compléter ? 1. La décision du conseil communal (du budget/compte annuel/modification budgétaire). Vous pourrez compléter les « tableaux » de la commune en cas de rectification(s). Puis, encodez la date du conseil communal ainsi que la date de validation par le trésorier. 2. Si la tutelle a des rectifications pour le compte annuel, un compte de rectification sera créé sous l’onglet « comptes bancaires ». Nous vous invitons alors à nous contacter via cultes@religiosoft.be et nous vous indiquerons la marche à suivre pour régulariser cette étape avant la clôture du compte annuel suivant (au plus tard). Vous n’êtes pas sûr de qui fait quoi ? Sous « accueil », le logiciel précise la gestion de la tutelle. Le logiciel indique qui est censé mettre à jour les tableaux de la tutelle dans Religiosoft 4. La date de validation du trésorier. Pourquoi une quatrième date ? ll se peut que la fabrique d’église ne soit pas d’accord avec les rectifications de la commune. Le trésorier devra indiquer si la fabrique d’église marque son accord ou pas (recours au gouverneur). • Accord = on met la date de validation par le trésorier o Cela équivaut à l’acceptation de la décision de la commune par la fabrique. Les chiffres approuvés (et/ou rectifiés) seront repris partout dans le système et 2 ReligioSoft : la gestion des étapes de tutelle – Vanden Broele – wallonie.religio.be remplaceront ainsi automatiquement les chiffres de la version initiale arrêtée par le conseil de fabrique. o Il est donc crucial de toujours compléter la date de validation par le trésorier, sinon le logiciel prendra toujours la version initiale plutôt que celle de la commune ! • Pas d’accord = on ne met pas la date de validation par le trésorier o C’est exceptionnel. Cette procédure correspond à la piste d’un recours. Autrement dit, si vous n’acceptez pas la décision de la tutelle, il faudra introduire un recours officiel dans les délais. Si vous n’introduisez pas de recours, les rectifications seront automatiquement « officielles » par manque de recours introduit (dans les délais). o Si le recours est finalisé, il faudra voir quels sont les chiffres à maintenir au sein du logiciel. 2. Pour rappel, il existe deux types de partage 1. Le partage « automatisé » sur base des dates introduites C’est le principe esquissé ci-dessus : les modules sont interconnectés. Si vous mettez une date de suivi, vous déclenchez le partage digital pour cette étape et vous garantissez la cohérence interne du dossier en même temps. Le rapport du compte/budget/modification budgétaire, les ajustements internes, la situation patrimoniale, le grand-livre sont alors partagés avec la tutelle. 2. L’octroi d’un droit de lecture Il est également possible de partager le dossier dans son entièreté : le bénéficiaire pourra alors consulter le dossier tel que vous le voyez, mais sans pouvoir y apporter des changements. Ce droit de consultation est octroyé via la section « Ma fabrique » (sous « Accueil »). Contrairement au partage « automatisé » dans le cadre de la tutelle (voir ci-dessus), ce partage est complet : la personne à qui vous octroyez le droit de lecture pourra avoir accès à tout ce que vous sauvegardez dans le dossier. C’est la solution idéale pour une concertation en interne au sein du conseil de fabrique ou pour demander l’avis de la tutelle sur une éventuelle modification budgétaire. Ici également, c’est toujours le gestionnaire de dossier qui reste maître à bord et qui pourra octroyer (et retirer) le droit de lecture. Le manuel « Ma fabrique – gestion des profils et des droits » vous explique la procédure à suivre – voir la section « Aide » de ReligioSoft. ReligioSoft : la gestion des étapes de tutelle – Vanden Broele – wallonie.religio.be 3",
+        "resume": "ReligioSoft permet le suivi en ligne des étapes de la tutelle spéciale d’approbation, avec des dates clés à respecter pour garantir la cohérence du dossier. Les responsables doivent insérer les dates du conseil de fabrique, de l’organe représentatif et de la commune, ainsi que la date de validation par le trésorier pour finaliser chaque étape.",
+        "categorie": "Gestion de la tutelle",
+        "mots_cles": [
+            "ReligioSoft",
+            "tutelle spéciale",
+            "dates de suivi",
+            "conseil de fabrique",
+            "organe représentatif",
+            "validation du trésorier",
+            "partage digital",
+            "recours officiel",
+            "droit de lecture",
+            "cohérence interne"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Cohérence"
+            ],
+            "montants": [],
+            "noms": [
+                "Accueil",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quelles sont les conséquences de l'insertion de la date du conseil de fabrique ?",
+                "reponse": "Cela bloque les tableaux, assure la cohérence interne du dossier et déclenche le partage avec la tutelle."
+            },
+            {
+                "question": "Que se passe-t-il en cas de désaccord avec les rectifications de la commune ?",
+                "reponse": "Le trésorier doit indiquer s'il marque son accord ou non, ce qui impacte la prise en compte des chiffres rectifiés dans le système."
+            },
+            {
+                "question": "Comment partager le dossier avec un tiers en lecture seule ?",
+                "reponse": "Il est possible d'octroyer un droit de lecture via la section 'Ma fabrique', permettant à la personne de consulter le dossier sans pouvoir le modifier."
+            },
+            {
+                "question": "Quels sont les deux types de partage possibles dans ReligioSoft ?",
+                "reponse": "Le partage automatisé sur base des dates introduites et l'octroi d'un droit de lecture complet."
+            },
+            {
+                "question": "Que faire en cas de recours contre une décision de la tutelle ?",
+                "reponse": "Il faut introduire un recours officiel dans les délais pour contester les rectifications, sinon celles-ci seront considérées comme 'officielles'."
+            }
+        ],
+        "etapes_processus": [
+            "Insertion de la date du conseil de fabrique",
+            "Insertion de la date de l’organe représentatif",
+            "Insertion de la date de la commune",
+            "Validation par le trésorier"
+        ],
+        "relations": [
+            {
+                "concept": "Date du conseil de fabrique",
+                "description": "Déclenche le partage avec la tutelle et bloque les tableaux."
+            },
+            {
+                "concept": "Validation du trésorier",
+                "description": "Impacte l'acceptation des rectifications de la commune et la prise en compte des chiffres approuvés dans le système."
+            },
+            {
+                "concept": "Droit de lecture",
+                "description": "Permet à un tiers de consulter le dossier sans pouvoir le modifier, octroyé par le gestionnaire de dossier."
+            },
+            {
+                "concept": "Recours officiel",
+                "description": "Doit être introduit dans les délais pour contester les rectifications de la tutelle et maintenir les chiffres adéquats dans le système."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "28. Gestion des étapes de tutelle.pdf",
+            "page_source": [
+                1,
+                3
+            ],
+            "date_extraction": "2025-05-27T12:05:29.793090"
+        }
+    }
+]

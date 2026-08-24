@@ -1,0 +1,168 @@
+[
+    {
+        "id": "chapitre_1er_introduction__le_droit_constat",
+        "titre": "Chapitre 1er. Introduction - le droit constaté",
+        "chemin": "Chapitre 1er. Introduction - le droit constaté",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "Les droits constatés (1re version – avril 2021) Chapitre 1er. Introduction – le droit constaté 1 Chapitre 2. Télécharger vos droits constatés 2 2.1. Première étape : encodage des écritures 2 2.2. Deuxième étape : le téléchargement des droits constatés 3 2.3. Modifier les droits constatés 5 2.4. Stocker les droits constatés signés en ligne 6",
+        "resume": "Le chapitre d'introduction présente les droits constatés avec des instructions pour les télécharger, les modifier et les stocker en ligne.",
+        "categorie": "Gestion des droits",
+        "mots_cles": [
+            "droits constatés",
+            "téléchargement",
+            "encodage",
+            "modification",
+            "stockage en ligne"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": [
+                "Télécharger"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment télécharger vos droits constatés ?",
+                "reponse": "Il faut suivre les étapes d'encodage des écritures et de téléchargement décrites."
+            },
+            {
+                "question": "Peut-on modifier les droits constatés une fois téléchargés ?",
+                "reponse": "Oui, il est possible de les modifier selon les instructions fournies."
+            },
+            {
+                "question": "Comment stocker les droits constatés signés en ligne ?",
+                "reponse": "Il est expliqué comment stocker ces droits de manière électronique dans le contenu."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "encodage des écritures",
+                "description": "Première étape pour télécharger les droits constatés."
+            },
+            {
+                "concept": "téléchargement des droits constatés",
+                "description": "Deuxième étape du processus."
+            },
+            {
+                "concept": "modification des droits constatés",
+                "description": "Étape permettant de changer les informations des droits constatés."
+            },
+            {
+                "concept": "stockage en ligne",
+                "description": "Dernière étape pour conserver les droits constatés de manière électronique."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "27. Droits constatés.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:05:14.833115"
+        }
+    },
+    {
+        "id": "chapitre_2_tlcharger_vos_droits_constats",
+        "titre": "Chapitre 2. Télécharger vos droits constatés",
+        "chemin": "Chapitre 2. Télécharger vos droits constatés",
+        "page_debut": 2,
+        "page_fin": 9,
+        "contenu_texte": "Chapitre 1er. Introduction – Le droit constaté Génération automatisée des droits constatés … Afin de permettre au trésorier de percevoir les recettes dues à la fabrique, ReligioSoft prévoit un document spécifique : le droit constaté. Ce document reprend le détail de la recette à percevoir (le loyer, le fermage), y compris le détail comptable. Il est envoyé au créancier et pourra également être joint au classement des pièces justificatives en annexe au dossier du compte annuel. Quelle que soit la méthode d’encodage (sur base des extraits bancaires directement ou en deux étapes via les « dettes et créances »), le trésorier pourra télécharger ces fichiers et les imprimer sans le moindre obstacle. … et stockage / partage en ligne ! Les rapports téléchargés (en pdf) pourront être signés « à la main » (la signature électronique n’étant pas permise jusqu’à présent). Si vous avez un document signé (voir l’exemple ci-dessous), vous pourrez le stocker dans ReligioSoft en attache à l’écriture à laquelle il se rapporte. Il sera alors incorporé automatiquement dans le classement des pièces en ligne, pour lequel il est déjà permis de partager en ligne (moyennant l’accord de la commune de tutelle). Nous y revenons à la fin du présent dossier. Les droits constatés – Éditions Vanden Broele – www.religiosoft.be 1 Chapitre 2. Introduction – Télécharger les droits constatés 2.1. Première étape : encodage des écritures ReligioSoft a conçu un outil de génération automatisée pour les droits constatés : sur base de l’encodage des écritures mêmes, le logiciel vous offrira tous les documents sans que vous deviez réencoder ou recopier quoi que ce soit. La première étape est logiquement l’encodage des écritures. Quelle que soit la méthode d’encodage que vous préférez (directement sur base des extraits bancaires ou plutôt sur base des « dettes et créances »), une liste complète avec tous les droits constatés sera mise à disposition au fur et à mesure que vous encoderez. Encodage sur base des extraits bancaires (« comptes bancaires ») Encodage des dettes et créances (avant le paiement, section « comptabilité ») Vous avez encodé une série d’écritures? Alors vous pouvez télécharger les droits constatés en quelques clics. Astuce – L’encodage des écritures Nous n’insisterons pas ici sur les détails de l’encodage des écritures, sauf pour signaler que les droits constatés suivent la logique des écritures : si vous encodez une créance (via « dettes/créances ») ou une écriture directe (via les comptes bancaires), vous aurez un document qui reprend le détail de cette écriture. Nous insistons sur l’intérêt de suivre la logique des créances (avant le paiement) ou des recettes (via le journal bancaire) dans l’encodage afin d’en simplifier le suivi. Pour les créances avec plusieurs articles (les écritures « ventilées »), une seule écriture pourra suffire. Nous vous renvoyons au manuel « L’encodage des écritures » pour plus de renseignements. 2 Les droits constatés – Éditions Vanden Broele – www.religiosoft.be 2.2. Deuxième étape : le téléchargement des droits constatés La partie « relevés de créance » se trouve sous « comptabilité ». Vous pouvez y accéder directement via le bouton en haut de la page. Cliquez sur « Comptabilité ». Ensuite « Droits constatés ». Si vous cliquez sur « Droits constatés », alors la liste des créances pour lesquelles le rapport n’a pas encore été téléchargé via le logiciel s’affichera automatiquement. Dans l’exemple ci-dessous, 6 créances/recettes sont ainsi affichées (nous venons d’encoder 6 recettes/créances). Toutes les recettes/créances encodées via le journal et/ou via « dettes et créances » s’affichent, dans la mesure où le rapport du droit constaté n’a pas encore été téléchargé. Les droits constatés – Éditions Vanden Broele – www.religiosoft.be 3 Vous pouvez toujours peaufiner la sélection via les champs en haut de la liste : vous limitez à une période bien précise, à un seul exercice comptable, ou vous choisissez un article comptable dans la liste … Ensuite « Afficher la sélection » ! Dans la sélection qui s’affiche, il suffit de cocher les recettes/créances (sur votre gauche ; si vous cochez en haut de la colonne, toutes les lignes seront sélectionnées en une fois). 1. Cochez les recettes/créances pour lesquelles vous souhaitez télécharger le rapport du droit constaté. 2. Cliquez sur le bouton « Rapport A4 » en bas de page pour télécharger le rapport. Une fois la sélection faite, vous pouvez générer le rapport en format A4 (une feuille par « droit constaté »). Avant de pouvoir consulter (et imprimer) le rapport, il faudra compléter deux champs. 1. La date du rapport (la date à Vous complétez la date … laquelle le droit constaté est établi). Pour les rapports sur base des opérations bancaires, le Vous indiquez le compte logiciel propose la date à la veille de la fabrique souhaité … de la recette bancaire. 2. Le compte bancaire de la fabrique d’église à faire afficher (le champ sera retenu). Ensuite : « Télécharger » ! 4 Les droits constatés – Éditions Vanden Broele – www.religiosoft.be Ensuite vous pouvez « Télécharger » et vous aurez le fichier pdf en un seul clic. Vous l’imprimez et vous l’envoyez au créancier … 2.3. Modifier les droits constatés Si certains renseignements repris dans le fichier pdf sont erronés, vous pourrez toujours corriger … Ci-dessous vous trouvez l’orientation quant à l’origine des données reprises dans le rapport. C’est à cet endroit qu’il faudra mettre à jour les données pour ensuite retourner à l’écran pour télécharger les droits constatés avec les données à jour. Les coordonnées de la fabrique : « Accueil » - « Ma fabrique ». Le profil du créancier : « Comptabilité » - « Contacts ». Les détails de l’écriture : via le journal bancaire ou les dettes/créances. La mention du trésorier : « Accueil » - « Ma fabrique ». Vous changez d’abord les données ailleurs dans le logiciel et vous retournez à l’écran avec les droits constatés pour télécharger à nouveau le rapport : il faudra cocher l’option « toutes les créances », pour aboutir à la bonne sélection, car les rapports déjà téléchargés sont archivés et invisibles suite au premier téléchargement… Ensuite « Afficher la sélection ». Les droits constatés – Éditions Vanden Broele – www.religiosoft.be 5 Dans la liste qui s’affiche, vous pourrez également passer via l’icône pdf sur votre droite, qui vous permettra de télécharger individuellement chaque rapport déjà téléchargé, avec les données mises à jour. Cliquez sur l’icône pdf pour télécharger à nouveau le rapport. 2.4. Stocker les rapports des droits constatés signés en ligne Pour les fabriques d’église qui partagent les pièces justificatives en ligne, il est possible de faire de même pour les droits constatés. Via le journal (ou la dette) vous pouvez attacher le document pdf dument signé (que vous avez scanné et stocké sur votre ordinateur) en cliquant sur l’icône grise sur votre droite. Ensuite, vous allez chercher le fichier pdf sur votre ordinateur local, vous sélectionnez et sauvegardez. Cliquez sur l’icône grise sur votre droite, dans la ligne de l’écriture. Ensuite « Ajouter une pièce » et vous sé lectionnez le fichier sur votre ordinateur local …. Ajoutez un descriptif (optionnel) et « Sauvegarder ». La pièce s’ajoute dans la liste (vous pouvez y ajouter d’autres encore). Ensuite « Sauvegarder ». 6 Les droits constatés – Éditions Vanden Broele – www.religiosoft.be Dans la liste avec les écritures, l’icône est devenue un trombone rouge. Vous pouvez toujours y revenir pour remplacer la pièce par une autre, ou pour y ajouter d’autres pièces encore ... Toutes ces pièces seront alors consolidées dans le grand-livre des pièces, que le trésorier pourra partager avec la tutelle en ligne. Astuce – Le stockage des pièces justificatives en ligne Pour plus de renseignements sur le stockage en ligne des pièces justificatives, la consolidation de ces pièces dans le grand-livre et le partage en ligne avec la tutelle, nous renvoyons au dossier y consacré dans la section « Aide » de ReligioSoft. Les droits constatés – Éditions Vanden Broele – www.religiosoft.be 7",
+        "resume": "Le chapitre 2 explique comment télécharger les droits constatés dans ReligioSoft. Il détaille les étapes d'encodage des écritures, de sélection des créances à télécharger, de modification des données erronées et de stockage des rapports signés en ligne.",
+        "categorie": "Gestion des droits constatés",
+        "mots_cles": [
+            "droits constatés",
+            "encodage des écritures",
+            "téléchargement",
+            "modifications",
+            "stockage en ligne",
+            "rapports signés",
+            "créances",
+            "comptabilité",
+            "ReligioSoft",
+            "fabrique d'église"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Afficher",
+                "Droits",
+                "s’affiche",
+                "Génération"
+            ],
+            "montants": [],
+            "noms": [
+                "Télécharger",
+                "Accueil",
+                "Contacts",
+                "Encodage",
+                "Ajouter",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment télécharger les droits constatés dans ReligioSoft?",
+                "reponse": "Pour télécharger les droits constatés, accédez à la partie 'relevés de créance' sous 'comptabilité', sélectionnez les créances à télécharger, complétez les champs requis et cliquez sur 'Télécharger'."
+            },
+            {
+                "question": "Comment modifier des données erronées dans un rapport de droits constatés?",
+                "reponse": "Pour corriger des données erronées, mettez à jour les informations dans les sections appropriées du logiciel, puis retournez à l'écran des droits constatés pour télécharger à nouveau le rapport."
+            },
+            {
+                "question": "Comment stocker des rapports de droits constatés signés en ligne?",
+                "reponse": "Vous pouvez attacher un document pdf signé via le journal ou la dette, en sélectionnant le fichier sur votre ordinateur, ajoutant un descriptif et sauvegardant la pièce."
+            },
+            {
+                "question": "Quelles sont les étapes pour télécharger un rapport de droit constaté en format A4?",
+                "reponse": "Sélectionnez les créances à télécharger, complétez la date du rapport et le compte bancaire, puis cliquez sur 'Télécharger' pour obtenir le rapport en format A4."
+            },
+            {
+                "question": "Comment partager les pièces justificatives en ligne avec la tutelle?",
+                "reponse": "Les pièces justificatives peuvent être consolidées dans le grand-livre des pièces et partagées en ligne avec la tutelle via ReligioSoft."
+            }
+        ],
+        "etapes_processus": [
+            "Encodage des écritures",
+            "Sélection des créances à télécharger",
+            "Modification des données erronées",
+            "Stockage des rapports signés en ligne"
+        ],
+        "relations": [
+            {
+                "concept": "Encodage des écritures",
+                "description": "La logique des droits constatés suit celle des écritures, en encodant les créances ou les recettes pour générer les rapports."
+            },
+            {
+                "concept": "Téléchargement des droits constatés",
+                "description": "Les rapports peuvent être téléchargés une fois les créances sélectionnées et les champs requis complétés."
+            },
+            {
+                "concept": "Modification des données",
+                "description": "Les données erronées dans les rapports peuvent être corrigées en mettant à jour les informations dans les sections appropriées du logiciel."
+            },
+            {
+                "concept": "Stockage en ligne",
+                "description": "Les rapports signés peuvent être attachés et stockés en ligne pour un accès facile et un partage avec la tutelle."
+            },
+            {
+                "concept": "Partage en ligne",
+                "description": "Les pièces justificatives, y compris les droits constatés, peuvent être partagées en ligne avec la tutelle pour une meilleure transparence et communication."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "27. Droits constatés.pdf",
+            "page_source": [
+                2,
+                9
+            ],
+            "date_extraction": "2025-05-27T12:05:23.211369"
+        }
+    }
+]

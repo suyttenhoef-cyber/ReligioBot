@@ -1,0 +1,467 @@
+[
+    {
+        "id": "chapitre_1_introduction",
+        "titre": "Chapitre 1. Introduction",
+        "chemin": "Chapitre 1. Introduction",
+        "page_debut": 1,
+        "page_fin": 1,
+        "contenu_texte": "Le module de l’Évêché (version 2 – février 2017)  Chapitre 1. Introduction 1  Chapitre 2. Approbation des budgets, MB et comptes annuels 2  Chapitre 3. Les délibérations des fabriques 7  Annexe 1re – Gérer les droits dans votre module 8  Annexe 2 – Le compte annuel : consultation des justificatifs en ligne 11",
+        "resume": "Le chapitre d'introduction présente le module de l’Évêché (version 2 – février 2017) et annonce les différents chapitres et annexes qui seront abordés dans le document.",
+        "categorie": "Documentation du module",
+        "mots_cles": [
+            "module de l’Évêché",
+            "version 2",
+            "février 2017",
+            "approbation des budgets",
+            "délibérations des fabriques",
+            "gestion des droits",
+            "compte annuel",
+            "justificatifs en ligne"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Annexe 2",
+                "Introduction 1"
+            ],
+            "montants": [],
+            "noms": [
+                "Annexe",
+                "Évêché",
+                "Gérer"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quelle est la version du module de l’Évêché présentée dans ce document ?",
+                "reponse": "Version 2 – février 2017."
+            },
+            {
+                "question": "Quels sujets sont abordés dans les annexes ?",
+                "reponse": "La gestion des droits dans le module et la consultation des justificatifs en ligne du compte annuel."
+            },
+            {
+                "question": "Quelle est l'importance des délibérations des fabriques ?",
+                "reponse": "Elles sont abordées dans le chapitre 3 et sont essentielles pour la gestion financière."
+            },
+            {
+                "question": "Quand a été publiée cette version du module de l’Évêché ?",
+                "reponse": "Février 2017."
+            },
+            {
+                "question": "Comment consulter les justificatifs en ligne du compte annuel ?",
+                "reponse": "Se référer à l'Annexe 2 du document."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Module de l’Évêché",
+                "description": "Version 2 – février 2017."
+            },
+            {
+                "concept": "Approbation des budgets",
+                "description": "Traitée dans le chapitre 2."
+            },
+            {
+                "concept": "Délibérations des fabriques",
+                "description": "Explorées dans le chapitre 3."
+            },
+            {
+                "concept": "Gestion des droits",
+                "description": "Détails disponibles dans l'Annexe 1re."
+            },
+            {
+                "concept": "Compte annuel",
+                "description": "Consultation des justificatifs en ligne décrite dans l'Annexe 2."
+            }
+        ],
+        "confiance": 0.85,
+        "metadonnees": {
+            "source_pdf": "21. Module Evêché.pdf",
+            "page_source": [
+                1,
+                1
+            ],
+            "date_extraction": "2025-05-27T12:14:29.843602"
+        }
+    },
+    {
+        "id": "chapitre_2_approbation_des_budgets_mb_et_comptes_annuels",
+        "titre": "Chapitre 2. Approbation des budgets, MB et comptes annuels",
+        "chemin": "Chapitre 2. Approbation des budgets, MB et comptes annuels",
+        "page_debut": 2,
+        "page_fin": 6,
+        "contenu_texte": "Chapitre 1er. Introduction ReligioSoft se veut un outil complet, qui ne se limite pas à la gestion comptable au niveau des fabriques, mais qui vise à incorporer tous les acteurs. Le module de l’Évêché vous offre la possibilité de faire le suivi des budgets, modifications budgétaires et comptes annuels dès que ceux-ci sont arrêtés par le conseil de fabrique. Sur base de ces versions mises à disposition sous format digital, vous pouvez apporter toutes vos rectifications sans devoir retaper l’entièreté des tableaux. Vous retrouvez toutes les explications dans le chapitre 2. À côté de l’approbation en ligne, le module de l’Évêché vous offre encore d’autres fonctionnalités :  Consultation des délibérations – voir le chapitre 3.  Des versions consolidées pour chaque étape (budget, modification budgétaire, compte annuel) sur la totalité de votre territoire – voir le chapitre 2.  Des consolidations pluriannuelles des comptes annuels (par fabrique) – voir le chapitre 2.  La possibilité de gérer les droits du module et donc d’octroyer des droits aux responsables concernés (voir l’annexe 1re).  Pour ce qui concerne le compte annuel, le logiciel prévoit un partage plus poussés des pièces justificatives (à partir du compte annuel 2016) (voir l’annexe 2). Voici la structure de base du module (via « Accueil ») : « Délibérations » : les délibérations des fabriques. « Mon organisation » : gestion des droits d’accès. Pour l’approbation des différents documents, il suffit de cliquer sur une des étapes. Chapitre 2. Approbation des budgets, MB et comptes annuels Important : dans tout ce qui suit, nous prenons le suivi du compte annuel 2015 comme exemple. Vous pouvez suivre les mêmes démarches pour les autres étapes (budgets et modifications budgétaires, accessibles via le bouton « budget »). Approuvons le compte annuel 2015 de la fabrique (fictive) de Saint Eutrope, en 5 étapes : 1. Choisissez l’étape (compte annuel 2015, ou budget 2017…) ; 2. Sélectionnez la fabrique ; 3. Modifiez les chiffres ; 4. Complétez la date de suivi ; 5. Et après ? L’approbation par la commune et la validation par le trésorier. 1. Choisissez l’étape Sous « Accueil », les différentes étapes s’affichent. À gauche se trouvent les comptes annuels de l’exercice précédent (2015), au milieu vous trouvez les budgets (et les MB) de l’exercice en cours (2016), et sur votre droite vous avez accès aux budgets de l’exercice suivant (2017). Choisissez le compte annuel 2015. Sous « Accueil », cliquez sur « Compte annuel 2015 ». 2. Sélectionnez la fabrique Toutes les fabriques sous votre tutelle s’affichent sous « compte annuel 2015 ». Au-delà de 20 fabriques, vous devrez changer de page, ou utiliser le moteur de recherche en haut de la page. 2 Le module de l’Évêché – Éditions Vanden Broele – www.religiosoft.be Les fabriques s’affichent. Vous pouvez introduire le nom de la fabrique, le numéro BCE ou la localité pour les retrouver rapidement. L’état des lieux par fabrique est indiqué par un bouton coloré, qui vous dirige vers l’aperçu complet de la fabrique. Parcourons les différentes couleurs selon l’ordre « chronologique » :  Bouton gris = en préparation  le trésorier n’a pas encore finalisé sa part du travail (il manque la date de la fabrique dans le module de la fabrique). Vous devrez attendre jusqu’à ce que le trésorier ait rempli la date de son côté.  Bouton rouge = arrêté par la fabrique  le trésorier a rempli la date ; vous pouvez statuer ; la commune n’a rien mis dans le système jusqu’à présent.  Bouton bleu = décision de l’organe représentatif  vous avez déjà apporté vos rectifications pour ce dossier ; il est possible de remodifier selon vos souhaits.  Bouton orange = décision de la commune, à valider par la fabrique  la commune a ajouté ses rectifications dans le système mais il manque encore la validation par la fabrique.  Bouton vert = décision de la commune acceptée par la fabrique  le trésorier a marqué son accord et tout est finalisé : les rectifications de la commune seront reprises partout dans le module de la fabrique. En toute logique, les éventuelles rectifications de l’Évêché seront apportées au dossier avant que la commune ne corrige, bien qu’il reste possible d’intégrer les éventuelles rectifications par après. Afin de permettre aux responsables communaux de consulter vos rectifications, il est certainement utile de compléter les dossiers au plus vite, avant que la commune ne statue. En principe, les responsables communaux tiendront alors compte de vos remarques et les incorporeront dans leurs tableaux. 3. Modifiez les chiffres Si vous cliquez sur le bouton coloré, la page avec l’aperçu de l’étape pour la fabrique en question s’affichera : L’aperçu du compte de la fabrique… Suivant la logique de la tutelle, nous distinguons trois versions et encore une validation supplémentaire :  La version de la fabrique : les chiffres préparés par la fabrique.  La version de l’évêché : le service aux fabriques d’église y apporte ses rectifications.  La version de la commune : le responsable communal y ajoute ses rectifications.  La validation par le trésorier : ce bouton permet au trésorier d’accepter votre décision en ligne. Si celui-ci ne fait rien, les rectifications ne seront pas reprises dans le dossier. Par version, il y a un bouton « Suivi » (c’est là qu’on met les dates de validation, au fur et à mesure) et encore un bouton « Tableaux » (ce sont les chiffres qu’on peut modifier). Cliquez donc sur « Tableaux » sur votre droite, dans la ligne de l’Évêché. Cliquez sur « Tableaux ». Vous avez accès aux chiffres. La colonne de droite est accessible et vous permet de rectifier les montants suite à vos analyses préparatoires : Remplacez le montant initial par le montant rectifié. N’oubliez pas de sauvegarder !  Astuce – Le compte annuel – les annexes Étant donné que le dossier du compte annuel comprend également une série d’annexes qui risquent d’augmenter le volume du dossier, ReligioSoft prévoit déjà la possibilité de partager ces documents en ligne également. Nous insistons sur ces possibilités dans l’annexe 2. Signalons encore que le SPW (DGO5) vient de se prononcer positivement pour une transmission électronique des pièces justificatives en annexe au dossier du compte, à partir du compte annuel 2016 (communication de janvier 2017). 4 Le module de l’Évêché – Éditions Vanden Broele – www.religiosoft.be",
+        "resume": "Le chapitre 2 décrit le processus d'approbation des budgets, modifications budgétaires et comptes annuels dans le logiciel ReligioSoft, en expliquant les étapes à suivre pour chaque document et les actions à entreprendre par les différentes parties impliquées.",
+        "categorie": "Gestion financière",
+        "mots_cles": [
+            "ReligioSoft",
+            "comptes annuels",
+            "approbation",
+            "budgets",
+            "modifications budgétaires",
+            "Évêché",
+            "fabriques",
+            "rectifications",
+            "consolidations",
+            "droits d'accès"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "SPW",
+                "Important",
+                "ReligioSoft",
+                "DGO5",
+                "Compte",
+                "qu’"
+            ],
+            "montants": [],
+            "noms": [
+                "Choisissez",
+                "Bouton",
+                "Modifiez",
+                "Remplacez",
+                "Accueil",
+                "Astuce",
+                "jusqu’",
+                "Évêché",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment approuver un compte annuel dans ReligioSoft ?",
+                "reponse": "Pour approuver un compte annuel, il faut choisir l'étape, sélectionner la fabrique, modifier les chiffres, compléter la date de suivi, puis obtenir l'approbation de la commune et la validation du trésorier."
+            },
+            {
+                "question": "Quelles sont les fonctionnalités offertes par le module de l'Évêché dans ReligioSoft ?",
+                "reponse": "Le module de l'Évêché permet de suivre les budgets, modifications budgétaires et comptes annuels, de consulter des délibérations, d'accéder à des versions consolidées, de gérer les droits d'accès et de partager des pièces justificatives."
+            },
+            {
+                "question": "Comment modifier les chiffres d'un compte annuel dans ReligioSoft ?",
+                "reponse": "Pour modifier les chiffres d'un compte annuel, il faut accéder aux tableaux, rectifier les montants nécessaires et sauvegarder les modifications."
+            },
+            {
+                "question": "Quelles sont les étapes pour approuver un budget dans ReligioSoft ?",
+                "reponse": "Les étapes consistent à choisir l'étape du budget, sélectionner la fabrique, effectuer les modifications requises, ajouter la date de suivi et obtenir l'approbation de la commune ainsi que la validation du trésorier."
+            },
+            {
+                "question": "Comment consulter les délibérations dans ReligioSoft ?",
+                "reponse": "Pour consulter les délibérations, il faut accéder à la section 'Délibérations' via le module de l'Évêché."
+            }
+        ],
+        "etapes_processus": [
+            "Choisir l'étape (compte annuel, budget...)",
+            "Sélectionner la fabrique",
+            "Modifier les chiffres",
+            "Compléter la date de suivi",
+            "Obtenir l'approbation de la commune et la validation du trésorier"
+        ],
+        "relations": [
+            {
+                "concept": "Versions consolidées",
+                "description": "Les versions consolidées des budgets, modifications budgétaires et comptes annuels permettent d'avoir une vue d'ensemble sur l'ensemble du territoire."
+            },
+            {
+                "concept": "Droits d'accès",
+                "description": "La gestion des droits d'accès dans le module de l'Évêché permet d'octroyer des autorisations aux responsables concernés pour effectuer des actions spécifiques."
+            },
+            {
+                "concept": "Rectifications",
+                "description": "Les rectifications peuvent être apportées par les différentes parties impliquées avant l'approbation finale des documents financiers."
+            },
+            {
+                "concept": "Partage des pièces justificatives",
+                "description": "ReligioSoft permet le partage en ligne des pièces justificatives des comptes annuels, facilitant ainsi la consultation et la validation des informations."
+            },
+            {
+                "concept": "Validation par le trésorier",
+                "description": "La validation par le trésorier est essentielle pour l'acceptation des décisions prises en ligne concernant les documents financiers."
+            },
+            {
+                "concept": "Consultation des délibérations",
+                "description": "La consultation des délibérations permet de suivre les discussions et les décisions prises par les différentes instances impliquées dans la gestion financière."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "21. Module Evêché.pdf",
+            "page_source": [
+                2,
+                6
+            ],
+            "date_extraction": "2025-05-27T12:14:39.019220"
+        }
+    },
+    {
+        "id": "chapitre_3_les_dlibrations_des_fabriques",
+        "titre": "Chapitre 3. Les délibérations des fabriques",
+        "chemin": "Chapitre 3. Les délibérations des fabriques",
+        "page_debut": 7,
+        "page_fin": 7,
+        "contenu_texte": "Quelques instructions pratiques : - Il vous suffit de modifier le niveau le plus bas (l’article même) ; le logiciel recalcule le reste (les totaux, le tableau récapitulatif) ; - Tous les chiffres modifiés s’afficheront immédiatement en gras. N’oubliez pas de « sauvegarder » en bas de page (sur votre gauche) !  Astuce – Les « balances » : l’aperçu des chiffres à portée de main Pour afficher les balances, cliquez sur « balances » en haut de la page (sur votre droite). Vous verrez immédiatement l’impact des rectifications sur tous les totaux. Une fois que les rectifications sont complètes, vous téléchargez les rapports. Pour télécharger le rapport rectifié, cliquez sur « compte annuel 2015 » dans la colonne de gauche (en haut). Afin de vous faciliter la tâche, vous pouvez également télécharger les chiffres rectifiés en fichier excel. Vous pouvez alors copier les tableaux et les coller dans vos documents. 4. Complétez la date de suivi Dès que vous avez complété le dossier, ajoutez immédiatement la date (anticipée) de la décision. Sur base de cette date, les chiffres resteront bloqués dans le système et s’afficheront immédiatement dans les modules de la fabrique et de la commune. Si la décision n’est pas définitive (vous pondérez encore), il vaut mieux ne pas mettre la date et patienter encore un peu.",
+        "resume": "Cette section donne des instructions pratiques pour modifier les chiffres dans le logiciel de gestion des fabriques, avec des conseils pour afficher les balances, télécharger les rapports rectifiés et compléter la date de suivi pour bloquer les chiffres dans le système.",
+        "categorie": "Gestion financière",
+        "mots_cles": [
+            "modifications",
+            "balances",
+            "rectifications",
+            "compte annuel",
+            "sauvegarde",
+            "tableaux",
+            "décision",
+            "modules",
+            "pondération",
+            "rapports"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": [
+                "N’",
+                "n’",
+                "Astuce"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment modifier les chiffres dans le logiciel ?",
+                "reponse": "Il suffit de modifier le niveau le plus bas (l’article) pour que le logiciel recalcule le reste."
+            },
+            {
+                "question": "Comment afficher les balances ?",
+                "reponse": "Cliquez sur 'balances' en haut de la page pour voir l'impact des rectifications sur les totaux."
+            },
+            {
+                "question": "Comment télécharger les rapports rectifiés ?",
+                "reponse": "Cliquez sur 'compte annuel 2015' dans la colonne de gauche pour télécharger le rapport rectifié."
+            },
+            {
+                "question": "Pourquoi compléter la date de suivi ?",
+                "reponse": "Pour bloquer les chiffres dans le système et les afficher dans les modules de la fabrique et de la commune."
+            },
+            {
+                "question": "Que faire si la décision n'est pas définitive ?",
+                "reponse": "Il vaut mieux ne pas mettre la date et patienter encore un peu."
+            }
+        ],
+        "etapes_processus": [
+            "Modifier le niveau le plus bas",
+            "Afficher les balances",
+            "Télécharger les rapports rectifiés",
+            "Compléter la date de suivi"
+        ],
+        "relations": [
+            {
+                "concept": "Modifications des chiffres",
+                "description": "Les chiffres modifiés s'affichent en gras et impactent les totaux."
+            },
+            {
+                "concept": "Téléchargement des rapports",
+                "description": "Les rapports rectifiés peuvent être téléchargés en cliquant sur 'compte annuel 2015'."
+            },
+            {
+                "concept": "Date de suivi",
+                "description": "La date de suivi permet de bloquer les chiffres dans le système et de les afficher dans les modules de la fabrique et de la commune."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "21. Module Evêché.pdf",
+            "page_source": [
+                7,
+                7
+            ],
+            "date_extraction": "2025-05-27T12:14:44.996316"
+        }
+    },
+    {
+        "id": "annexe_1re__grer_les_droits_dans_votre_module",
+        "titre": "Annexe 1re - Gérer les droits dans votre module",
+        "chemin": "Annexe 1re - Gérer les droits dans votre module",
+        "page_debut": 8,
+        "page_fin": 10,
+        "contenu_texte": "Pour retourner à l’aperçu du dossier : cliquez sur « aperçu du compte 2015 » sur votre gauche. Si vous avez déjà rempli la date de suivi, les boutons dans la ligne de l’Évêché seront en vert. Les boutons de l’Évêché s’affichent en vert ! Pour retourner à l’ensemble des fabriques : cliquez sur « compte 2015 – tous les dossiers » (toujours sur votre gauche). Le dossier que vous venez d’approuver s’affichera en bleu, en attente de l’approbation de la commune. Une consolidation des comptes annuels est disponible. Le dossier approuvé s’affiche en bleu.  Astuce – Les comptes consolidés Sur votre gauche, vous pouvez télécharger la consolidation avec tous les comptes annuels. 5. Et après ? L’approbation par la commune et la validation par le trésorier Après que vous avez encodé vos rectifications, la commune pourra compléter (le bouton sera orange) et, ensuite, le trésorier aura la possibilité de valider les rectifications. Tant que le trésorier n’accepte pas les rectifications, il n’y aura pas d’impact dans le dossier de la fabrique. Dès que le trésorier aura ajouté la date de validation de son côté, le bouton sera vert et vous serez sûr(e) que tout est définitif : dans toute nouvelle étape dans le dossier, le logiciel reprendra automatiquement les rectifications introduites. Vous pouvez toujours retourner à cet écran pour voir si la commune a bel et bien tenu compte de vos rectifications et pour voir si le trésorier a déjà accepté la version finale. 6 . Les délibérations Afin de simplifier le partage en ligne, ReligioSoft prévoit un espace de stockage partagé qui permet aux fabriques de partager avec les autorités de tutelle toutes leurs délibérations. Vous y avez accès via « Accueil ». Les délibérations se trouvent sous « Accueil ». Toutes les délibérations s’affichent (dans la mesure où les fabriques les ajoutent au système). Vous pouvez trier sur base de l’établissement concerné : Pour limiter la sélection, choisissez un établissement en particulier. Annexe 1re – Gérer les droits dans votre module Par dossier, il y a un seul gestionnaire. Cette personne est connue chez ReligioSoft et sera tenue au courant de toutes les évolutions. Le gestionnaire de dossier fera le suivi des dossiers en ligne et pourra également octroyer des droits à d’autres personnes au sein de l’administration communale. La procédure pour octroyer des droits est très simple et comporte deux principes : - Vous déterminez les « fonctions » au sein de votre organisation (A.) - Vous ajoutez une personne pour chaque fonction et déterminez un droit spécifique (B.) Sous « Accueil », choisissez « Mon organisation ». Cliquez sur « Mon organisation ». La page avec les utilisateurs actuels s’affiche. Le gestionnaire de dossier est déjà mentionné (suite à l’intervention de nos services). Avant d’ajouter des personnes supplémentaires, vous déterminez d’abord les fonctions au sein de votre organisation (A.) ; ensuite vous ajoutez les « bénéficiaires », tout en fixant le droit spécifique (B.). 8 Le module de l’Évêché – Éditions Vanden Broele – www.religiosoft.be",
+        "resume": "La section décrit la gestion des droits dans un module, avec un seul gestionnaire par dossier pouvant octroyer des droits à d'autres utilisateurs au sein de l'administration communale.",
+        "categorie": "Gestion des droits et autorisations",
+        "mots_cles": [
+            "gestionnaire de dossier",
+            "droits d'accès",
+            "organisation",
+            "utilisateurs",
+            "fonctions",
+            "bénéficiaires",
+            "procédure",
+            "module de l'Évêché",
+            "évolutions",
+            "suivi des dossiers"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "ReligioSoft"
+            ],
+            "montants": [],
+            "noms": [
+                "Annexe",
+                "Accueil",
+                "Astuce",
+                "Gérer",
+                "Évêché",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Qui est le gestionnaire de dossier dans ce module ?",
+                "reponse": "Le gestionnaire de dossier est une personne unique par dossier, responsable du suivi des dossiers en ligne et de l'octroi des droits."
+            },
+            {
+                "question": "Comment ajouter des personnes et leur attribuer des droits dans l'organisation ?",
+                "reponse": "Il faut d'abord déterminer les fonctions au sein de l'organisation, puis ajouter des bénéficiaires en leur attribuant des droits spécifiques."
+            },
+            {
+                "question": "Où trouver les délibérations partagées en ligne ?",
+                "reponse": "Les délibérations partagées sont accessibles via l'espace 'Accueil' sous 'Mon organisation'."
+            },
+            {
+                "question": "Quelles sont les étapes pour que les rectifications soient validées par le trésorier ?",
+                "reponse": "Les rectifications doivent d'abord être complétées par la commune (bouton orange), puis validées par le trésorier (bouton vert) pour avoir un impact dans le dossier."
+            },
+            {
+                "question": "Comment savoir si le trésorier a accepté la version finale des rectifications ?",
+                "reponse": "Il faut vérifier si le bouton de validation est devenu vert, indiquant que le trésorier a validé les rectifications."
+            }
+        ],
+        "etapes_processus": [
+            "Déterminer les fonctions au sein de l'organisation",
+            "Ajouter des bénéficiaires et leur attribuer des droits spécifiques",
+            "Suivre les dossiers en ligne",
+            "Valider les rectifications par la commune et le trésorier"
+        ],
+        "relations": [
+            {
+                "concept": "Gestionnaire de dossier",
+                "description": "Personne responsable du suivi des dossiers et de l'octroi des droits dans un module."
+            },
+            {
+                "concept": "Droits d'accès",
+                "description": "Permissions attribuées aux utilisateurs pour accéder à certaines fonctionnalités ou informations."
+            },
+            {
+                "concept": "Organisation",
+                "description": "Structure interne définissant les rôles et responsabilités au sein de l'administration communale."
+            },
+            {
+                "concept": "Module de l'Évêché",
+                "description": "Plateforme logicielle utilisée pour gérer les dossiers et les droits dans le contexte décrit."
+            },
+            {
+                "concept": "Rectifications",
+                "description": "Modifications apportées aux données financières ou administratives, nécessitant une validation par la commune et le trésorier."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "21. Module Evêché.pdf",
+            "page_source": [
+                8,
+                10
+            ],
+            "date_extraction": "2025-05-27T12:14:52.514340"
+        }
+    },
+    {
+        "id": "annexe_2__le_compte_annuel__consultation_des_justificatifs_en_ligne",
+        "titre": "Annexe 2 - Le compte annuel : consultation des justificatifs en ligne",
+        "chemin": "Annexe 2 - Le compte annuel : consultation des justificatifs en ligne",
+        "page_debut": 11,
+        "page_fin": 15,
+        "contenu_texte": "A. Ajouter une fonction Sur votre gauche, cliquez sur « gestion des fonctions » pour ajouter les fonctions au sein de votre organisation. Pour ajouter les fonctions nécessaires, il suffit de cliquer sur « nouvelle fonction ». Complétez, déterminez le droit et sauvegardez. Cliquez sur « Gestion des fonctions ». Ensuite : « Nouvelle fonction ». Complétez et sauvegardez.  Astuce – Les différents droits Il faut immédiatement déterminer le droit « normal » pour cette fonction. Toute personne assumant cette fonction au sein du dossier, aura ce droit spécifique. En toute logique, il faudra ajouter tout bénéficiaire séparément (voir l’étape B. ci-dessous). Nous conseillons de limiter le droit d’écriture au gestionnaire du dossier. En principe, vous n’octroyez que le droit de consultation. B. Ajouter une personne Après avoir déterminé les fonctions, vous pouvez ajouter les personnes. À côté de la fonction, cliquez maintenant sur le petit menu : choisissez « Ajouter une nouvelle personne ». Choisissez « Ajouter une nouvelle personne » … Complétez le formulaire et sauvegardez. N’oubliez pas d’indiquer le droit spécifique sur votre droite : Déterminez le droit spécifique. Complétez les coordonnées de la personne ... La personne apparaît dans la liste. La personne recevra un mail pour activer son compte personnel (ou le droit, s’il est déjà actif dans le système). Dès que le droit est activé par le bénéficiaire, la petite icône sur votre droite s’affichera en vert.  Astuce – Les différents droits Lire = consultation de toutes les données dans le module ; le bénéficiaire ne peut rien changer. Écrire = le bénéficiaire a accès à tous les tableaux et peut donc modifier les chiffres des fabriques. Nous conseillons de limiter le droit d’écriture au gestionnaire du dossier. En principe, vous n’octroyez que le droit de consultation. Pour changer de gestionnaire de dossier, veuillez nous contacter : cultes@religiosoft.be ou T. 02 308 29 06. 10 – Le compte annuel : consultation des justificatifs en ligne Suite à une question posée par les Évêchés, le Service Public de Wallonie (DGO5) a publié son point de vue concernant la possibilité de dématérialisation pour les dossiers du budget et du compte. Il conclut : 1. Par manque de modalités juridiques permettant la transmission électronique du budget ou du compte, le dossier (et la délibération) doit toujours être transmis sous format papier. La date de réception de ce courrier détermine le calcul des délais de tutelle. 2. Afin de remédier au défi opérationnel de la transmission des pièces justificatives, il est désormais permis de transférer le classement des justificatifs électroniquement à condition que l’ensemble des acteurs concernés aient adhéré au même logiciel. Cette communication, qui date de janvier 2017, autorise le transfert digital des justificatifs dans le cadre de la tutelle spéciale (comptes, budgets et modifications budgétaires), bien qu’il faille toujours l’accord de la commune et de l’évêché afin de garantir l’harmonisation des démarches locales. Actuellement, plusieurs communes acceptent déjà le transfert digital pour cette partie du dossier, et les Évêchés encouragent également cette évolution. Dans le module de la fabrique, ReligioSoft prévoit la possibilité de stocker tous les documents sous format digital, et, très récemment, un outil spécifique a été incorporé pour archiver les factures et les extraits bancaires intelligemment. Tous ces documents peuvent ensuite être partagés avec les modules de tutelle au moment de la clôture. La logique est très simple :  Le trésorier stocke les pièces justificatives via le journal (par écriture).  Le logiciel créera alors automatiquement un classement digital, par article comptable.  Au moment de la clôture (insertion de la date du conseil de fabrique), le trésorier peut régler le transfert digital des pièces justificatives.  Dans leur module à eux, la commune et l’évêché auront accès à un grand-livre digital classant toutes les pièces par article et par ordre chronologique. Il est crucial que la fabrique communique de façon transparente quant au type de transfert des pièces afin d’éviter tout malentendu.  Astuce – Manuel pour les fabriques d’église Dans la présente annexe, nous n’insistons que sur le partage au niveau des modules de tutelle. Pour les fabriques d’église il existe un manuel spécifique détaillant la procédure pour stocker les pièces. Soulignons encore que la fabrique peut également partager d’autres documents via le système : le grand-livre (l’aperçu des écritures par article), la situation patrimoniale, les ajustements internes, … Ces documents s’affichent dans l’écran avec les tableaux sur votre gauche. Pour consulter les pièces justificatives en ligne :  cliquez sur « Compte annuel 2016 » (sous « Accueil ») ;  sélectionnez la fabrique concernée ;  cliquez sur le bouton avec l’état des lieux ;  via « tableaux » (dans la ligne de la commune) vous tomberez sur les chiffres et les rapports de la fabrique. Vous pouvez télécharger toutes les pièces par article via l’attache qui s’affiche dans la liste même : Par article, il n’y a qu’un seul fichier, qui comprend toutes les factures (et éventuellement aussi d’autres pièces) stockées par le trésorier par écriture. Afin de simplifier toute vérification sur base du journal financier, le logiciel ajoute, par pièce, quelques renseignements utiles. Le rapport (par article) mentionne (de gauche à droite) : 1. L’article comptable ; 2. La référence au paiement (sur base du journal) ; En haut de la facture digitale, 3. L’identifiant unique de l’écriture ; le rapport mentionne 4. Le nombre de pièces pour cette 1. l’article ; écriture ; 2. le paiement ; 5. Le nombre de pages du classement 3. l’identifiant unique ; pour cet article (en bas de page). 4. le nombre de pièces pour cette écriture. Exemple concret : supposons que le trésorier a correctement ajouté les 12 factures pour l’électricité ; le rapport pour l’article comptable « D05 - Eclairage » (un seul document pdf) comprendra les 12 factures par ordre chronologique ; bref, 12 pages au total avec la mention du paiement toujours en haut. Vous pouvez ainsi feuilleter le classement par article, comme s’il s’agissait de la farde papier « traditionnelle ». 12 Le module de l’Évêché – Éditions Vanden Broele – www.religiosoft.be  Astuce – Le grand-livre Si vous voulez vérifier la liste des pièces par article avec le grand-livre, vous pouvez télécharger ce document sur votre gauche. Le grand-livre peut également être partagé par le trésorier. Signalons encore que le trésorier peut également partager d’autres annexes également : les ajustements internes et la situation patrimoniale.",
+        "resume": "La section traite de la consultation des justificatifs en ligne pour le compte annuel, en expliquant comment ajouter des fonctions et des personnes, stocker et partager des documents numériques, et accéder aux pièces justificatives via le logiciel ReligioSoft.",
+        "categorie": "Gestion des documents financiers",
+        "mots_cles": [
+            "consultation en ligne",
+            "fonctions",
+            "personnes",
+            "justificatifs numériques",
+            "transfert digital",
+            "stockage",
+            "partage",
+            "logiciel ReligioSoft"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Gestion des fonctions",
+                "Service Public de Wallonie",
+                "Compte"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Manuel",
+                "Accueil",
+                "Astuce",
+                "n’octroyez",
+                "Évêché",
+                "Ajouter",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment ajouter une nouvelle fonction dans l'organisation ?",
+                "reponse": "Pour ajouter une fonction, cliquez sur 'Gestion des fonctions', puis sur 'Nouvelle fonction', complétez les informations et sauvegardez."
+            },
+            {
+                "question": "Comment ajouter une nouvelle personne ?",
+                "reponse": "Après avoir déterminé les fonctions, cliquez sur 'Ajouter une nouvelle personne', complétez le formulaire, déterminez les droits et sauvegardez."
+            },
+            {
+                "question": "Comment consulter les pièces justificatives en ligne ?",
+                "reponse": "Pour consulter les pièces justificatives en ligne, cliquez sur 'Compte annuel 2016', sélectionnez la fabrique concernée, puis accédez aux chiffres et rapports de la fabrique."
+            },
+            {
+                "question": "Quels sont les droits disponibles pour les utilisateurs ?",
+                "reponse": "Les droits disponibles sont 'Lire' pour la consultation et 'Écrire' pour la modification des données."
+            },
+            {
+                "question": "Comment partager les documents numériques avec la commune et l'évêché ?",
+                "reponse": "Les documents numériques peuvent être partagés en stockant les pièces justificatives via le journal, puis en activant le transfert digital des pièces lors de la clôture pour que la commune et l'évêché y aient accès."
+            }
+        ],
+        "etapes_processus": [],
+        "relations": [
+            {
+                "concept": "Fonctions et personnes",
+                "description": "Les fonctions doivent être ajoutées avant d'ajouter des personnes pour déterminer les droits spécifiques."
+            },
+            {
+                "concept": "Stockage numérique",
+                "description": "Le logiciel ReligioSoft permet de stocker et classer les documents numériques par article comptable pour un accès facile."
+            },
+            {
+                "concept": "Transfert digital",
+                "description": "Le transfert digital des justificatifs est autorisé pour la tutelle spéciale, nécessitant l'accord de la commune et de l'évêché."
+            },
+            {
+                "concept": "Consultation en ligne",
+                "description": "Les pièces justificatives peuvent être consultées en ligne via le logiciel en accédant aux chiffres et rapports de la fabrique."
+            },
+            "confiance"
+        ],
+        "confiance": 0.0,
+        "metadonnees": {
+            "source_pdf": "21. Module Evêché.pdf",
+            "page_source": [
+                11,
+                15
+            ],
+            "date_extraction": "2025-05-27T12:15:01.753118"
+        }
+    }
+]

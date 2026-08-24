@@ -1,0 +1,393 @@
+[
+    {
+        "id": "chapitre_1er_introduction",
+        "titre": "Chapitre 1er. Introduction",
+        "chemin": "Chapitre 1er. Introduction",
+        "page_debut": 1,
+        "page_fin": 3,
+        "contenu_texte": "L’encodage des écritures (version 4 - août 2024) Chapitre 1er. Introduction 1 Chapitre 2. Encodage sur base des extraits bancaires 4 Chapitre 3. Encodage sur base des factures (dettes et créances) 13 Chapitre 4. Apporter des changements aux écritures 22 Annexe – Ajouter (ou modifier) un compte bancaire 25 Chapitre 1er. Introduction 1.1. Deux méthodes pour encoder : extraits bancaires ou factures ? ReligioSoft vous permet de gérer les écritures de trésorerie et comptables en détail. L’encodage de la partie « trésorerie » part toujours des journaux financiers, sur base des extraits bancaires. À côté de l’encodage sur base des extraits, ReligioSoft prévoit aussi l’encodage des factures avant le paiement. Cette approche vous permettra de faire le suivi de tous les montants engagés via le programme, sans devoir aller fouiller dans vos documents papier. Avec cette deuxième méthode, le trésorier travaille en deux étapes : l’encodage de la pièce (la facture) avant le paiement, suivi par sa « finalisation » via les extraits bancaires. La première méthode (via les extraits) ne comprend qu’une seule étape. Dans le chapitre 2, nous parcourons la méthode sur base des extraits bancaires (Méthode 1). Le chapitre 3 explique comment encoder sur base des factures (Méthode 2). Quelle méthode dois-je adopter ? Nous constatons que les petites fabriques d’église préfèrent la première méthode (extraits bancaires) sans rien encoder dans le programme avant le paiement. C’est vite fait, et le besoin de faire le suivi des factures (avant le paiement) est plutôt limité pour les fabriques qui ont peu d’écritures. Les trésoriers de fabrique qui font face au défi d’une comptabilité plus lourde, préfèrent souvent la méthode 2 (encodage immédiat des factures) pour la simple raison que cette approche permet de faire le suivi de tous les engagements connus, y compris ceux qui ne sont pas encore payés. La vue sur tout ce qui doit encore être payé (et reçu) est alors complète et permet une vérification supplémentaire au niveau des extraits bancaires, après le paiement. ReligioSoft vous laisse le choix entre ces deux méthodes. Vous pouvez certainement combiner les deux méthodes en même temps ou vous limiter à la première. 1.2. Le journal financier Quelle que soit la méthode d’encodage, toute écriture imputée au compte annuel passera via le journal financier. Il est important de noter que l’encodage des écritures de trésorerie se fait via un journal « individuel », c’est-à-dire le journal du compte à vue de Belfius, par exemple, ou le journal de la caisse. Si la fabrique utilise trois comptes différents (Belfius – compte à vue, Belfius – compte d’épargne, et une caisse (espèces)), il y aura dans le logiciel trois journaux financiers individuels. À côté de cela, ReligioSoft génère une version intégrale du journal, comprenant alors toutes les écritures de tous les journaux individuels, par ordre chronologique. En même temps, le compte annuel est préparé automatiquement sur base de toutes les écritures que vous avez encodées, ainsi que le rapport de trésorerie. Si tout est encodé correctement via les journaux financiers, le compte annuel sera parfait. L’encodage des écritures – Vanden Broele – wallonie.religio.be 1",
+        "resume": "Le chapitre d'introduction présente deux méthodes d'encodage des écritures : sur base des extraits bancaires ou des factures. Il explique l'importance du journal financier pour toute écriture imputée au compte annuel.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "encodage",
+            "extraits bancaires",
+            "factures",
+            "journal financier",
+            "trésorerie",
+            "comptabilité",
+            "ReligioSoft",
+            "méthodes",
+            "fabriques d'église",
+            "journal individuel"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Introduction 1",
+                "wallonie.religio.be 1",
+                "ReligioSoft"
+            ],
+            "montants": [],
+            "noms": [
+                "Vanden Broele",
+                "Belfius"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quelles sont les deux méthodes d'encodage des écritures présentées dans ce chapitre ?",
+                "reponse": "Les deux méthodes sont l'encodage sur base des extraits bancaires et l'encodage sur base des factures."
+            },
+            {
+                "question": "Pourquoi certains trésoriers de fabrique préfèrent-ils la méthode 2 d'encodage immédiat des factures ?",
+                "reponse": "Ils préfèrent cette méthode car elle permet de faire le suivi de tous les engagements connus, y compris ceux qui ne sont pas encore payés."
+            },
+            {
+                "question": "Quel est le rôle du journal financier dans l'encodage des écritures de trésorerie ?",
+                "reponse": "Le journal financier est crucial car toute écriture imputée au compte annuel passe par ce journal, qu'il s'agisse de l'encodage sur base des extraits bancaires ou des factures."
+            },
+            {
+                "question": "Peut-on combiner les deux méthodes d'encodage proposées par ReligioSoft ?",
+                "reponse": "Oui, il est possible de combiner les deux méthodes d'encodage ou de se limiter à l'une d'entre elles selon les besoins."
+            },
+            {
+                "question": "Comment est préparé le compte annuel dans ReligioSoft ?",
+                "reponse": "Le compte annuel est préparé automatiquement sur base de toutes les écritures encodées via les journaux financiers, garantissant ainsi sa précision si les encodages sont corrects."
+            }
+        ],
+        "etapes_processus": [
+            "Encodage sur base des extraits bancaires",
+            "Encodage sur base des factures",
+            "Utilisation du journal financier pour toute écriture imputée au compte annuel"
+        ],
+        "relations": [
+            {
+                "concept": "Encodage sur base des extraits bancaires",
+                "description": "Méthode 1 présentée dans le chapitre 2, partant des journaux financiers pour gérer les écritures de trésorerie."
+            },
+            {
+                "concept": "Encodage sur base des factures",
+                "description": "Méthode 2 expliquée dans le chapitre 3, permettant d'encoder les factures avant le paiement pour un suivi complet des montants engagés."
+            },
+            {
+                "concept": "Journal financier",
+                "description": "Essentiel pour tout encodage de trésorerie, il assure le suivi précis des écritures imputées au compte annuel via des journaux individuels pour chaque compte utilisé."
+            },
+            {
+                "concept": "Compte annuel",
+                "description": "Préparé automatiquement sur base des écritures encodées via les journaux financiers, offrant une vue complète de la situation financière de l'entité."
+            },
+            {
+                "concept": "ReligioSoft",
+                "description": "Logiciel permettant de gérer les écritures de trésorerie et comptables en détail, offrant la flexibilité d'adopter différentes méthodes d'encodage selon les besoins de l'utilisateur."
+            }
+        ],
+        "confiance": 0.95,
+        "metadonnees": {
+            "source_pdf": "03. L'EncodageDesEcritures.pdf",
+            "page_source": [
+                1,
+                3
+            ],
+            "date_extraction": "2025-05-27T12:13:38.443282"
+        }
+    },
+    {
+        "id": "chapitre_2_encodage_sur_base_des_extraits_bancaires",
+        "titre": "Chapitre 2. Encodage sur base des extraits bancaires",
+        "chemin": "Chapitre 2. Encodage sur base des extraits bancaires",
+        "page_debut": 4,
+        "page_fin": 12,
+        "contenu_texte": "Astuce – Pourquoi encoder par compte bancaire et pas via un journal chronologique « complet » ? L’encodage via les journaux individuels permet de plus facilement vérifier sur base des extraits mêmes du compte bancaire. Même si, plus tard, vous apportez des changements aux écritures, vous aurez toujours une vue directe sur l’impact au niveau du compte bancaire. C’est plus convivial. De plus, vous ne perdez rien en termes de possibilités, car le journal complet vous permettra toujours d’avoir une vue d’ensemble détaillée. 1.3. Les comptes bancaires et les comptes « propres à la fabrique » Il est important de souligner que les journaux (un journal par compte bancaire) se limitent aux comptes bancaires (et la caisse) qui font partie de la situation financière au sens strict du terme : les comptes comprenant les moyens « courants » et les capitaux en « transit ». Le solde total de ces comptes bancaires (le résultat financier du compte) correspond en principe au résultat comptable de l’exercice en question (sauf rejets, rectifications et/ou discordances historiques). Les autres moyens (les placements à long terme et les autres capitaux propres à la fabrique ou faisant partie d’une fondation), seront intégrés dans la partie « inventaire » et n’auront pas d’impact direct sur les moyens disponibles dans l’encaisse. Astuce – comment ajouter des comptes bancaires dans ReligioSoft ? Suite à l’encodage de démarrage, tous vos comptes bancaires se trouvent dans le logiciel dès le début. La procédure (fort simple) pour ajouter un nouveau compte bancaire (ou une caisse) est expliquée dans l’annexe au présent manuel. L’encodage des écritures de trésorerie se fait via les comptes bancaires. Toute « mutation » sur un compte propre à la fabrique devrait donc avoir une trace dans le journal des comptes bancaires, ce qui se reflètera dans le compte annuel même. Astuce – Exemple concret : un placement arrive à échéance. Concrètement : le montant d’un placement qui arrive à échéance devrait passer via le compte courant. Le trésorier y encode les mouvements : le remboursement du capital (art. R23, sous les recettes) et, ensuite, le replacement (art. D53 – Placement de capitaux). Sur les extraits du compte courant, le montant apparaîtra pour ensuite sortir à nouveau. Le montant « replacé » apparaîtra aussi dans l’inventaire, qu’il faudra mettre à jour. 2 L’encodage des écritures – Vanden Broele – wallonie.religio.be 1.4. Trois types d’écritures : recettes, dépenses et transferts internes Pour l’encodage dans ReligioSoft, il faut distinguer trois types d’écritures. À côté des recettes et dépenses, il y a aussi les « transferts internes ». Ceux-ci concernent le transfert d’argent entre deux comptes bancaires, sans qu’il y ait une augmentation du solde total de tous les comptes bancaires. Par exemple, lorsque le trésorier transfère 500 euros du compte d’épargne vers le compte à vue. Ce genre de transactions n’a rien à voir avec les articles comptables et sont donc encodés autrement. Pour les recettes et dépenses, il est logique de suivre la « nature » de la pièce justificative : les factures sont des dépenses, les revenus sont des recettes. Dans le cas d’une combinaison d’une dépense et d’une recette (une facture accompagnée d’une note de crédit), on pourra toujours combiner les articles de recettes et de dépenses dans une seule et même écriture. La nature de la pièce justificative détermine la façon d’encoder : les factures « ventilées », qui concernent donc plusieurs articles, sont encodées comme une seule écriture, avec plusieurs « sous-écritures » : une par article (et pas trois ou quatre lignes complètement séparées). Cette façon d’encoder permet justement de toujours voir – et vérifier ! – le montant global mentionné sur l’extrait bancaire et/ou la facture. Astuce – Encore un exemple concret : encodage d’un salaire. Si vous encodez un traitement, vous créez une dépense (disons de 750 euros), avec une partie de l’écriture attribuée à l’article D17 (traitement du sacristain), une autre partie à l’article D50C (avantages sociaux bruts) et ensuite encore la partie de l’ONSS sous l’article R18A (sous les recettes). Il ne faudra plus recalculer le total des trois parties de l’écriture. 1.5. Exercice ou année civile ? Comme vous le savez, pour les fabriques d’église, l’exercice comptable ne coïncide pas avec l’année civile. Il est toujours permis d’encoder jusqu’à la fin du mois de mars de l’année suivante toutes les écritures pour lesquelles les prévisions se trouvent au budget, pourvu que l’engagement soit pris avant le 31/12 de l’année du compte. Il faut voir dans quelle mesure cette liberté vous aide vraiment à mieux gérer la comptabilité fabricienne. La plupart des trésoriers ont pris l’habitude de bien « anticiper » au mois de décembre de sorte que le nombre de paiements à effectuer après le 31/12 reste limité. Plus la scission entre les deux exercices est nette, plus il vous sera facile de vérifier les comptes annuels. Astuce – Est-il permis de clôturer au 31/12 ? Certainement. S’il n’y a plus rien à encoder pour l’exercice en question, vous pouvez clôturer au 31/12, ce qui veut dire que le solde sur vos extraits bancaires, constitue la fin « financière » de l’exercice. Certains trésoriers le font déjà : plus besoin de tenir compte de toutes sortes d’exceptions au début de l’exercice qui suit. L’encodage des écritures – Vanden Broele – wallonie.religio.be 3 Chapitre 2. Encodage sur base des extraits bancaires 2.1. Introduction La méthode pour encoder sur base des extraits bancaires est de loin la plus répandue actuellement. Elle simplifie l’encodage en le limitant aux transactions qui apparaissent sur les extraits bancaires. Contrairement à la méthode 2, sur base des factures, il n’y a donc qu’une seule étape : l’encodage direct via les journaux financiers, après le paiement. Cette façon d’encoder suit la logique des journaux financiers individuels. Il faudra tout d’abord sélectionner le compte bancaire pour lequel vous avez vos extraits bancaires devant vous. Vous cliquez sur « comptes bancaires » en haut de la page, et la liste des comptes bancaires s’affiche. À droite, vous voyez le solde actuel par compte ; en bas de page, vous trouvez la vérification du solde total (le résultat financier) et du solde comptable (le résultat de l’exercice en cours). Cliquez sur « comptes bancaires » … … et les comptes s’affichent. « comptes bancaires » … En bas de page, vous voyez le solde total ainsi que le contrôle des résultats financier et comptable de l’exercice en cours. Pour encoder, vous choisissez le bon compte : il suffit de cliquer sur la ligne. Le solde actuel du compte devrait correspondre au solde de départ sur vos Cliquez sur la ligne du compte et le nouveaux extraits bancaires (les extraits journal s’affiche. Au début, la liste non encore encodés). est vierge. Et vous ajoutez alors toutes les écritures par ordre chronologique, tout en vérifiant le solde du compte bancaire au fur et à mesure que vous avancez. 4 L’encodage des écritures – Vanden Broele – wallonie.religio.be Astuce 1 – Quel est le point de départ ? Si vous démarrez avec ReligioSoft et que rien n’a été encodé auparavant, vous respectez la même logique : vous encodez tout simplement à partir de l’extrait dont le solde final sert comme point de départ dans le logiciel. Pour les écritures de l’exercice précédent (factures payées en janvier 2024, mais déjà reprises dans le résultat du compte annuel 2023), vous pouvez les ajouter comme d’habitude, tout en indiquant l’exercice dont elles font partie. ReligioSoft fera le nécessaire pour garantir que le résultat comptable de l’exercice n’est pas affecté par les écritures qui se rapportent au compte annuel qui a été encodé par nos services. Astuce 2 – Suivi du solde financier du compte – le solde envisagé Avant d’encoder les écritures, vous pouvez introduire le solde envisagé (c’est-à-dire, le solde final de vos extraits bancaires), en bas de page. Ce solde s’affichera en rouge tant qu’il ne correspond pas au solde dans ReligioSoft. Il suffira de vérifier cette case pour être sûr que vous ne vous êtes pas trompé(e). En bas de page vous trouvez les trois boutons d’encodage : recette – dépense – transfert interne, suivant la « tripartition » comptable des écritures. Le principe des recettes et dépenses est bien connu. Les transferts internes concernent les transferts entre deux comptes bancaires (ou la caisse) sans que le solde total des moyens disponibles n’augmente. Pour ces transactions, aucun article du plan comptable n’entre en jeu. Afin de simplifier les choses, tout transfert interne dans ReligioSoft comprend obligatoirement les deux parties de la transaction : le montant qui disparaît sur le compte « source » et le montant qui s’ajoute sur le compte « bénéficiaire ». Nous y reviendrons ci-dessous. La logique de l’encodage sur base des extraits bancaires consiste à encoder transaction après transaction tout ce qui apparaît sur vos extraits dans le journal financier dans ReligioSoft. Après l’enregistrement d’une série d’opérations, il faudra toujours vérifier si le solde dans le logiciel correspond au solde réel sur les extraits. Passons d’abord aux recettes et dépenses ; ensuite, nous reviendrons à l’encodage des transferts internes. 2.2. Encodage d’une recette ou dépense Pour l’encodage il existe un formulaire standardisé, avec quelques petites variantes. Les principes de base sont partout les mêmes. L’encodage des écritures – Vanden Broele – wallonie.religio.be 5 En bas de page, vous cliquez sur le bouton « recette » ou « dépense ». Le formulaire apparaît : Recette Dépense Il suffit de remplir les champs pour ensuite sauvegarder l’écriture, qui est alors immédiatement ajoutée au journal dans lequel vous encodez. Parcourons les différents champs à remplir ! Astuce – Le « tab »: changez aisément de champ Pour passer facilement d’un champ au suivant, vous utilisez le bouton « tab » de votre clavier. Vous n’aurez pas besoin de votre souris pour compléter les écritures. Dette/Créance – Automatique : Si vous encodez via les extraits bancaires directement (sans encoder les factures au préalable), vous n’aurez jamais besoin de ce champ. Pour les trésoriers qui ont préparé leurs factures via la partie « comptabilité » - « dettes et créances », la liste « automatique » permettra d’afficher toutes les dettes/créances non encore finalisées. Voir le chapitre 3 pour plus d’explications à ce sujet. Date : La date relative à la transaction financière, qui se trouve sur l’extrait bancaire. Il s’agit de la date d’exécution du paiement. Tous les journaux respecteront l’ordre chronologique (comme vos extraits bancaires). Pour les dates, on suit la structure ../../…. (par exemple : 02/01/2024). Exercice : Lors du premier trimestre, il y a toujours deux exercices qui entrent en ligne de compte. Ce champ vous permet d’encoder toutes les écritures par ordre chronologique, l’une après l’autre, quel que soit l’exercice. Pour les écritures d’après le 31/03, ce champ restera bloqué, en toute logique. Extrait : Il s’agit du numéro de l’extrait bancaire ou le numéro unique de la transaction sur cet extrait (suivant la logique des extraits fournis par la banque). Si un numéro unique se trouve sur l’extrait, il est intéressant de mettre ce numéro, ce qui simplifie l’identification. Écriture après écriture, ReligioSoft augmentera ce numéro automatiquement d’une unité. 6 L’encodage des écritures – Vanden Broele – wallonie.religio.be Astuce – Cette numérotation automatique des extraits me dérange ! Aucun souci. La « numérotation automatique » des écritures par compte bancaire peut être désactivée via le profil du compte bancaire. Voir l’annexe au présent manuel. Montant : Il s’agit du montant qui apparaît sur l’extrait bancaire. Soulignons que pour les montants ventilés sur plusieurs articles, il faudra toujours mettre le montant de paiement (ou de recette) et pas le « brut ». Pour ce type d’écritures, vous pouvez alors ventiler le montant via le champ « article ». Signalons encore qu’il ne faut pas mettre le « - » (signe moins) pour les dépenses. Écriture en négatif : Exceptionnellement, il y a des écritures « en compensation », par exemple une note de crédit (montant réellement perçu !) que le trésorier encode sur un article des dépenses : en cochant cette option, vous pourrez ajouter le signe moins dans le champ « montant » pour en faire une écriture de compensation (qui diminuera alors le solde de l’article au compte annuel au lieu de l’augmenter). Contact : Les fournisseurs et créditeurs. Au début, il faudra ajouter les contacts au fur et à mesure ; dès que vous avez introduit un contact, le logiciel le reconnaîtra automatiquement par la suite. Il suffit de taper le nom (de la personne ou de l’organisation) pour ajouter le contact et compléter le profil. Pour tout nouveau contact, il faudra indiquer s’il s’agit d’une personne ou d’une organisation. Vous avez toujours la possibilité de remplir le profil (voir l’astuce 1 ci-dessous). Pour tout nouveau contact, indiquez s’il s’agit d’une personne ou d’une organisation. Ensuite, vous pouvez compléter le profil. Article : Ce champ héberge le plan comptable complet. Si la recette/dépense ne concerne qu’un seul article, vous sélectionnez l’article qui convient. La liste des possibilités s’affiche automatiquement dès que vous commencez à taper. Dès que vous choisissez un article, la situation actuelle au niveau du grand-livre de l’article s’affiche à votre droite. Si vous cliquez sur l’icône aux trois lignes rouges, le rapport du grand-livre de cet article peut être téléchargé. Si la recette/dépense est ventilée, vous choisissez les trois lignes à droite, ce qui vous permettra de ventiler le montant par article (voir l’astuce 2 ci-dessous). L’encodage des écritures – Vanden Broele – wallonie.religio.be 7 Projet : Vous avez la possibilité de créer des projets et d’y coupler vos écritures. Ce champ vous permet de sélectionner n’importe quel projet que vous avez créé via la section « projets » sous « comptabilité ». Libellé : À ne pas confondre avec la communication, qui est strictement « bancaire » (en fonction de la facturation du fournisseur). Le libellé, par contre, permet de « décrire » l’écriture comptable, afin de pouvoir plus facilement la distinguer des autres écritures pour le même fournisseur ou le même article. Par exemple, pour un loyer on indique « janvier 2024 », pour une facture, on ajoute la référence à la facture et/ou la nature de la dépense (par exemple « Facture 232329 – serrure porte presbytère »). Dans le contexte de la comptabilité, c’est le champ qui vous permet (et aux autorités de tutelle) de bien apprécier de quoi il s’agit précisément. Pour toute dépense hors du commun, il faut certainement profiter de cette case pour ajouter une petite explication. Communication (structurée ou non) : Ce champ est disponible et vous permet d’ajouter la référence précise qui apparaît sur l’extrait bancaire. Contrairement au « libellé », ce champ n’est pas tellement important dans le contexte de la comptabilité (sauf pour le paiement). Une fois les champs remplis, cliquez sur pour que l’écriture s’ajoute au journal. Attention ! Important : toute écriture reçoit un identifiant unique, comprenant, entre autre l’exercice : • D/2024.0001 = la première dépense (D) de l’exercice 2024 • R/2024.0001 = la première recette (R) de l’exercice 2024 Vous pouvez ajouter ce numéro sur la facture et/ou l’extrait bancaire afin d’augmenter la cohésion entre les pièces justificatives et les écritures comptables. Ensuite, vous continuez avec les autres écritures, en respectant l’ordre de vos extraits bancaires. N’oubliez pas de vérifier le solde du journal au fur et à mesure que vous avancez ! 8 L’encodage des écritures – Vanden Broele – wallonie.religio.be Toute écriture peut être modifiée après encodage. Vous en apprendrez davantage à ce sujet dans le chapitre 4. Avant de passer aux transferts internes, voici quelques astuces pour simplifier davantage l’encodage des écritures. Astuce 1 – Mettre à jour le profil des contacts Il est possible de compléter le profil d’un contact lors de l’encodage même. Signalons que la liste des fournisseurs est aussi accessible via « comptabilité » - « contacts », où vous pouvez également ajouter et/ou modifier tous vos fournisseurs et créditeurs. Astuce 2 – ventilation : plusieurs articles par écriture – c’est vite fait ! Pour certaines dépenses (et recettes), un seul article ne suffit pas. Le logiciel vous permet de ventiler toute dépense sur plusieurs articles. Lors de l’encodage, cliquez sur l’icône « 1-2- 3 » à droite du champ « article ». Un formulaire apparaît alors et vous permet de ventiler les différents articles, en mettant d’abord le montant précis, pour ensuite choisir l’article en question. Comme pour les écritures « simples », la situation actuelle de l’article (budget, compte, engagé) s’affiche sur la droite. Le logiciel vous signale systématiquement la partie de l’écriture à ventiler encore (à votre droite). Dès que le montant complet est ventilé, vous cliquez « OK » pour ensuite « sauvegarder » l’écriture dans sa totalité. L’encodage des écritures – Vanden Broele – wallonie.religio.be 9 Astuce 3 – « L’association comptable unique » : coupler le contact et l’article Si vous cochez « toujours proposer cet article pour ce contact », le logiciel proposera automatiquement cet article la prochaine fois que vous encoderez pour ce fournisseur (vous pouvez toujours « décocher » ou sélectionner un autre article, au besoin). 2.3. Encodage d’un transfert interne Les transferts internes (toute transaction entre deux comptes bancaires et/ou la caisse) sont encodés directement via le journal financier même. Le transfert comprend toujours deux parties : le montant qui sort du compte « source » et le montant qui apparaît sur le compte « bénéficiaire ». Il n’est pas possible d’encoder un retrait ou un versement seul : ReligioSoft garantit l’équilibre de tout transfert interne en créant en même temps la ligne en négatif et la ligne en positif. Au niveau pratique, il y a deux petites étapes : l’encodage du transfert avec la création automatique des deux lignes, dont la première sera complète, et ensuite l’effort de compléter la deuxième ligne (sur base des données sur l’extrait bancaire du deuxième compte bancaire). Pour encoder un transfert, cliquez sur le bouton « transfert interne » et le formulaire s’affiche : Les champs sont moins nombreux que pour les dettes et créances. Parcourons-les. Transfert – automatique : Même principe que pour les dépenses et recettes : vous ne devez pas y toucher, sauf si vous avez préparé les transferts internes via la partie « dettes et créances » sous « comptabilité » (ce qui se fait rarement). Date : La date relative à la transaction financière, qui se trouve sur l’extrait bancaire. Il s’agit de la date d’exécution. Le journal se sert toujours de cette date pour l’ordre chronologique des écritures. Extrait : Le numéro de l’extrait bancaire ou le numéro unique de la transaction sur cet extrait (suivant la logique des extraits fournis par la banque). Si un numéro unique se trouve sur l’extrait, il est intéressant de mettre ce numéro, ce qui simplifie l’identification. Écriture après écriture, ReligioSoft augmentera ce numéro automatiquement d’une unité. Astuce – Cette numérotation automatique des extraits me dérange ! Aucun souci. La « numérotation automatique » des écritures par compte bancaire peut être désactivée via le profil du compte bancaire. Voir l’annexe au présent manuel. 10 L’encodage des écritures – Vanden Broele – wallonie.religio.be",
+        "resume": "Le chapitre 2 traite de l'encodage sur base des extraits bancaires, mettant en avant l'avantage de suivre les transactions bancaires pour une meilleure visibilité. Il explique la distinction entre les comptes bancaires et les comptes propres à la fabrique, ainsi que les trois types d'écritures : recettes, dépenses et transferts internes.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "encodage",
+            "comptes bancaires",
+            "écritures",
+            "transferts internes",
+            "exercice comptable"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "tab",
+                "s’affiche",
+                "d’impact",
+                "wallonie.religio.be 3",
+                "Recette Dépense",
+                "l’impact",
+                "s’",
+                "ONSS",
+                "R18A"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Vanden Broele",
+                "transactions n’",
+                "Vanden Broele –",
+                "Vanden Broele – wallonie.religio.be",
+                "Astuce",
+                "D50C",
+                "S’",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Pourquoi encoder par compte bancaire et pas via un journal chronologique complet ?",
+                "reponse": "L'encodage par compte bancaire permet une meilleure vérification des transactions via les extraits bancaires et offre une vue directe sur l'impact financier."
+            },
+            {
+                "question": "Comment ajouter des comptes bancaires dans ReligioSoft ?",
+                "reponse": "Après l'encodage de démarrage, les comptes bancaires sont déjà présents dans le logiciel. La procédure pour ajouter un nouveau compte est expliquée dans l'annexe du manuel."
+            },
+            {
+                "question": "Est-il possible de clôturer au 31/12 ?",
+                "reponse": "Oui, si toutes les écritures pour l'exercice en question ont été encodées, il est possible de clôturer au 31/12, marquant ainsi la fin financière de l'exercice."
+            },
+            {
+                "question": "Quels sont les trois types d'écritures à distinguer ?",
+                "reponse": "Les trois types d'écritures sont les recettes, les dépenses et les transferts internes, chacun ayant sa propre logique d'encodage."
+            },
+            {
+                "question": "Comment ventiler un montant sur plusieurs articles lors de l'encodage ?",
+                "reponse": "Il est possible de ventiler un montant sur plusieurs articles en sélectionnant les différents articles lors de l'encodage, permettant une répartition précise des transactions."
+            }
+        ],
+        "etapes_processus": [
+            "Sélectionner le compte bancaire pour lequel les extraits sont disponibles",
+            "Ajouter les écritures par ordre chronologique en vérifiant le solde du compte au fur et à mesure",
+            "Vérifier que le solde dans le logiciel correspond au solde réel sur les extraits"
+        ],
+        "relations": [
+            {
+                "concept": "Encodage par compte bancaire",
+                "description": "Permet une vérification directe des transactions via les extraits bancaires"
+            },
+            {
+                "concept": "Transferts internes",
+                "description": "Transactions entre deux comptes bancaires sans impact sur le solde total des moyens disponibles"
+            },
+            {
+                "concept": "Clôture au 31/12",
+                "description": "Marque la fin financière de l'exercice si toutes les écritures ont été encodées"
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "03. L'EncodageDesEcritures.pdf",
+            "page_source": [
+                4,
+                12
+            ],
+            "date_extraction": "2025-05-27T12:13:50.744502"
+        }
+    },
+    {
+        "id": "chapitre_3_encodage_sur_base_des_factures_dettes_et_crances",
+        "titre": "Chapitre 3. Encodage sur base des factures (dettes et créances)",
+        "chemin": "Chapitre 3. Encodage sur base des factures (dettes et créances)",
+        "page_debut": 13,
+        "page_fin": 21,
+        "contenu_texte": "Montant : Il s’agit du montant qui apparaît sur l’extrait bancaire. Signalons encore qu’il ne faut pas mettre le signe moins : les comptes « source » et « bénéficiaire » sont connus et le logiciel en déduit le sens du transfert. Compte (bénéficiaire et source) : Il n’y a pas de champ « contact », mais il faudra spécifier le compte « source » (d’où le montant part) et le compte « bénéficiaire » (vers lequel le montant est transféré). Les propositions (= tous les comptes) s’affichent automatiquement pendant que vous tapez. Libellé : À ne pas confondre avec la communication, qui est strictement « bancaire » (en fonction de la facturation du fournisseur). Le libellé, par contre, permet de « décrire » l’écriture comptable, afin de pouvoir plus facilement la distinguer des autres écritures pour le même fournisseur ou le même article. Pour les transferts, ce champ est sans aucun doute moins informatif que pour les recettes et dépenses. Communication (structurée ou non) : Ce champ est disponible et vous permet d’ajouter la référence précise qui apparaît sur l’extrait bancaire. Son importance est plutôt limitée dans le contexte des transferts internes. Une fois les champs remplis, vous cliquez sur . Le transfert sera ajouté à deux endroits : tant dans le journal du compte « source » que dans le journal du compte « bénéficiaire » apparaîtra une écriture. Important ! Dans le journal où vous êtes en train d’encoder, l’écriture sera immédiatement complète (avec le numéro de l’extrait). Le transfert comprenant une deuxième ligne dans un autre journal, il faudra compléter celle-ci dès que les extraits du compte en question sont disponibles. Vous consulterez alors le journal de ce compte, où cette ligne attend d’être finalisée (il faudra ajouter la date d’exécution et le numéro de l’extrait bancaire). Le transfert est ajouté à l’autre journal aussi. Cliquez dessus pour compléter la référence à l’extrait bancaire de ce compte ! N’oubliez pas de vérifier le solde du journal au fur et à mesure que vous avancez ! L’encodage des écritures – Vanden Broele – wallonie.religio.be 11 Toute écriture peut être modifiée après encodage. Vous en apprendrez davantage à ce sujet dans le chapitre 4. 2.4. Les rapports Sous « comptes bancaires » et par compte bancaire, vous pouvez télécharger les rapports les plus importants. Tous les rapports importants s’affichent à votre gauche. Parcourons-les : • Le rapport du compte : le rapport du compte annuel, avec une variante qui reprend aussi les articles propres à la fabrique. • La trésorerie : l’aperçu des soldes bancaires ; ce rapport reprend aussi le résultat comptable. • Le journal complet (Excel ou PDF) : la liste complète avec toutes les écritures et leur détail complet. La version Excel comprend aussi les soldes financier et comptable. Le PDF permet d’imprimer en format « paysage ». • Journal du compte bancaire : même principe que pour le journal complet mais sans solde comptable. • Le grand-livre complet (PDF) : la liste avec l’historique des écritures par article. • Dettes et créances ouvertes : la liste avec les factures et créances non encore apurées dans le système. Si vous n’encodez que via les comptes bancaires, vous n’en aurez pas besoin. Astuce – Les observations ! Sous « comptes bancaires », vous avez toujours accès à votre gauche au bouton « observations ». Vous pouvez ajouter toutes vos remarques et observations concernant le compte annuel. Le texte complet sera repris dans le rapport du compte annuel. 12 L’encodage des écritures – Vanden Broele – wallonie.religio.be Chapitre 3. Encodage sur base des factures À côté de l’encodage sur base des extraits (sans rien de plus), il est également possible d’encoder toutes vos factures dans ReligioSoft. Cet encodage demande un peu plus d’efforts au début, mais vous aurez un suivi comptable nettement plus complet. Contrairement à l’encodage sur base des extraits bancaires, l’encodage des factures se fait en deux étapes : - 1re étape : encodage des factures/créances/transferts avant le paiement via la partie « dettes/créances » sous « comptabilité » (suite à la réception de la facture) ; - 2e étape : finalisation de ces écritures via la partie « comptes bancaires » (suite à la réception des extraits bancaires). 1. Vous ajoutez une facture sous « dettes et créances » (sous « comptabilité »). 2. La facture pourra être finalisée via un des journaux financiers (sous « comptes bancaires »), après le paiement. Toutes les factures ouvertes s’affichent sous « automatique ». Astuce – Est-il possible de combiner les deux méthodes d’encodage ? Il est bien entendu possible de combiner l’encodage « direct » via les extraits bancaires avec cette méthode en deux étapes. Pour certaines écritures (par exemple, les frais bancaires), il est peu intéressant d’encoder d’abord sur base des dettes/créances. Regardons de plus près la première étape, à savoir l’encodage de la facture avant le paiement. L’encodage des écritures – Vanden Broele – wallonie.religio.be 13 3.1. 1re étape : encodage des factures/créances/transferts avant le paiement 3.1.1. Encodage d’une dette/créance Pour encoder les factures/créances/transferts avant le paiement, rendez-vous dans la partie « comptabilité », où la section « dettes et créances » vous permettra d’enregistrer toutes les écritures bien avant le paiement. Cliquez sur « comptabilité » . Ensuite « dettes et créances ». Les principes de base correspondent en grande partie à la logique des écritures encodées directement via les comptes bancaires, bien qu’il y ait des champs supplémentaires, propres aux dettes/créances. Le point de départ, c’est toujours la pièce (facture) que vous avez devant vous. Cliquez sur le bouton « recette » ou « dépense » en bas de page et le formulaire s’affiche : Il suffit de remplir les champs et de sauvegarder l’écriture. 14 L’encodage des écritures – Vanden Broele – wallonie.religio.be Parcourons les différents champs ! Astuce – Le « tab »: changez aisément de champ Pour passer facilement d’un champ au suivant, utilisez le bouton « tab » de votre clavier. Vous n’aurez pas besoin de votre souris pour compléter les écritures. Dette/Créance – Numéro unique : ReligioSoft vous propose automatiquement un numéro unique, comprenant la nature de l’écriture (D = Dépense/Dette ; R = Recette ; T = Transfert interne), l’exercice et le numéro dans la catégorie d’écriture comptable. Ainsi, le D/2024.0005 concerne la cinquième dépense de l’exercice 2024. Afin de simplifier la cohésion entre les écritures comptables et le classement, il est intéressant de toujours noter ce numéro sur les pièces. Celui-ci sera repris automatiquement sur les mandats aussi. Statut : Le statut de toute écriture reste ouvert, jusqu’à ce que l’écriture soit finalisée via les comptes bancaires. En principe, il ne faut rien faire. Le logiciel fermera la dette/créance automatiquement dès que celle-ci sera ajoutée au journal financier. Date : Il s’agit bien de la date de la facture ou du recouvrement, telle qu’elle apparaît sur la pièce justificative même du fournisseur. Échéance : Ce champ n’est certainement pas obligatoire mais peut être rempli s’il y a une date d’échéance sur la facture. Montant : Il s’agit du montant de la facture (ou de la créance). Contrairement à ce qui se passe sous les « comptes bancaires » (où c’est le montant payé qui est important), on se focalise ici sur le montant de la pièce même. Il se peut que la facture (ou la créance) soit alors payée en différentes étapes (par exemple dans le cas d’un emprunt), bien que, dans la plupart des cas, il s’agisse d’un seul paiement qui correspond parfaitement au montant de la facture. Pour les factures/créances où plusieurs articles entrent en ligne de compte, il faut toujours mentionner le montant de la pièce ; ensuite vous pouvez ventiler ce montant sur différents articles (voir ci-dessous, sous « article »). Écriture en négatif : Exceptionnellement, il y a des écritures « en compensation », par exemple une note de crédit (montant réellement perçu !) que le trésorier encode sur un article des dépenses : en cochant cette option, vous pourrez ajouter le signe moins dans le champ « montant » pour en faire une écriture de compensation (qui diminuera alors le solde de l’article au compte annuel), au lieu de l’augmenter. L’encodage des écritures – Vanden Broele – wallonie.religio.be 15 Contact : Les fournisseurs et créditeurs. Au début, il vous faudra ajouter les contacts au fur et à mesure. Dès que vous aurez introduit un contact, le logiciel le reconnaîtra automatiquement par la suite. Il suffira de taper le nom (de la personne ou de l’organisation) pour ajouter le contact et compléter le profil. Pour tout nouveau contact, il faudra indiquer s’il s’agit d’une personne ou d’une organisation. Vous avez toujours la possibilité de remplir le profil (voir l’astuce 1 ci-dessous). Indiquez pour tout nouveau contact, s’il s’agit d’une personne ou d’une organisation. Article : Ce champ héberge le plan comptable complet. Si la recette/dépense ne concerne qu’un seul article, vous sélectionnez l’article qui convient. La liste des possibilités s’affiche automatiquement dès que vous commencez à taper. Dès que vous choisissez un article, la situation actuelle au niveau du grand- livre de l’article s’affiche à votre droite. Si vous cliquez sur l’icône aux trois lignes rouges, le rapport du grand-livre de cet article peut être téléchargé. Projet : Vous avez la possibilité de créer des projets et d’y coupler vos écritures. Ce champ vous permet de sélectionner n’importe quel projet que vous avez créé via la section « projets » sous « comptabilité ». Libellé : À ne pas confondre avec la communication, qui est strictement « bancaire » (en fonction de la facturation du fournisseur). Le libellé, par contre, permet de « décrire » l’écriture comptable, afin de mieux pouvoir la distinguer des autres écritures pour le même fournisseur ou le même article. Par exemple, pour un loyer, on indique « janvier 2024 », pour une facture, on ajoute la référence à la facture et/ou la nature de la dépense (par exemple « Facture 232329 – serrure porte presbytère »). Dans le contexte de la comptabilité, c’est le champ qui vous permet (et aux autorités de tutelle) de bien apprécier de quoi il s’agit précisément. Pour toute dépense hors du commun, il faut certainement profiter de cette case pour ajouter une petite explication. Communication (structurée ou non) : Ce champ est disponible et vous permet d’ajouter la référence précise qui apparaît sur l’extrait bancaire. Contrairement au « libellé », l’importance de ce champ est limitée. Une fois les champs remplis, vous cliquez sur et l’écriture s’ajoute à la liste des dettes/créances ouvertes. Vous pouvez immédiatement noter le numéro unique sur votre facture ! 16 L’encodage des écritures – Vanden Broele – wallonie.religio.be Après le paiement, et dès que vous recevez vos extraits bancaires, vous pouvez finaliser les dettes/créances via les comptes bancaires : voir l’étape 2, ci-dessous. Toute écriture peut être modifiée après encodage. Vous en apprendrez davantage à ce sujet dans le chapitre 4. Terminons encore avec quelques astuces Astuce 1 – Mettre à jour le profil des contacts Il est possible de compléter le profil de tout contact lors de l’encodage même. Signalons que la liste des fournisseurs est aussi accessible via « comptabilité » - « contacts », où vous pouvez également ajouter et/ou modifier tous vos fournisseurs et créditeurs. Astuce 2 – ventilation : plusieurs articles par écriture – c’est vite fait ! Pour certaines dépenses (et recettes), un seul article ne suffit pas. Le logiciel vous permet de ventiler toute dépense sur plusieurs articles. Lors de l’encodage, cliquez sur l’icône « 1-2-3 » à droite du champ « article ». Un formulaire apparaît alors et vous permet de ventiler les différents articles, en mettant d’abord le montant précis, pour ensuite choisir l’article en question. Comme pour les écritures « simples », il s’affiche toujours la situation actuelle de l’article (budget, compte, engagé) à votre droite. Le logiciel vous signale systématiquement la partie de l’écriture à ventiler encore (à votre droite). Dès que le montant complet est ventilé, vous cliquez « OK » pour ensuite « sauvegarder » l’écriture dans sa totalité. Astuce 3 – « L’association comptable unique » : coupler le contact et l’article Si vous cochez « toujours proposer cet article pour ce contact », le logiciel proposera automatiquement cet article la prochaine fois que vous encoderez pour ce fournisseur (vous pouvez toujours « décocher » ou sélectionner un autre article, au besoin). L’encodage des écritures – Vanden Broele – wallonie.religio.be 17 3.1.2. Encodage d’un transfert interne Bien que l’intérêt soit limité, il est possible d’encoder les transferts internes dans la comptabilité avant le paiement. Cette approche permet d’avoir dans le système une trace du transfert. Signalons que, dans ReligioSoft, tout transfert comprend toujours deux parties : le montant qui sort du compte « source » et le montant qui apparaît sur le compte « bénéficiaire ». Il n’est pas possible d’encoder un retrait ou un versement seul. ReligioSoft garantit l’équilibre de tout transfert interne en créant en même temps la ligne en négatif et la ligne en positif, au niveau des journaux financiers. Pour tout transfert interne « avant le paiement » (introduit dans le système via « dettes et créances »), il y aura toujours une écriture. Pour encoder un transfert interne, vous cliquez en bas de page sur le bouton gris « transfert interne ». Le formulaire s’affiche. Parcourons les champs à remplir ! Transfert – Numéro unique : ReligioSoft vous propose automatiquement un numéro unique, comprenant la nature de l’écriture (D = Dépense/Dette ; R = Recette ; T = Transfert interne), l’exercice et le numéro dans la catégorie d’écriture comptable. Ainsi, le T/2024.0005 concerne le cinquième transfert de l’exercice 2024. Statut : Le statut de toute écriture reste ouvert, jusqu’à ce que l’écriture soit finalisée via les comptes bancaires. Date : Il s’agit ici de la date à laquelle vous encodez le transfert dans le système. Pour les transferts, cette date est moins importante, mais il est intéressant de suivre une certaine logique. Échéance : Ce champ n’est certainement pas obligatoire, mais il peut être rempli. Montant : Le montant qui sera transféré entre les deux comptes (et qui apparaîtra plus tard sur les extraits bancaires). On ne met pas le signe moins. Sur base des comptes « bénéficiaire » et « source », le logiciel déduit dans quel sens le montant est transféré. Compte (bénéficiaire et source) : Il n’y a pas de champ « contact », mais il faudra spécifier le compte « source » (d’où le montant part) et le compte « bénéficiaire » (vers lequel le montant est transféré). Si vous tapez, les propositions (= tous les comptes) s’affichent automatiquement. 18 L’encodage des écritures – Vanden Broele – wallonie.religio.be Libellé : À ne pas confondre avec la communication, qui est strictement « bancaire » (en fonction de la facturation du fournisseur). Le libellé, par contre, permet de « décrire » l’écriture comptable, afin de mieux pouvoir la distinguer des autres écritures pour le même fournisseur ou le même article. Pour les transferts, ce champ est sans aucun doute moins informatif que pour les recettes et dépenses. Communication (structurée ou non) : Ce champ est disponible et vous permet d’ajouter la référence précise qui apparaît sur l’extrait bancaire. Contrairement au « libellé », l’importance de ce champ est limitée. Une fois les champs remplis, vous cliquez . Le transfert s’ajouté dans la liste des écritures à finaliser. Toute écriture peut être modifiée après encodage. Vous en apprendrez davantage à ce sujet dans le chapitre 4. Astuce – Imprimer les dettes et créances ReligioSoft vous propose deux rapports : le rapport avec la liste complète des dettes et créances ouvertes (« non encore apurées ») et un rapport avec toutes les dettes et créances dans le système. 3.2. 2e étape : finalisation des écritures via la partie « comptes bancaires » Vous avez encodé une série de créances/dettes/transferts via la section « dettes et créances ». Ensuite, vous avez procédé au paiement. Dès que les extraits bancaires vous parviennent, vous pouvez finaliser les écritures via la section « comptes bancaires ». Le principe de base est fort simple : tout ce que vous avez encodé auparavant sera immédiatement disponible dans les journaux financiers mêmes dans ReligioSoft. Il suffira de choisir l’écriture et de compléter ensuite la référence aux extraits bancaires. L’encodage des écritures – Vanden Broele – wallonie.religio.be 19",
+        "resume": "Le chapitre 3 traite de l'encodage sur base des factures pour les dettes et créances. Il explique comment saisir les montants, les comptes source et bénéficiaire, le libellé, la communication, et les étapes pour finaliser les écritures via les comptes bancaires.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "encodage",
+            "factures",
+            "dettes",
+            "créances",
+            "comptes bancaires",
+            "libellé",
+            "communication",
+            "rapports",
+            "transferts internes",
+            "écritures"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "tab",
+                "Dettes",
+                "Astuce",
+                "s’",
+                "wallonie.religio.be 15"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Vanden Broele",
+                "Transfert",
+                "Vanden Broele – wallonie.religio.be",
+                "Imprimer",
+                "Astuce",
+                "jusqu’",
+                "n’encodez",
+                "Numéro",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Quels sont les champs importants à remplir lors de l'encodage des factures ?",
+                "reponse": "Les champs importants incluent le montant, les comptes source et bénéficiaire, le libellé, la communication, la date, et l'échéance."
+            },
+            {
+                "question": "Comment finaliser les écritures après encodage des factures ?",
+                "reponse": "Les écritures peuvent être finalisées via la section 'comptes bancaires' une fois les extraits bancaires reçus."
+            },
+            {
+                "question": "Peut-on combiner l'encodage sur base des factures avec celui sur base des extraits bancaires ?",
+                "reponse": "Oui, il est possible de combiner les deux méthodes d'encodage pour une gestion comptable plus complète."
+            },
+            {
+                "question": "Quels sont les rapports disponibles pour le suivi des dettes et créances ?",
+                "reponse": "Les rapports incluent le rapport du compte, la trésorerie, le journal complet, le journal du compte bancaire, et le grand-livre complet."
+            },
+            {
+                "question": "Comment ventiler une dépense sur plusieurs articles lors de l'encodage ?",
+                "reponse": "Il est possible de ventiler une dépense sur plusieurs articles en cliquant sur l'icône '1-2-3' et en sélectionnant les articles correspondants."
+            }
+        ],
+        "etapes_processus": [
+            "Encodage des factures/créances/transferts avant le paiement via la partie 'dettes/créances' sous 'comptabilité'.",
+            "Finalisation des écritures via la partie 'comptes bancaires' après réception des extraits bancaires."
+        ],
+        "relations": [
+            {
+                "concept": "Montant",
+                "description": "Le montant des factures ou créances à saisir lors de l'encodage."
+            },
+            {
+                "concept": "Comptes source et bénéficiaire",
+                "description": "Les comptes d'où provient le montant et vers lesquels il est transféré."
+            },
+            {
+                "concept": "Libellé",
+                "description": "La description de l'écriture comptable pour la distinguer des autres."
+            },
+            {
+                "concept": "Communication",
+                "description": "La référence précise qui apparaît sur l'extrait bancaire pour chaque écriture."
+            },
+            {
+                "concept": "Finalisation des écritures",
+                "description": "Étape cruciale pour compléter les écritures après encodage des factures."
+            },
+            {
+                "concept": "Ventilation des dépenses",
+                "description": "Possibilité de répartir une dépense sur plusieurs articles pour une comptabilité détaillée."
+            }
+        ],
+        "confiance": 0.98,
+        "metadonnees": {
+            "source_pdf": "03. L'EncodageDesEcritures.pdf",
+            "page_source": [
+                13,
+                21
+            ],
+            "date_extraction": "2025-05-27T12:13:58.994581"
+        }
+    },
+    {
+        "id": "chapitre_4_apporter_des_changements_aux_critures",
+        "titre": "Chapitre 4. Apporter des changements aux écritures",
+        "chemin": "Chapitre 4. Apporter des changements aux écritures",
+        "page_debut": 22,
+        "page_fin": 28,
+        "contenu_texte": "Voici les démarches à suivre ! 1. Choisissez le journal financier Cliquez sur « comptes bancaires » et choisissez le compte bancaire pour lequel vous avez les extraits devant vous. Cliquez sur « comptes bancaires » et choisissez le compte dont vous avez besoin. Le journal s’affiche. 2. Dépense/recette/transfert ? Vous suivez la logique de vos extraits bancaires. En bas de page, cliquez sur le bouton qui convient, selon le cas. 3. Choisissez l’écriture encodée auparavant Dans le formulaire qui s’affiche, cliquez sur « automatique » (le premier champ) et la liste complète avec toutes les dettes (ou créances) ouvertes s’affiche. Sélectionnez la bonne écriture et tous les détails sont repris automatiquement dans le formulaire (voir 4.). 4. Complétez la référence aux extraits bancaires et sauvegardez ! Logiquement, il manque encore deux petits champs : la date de la transaction financière (qui apparaît sur l’extrait bancaire) ainsi que le numéro de l’extrait. Vous complétez et sauvegardez. Voilà qui est fait ! 20 L’encodage des écritures – Vanden Broele – wallonie.religio.be L’écriture est ajoutée dans le journal financier du compte bancaire, suivant la chronologie des dates d’exécution. Astuce 1 – Premier cas particulier : facture payée en étapes ? Si la facture a été payée en étapes, vous adapterez encore le montant en fonction de la partie qui a été payée. En toute logique, le montant correspondra à celui mentionné sur vos extraits bancaires. La dette restera ouverte pour le solde qui reste et vous pourrez toujours la sélectionner à nouveau pour la finaliser. Astuce 2 – Deuxième cas particulier : transfert interne : n’oubliez pas la deuxième ligne ! Pour les transferts internes, l’écriture sera automatiquement reprise dans deux journaux : celui du compte « source » et celui du compte « bénéficiaire ». En finalisant via le premier journal, il vous faudra encore compléter aussi via l’autre journal, dès que les extraits bancaires seront disponibles : là aussi, vous compléterez alors la date et la référence à l’extrait bancaire. Vous répétez ensuite les mêmes démarches pour les autres montants qui apparaissent sur vos extraits bancaires. Si pour certaines transactions vous n’avez pas encodé auparavant via « dettes/créances », vous pouvez tout simplement encoder sur base de vos extraits, suivant la méthode 1 (voir le chapitre 2). N’oubliez pas de vérifier le solde du journal au fur et à mesure que vous avancez ! Toute écriture peut être modifiée après encodage. Vous en apprendrez davantage à ce sujet dans le chapitre 4. 3.3. Les rapports Sous « comptes bancaires » et dans tout journal individuel (par compte bancaire), vous pouvez télécharger les rapports les plus importants. Nous vous renvoyons aux explications sous 2.4. L’encodage des écritures – Vanden Broele – wallonie.religio.be 21 Chapitre 4. Apporter des changements aux écritures Une erreur est vite arrivée. Aucun souci ! ReligioSoft vous permet de corriger n’importe quelle erreur d’encodage : un mauvais choix d’article, un montant erroné, etc. Attention ! Bien qu’il soit possible de modifier les écritures selon vos souhaits, dès que vous mettez la date de la séance du conseil de fabrique sous « compte annuel », toutes les écritures seront en toute logique bloquées et vous ne pourrez plus apporter aucun changement. À ce moment-là, le compte est censé être transmis aux autorités de tutelle ! Ici aussi, il est important d’insister sur la distinction entre, d’une part, les écritures encodées directement via les extraits bancaires et, de l’autre, l’encodage via « dettes/créances ». Si vous utilisez les deux méthodes en même temps, vous reconnaîtrez facilement les écritures sur base des « dettes et créances » grâce au point en gras à côté du numéro unique : 1. Modifier (ou supprimer) une écriture introduite directement via les comptes bancaires Si vous n’utilisez que la partie « comptes bancaires » sans jamais passer via « comptabilité » - « dettes et créances », l’approche est vraiment simple : vous changez vos écritures via les comptes bancaires, et c’est tout. Il suffit donc de consulter le compte bancaire en question, où se trouve l’écriture à corriger. Vous cliquez sur l’écriture et, en bas de page, dans le formulaire qui s’ouvre, vous pouvez modifier n’importe quel champ. Ensuite, vous sauvegardez. En étapes : 1. Cliquez sur « comptes bancaires » ; 2. Choisissez le compte bancaire en question ; 3. Cliquez sur l’écriture à modifier ; 4. Modifiez les champs qui posent problème ; 5. Sauvegardez. 22 L’encodage des écritures – Vanden Broele – wallonie.religio.be Astuce 1 – comment supprimer une écriture ? Pour supprimer une écriture, vous cliquez sur la poubelle à droite dans la ligne même de l’écriture. Il faut ensuite confirmer. Astuce 2 – n’oubliez pas de réimprimer le mandat ! Le mandat lié à l’écriture modifié sera lui aussi corrigé automatiquement. Pas d’effort supplémentaire pour corriger le mandat donc, mais n’oubliez cependant pas de l’imprimer à nouveau via « comptabilité » - « mandats ». 2. Modifier (ou supprimer) une écriture introduite via les dettes/créances Pour les écritures qui partent d’une dette/créance, nous distinguons d’une part les simples modifications de la dette/créance même, et de l’autre les changements à apporter aux écritures via les « comptes bancaires ». Vous reconnaissez d’ailleurs les écritures via les dettes/créances d’ailleurs grâce au point qui se trouve à côté du numéro unique. 2.A. La modification ne concerne que la dette/créance (pas l’écriture sous « comptes bancaires ») Consultez la partie « dettes/créances » sous « comptabilité » : Il suffit de cliquer sur l’écriture (la dette ou la créance), de modifier les champs à corriger et de sauvegarder. 2.B. La modification concerne une écriture sous « comptes bancaires », et, éventuellement, aussi l’écriture sous « dettes/créances » (la « facture ») Passez via les comptes bancaires d’abord : o cliquez sur « comptes bancaires » ; o choisissez le compte bancaire en question ; o cliquez l’écriture à modifier ; o modifiez les champs qui posent problème ; o Sauvegardez. Ensuite, vous aurez la possibilité d’aller directement à la dette/créance concernée pour modifier là aussi les champs qui posent problème. Si le changement n’affecte en rien l’écriture de la dette/créance à elle seule, il suffira de corriger l’écriture sous « comptes bancaires ». L’encodage des écritures – Vanden Broele – wallonie.religio.be 23 Lorsque vous corrigez une écriture qui dépend d’une dette/créance encodée antérieurement, vous pouvez toujours modifier la dette/créance en question immédiatement. Astuce 1 – comment supprimer une écriture ? Pour supprimer une écriture, cliquez sur la poubelle à droite dans la ligne même de l’écriture. Il faudra encore confirmer. Astuce 2 – n’oubliez pas de réimprimer le mandat ! Le mandat lié à l’écriture modifié sera lui aussi corrigé automatiquement. Pas d’effort supplémentaire pour corriger le mandat donc, mais n’oubliez certainement pas de l’imprimer à nouveau via « comptabilité » - « mandats ». 24 L’encodage des écritures – Vanden Broele – wallonie.religio.be Annexe – Ajouter (ou modifier) un compte bancaire Si vous voulez ajouter un nouveau compte bancaire dans le logiciel, il suffit de cliquer sur « comptes bancaires » (en haut de l’écran). Ensuite, il y a le bouton gris à droite, en bas de page « Ajouter un compte ». Attention ! Seuls les comptes bancaires liés à la gestion quotidienne doivent être ajoutés sous l’onglet « comptes bancaires ». Les comptes liés au patrimoine ne doivent pas être repris ici mais dans la situation patrimoniale uniquement. Sous « comptes bancaires »… … vous ajoutez un nouveau compte via le bouton gris à votre droite. Dans le formulaire qui s’affiche, il suffit de remplir les cases ; ensuite, vous sauvegardez et le compte s’ajoute à la liste en haut de la page. Le solde de départ du nouveau compte bancaire doit être ajouté par nos services, veuillez dès lors nous contacter via cultes@religiosoft.be L’encodage des écritures – Vanden Broele – wallonie.religio.be 25 Parcourons les champs à remplir dans le formulaire du compte : - Nom du compte : le nom permet l’identification « courante » du compte. - Exercice de démarrage : l’exercice à partir duquel le compte est utilisé. - Type de compte : vous avez le choix entre « compte à vue », « compte d’épargne », etc. - Banque : le nom de la banque (Belfius, BNP Paribas Fortis, ING, etc.) - IBAN / BIC : si vous remplissez le code IBAN, le BIC sera repris automatiquement. - Numérotation automatique : toute écriture encodée via ce journal recevra automatiquement un numéro d’identification unique augmenté d’une unité. C’est utile si les extraits de votre banque comprennent une numérotation continue pour toutes les transactions. La première écriture portera le numéro 1, la deuxième écriture le numéro 2, etc. (par année civile). Si vous décochez, on vous proposera automatiquement le numéro le plus haut dans le journal en question – une logique qui vous sera utile si vous identifiez les écritures via le numéro de l’extrait, et s’il y a plusieurs transactions par feuille : vous maintenez alors le numéro de l’extrait, sauf si vous commencez une nouvelle feuille des extraits (alors vous augmentez le numéro). - Archivé : si, un jour, vous voulez archiver le compte, il suffit de cocher « archivé » et de sauvegarder. Dès que vous sauvegardez le formulaire (via le bouton rouge), le journal est ajouté à la liste. Il sera toujours possible de modifier le profil du compte via le crayon rouge à votre droite. Vous pouvez toujours modifier le profil via le crayon. Le compte est ajouté ! Astuce – Et les placements ? Faut-il les ajouter ici aussi ? Il faut souligner que le total des comptes bancaires constitue le résultat financier, qui, si tout se passe bien, correspond au résultat comptable du compte annuel (sous réserve de rejets ou d’erreurs historiques, évidemment). Pour la plupart des fabriques, on retrouvera un compte à vue, un compte d’épargne et éventuellement encore une caisse sous l’onglet « comptes bancaires ». Les placements font partie de la situation patrimoniale. Lorsqu’un placement arrive à échéance, l’argent revient sur le compte à vue. Il est alors important de le replacer (ou de transférer le montant sur un compte d’épargne patrimonial) dans le même exercice afin que les montants qui sont propres à la fabrique (patrimoine) et l’argent lié à la gestion quotidienne de la fabrique ne soient pas mêlés. 26 L’encodage des écritures – Vanden Broele – wallonie.religio.be",
+        "resume": "Ce chapitre explique comment apporter des changements aux écritures dans un journal financier. Il détaille les étapes à suivre pour choisir le compte bancaire, sélectionner l'écriture, compléter les détails des extraits bancaires, modifier ou supprimer une écriture, et ajouter un nouveau compte bancaire.",
+        "categorie": "Comptabilité",
+        "mots_cles": [
+            "journal financier",
+            "comptes bancaires",
+            "écritures",
+            "dépense",
+            "recette",
+            "transfert",
+            "dettes",
+            "créances",
+            "modifications",
+            "comptabilité"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "wallonie.religio.be Annexe",
+                "BIC",
+                "s’affiche",
+                "ING",
+                "BNP Paribas Fortis",
+                "Dépense"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Vanden Broele",
+                "n’utilisez",
+                "Belfius",
+                "Vanden Broele – wallonie.religio.be",
+                "Complétez",
+                "corriger n’",
+                "Astuce –",
+                "Modifiez",
+                "Ajouter",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment modifier une écriture introduite directement via les comptes bancaires ?",
+                "reponse": "Pour modifier une écriture via les comptes bancaires, consultez le compte en question, cliquez sur l'écriture, modifiez les champs nécessaires et sauvegardez."
+            },
+            {
+                "question": "Comment supprimer une écriture ?",
+                "reponse": "Pour supprimer une écriture, cliquez sur la poubelle à droite de l'écriture et confirmez."
+            },
+            {
+                "question": "Comment ajouter un nouveau compte bancaire ?",
+                "reponse": "Pour ajouter un nouveau compte bancaire, cliquez sur 'comptes bancaires', puis sur 'Ajouter un compte' en bas de page et remplissez les informations requises."
+            },
+            {
+                "question": "Que faire en cas d'erreur d'encodage ?",
+                "reponse": "En cas d'erreur d'encodage, vous pouvez corriger toute erreur, sauf après avoir mis la date de la séance du conseil de fabrique sous 'compte annuel', où les écritures seront bloquées."
+            },
+            {
+                "question": "Comment modifier une écriture introduite via les dettes/créances ?",
+                "reponse": "Pour modifier une écriture introduite via les dettes/créances, consultez la partie 'dettes/créances' sous 'comptabilité', modifiez les champs nécessaires et sauvegardez."
+            }
+        ],
+        "etapes_processus": [
+            "Choisir le journal financier et le compte bancaire",
+            "Suivre la logique des extraits bancaires pour dépense/recette/transfert",
+            "Sélectionner l'écriture encodée précédemment et compléter les détails des extraits bancaires",
+            "Modifier ou supprimer une écriture via les comptes bancaires",
+            "Ajouter un nouveau compte bancaire"
+        ],
+        "relations": [
+            {
+                "concept": "écritures via comptes bancaires",
+                "description": "Permet de modifier ou supprimer des écritures directement liées aux comptes bancaires."
+            },
+            {
+                "concept": "dettes/créances",
+                "description": "Utilisé pour gérer les dettes et créances et effectuer des modifications spécifiques."
+            },
+            {
+                "concept": "comptabilité",
+                "description": "Englobe l'ensemble des opérations liées à la gestion financière et comptable des comptes bancaires."
+            }
+        ],
+        "confiance": 0.92,
+        "metadonnees": {
+            "source_pdf": "03. L'EncodageDesEcritures.pdf",
+            "page_source": [
+                22,
+                28
+            ],
+            "date_extraction": "2025-05-27T12:14:04.826170"
+        }
+    }
+]

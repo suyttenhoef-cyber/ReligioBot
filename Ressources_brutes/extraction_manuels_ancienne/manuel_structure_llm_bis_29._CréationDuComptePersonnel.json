@@ -1,0 +1,81 @@
+[
+    {
+        "id": "document_complet",
+        "titre": "Document complet",
+        "chemin": "Document complet",
+        "page_debut": 1,
+        "page_fin": 2,
+        "contenu_texte": "ReligioSoft : création d’un compte personnel I. Vous avez reçu le mail avec un lien pour vous connecter ? NON, aucune trace du mail, même pas dans le folder avec les mails « suspects » ! Prenez contact avec le helpdesk : cultes@religiosoft.be ou T. 02 308 29 06. OUI, j’ai reçu le mail ! Il suffira de cliquer sur le lien dans le mail et de suivre les démarches ci-dessous. 1. Disposez-vous déjà d’un compte personnel?  NON ! Si vous ne disposez pas encore d’un compte personnel, cliquez sur « créer un compte » sur votre gauche.  OUI ! Si vous avez déjà créé un compte, vous pouvez vous connecter immédiatement via le bouton sur votre droite : « se connecter » 2. Carte d’identité ou « compte traditionnel » ? Vous pouvez créer un compte personnel utilisant votre carte d’identité ou de façon « traditionnelle ». 3. Création du compte personnel même Ensuite, remplissez le formulaire et confirmez en bas de page. Il suffit de remplir les cases (retenez bien votre pseudo et mot de passe !) et vous aurez immédiatement accès au logiciel. ReligioSoft – Création d’un compte personnel – Éditions Vanden Broele – www.religiosoft.be 1 II. Compte créé ? Accès au logiciel Dès que votre compte est créé, vous cliquez ensuite sur « ouvrir » dans la section « Religio ». La page d’accueil de ReligioSoft s’affichera. III. www.religiosoft.be – connexion directe ! N’oubliez pas d’ajouter le site de ReligioSoft (www.religiosoft.be) à vos favoris. Vous pouvez vous connecter directement au logiciel via le bouton « connexion » : 2 ReligioSoft – Création d’un compte personnel – Éditions Vanden Broele – www.religiosoft.be",
+        "resume": "Le document décrit le processus de création d'un compte personnel sur ReligioSoft, incluant la réception du mail de connexion, le choix entre carte d'identité ou méthode traditionnelle, la création du compte et l'accès au logiciel.",
+        "categorie": "Informatique - Logiciel",
+        "mots_cles": [
+            "ReligioSoft",
+            "compte personnel",
+            "connexion",
+            "carte d'identité",
+            "logiciel",
+            "création",
+            "accès",
+            "formulaire",
+            "mot de passe",
+            "site web"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [
+                "Carte",
+                "ReligioSoft"
+            ],
+            "montants": [],
+            "noms": [
+                "N’",
+                "Religio",
+                "Prenez",
+                "I."
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Que faire si je n'ai pas reçu le mail de connexion ?",
+                "reponse": "Prenez contact avec le helpdesk de ReligioSoft."
+            },
+            {
+                "question": "Comment créer un compte personnel ?",
+                "reponse": "Cliquez sur 'créer un compte' si vous n'en avez pas encore, ou sur 'se connecter' si vous en avez déjà un."
+            },
+            {
+                "question": "Comment accéder au logiciel une fois le compte créé ?",
+                "reponse": "Cliquez sur 'ouvrir' dans la section 'Religio' pour accéder à la page d'accueil de ReligioSoft."
+            }
+        ],
+        "etapes_processus": [
+            "Recevoir le mail de connexion",
+            "Choisir entre carte d'identité ou méthode traditionnelle",
+            "Remplir le formulaire de création de compte",
+            "Accéder au logiciel"
+        ],
+        "relations": [
+            {
+                "concept": "Création de compte personnel",
+                "description": "Inclut le choix entre carte d'identité ou méthode traditionnelle et la création du compte."
+            },
+            {
+                "concept": "Accès au logiciel",
+                "description": "Après la création du compte, l'utilisateur peut accéder au logiciel en cliquant sur 'ouvrir' dans la section 'Religio'."
+            },
+            {
+                "concept": "Site web ReligioSoft",
+                "description": "L'adresse www.religiosoft.be est importante pour la connexion directe au logiciel."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "29. CréationDuComptePersonnel.pdf",
+            "page_source": [
+                1,
+                2
+            ],
+            "date_extraction": "2025-05-27T12:05:36.488567"
+        }
+    }
+]

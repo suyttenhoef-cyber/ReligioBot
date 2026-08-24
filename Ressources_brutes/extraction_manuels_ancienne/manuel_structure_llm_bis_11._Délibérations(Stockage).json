@@ -1,0 +1,95 @@
+[
+    {
+        "id": "document_complet",
+        "titre": "Document complet",
+        "chemin": "Document complet",
+        "page_debut": 1,
+        "page_fin": 6,
+        "contenu_texte": "Le stockage des délibérations (version 2 – août 2024) 1. Le stockage des délibérations 1 2. Zut ! Je me suis trompé(e) 4 1. Ajouter une délibération À côté des fonctionnalités « comptables », ReligioSoft vous offre également d’autres outils qui simplifieront la gestion de votre fabrique. Dans la section « Délibérations » (sous « Accueil »), vous pouvez stocker les délibérations et les partager en interne ou avec les autorités de tutelle, selon vos souhaits. Rien de plus simple pour centraliser les documents importants de votre fabrique au même endroit et les rendre plus accessibles sans jamais vous perdre. Pour consulter et ajouter des documents, cliquez sur « Accueil » et ensuite « Délibérations ». La section « Délibérations » se trouve sous « Accueil ». La page avec les délibérations s’affiche. Pour ajouter un document, cliquez en bas sur « Ajouter un document ». Cliquez sur « Ajouter un document » et vous pourrez remplir le formulaire et attacher une délibération. Vous connaissez déjà la logique de ReligioSoft : il suffit de remplir le formulaire qui s’affiche et de sauvegarder. Le stockage des délibérations – Vanden Broele – www.religiosoft.be 1 Parcourons les différents champs ! 1. La date de la séance de conseil : en toute logique, vous introduisez la date de la réunion. 2. Sujet : vous signalez brièvement l’intérêt de la délibération (par exemple : délibération mars 2025 – compte annuel 2024) 3. Document à partager avec la tutelle : • Oui : l’évêché et la commune pourront consulter ce document spécifique dans leur module. • Non : le document ne sera visible que pour les personnes ayant un droit de lecture dans le dossier de votre fabrique. Vous pouvez partager ou retirer un document à n’importe quel moment. 4. Ajouter un document : cliquez dessus et vous pouvez aller à la recherche du bon document sur Cherchez le document… votre ordinateur local. Cliquez sur « ouvrir » en bas à droite pour … et cliquez « ouvrir ». sélectionner le document. Tout type de document peut être stocké dans cette section : des versions Word ou PDF, ou même des fichiers Excel. 5. Dès que le document se trouve dans le formulaire, vous pouvez sauvegarder (cliquez sur le bouton rouge en bas). Tout est complet ? Sauvegardez ! La délibération s’affiche en haut de la page. Sur votre droite, il est indiqué que l’accessibilité se fait avec la tutelle. 2 Le stockage des délibérations – Vanden Broele – www.religiosoft.be Il suffit de cliquer sur l’icône sous « document » (sur votre droite) pour télécharger le document. Astuce 1 – Je mets quelle version dans le système ? Vous avez le choix. Nous conseillons d’ajouter les versions de la délibération avec les signatures mais il est également utile d’incorporer la délibération avant qu’elle ne soit signée, ou d’autres documents « en préparation » justement pour profiter du partage interne pour mieux pouvoir préparer les réunions. Il est toujours possible de supprimer ou de remplacer un document (voir ci-dessous). Astuce 2 – Pourquoi le partage avec la tutelle ? Jusqu’à présent, il faut toujours transmettre les délibérations de façon traditionnelle, sous format papier (en annexe au budget ou au compte annuel, ou dans le dossier pour les décisions importantes). Le partage en ligne peut certainement augmenter l’accessibilité de certains documents et, à long terme, vous aurez ainsi des archives complètes, parfaitement partagées. En même temps, le partage d’un document facilite également la concertation. Astuce 3 – Et les délibérations historiques, je les ajoute aussi ? Vous pouvez ajouter n’importe quelle délibération. Soulignons qu’il est intéressant de maintenir une certaine logique si vous envisagez d’archiver les documents historiques dans cette section. Vous jugez vous-même de l’intérêt de faire cet effort ou non. Astuce 4 – Le partage en interne Le partage en interne est réglé via la section « Ma fabrique » sous « Accueil ». Vous y retrouvez la composition du conseil de fabrique. En cliquant sur le profil d’un membre, vous pouvez octroyer un droit de lecture (il suffit d’ajouter l’adresse mail de la personne et d’indiquer le droit ; ensuite : sauvegardez). Pour plus d’informations concernant le partage de votre dossier, nous vous renvoyons au manuel « Ma fabrique », où la procédure est détaillée. Le stockage des délibérations – Vanden Broele – www.religiosoft.be 3 2. Zut ! Je me suis trompé ! Aucun souci, ReligioSoft vous permet de supprimer ou de remplacer n’importe quelle délibération. Parcourons les options. 1. Si vous vous êtes trompé de document : a. Cliquez sur le crayon rouge sur votre droite. b. Cliquez ensuite sur la petite croix à côte du document à supprimer. c. Il est alors possible d’ajouter un autre document (cliquez sur « ajouter un document », ajoutez et sauvegardez). 2. Si vous vous êtes trompé de date ou de sujet ou si vous voulez partager autrement : a. Cliquez sur le crayon rouge sur votre droite. b. Modifiez les champs. c. Sauvegardez. 3. Si vous voulez recommencer, vous pouvez toujours supprimer la ligne entièrement : cliquez sur la poubelle sur votre droite, supprimez et recommencez ensuite via « ajouter un document » en bas de page. 4 Le stockage des délibérations – Vanden Broele – www.religiosoft.be",
+        "resume": "Le document décrit le processus de stockage des délibérations dans le logiciel ReligioSoft, permettant de centraliser et partager les documents importants de la fabrique. Il explique comment ajouter, partager, supprimer ou remplacer des délibérations, ainsi que l'importance du partage avec la tutelle et en interne.",
+        "categorie": "Gestion documentaire",
+        "mots_cles": [
+            "stockage",
+            "délibérations",
+            "ReligioSoft",
+            "partage",
+            "tutelle",
+            "interne",
+            "documents",
+            "sauvegarde",
+            "suppression",
+            "remplacement"
+        ],
+        "entites": {
+            "dates": [],
+            "organisations": [],
+            "montants": [],
+            "noms": [
+                "a. Cliquez",
+                "c. Sauvegardez",
+                "Accueil",
+                "c. Il",
+                "Soulignons qu’",
+                "Cherchez",
+                "Modifiez",
+                "Ajouter",
+                "n’"
+            ]
+        },
+        "questions_frequentes": [
+            {
+                "question": "Comment ajouter une délibération dans ReligioSoft ?",
+                "reponse": "Pour ajouter une délibération, cliquez sur 'Accueil', puis 'Délibérations', et enfin sur 'Ajouter un document' pour remplir le formulaire et attacher le document."
+            },
+            {
+                "question": "Comment partager un document avec la tutelle ?",
+                "reponse": "Vous pouvez choisir de partager un document avec la tutelle en indiquant 'Oui' lors de l'ajout de la délibération, ce qui permettra à l'évêché et la commune de le consulter."
+            },
+            {
+                "question": "Comment supprimer ou remplacer une délibération ?",
+                "reponse": "Pour supprimer ou remplacer une délibération, cliquez sur le crayon rouge à droite de la délibération, puis suivez les instructions pour effectuer les modifications nécessaires."
+            },
+            {
+                "question": "Quels types de documents peuvent être stockés dans la section 'Délibérations' ?",
+                "reponse": "Tout type de document, comme des versions Word, PDF ou Excel, peut être stocké dans la section 'Délibérations' de ReligioSoft."
+            },
+            {
+                "question": "Comment partager en interne un document dans ReligioSoft ?",
+                "reponse": "Le partage en interne se fait via la section 'Ma fabrique' sous 'Accueil', où vous pouvez octroyer des droits de lecture aux membres du conseil de fabrique en ajoutant leur adresse mail."
+            }
+        ],
+        "etapes_processus": [
+            "Accéder à 'Délibérations' sous 'Accueil'",
+            "Ajouter un document en remplissant le formulaire et en attachant le fichier",
+            "Choisir de partager ou non avec la tutelle",
+            "Sauvegarder la délibération une fois complétée"
+        ],
+        "relations": [
+            {
+                "concept": "Stockage des délibérations",
+                "description": "Permet de centraliser et rendre accessibles les documents importants de la fabrique."
+            },
+            {
+                "concept": "Partage avec la tutelle",
+                "description": "Permet à l'évêché et la commune de consulter des documents spécifiques dans leur module."
+            },
+            {
+                "concept": "Partage en interne",
+                "description": "Réglé via la section 'Ma fabrique', permet d'octroyer des droits de lecture aux membres du conseil de fabrique."
+            },
+            {
+                "concept": "Suppression ou remplacement de délibérations",
+                "description": "Permet de corriger des erreurs ou de mettre à jour des documents déjà ajoutés dans le système."
+            }
+        ],
+        "confiance": 0.9,
+        "metadonnees": {
+            "source_pdf": "11. Délibérations(Stockage).pdf",
+            "page_source": [
+                1,
+                6
+            ],
+            "date_extraction": "2025-05-27T12:02:14.555484"
+        }
+    }
+]
