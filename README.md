@@ -87,9 +87,13 @@ historique du pipeline), `code` au format `PV-RF-NNN` (matière `reglementation_
 Matières actuelles :
 - `usage_logiciel` — 25 manuels ReligioSoft, 58 articles extraits (voir
   `scripts_ponctuels/convert_manuels_usage_logiciel.py` pour la méthode de conversion).
-- `reglementation_fabriques` — décrets, lois, CDLD, circulaires (squelette avec les 12 sources
-  à obtenir, voir CLAUDE.md — aucun article n'est encore extrait). 4 ouvrages complémentaires
-  identifiés et autorisés (dont le Codex Husson) mais pas encore découpés/intégrés.
+- `reglementation_fabriques` — 233 articles extraits du Codex Husson 2025 pour 6 textes
+  structurés en "Art. N." (décret impérial de 1809, loi de 1870, CDLD extraits, décret de 2017,
+  AGW 2018, AGW 2021) — voir `scripts_ponctuels/extract_codex_articles.py`. Les circulaires
+  (structurées en sections titrées, pas en articles numérotés) restent à extraire séparément.
+  Chaque article distingue le texte légal verbatim du commentaire de Jean-François Husson
+  ("Annotation Husson (doctrine, pas le texte legal) : ..." dans `exemples`), pour que le
+  SYSTEM_PROMPT ne cite jamais la doctrine comme si elle faisait partie du texte officiel.
 
 ## Pipeline
 

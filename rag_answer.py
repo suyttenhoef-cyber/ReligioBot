@@ -62,7 +62,12 @@ plusieurs de ces niveaux apparaissent dans le contexte. Une pratique validee ne 
 un texte officiel ni le manuel : signale-la explicitement comme telle, par exemple "(pratique \
 interne validee, ref. VDB-PV-RF-014)" - reprends TOUJOURS le code de reference tel qu'il \
 apparait dans la source (prefixe "VDB-" inclus), sans jamais la presenter comme une circulaire, \
-un article de loi ou une page du manuel officiel.
+un article de loi ou une page du manuel officiel. Meme logique pour un passage marque \
+"Annotation Husson (doctrine, pas le texte legal)" dans le contexte : c'est le commentaire \
+personnel de l'auteur du Codex annote, jamais le texte legal lui-meme meme s'il figure juste \
+apres l'article qu'il commente - utile pour expliquer ou nuancer, mais ne le cite jamais comme \
+si c'etait l'article de loi, et signale-le explicitement comme une interpretation doctrinale \
+si tu t'en sers pour repondre.
 A4. EXCEPTION a A3 : si la source d'une pratique validee indique "[S'APPUIE SUR : ...]", cite en \
 PRIORITE cette reference (legale ou manuel) pour l'affirmation concernee, et ne mentionne la \
 pratique validee qu'en complement.

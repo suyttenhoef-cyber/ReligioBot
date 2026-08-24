@@ -79,15 +79,38 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
       le dossier fourni.
   - *Guide pratique pour la tutelle sur les fabriques d'eglise*, Frederic Bourguignon (248 p.)
   Droits confirmes par l'utilisateur (2026-08-24, Vanden Broele editeur/detenteur) - utilisables.
-  **Pas encore integres au corpus** : l'extraction anterieure les a traites en UN seul bloc de
-  texte par livre (300K-950K caracteres), totalement inutilisable tel quel pour l'embedding
-  (largement au-dessus de la limite de tokens) - il faudra un vrai decoupage par
-  chapitre/article avant de les chunker, probablement vers `reglementation_fabriques` (le
-  Codex en particulier compile deja les textes legaux du volet 2). Voir "Prochaines etapes".
-- ⏳ **Textes légaux (Moniteur belge/Wallex) non obtenus séparément** : `corpus_reglementation_
-  fabriques.json` ne contient que les 12 `documents` déclarés (métadonnées + notes), sans aucun
-  `article` extrait. Le Codex Husson (ci-dessus) pourrait combler une bonne partie de ce besoin
-  une fois découpé - à évaluer avant de partir à la recherche des textes bruts un par un.
+- ✅ **233 articles extraits du Codex Husson vers `reglementation_fabriques`** (2026-08-24,
+  `scripts_ponctuels/extract_codex_articles.py`) : l'utilisateur a depose 2 des 4 ouvrages
+  (`39_004V_CPDF.pdf` guide du tresorier, `39_005V_CPDF.pdf` Codex Husson) dans
+  `Ressources_brutes/bases_legales/`. La table des matieres du Codex correspond quasi
+  exactement aux 12 sources legales listees plus bas, avec des numeros de page exacts - ca a
+  permis un decoupage par plage de pages + regex "Art. N." (pas une extraction LLM) pour les 6
+  textes structures en articles numerotes :
+  - decret imperial 1809 (112 art.), loi du 4 mars 1870 (36 art.), CDLD extraits (27 art.,
+    L1321-1 a L3162-3), decret du 18 mai 2017 (41 art.), AGW 25/01/2018 (11 art., annexes-
+    formulaires exclues - numerotation interne parasite), AGW 25/02/2021 (6 art.).
+  - Chaque article distingue le texte legal verbatim (`texte`) du commentaire de Jean-Francois
+    Husson qui suit souvent ("Annotation :" dans le livre), range a part dans `exemples` avec le
+    prefixe explicite "Annotation Husson (doctrine, pas le texte legal) :" - jamais mélangé au
+    texte officiel, coherent avec la regle A3 du SYSTEM_PROMPT.
+  - Pieges rencontres et corriges pendant l'extraction (cf. le script pour le detail) : le Codex
+    encadre de crochets `[...]` le texte insere/modifie par un decret ulterieur, ce qui cassait
+    la detection en debut de ligne pour une partie du CDLD (tout le Titre VI, L3161-x/L3162-x,
+    manquant avant correction) ; une annotation citait in extenso l'article d'un AUTRE decret
+    (2022), cree un faux article "22" dans le CDLD avant garde-fou (numeros CDLD doivent
+    commencer par "L") ; le decret de 2017 numerote son premier article "Article 1er" (en toutes
+    lettres) contrairement aux suivants ("Art. N").
+  - **Pas encore fait** : le guide du tresorier (`39_004V_CPDF.pdf`, deja depose) n'est pas
+    encore traite - structure a analyser (probablement plus proche de `usage_logiciel`/pratiques
+    comptables que d'articles de loi). Les circulaires du Codex (18/07/2014, 12/12/2014,
+    20/06/2024, 30/05/2013, circulaires budgetaires 2015-2024) ne sont PAS structurees en
+    "Art. N." mais en sections titrees - extraction separee a construire (voir "Prochaines
+    etapes"), tout comme l'essai introductif de Husson et les "Questions parlementaires" (bonus
+    hors des 12 sources initiales).
+  - Toujours manquants dans le Codex : circulaire du 21 janvier 2019 (pieces justificatives) -
+    semble absente de cette edition du Codex (peut-etre absorbee/mentionnee dans le commentaire
+    de la circulaire de 2014 sans chapitre dedie) - a verifier avant de considerer ce point
+    couvert.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
@@ -197,24 +220,27 @@ Déjà appliqué dans `rag_answer.py` (voir `SYSTEM_PROMPT`) : structure en grou
 
 ## Prochaines étapes concrètes
 
-1. **Lancer le pipeline d'embeddings en local** (nécessite `OPENAI_API_KEY`, impossible depuis
-   l'environnement d'édition) sur le corpus `usage_logiciel` actuel (58 articles) et tester
-   l'interface (`streamlit run app.py`) avant d'aller plus loin, pour valider la qualité des
-   réponses sur du contenu réel avant de continuer à en ajouter.
-2. Décider comment traiter les 4 ouvrages (Codex Husson en particulier) : découper chaque livre
-   par chapitre/article réel (l'extraction "un seul bloc" existante est inutilisable pour
-   l'embedding) — évaluer d'abord si le Codex suffit à couvrir tout ou partie des 12 sources
-   légales du volet 2 avant de repartir sur le Moniteur belge/Wallex texte par texte.
-3. Pour ce qui manque après l'étape 2, obtenir/extraire le texte intégral des sources légales
-   restantes (Moniteur belge / Wallex), un texte à la fois — même discipline que pour
-   l'extraction de l'Ancien Code civil sur `chatbot_etat_civil` : jamais un gros lot en
-   parallèle (risque de mixup déjà documenté sur ce projet frère).
-4. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
+1. Extraire les circulaires du Codex (structurées en sections titrées, pas en "Art. N.") vers
+   `sections_circulaire[]` : circulaire du 18/07/2014, du 12/12/2014, du 20/06/2024, du
+   30/05/2013, circulaires budgétaires communales (extraits 2015-2024) — script séparé de
+   `extract_codex_articles.py` vu la structure différente (voir son état actuel ci-dessus pour
+   les pages exactes déjà repérées dans le Codex).
+2. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
+   11-31 et 283-294) valent la peine d'être intégrés (contexte/doctrine utile mais hors des 12
+   sources légales listées initialement).
+3. Traiter le guide du trésorier (`Ressources_brutes/bases_legales/39_004V_CPDF.pdf`, déjà
+   déposé, pas encore analysé) — probablement pour `usage_logiciel` (pratiques comptables) plutôt
+   que `reglementation_fabriques`, à confirmer en regardant sa table des matières.
+4. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
+   Codex ou seulement fondue dans le commentaire de la circulaire de 2014 ; sinon, l'obtenir
+   séparément (Moniteur belge / Wallex).
+5. Lancer le pipeline d'embeddings en local (`chunk_builder.py` → `embed_chunks.py`, nécessite
+   `OPENAI_API_KEY`) sur le corpus `reglementation_fabriques` élargi et tester l'interface avant
+   de continuer à en ajouter.
+6. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
    (manuel 07 chapitre 2, manuel 26 chapitre 1) en ré-extrayant directement depuis le PDF
    source.
-5. Rebuild + test local (`chunk_builder.py` → `embed_chunks.py` → interface locale) après chaque
-   ajout de contenu, avant de passer au document suivant.
-6. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
+7. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
    dédiée ci-dessus) avant d'exposer l'outil au-delà de l'équipe support.
-7. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
+8. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
    visibilité actuelle non vérifiée par l'assistant).
