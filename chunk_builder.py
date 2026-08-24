@@ -243,8 +243,9 @@ def main():
     print(f"OK - {len(all_chunks)} chunks ecrits dans {out_path}")
     print(f"  dont {n_actifs} actifs (en_vigueur) et {n_hist} historiques (absorbes)")
 
-    lengths = [len(c["text_for_embedding"]) for c in all_chunks]
-    print(f"  longueur texte: min={min(lengths)} max={max(lengths)} moyenne={sum(lengths)//len(lengths)} caracteres")
+    if all_chunks:
+        lengths = [len(c["text_for_embedding"]) for c in all_chunks]
+        print(f"  longueur texte: min={min(lengths)} max={max(lengths)} moyenne={sum(lengths)//len(lengths)} caracteres")
 
 
 if __name__ == "__main__":

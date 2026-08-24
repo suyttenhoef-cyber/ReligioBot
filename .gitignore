@@ -13,8 +13,8 @@ __pycache__/
 *.pyc
 
 # Embeddings : versionnes volontairement (voir README, section "Pipeline")
-# car Streamlit Community Cloud ne peut pas executer embed_chunks.py au
-# deploiement - regenerer et re-committer ces 2 fichiers a chaque
+# pour eviter de reembedder tout le corpus (cout + appels API) a chaque
+# clonage du depot - regenerer et re-committer ces 2 fichiers a chaque
 # modification du corpus via :
 #   python3 chunk_builder.py corpus_par_matiere/ chunks.jsonl
 #   python3 embed_chunks.py chunks.jsonl embeddings.npz

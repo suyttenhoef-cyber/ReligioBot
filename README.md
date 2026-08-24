@@ -29,9 +29,10 @@ Interface terminal (alternative) :
 python3 chat_loop.py
 ```
 
-Les deux nécessitent que le pipeline d'embeddings ait déjà tourné une fois (voir section
-"Pipeline" ci-dessous) — `embeddings.npz` et `embeddings_meta.jsonl` sont versionnés dans le
-dépôt pour que l'interface fonctionne dès le clonage, sans clé API ni appel réseau préalable.
+Les deux nécessitent qu'`embeddings.npz` existe (généré par le pipeline ci-dessous à partir du
+corpus). Une fois `embeddings.npz` disponible, `OPENAI_API_KEY` reste nécessaire à l'exécution
+(embedding de chaque question posée + génération de la réponse) — seule la (re)génération des
+embeddings du corpus entier est évitée à chaque clonage.
 
 ## Structure du dépôt
 
