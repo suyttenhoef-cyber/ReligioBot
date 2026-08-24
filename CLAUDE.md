@@ -171,6 +171,22 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
   de "je ne sais pas" en echange de moins d'inventions, vu que le corpus est encore incomplet.
   A revalider sur ce meme cas une fois `embeddings.npz` regenere avec ces changements de prompt
   (le prompt n'affecte que la generation, pas besoin de re-embedder le corpus).
+- ✅ **Deuxieme cas reel teste** (2026-08-24) : format email corrige (regle E2 efficace, plus de
+  "Bonjour"/signature), mais meme probleme de fond sur un CAS COMPTABLE compose de plusieurs
+  faits precis (correction + remboursement + doublon du a un virement interne) - le modele a
+  quand meme conclu "la solution proposee peut etre correcte" alors que 3 des 4 citations ont ete
+  jugees non pertinentes par `check_citation_relevance`. La regle B5 (ajoutee pour le cas
+  precedent) ne visait que les actions logicielles precises, pas les cas comptables composes -
+  **generalisee** pour couvrir les deux. Egalement corrige un faux positif de
+  `check_citation_integrity` : un code d'article budgetaire comptable ("D62A") propose par
+  l'utilisateur LUI-MEME dans sa question etait signale comme "reference non retrouvee/inventee"
+  - le mot "article" designe ici un poste budgetaire comptable, pas un article legal, et le
+  garde-fou (concu a l'origine pour `chatbot_etat_civil`, ou "article" ne designe que du texte de
+  loi) ne faisait pas la difference entre un code invente par le modele et un code simplement
+  repris de la question. `check_citation_integrity` prend maintenant aussi `query` en parametre
+  et exclut tout numero deja present dans la question. Point de vigilance a garder en tete pour
+  la suite : ce corpus a une ambiguite structurelle sur le mot "article" (legal vs comptable) que
+  `chatbot_etat_civil` n'avait pas.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 

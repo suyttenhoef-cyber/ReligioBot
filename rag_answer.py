@@ -111,19 +111,30 @@ cas" ou une formulation equivalente) plutot que d'assembler une reponse a partir
 partiellement pertinents comme si elle etait bien fondee. Dans ce cas, rappelle egalement que le \
 helpdesk Vanden Broele (cultes@religiosoft.be, 02 308 29 06) peut etre contacte directement.
 B5. Cas particulier et frequent de B4, a traiter avec une vigilance renforcee : une question qui \
-porte sur une ACTION PRECISE dans le logiciel (ex. "comment supprimer/modifier/effacer X", "ou \
-trouver le bouton Y", "quelle etape suit Z apres avoir fait W") ne doit donner lieu a une suite \
-d'etapes concretes QUE si au moins un passage du contexte decrit EXPLICITEMENT cette action \
-precise - pas seulement le meme ecran, module ou sujet general (ex. le contexte qui traite du \
-compte annuel en general ne documente pas forcement comment supprimer une date de validation \
-apres suppression d'une modification budgetaire). Si le contexte ne couvre que le sujet general \
-sans mentionner l'action precise demandee, NE CONSTRUIS PAS une suite d'etapes plausible par \
-extrapolation ou par connaissance generale du type de logiciel : dis explicitement que cette \
-action precise n'est pas documentee dans le corpus disponible (B1/B4) et oriente vers le \
-helpdesk. Une suite d'etapes inventee pour une interface logicielle est aussi grave qu'un numero \
-d'article invente (B2) : l'utilisateur risque de suivre des instructions qui ne correspondent a \
-rien dans le vrai logiciel. En cas de doute sur le fait qu'un passage couvre vraiment l'action \
-precise ou seulement un sujet voisin, tranche TOUJOURS en faveur de la prudence (B1) plutot que \
+decrit une SITUATION PRECISE ET COMPOSEE DE PLUSIEURS FAITS SPECIFIQUES ne doit donner lieu a \
+une reponse tranchee ("oui c'est correct", "voici les etapes") QUE si au moins un passage du \
+contexte traite EXPLICITEMENT de cette situation precise - pas seulement du meme theme ou \
+principe general. Concerne notamment deux cas frequents sur ce corpus :
+   - une ACTION PRECISE dans le logiciel (ex. "comment supprimer/modifier/effacer X", "ou \
+   trouver le bouton Y", "quelle etape suit Z apres avoir fait W") : le contexte qui traite du \
+   compte annuel en general ne documente pas forcement comment supprimer une date de validation \
+   apres suppression d'une modification budgetaire ;
+   - un CAS COMPTABLE COMPOSE DE PLUSIEURS FAITS PARTICULIERS SUCCESSIFS (ex. une correction, \
+   suivie d'un remboursement demande, suivi d'un virement interne effectue par erreur par la \
+   fabrique, creant un doublon a corriger) : un passage qui explique le principe general \
+   ("le resultat comptable doit correspondre au solde bancaire", "toute erreur doit etre \
+   corrigee") ne suffit PAS a valider ou invalider une solution proposee pour CETTE combinaison \
+   precise de faits - ce type de situation est par nature un jugement d'expert au cas par cas, \
+   pas quelque chose qu'un guide general peut trancher.
+Dans les deux cas, si le contexte ne couvre que le sujet general sans traiter la situation \
+precise decrite, NE CONSTRUIS PAS une reponse plausible par extrapolation ou par raisonnement \
+comptable/logiciel general : dis explicitement que cette situation precise n'est pas documentee \
+dans le corpus disponible (B1/B4) et oriente vers le helpdesk ou, pour un cas comptable \
+compose, vers une verification par un professionnel/le diocese. Une reponse tranchee construite \
+par extrapolation sur un cas compose est aussi grave qu'un numero d'article invente (B2) : \
+l'utilisateur (ou l'agent du helpdesk) risque de considerer a tort qu'une solution a ete validee \
+par la documentation. En cas de doute sur le fait qu'un passage couvre vraiment la situation \
+precise ou seulement un theme voisin, tranche TOUJOURS en faveur de la prudence (B1) plutot que \
 de l'exhaustivite apparente.
 
 ## C. Ne jamais transposer aveuglement une pratique validee a un cas different
@@ -221,12 +232,21 @@ _CITATION_RE = re.compile(
 )
 
 
-def check_citation_integrity(results, answer_text):
+def check_citation_integrity(results, answer_text, query=""):
     """Retourne la liste (triee) des numeros d'article cites dans
     answer_text qui ne correspondent a aucune source officielle (statut_entree
     != "reference_interne") parmi les passages effectivement fournis au
-    modele dans `results`."""
+    modele dans `results`. Un numero deja present dans la question de
+    l'utilisateur (`query`) est exclu : ce n'est pas une citation inventee
+    par le modele mais un element (souvent un article budgetaire comptable,
+    ex. "D62A", "R28D" - homonyme du mot "article" au sens legal que ce
+    garde-fou visait au depart) simplement repris de ce que l'utilisateur a
+    lui-meme indique."""
     cited = {m.upper() for m in _CITATION_RE.findall(answer_text)}
+    if not cited:
+        return []
+    query_upper = query.upper()
+    cited = {n for n in cited if n not in query_upper}
     if not cited:
         return []
     available = {
@@ -481,7 +501,7 @@ def answer_question(query, embeddings_path="embeddings.npz", top_k=10, verbose=T
     )
 
     answer = completion.choices[0].message.content
-    unverified = check_citation_integrity(results, answer)
+    unverified = check_citation_integrity(results, answer, query)
     relevance_issues, _relevance_usage = check_citation_relevance(client, query, results, answer)
     if verbose:
         warnings = format_citation_warnings(unverified, relevance_issues)

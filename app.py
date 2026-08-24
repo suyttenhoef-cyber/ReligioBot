@@ -209,7 +209,7 @@ def main():
 
             st.markdown(answer)
             if results:
-                unverified = check_citation_integrity(results, answer)
+                unverified = check_citation_integrity(results, answer, query)
                 relevance_issues, _relevance_usage = check_citation_relevance(
                     client, query, results, answer
                 )
