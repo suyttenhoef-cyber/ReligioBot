@@ -61,12 +61,6 @@ _PUNCT_MAP = str.maketrans({
     "→": "->", "➔": "->",
 })
 
-_TRUNCATION_ENDINGS = {
-    "de", "du", "des", "la", "le", "les", "et", "a", "au", "aux", "en",
-    "sur", "dans", "pour", "par", "l", "d", "ou", "un", "une",
-}
-
-
 def strip_accents(text):
     normalized = unicodedata.normalize("NFKD", text)
     return "".join(c for c in normalized if not unicodedata.combining(c))
@@ -77,12 +71,17 @@ def is_all_caps_heading(line):
     return len(letters) >= 4 and all(c.isupper() for c in letters)
 
 
-def _looks_truncated(line):
-    words = line.split()
-    if not words:
-        return False
-    last_word = re.sub(r"[^a-zA-Z]", "", words[-1]).lower()
-    return last_word in _TRUNCATION_ENDINGS
+def _next_line_is_continuation(next_line):
+    """Un titre trop long est parfois coupe sur 2 lignes par l'extraction
+    PDF. Signal fiable : une vraie nouvelle phrase francaise commence par
+    une majuscule, alors que la suite d'un titre coupe reprend en
+    minuscule - plus robuste qu'une liste de mots-cles (qui ratait par
+    exemple "planification" dans "... d'une planification" / "pluriannuelle
+    durable")."""
+    for c in next_line:
+        if c.isalpha():
+            return c.islower()
+    return False
 
 
 def clean_lines(raw_pages):
@@ -155,7 +154,7 @@ def extract_sections(lines, chapitre_numero, chapitre_titre):
         line = lines[i]
         m = SUBSECTION_RE.match(line)
         if m:
-            while (_looks_truncated(line) and i + 1 < n
+            while (i + 1 < n and _next_line_is_continuation(lines[i + 1])
                    and not SUBSECTION_RE.match(lines[i + 1])):
                 i += 1
                 line = f"{line} {lines[i]}"

@@ -103,20 +103,16 @@ NUMERO_MUST_MATCH = {
 }
 ANNOTATION_RE = re.compile(r"Annotation\s*:\s*", re.IGNORECASE)
 
-# Un titre de chapitre/section trop long est parfois coupe sur 2 lignes par
-# l'extraction PDF (retour a la ligne du livre) ; une ligne de titre qui se
-# termine par une de ces prepositions/articles est presque surement coupee -
-# on rattache alors la ligne suivante au meme titre plutot que de la traiter
-# comme du texte independant.
-_TRUNCATION_ENDINGS = {
-    "de", "du", "des", "la", "le", "les", "et", "a", "au", "aux", "en",
-    "sur", "dans", "pour", "par", "l", "d", "ou", "un", "une", "aux",
-}
-
-
-def _looks_truncated(line):
-    last_word = re.sub(r"[^a-zA-Z]", "", line.split()[-1]).lower() if line.split() else ""
-    return last_word in _TRUNCATION_ENDINGS
+def _next_line_is_continuation(next_line):
+    """Un titre de chapitre/section trop long est parfois coupe sur 2
+    lignes par l'extraction PDF (retour a la ligne du livre). Signal
+    fiable : une vraie nouvelle phrase francaise commence par une
+    majuscule, alors que la suite d'un titre coupe reprend en minuscule -
+    plus robuste qu'une liste de mots-cles (prepositions/articles)."""
+    for c in next_line:
+        if c.isalpha():
+            return c.islower()
+    return False
 
 _PUNCT_MAP = str.maketrans({
     "’": "'", "‘": "'", "“": '"', "”": '"', "«": '"', "»": '"',
@@ -204,7 +200,7 @@ def extract_articles(lines, document_id):
             # Titre coupe sur 2 lignes par l'extraction PDF (ex. "... du
             # budget de" / "la fabrique") : rattache la ligne suivante tant
             # qu'elle ne demarre pas elle-meme un nouvel en-tete/article.
-            while (_looks_truncated(line) and i + 1 < n
+            while (i + 1 < n and _next_line_is_continuation(lines[i + 1])
                    and not HEADING_RE.match(lines[i + 1])
                    and not ART_RE.match(lines[i + 1])):
                 i += 1
