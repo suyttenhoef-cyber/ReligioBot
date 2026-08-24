@@ -153,6 +153,24 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
     12/12/2014).
   - L'essai introductif de Husson (Codex p.11-31) et les "Questions parlementaires" (p.283-294)
     restent non extraits (hors des 12 sources legales initiales, a decider si utile).
+- ✅ **Premier cas reel teste, garde-fous renforces** (2026-08-24) : l'utilisateur a soumis un
+  vrai ticket helpdesk colle tel quel ("comment supprimer la date de validation d'un budget apres
+  avoir supprime une MB"), sujet que le corpus `usage_logiciel` ne couvre pas precisement.
+  `check_citation_relevance` a correctement signale la citation utilisee (un chapitre sur les
+  imperfections du compte annuel, sans rapport), MAIS le modele avait quand meme invente une
+  suite d'etapes plausibles avant ce garde-fou a posteriori, plutot que de dire d'emblee que le
+  corpus ne couvre pas ce cas precis (regle B4 du prompt, pas assez explicite pour ce type de
+  question "action precise dans le logiciel"). Deuxieme probleme distinct : le modele avait redige
+  sa reponse comme s'il repondait lui-meme au tresorier par email, avec formule de politesse et
+  signature placeholder "[Votre Nom]" - artefact du format du ticket colle en entree.
+  Corrige dans `rag_answer.py` (`SYSTEM_PROMPT`) : nouvelle regle B5 (une action precise dans le
+  logiciel exige un passage qui la decrit EXPLICITEMENT, pas seulement le meme ecran/sujet
+  general - sinon dire explicitement "non documente" plutot qu'extrapoler) et nouvelle regle E2
+  (ne jamais imiter le format email/ticket de la question, meme collee telle quelle - toujours
+  repondre en registre neutre, jamais de signature). Choix utilisateur explicite : accepter plus
+  de "je ne sais pas" en echange de moins d'inventions, vu que le corpus est encore incomplet.
+  A revalider sur ce meme cas une fois `embeddings.npz` regenere avec ces changements de prompt
+  (le prompt n'affecte que la generation, pas besoin de re-embedder le corpus).
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
