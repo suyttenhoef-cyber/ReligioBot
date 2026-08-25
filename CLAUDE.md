@@ -187,6 +187,30 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
   et exclut tout numero deja present dans la question. Point de vigilance a garder en tete pour
   la suite : ce corpus a une ambiguite structurelle sur le mot "article" (legal vs comptable) que
   `chatbot_etat_civil` n'avait pas.
+- ✅ **Troisieme cas reel teste : chunks trop gros, echec de retrieval** (2026-08-25) - question
+  sur le statut "ferme" d'une dette dans ReligioSoft. Le passage exact existait bel et bien dans
+  le manuel de l'encodage des ecritures ("le logiciel fermera la dette/creance automatiquement
+  des que celle-ci sera ajoutee au journal financier"), mais n'a PAS ete retrouve : il etait noye
+  dans un chunk de 18000+ caracteres (tout le chapitre 3 du manuel, extrait comme un seul bloc
+  par `convert_manuels_usage_logiciel.py`), qui dilue le signal d'embedding.
+  **`convert_manuels_usage_logiciel.py` remplace par `rechunk_manuels_usage_logiciel.py`**
+  (SUPERSEDE, ne plus executer) : nouvelle extraction directe depuis les 25 PDF sources (plus
+  l'ancienne extraction JSON du prototype), avec un vrai decoupage par sous-section. 58 -> 167
+  articles, chunk le plus gros : 25141 -> 10679 caracteres, moyenne 1931 caracteres.
+  - 5 conventions de titres differentes coexistent selon le manuel (parfois plusieurs dans le
+    meme document) : "Chapitre N." + "X.Y(.Z)" (la plus frequente) ; chiffres romains "I./II."
+    (manuels courts sans "Chapitre") ; etapes ordinales "1re etape :"/"2e etape :" (manuels
+    "pas a pas" comme le compte annuel) ; lettres majuscules "A. Titre"/"B. Titre" (les annexes
+    du compte annuel). Un manuel sans aucun de ces marqueurs reste un chunk unique (3 manuels
+    concernes : 11, 18, 23 - deja de taille raisonnable, pas problematique).
+  - Piege corrige : `re.IGNORECASE` sur la regex "Chapitre" faisait prendre une reference en
+    milieu de phrase ("... le chapitre 3 explique...", minuscule car pas en debut de phrase)
+    pour un vrai titre - retire, "Chapitre" doit toujours avoir un C majuscule dans ces manuels.
+  - Piege corrige : le filtre anti-bruit d'en-tete/pied de page (repete sur presque chaque page)
+    ne doit reperer que "Vanden Broele" seul, PAS la simple presence d'une URL religio(soft).be -
+    un vrai titre ("III. www.religiosoft.be - connexion directe !") la mentionne aussi.
+  - `embeddings.npz` a regenerer une derniere fois cote utilisateur (606 chunks au total avec
+    `reglementation_fabriques`) pour revalider le cas du "statut ferme" sur ce nouveau decoupage.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 

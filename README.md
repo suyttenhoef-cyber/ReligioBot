@@ -85,8 +85,9 @@ historique du pipeline), `code` au format `PV-RF-NNN` (matière `reglementation_
 `entry_id` = `pratique_<slug>` ou `<document_id>#art_<numero_slugifie>`.
 
 Matières actuelles :
-- `usage_logiciel` — 25 manuels ReligioSoft, 58 articles extraits (voir
-  `scripts_ponctuels/convert_manuels_usage_logiciel.py` pour la méthode de conversion).
+- `usage_logiciel` — 25 manuels ReligioSoft, 167 articles extraits directement depuis les PDF
+  sources avec découpage par sous-section (voir `scripts_ponctuels/rechunk_manuels_usage_logiciel.py`
+  — `convert_manuels_usage_logiciel.py` est superseded, ne plus l'exécuter).
 - `reglementation_fabriques` — 233 articles extraits du Codex Husson 2025 pour 6 textes
   structurés en "Art. N." (décret impérial de 1809, loi de 1870, CDLD extraits, décret de 2017,
   AGW 2018, AGW 2021) — voir `scripts_ponctuels/extract_codex_articles.py`. Les circulaires

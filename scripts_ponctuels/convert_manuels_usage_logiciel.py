@@ -1,6 +1,13 @@
 """
 convert_manuels_usage_logiciel.py
 -----------------
+SUPERSEDE (2026-08-25) par rechunk_manuels_usage_logiciel.py : ce script
+prenait le chapitre entier comme seule unite de decoupage (jusqu'a
+25000 caracteres par chunk), ce qui a cause un echec de retrieval reel
+sur un detail precis noye dans un chunk trop gros. Conserve ici comme
+trace de la premiere passe, mais ne plus executer - il ecraserait le
+decoupage plus fin de rechunk_manuels_usage_logiciel.py.
+
 Script ponctuel : convertit les extractions JSON deja realisees sur le
 prototype anterieur (Ressources_brutes/extraction_manuels_ancienne/
 manuel_structure_llm_bis_*.json) vers le schema du corpus attendu par
