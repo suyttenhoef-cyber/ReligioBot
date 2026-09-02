@@ -30,6 +30,15 @@ Old/
 # Rapport de test ponctuel - artefact d'execution locale
 rapport_test.json
 
+# Donnees brutes issues d'extraction d'emails (noms/emails/telephones reels,
+# NON anonymisees) - ne doivent JAMAIS partir sur un depot, meme prive
+corpus_par_matiere/_emails_a_trier/
+corpus_par_matiere/_emails_a_trier_clean/
+corpus_par_matiere/_*/
+Ressources_brutes/emails_pst/
+*.pst
+*.msg
+
 # Divers
 .DS_Store
 *.log

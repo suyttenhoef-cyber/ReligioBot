@@ -211,6 +211,28 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
     un vrai titre ("III. www.religiosoft.be - connexion directe !") la mentionne aussi.
   - `embeddings.npz` a regenerer une derniere fois cote utilisateur (606 chunks au total avec
     `reglementation_fabriques`) pour revalider le cas du "statut ferme" sur ce nouveau decoupage.
+- ✅ **Regle D3 durcie pour les manipulations precises** (2026-08-26) : sur demande explicite de
+  l'utilisateur, les reponses a une question de manipulation logicielle (quand B5 juge le contexte
+  suffisamment precis) doivent desormais prendre la forme d'une liste NUMEROTEE stricte (une
+  action par etape), reprenant l'ordre et la numerotation du manuel source ("1re etape", "2e
+  etape"...) et le nom exact des elements d'interface entre guillemets - plus de paraphrase en
+  prose continue. Beneficie directement du decoupage plus fin des manuels (ci-dessus) : les
+  chunks contiennent maintenant souvent une seule procedure bien delimitee plutot qu'un chapitre
+  entier.
+- ⏳ **Piste future identifiee mais non demarree : extraction d'un fichier PST** (2026-08-25/26) -
+  l'utilisateur dispose d'archives email du helpdesk (`Ressources_brutes/backup.pst`, hors suivi
+  git) contenant potentiellement des echanges question/reponse a transformer en
+  `pratiques_validees` (source la plus utile identifiee a ce stade, vu les echecs de recuperation
+  sur des cas comptables precis lors des tests reels). Verifie : ni `chatbot_cpas` ni
+  `chatbot_etat_civil` n'ont deja fait cet exercice (leur `pratiques_validees` vient d'un export
+  FAQ Connect XML deja structure, pas d'un PST). Obstacles rencontres : lecture programmatique du
+  PST via Outlook COM (`win32com`) refusee (`AddStore` echoue, probablement restriction de
+  strategie d'entreprise sur ce poste) ; bibliotheques Python dediees (`libpff`/`libratom`) non
+  installables (Python 3.14 trop recent pour des wheels precompiles, pas d'outils de compilation
+  C++ sur ce poste) ; le PST est en plus protege par mot de passe. Piste retenue avec
+  l'utilisateur : export manuel depuis Outlook une fois le PST ouvert (glisser-deposer les emails
+  pertinents en fichiers `.msg` individuels vers un dossier local), que `extract_msg` (deja
+  installe) peut lire de maniere fiable - reste a faire une fois l'export disponible.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
