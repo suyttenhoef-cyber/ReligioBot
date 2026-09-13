@@ -37,6 +37,7 @@ corpus_par_matiere/_emails_a_trier_clean/
 corpus_par_matiere/_*/
 Ressources_brutes/emails_pst/
 *.pst
+*.pst.tmp
 *.msg
 
 # Divers

@@ -85,13 +85,17 @@ historique du pipeline), `code` au format `PV-RF-NNN` (matière `reglementation_
 `entry_id` = `pratique_<slug>` ou `<document_id>#art_<numero_slugifie>`.
 
 Matières actuelles :
-- `usage_logiciel` — 25 manuels ReligioSoft, 167 articles extraits directement depuis les PDF
-  sources avec découpage par sous-section (voir `scripts_ponctuels/rechunk_manuels_usage_logiciel.py`
-  — `convert_manuels_usage_logiciel.py` est superseded, ne plus l'exécuter).
-- `reglementation_fabriques` — 233 articles extraits du Codex Husson 2025 pour 6 textes
-  structurés en "Art. N." (décret impérial de 1809, loi de 1870, CDLD extraits, décret de 2017,
-  AGW 2018, AGW 2021) — voir `scripts_ponctuels/extract_codex_articles.py`. Les circulaires
-  (structurées en sections titrées, pas en articles numérotés) restent à extraire séparément.
+- `usage_logiciel` — 26 documents, 167 articles, 1378 pratiques_validees. Les 25 manuels
+  ReligioSoft sont extraits directement depuis les PDF sources avec découpage par sous-section
+  (voir `scripts_ponctuels/rechunk_manuels_usage_logiciel.py` —
+  `convert_manuels_usage_logiciel.py` est superseded, ne plus l'exécuter). S'y ajoutent 1378
+  `pratiques_validees` issues des archives email du helpdesk Vanden Broele (document
+  `helpdesk_pst_2026`, voir plus bas).
+- `reglementation_fabriques` — 14 documents, 233 articles, 206 sections_circulaire, 17
+  pratiques_validees. Les 233 articles viennent du Codex Husson 2025 pour 6 textes structurés en
+  "Art. N." (décret impérial de 1809, loi de 1870, CDLD extraits, décret de 2017, AGW 2018, AGW
+  2021) — voir `scripts_ponctuels/extract_codex_articles.py`. Les circulaires (structurées en
+  sections titrées, pas en articles numérotés) sont extraites séparément.
   Chaque article distingue le texte légal verbatim du commentaire de Jean-François Husson
   ("Annotation Husson (doctrine, pas le texte legal) : ..." dans `exemples`), pour que le
   SYSTEM_PROMPT ne cite jamais la doctrine comme si elle faisait partie du texte officiel.
@@ -100,6 +104,14 @@ Matières actuelles :
   `scripts_ponctuels/extract_guide_tresorier.py`, et 94 sections issues des 5 circulaires du
   Codex (18/07/2014, 12/12/2014, 20/06/2024, 30/05/2013, budgétaires communales), voir
   `scripts_ponctuels/extract_codex_circulaires.py`.
+
+Les deux matières partagent aussi un document `helpdesk_pst_2026` (1395 `pratiques_validees`
+au total, 1378 + 17 ci-dessus) : archives email du helpdesk Vanden Broele
+(`Ressources_brutes/backup.pst`, ~1700 échanges bruts), anonymisées par coupure structurelle
+(salutation/signature/adresse retirées, pas seulement masquage ciblé d'entités — voir
+`scripts_ponctuels/parse_pst_emails.py` et `integrate_pst_pratiques.py`) et intégrées avec la
+même méthode que l'import FAQ Connect de `chatbot_etat_civil`. Matière/sous_categorie
+déterminées par heuristique de mots-clés, pas encore revues individuellement.
 
 ## Pipeline
 

@@ -38,7 +38,7 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
   (`azure_search_setup.py`, `retrieve_azure_search.py`, `telemetry.py`) — idem, hors périmètre.
 - Azure Lighthouse, gestion multi-tenant — sans objet, usage strictement local.
 
-## État actuel du projet — mis à jour 2026-08-24
+## État actuel du projet — mis à jour 2026-09-13
 
 - ✅ **Structure du dépôt créée** (voir `README.md` pour le détail) : pipeline copié tel quel
   depuis `chatbot_etat_civil` (`chunk_builder.py`, `embed_chunks.py`, `retrieve.py`),
@@ -219,20 +219,55 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
   prose continue. Beneficie directement du decoupage plus fin des manuels (ci-dessus) : les
   chunks contiennent maintenant souvent une seule procedure bien delimitee plutot qu'un chapitre
   entier.
-- ⏳ **Piste future identifiee mais non demarree : extraction d'un fichier PST** (2026-08-25/26) -
-  l'utilisateur dispose d'archives email du helpdesk (`Ressources_brutes/backup.pst`, hors suivi
-  git) contenant potentiellement des echanges question/reponse a transformer en
-  `pratiques_validees` (source la plus utile identifiee a ce stade, vu les echecs de recuperation
-  sur des cas comptables precis lors des tests reels). Verifie : ni `chatbot_cpas` ni
-  `chatbot_etat_civil` n'ont deja fait cet exercice (leur `pratiques_validees` vient d'un export
-  FAQ Connect XML deja structure, pas d'un PST). Obstacles rencontres : lecture programmatique du
-  PST via Outlook COM (`win32com`) refusee (`AddStore` echoue, probablement restriction de
-  strategie d'entreprise sur ce poste) ; bibliotheques Python dediees (`libpff`/`libratom`) non
-  installables (Python 3.14 trop recent pour des wheels precompiles, pas d'outils de compilation
-  C++ sur ce poste) ; le PST est en plus protege par mot de passe. Piste retenue avec
-  l'utilisateur : export manuel depuis Outlook une fois le PST ouvert (glisser-deposer les emails
-  pertinents en fichiers `.msg` individuels vers un dossier local), que `extract_msg` (deja
-  installe) peut lire de maniere fiable - reste a faire une fois l'export disponible.
+- ✅ **Extraction du PST helpdesk terminee : 1395 `pratiques_validees` ajoutees** (2026-09-13) -
+  le PST complet (`Ressources_brutes/backup.pst`, ~4 Go, dossier "archives Lisa", 1722 emails)
+  a fini par s'ouvrir via Outlook COM (`win32com`, `Namespace.AddStore`) une fois le fichier
+  complet fourni par l'utilisateur (le premier essai a 265 Ko etait un backup tronque/incomplet -
+  pas un probleme de droits ni de mot de passe comme suppose initialement). Pipeline en 3 scripts
+  (`scripts_ponctuels/`) :
+  - `dump_pst_emails.py` : parcourt les 1722 items via `GetFirst()/GetNext()`, ecrit
+    `Ressources_brutes/emails_pst/raw_dump.json` (hors suivi git - donnees brutes non
+    anonymisees, voir `.gitignore`).
+  - `parse_pst_emails.py` : isole la question/reponse "coeur" de chaque email et anonymise.
+    **Changement de methode important par rapport a une premiere tentative** : anonymiser en
+    supprimant cibliblement noms/emails/telephones/adresses repere par repere (regex par
+    entite) laisse systematiquement passer des cas non prevus - l'utilisateur l'a signale
+    explicitement apres un premier essai ("il y a encore tous les noms, numero de telephone et
+    adresse"). Remplace par une approche structurelle plus robuste : couper la salutation
+    (1-2 premieres lignes) et tout ce qui suit la premiere ligne de signature/formule de
+    politesse/adresse/separateur detectee (`QUOTE_RE`, `GREETING_RE`, `CLOSING_PHRASES`,
+    `ADDRESS_LINE_RE`, `SEPARATOR_LINE_RE`), ne gardant que le texte utile isole - complete par
+    un masquage cible residuel (noms precedes d'un titre de civilite, emails, telephones).
+    **Erreur commise puis corrigee dans la meme session** : une tentative de filet de securite
+    supplementaire (liste globale de ~980 tokens extraits de tous les champs Expediteur/A/Cc des
+    1722 emails, tout occurrence remplacee par "[PERSONNE]") a ete construite puis testee - elle
+    detruisait la lisibilite du texte (des mots courants et des noms de lieu/organisation
+    coincidant avec des fragments de noms propres, ex. Charleroi/Tournai/"Notre Dame"/Peppol,
+    etaient masques a tort). Repere par inspection d'echantillon immediatement apres execution,
+    explique a l'utilisateur, entierement retire (pas garde en option desactivee - code supprime
+    avec un commentaire expliquant pourquoi cette piste est abandonnee). Limite residuelle
+    acceptee : un prenom seul sans titre de civilite peut occasionnellement ne pas etre masque -
+    la revue humaine reste le filet de securite final avant usage.
+  - `integrate_pst_pratiques.py` : integre les candidats anonymises (1427, apres filtrage des
+    emails sans question/reponse exploitable) dans les 2 fichiers de corpus, meme format que
+    l'import FAQ Connect de `chatbot_etat_civil` (document_id `helpdesk_pst_2026`, type
+    `faq_export_helpdesk`, codes `PV-UL-NNN`/`PV-RF-NNN` sequentiels). 32 candidats
+    supplementaires ecartes ici (reponse de moins de 50 caracteres = accuse de reception pur,
+    "Nous avons fait le necessaire.", sans valeur generalisable). Matiere et sous-categorie
+    determinees par heuristique de mots-cles (pas une revue individuelle des 1400 entrees) -
+    **classification pas encore revue par l'utilisateur** (seule la methode d'anonymisation a
+    ete validee explicitement : "pour moi, c'est ok avec toutes ces regles").
+  - Resultat : `usage_logiciel` passe de 25 a 26 documents / 1378 `pratiques_validees` ajoutees ;
+    `reglementation_fabriques` passe de 13 a 14 documents / 17 `pratiques_validees` ajoutees
+    (repartition tres asymetrique - attendue, la grande majorite des tickets helpdesk portent sur
+    l'usage du logiciel plutot que sur un point reglementaire). `chunk_builder.py` revalide sur
+    l'ensemble : 2001 chunks (606 avant cette integration), min=46 max=20418 moyenne=1402
+    caracteres - pas de risque de chunk surdimensionne malgre le volume (les emails individuels
+    restent courts, moyenne ~1056 caracteres question+reponse).
+  - **A faire par l'utilisateur** : regenerer `embeddings.npz`/`embeddings_meta.jsonl` en local
+    (`OPENAI_API_KEY` requis) pour rendre ce contenu vivant dans l'app - le corpus a
+    considerablement grossi (2001 chunks vs 606). Revoir si possible un echantillon de la
+    classification matiere/sous_categorie automatique avant de la considerer definitive.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
@@ -304,9 +339,6 @@ sont utilisables dans le corpus. Reste à faire : découpage par chapitre/articl
 
 ### Sources futures possibles (à évoquer plus tard, pas au démarrage)
 
-- FAQ/tickets réels du helpdesk Vanden Broele (`cultes@religiosoft.be`), une fois anonymisés —
-  même logique que l'export FAQ Connect de `chatbot_etat_civil`, pour construire des
-  `pratiques_validees` à partir de cas réels déjà tranchés par un expert.
 - Modules de formation ReligioSoft existants, le cas échéant — même méthodologie que
   l'ingestion e-learning de `chatbot_etat_civil` (filtrer le bruit pédagogique - QCM, feedback -
   et extraire notions/procédures + mises en situation).
@@ -343,25 +375,28 @@ Déjà appliqué dans `rag_answer.py` (voir `SYSTEM_PROMPT`) : structure en grou
 ## Prochaines étapes concrètes
 
 1. **Régénérer les embeddings en local** (`chunk_builder.py` → `embed_chunks.py`, nécessite
-   `OPENAI_API_KEY`) : le corpus `reglementation_fabriques` est maintenant complet pour les 5
-   circulaires + le Codex + le guide du trésorier (497 chunks au total avec `usage_logiciel`) —
-   tester l'interface sur ce contenu avant de continuer à en ajouter.
-2. Traiter la table "Liste des pièces justificatives requises" de la circulaire du 12/12/2014
+   `OPENAI_API_KEY`) : le corpus a fortement grossi avec l'intégration du PST helpdesk
+   (2001 chunks au total, contre 606 avant) — tester l'interface sur ce contenu avant de
+   continuer à en ajouter.
+2. Revoir un échantillon de la classification automatique matière/sous_categorie des 1395
+   `pratiques_validees` issues du PST (heuristique par mots-clés, jamais relue individuellement) —
+   seule la méthode d'anonymisation a été validée explicitement par l'utilisateur à ce stade.
+3. Traiter la table "Liste des pièces justificatives requises" de la circulaire du 12/12/2014
    (pages 189-219 du Codex) — nécessite une vraie extraction de tableau (pypdf aplatit les
    colonnes), pas juste un découpage par titres comme le reste du texte.
-3. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
+4. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
    11-31 et 283-294) valent la peine d'être intégrés (contexte/doctrine utile mais hors des 12
    sources légales listées initialement).
-4. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
+5. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
    justificatives, calendrier du trésorier, adresses utiles) valent la peine d'être extraites en
    plus des 5 chapitres déjà faits.
-5. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
+6. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
    Codex ou seulement fondue dans le commentaire de la circulaire de 2014 ; sinon, l'obtenir
    séparément (Moniteur belge / Wallex).
-6. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
+7. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
    (manuel 07 chapitre 2, manuel 26 chapitre 1) en ré-extrayant directement depuis le PDF
    source.
-7. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
+8. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
    dédiée ci-dessus) avant d'exposer l'outil au-delà de l'équipe support.
-8. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
+9. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
    visibilité actuelle non vérifiée par l'assistant).
