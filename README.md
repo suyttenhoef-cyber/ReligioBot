@@ -91,7 +91,7 @@ Matières actuelles :
   `convert_manuels_usage_logiciel.py` est superseded, ne plus l'exécuter). S'y ajoutent 1378
   `pratiques_validees` issues des archives email du helpdesk Vanden Broele (document
   `helpdesk_pst_2026`, voir plus bas).
-- `reglementation_fabriques` — 15 documents, 233 articles, 241 sections_circulaire, 17
+- `reglementation_fabriques` — 16 documents, 233 articles, 280 sections_circulaire, 17
   pratiques_validees. Les 233 articles viennent du Codex Husson 2025 pour 6 textes structurés en
   "Art. N." (décret impérial de 1809, loi de 1870, CDLD extraits, décret de 2017, AGW 2018, AGW
   2021) — voir `scripts_ponctuels/extract_codex_articles.py`. Les circulaires (structurées en
@@ -103,11 +103,26 @@ Matières actuelles :
   pratiques Vanden Broele — PAS un texte officiel), voir
   `scripts_ponctuels/extract_guide_tresorier.py`, 94 sections issues des 5 circulaires du
   Codex (18/07/2014, 12/12/2014, 20/06/2024, 30/05/2013, budgétaires communales), voir
-  `scripts_ponctuels/extract_codex_circulaires.py`, et 35 sections issues d'une note de synthèse
+  `scripts_ponctuels/extract_codex_circulaires.py`, 35 sections issues d'une note de synthèse
   comptable 2026 (document `note_synthese_comptabilite_2026` — PAS un texte officiel non plus,
   une note rédigée spécifiquement pour cette base de connaissance, recoupée avec le corpus
   existant à l'intégration, aucune contradiction relevée), voir
-  `scripts_ponctuels/extract_note_synthese_comptabilite.py`.
+  `scripts_ponctuels/extract_note_synthese_comptabilite.py`, 30 sections issues de la circulaire
+  du 21 janvier 2019 ("Liste des pièces justificatives requises" par type d'acte soumis à la
+  tutelle — PDF **scanné**, extrait par OCR (`pymupdf` + `pytesseract`/Tesseract, pas dans
+  `requirements.txt`, dépendance ponctuelle de ce script comme `win32com` pour le PST), voir
+  `scripts_ponctuels/extract_circulaire_21_01_2019.py` — attention, les *montants* cités dans ce
+  tableau datent de 2019 et peuvent être périmés depuis la réforme du CDLD de 2022, voir les
+  notes du document `circulaire_21_01_2019` dans le corpus), et 1 section issue de la circulaire
+  budgétaire communale 2027 (extrait "Fabriques d'église...", .docx natif, voir
+  `scripts_ponctuels/extract_circulaire_budgetaire_2027.py` — la règle "dotations plafonnées à
+  1 %/an + TBP" mentionnée par la note de synthèse 2026 n'y apparaît pas, incertitude non
+  résolue, voir les notes du document `circulaires_budgetaires_communales`), et 8 sections
+  issues d'un document de l'Évêché de Namur sur le plan comptable article par article (document
+  `eveche_namur_comptabilite_2020`, PDF texte normal, voir
+  `scripts_ponctuels/extract_eveche_namur_comptabilite.py` — chevauchement assumé avec la note de
+  synthèse 2026 sur le même plan comptable, conservé pour ses explications plus détaillées et ses
+  montants spécifiques au diocèse de Namur).
 
 Les deux matières partagent aussi un document `helpdesk_pst_2026` (1395 `pratiques_validees`
 au total, 1378 + 17 ci-dessus) : archives email du helpdesk Vanden Broele

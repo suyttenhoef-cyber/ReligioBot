@@ -311,6 +311,96 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
     besoin (tarif D43 indexé depuis 2010, périmètre exact de la "procédure simplifiée" de
     modification budgétaire, seuil travaux 750.000 EUR HTVA au 1.1.2026) - voir "Prochaines
     étapes concrètes" ci-dessous.
+- ✅ **Circulaire du 21/01/2019 (OCR) et circulaire budgétaire 2027 intégrées, 31 sections**
+  (2026-09-17) - sur la base des 3 pistes proposées après l'intégration de la note de synthèse,
+  l'utilisateur a fourni 2 des 3 documents recommandés dans `Ressources_brutes/bases_legales/`
+  (le 3e, le document de l'Évêché de Namur, n'a pas été fourni).
+  - **Circulaire du 21 janvier 2019** (`Circulaire_21_01_2019.pdf`, document déjà déclaré
+    `circulaire_21_01_2019`, jusque-là 0 contenu - gap connu) : PDF **scanné, sans couche
+    texte** (`pypdf` extrait 0 caractère sur les 21 pages) - première extraction OCR de ce
+    projet, via `scripts_ponctuels/extract_circulaire_21_01_2019.py` (`pymupdf` pour rasteriser
+    chaque page + `pytesseract`/Tesseract, langue française - dépendances installées pour ce
+    script ponctuel, pas ajoutées à `requirements.txt`, même logique que `win32com` pour le
+    PST). Contenu : la "Liste des pièces justificatives requises" par type d'acte soumis à la
+    tutelle - **exactement le tableau qu'`extract_codex_circulaires.py` avait dû laisser de
+    côté pour la circulaire du 12/12/2014** ("tableau totalement aplati par l'extraction PDF
+    linéaire, non exploitable tel quel"). 30 sections ajoutées, une par sous-point CDLD
+    (L3161-4/L3161-8 tutelle générale, L3162-1 tutelle spéciale budget/compte, communal et
+    provincial).
+    - Piège OCR corrigé : une ligne "L3161-4  3. Le cas échéant..." (référence répétée en marge
+      par l'OCR sur une ligne de tableau qui déborde sur la page suivante) ressemblait à un
+      nouveau sous-point "3" mais n'en est pas un - seule une **virgule immédiatement après le
+      code CDLD** ("L3161-4, 3°, a)") marque un vrai débuts de sous-point ; sans cette règle, ces
+      lignes de continuation auraient fragmenté les sous-points de façon incohérente.
+    - **Point d'attention explicite, à ne pas perdre** : les **montants** cités ponctuellement
+      dans certaines cases de ce tableau de 2019 (ex. seuil du marché de prêt visé au point
+      1°,e) peuvent être **périmés** depuis la réforme du CDLD par le décret du 6 octobre 2022
+      (déjà visible dans `cdld#art_l3161_4`, qui porte la mention "(Remplace D. 6.10.2022...)").
+      La partie utile et non périmée de cette circulaire est la liste des pièces justificatives
+      et du destinataire par type d'acte, **pas** les montants qu'elle cite - signalé dans les
+      notes du document pour que ce point ne soit jamais oublié.
+  - **Circulaire budgétaire communale 2027** (`Circulaire budgetaire-2027-communes.docx`, .docx
+    natif, PAS un scan - extraction directe `python-docx`) : circulaire complète adressée aux
+    communes (3382 paragraphes, format questions/réponses, 23 tableaux) dont seule la section
+    dédiée "Fabriques d'église et communautés philosophiques non confessionnelles reconnues" (4
+    questions/réponses) est extraite - le reste (fiscalité, dette, personnel...) est hors
+    périmètre. Ajoutée comme 2e extrait du document déjà existant `circulaires_budgetaires_communales`
+    (le 1er étant la compilation multi-années 2015-2025 du Codex Husson), via
+    `scripts_ponctuels/extract_circulaire_budgetaire_2027.py`.
+    - **Incertitude/contradiction potentielle relevée et signalée** (recoupement demandé
+      explicitement par l'utilisateur) : la note de synthèse comptable 2026 mentionne pour la
+      circulaire budgétaire 2026 une règle "évolution des dotations aux fabriques plafonnée à
+      1 % par an + tableau de bord prospectif (TBP)" qui n'apparaît **ni** dans la compilation
+      Codex 2015-2025 **ni** dans cette circulaire 2027 (recherche par mot-clé sur l'intégralité
+      du document 2027, pas seulement la section fabriques - aucune occurrence de "1 %"/"TBP"/
+      "tableau de bord prospectif" en lien avec les dotations). Sans le texte intégral de la
+      circulaire 2026 elle-même (on ne dispose que du résumé qu'en fait la note de synthèse),
+      impossible de trancher si cette règle a été abandonnée, déplacée ailleurs dans le document
+      2026, ou si le résumé de la note de synthèse est imprécis sur ce point - **signalé comme
+      incertitude dans les notes du document plutôt que tranché arbitrairement**. Les autres
+      points recoupés concordent (article 79090/332-01 pour les subventions à la laïcité,
+      790/43501 pour les dotations/subventions par culte - identiques dans le Codex 2015-2025 et
+      la circulaire 2027).
+  - `chunk_builder.py` revalidé : 2067 chunks au total (2036 avant cet ajout).
+  - **A faire par l'utilisateur** : régénérer `embeddings.npz`/`embeddings_meta.jsonl` une
+    nouvelle fois (31 nouveaux chunks).
+- ✅ **Document de l'Évêché de Namur intégré (3e source recommandée), 8 sections** (2026-09-17) -
+  l'utilisateur a finalement fourni les 3 documents recommandés, pas seulement les 2 premiers :
+  `12a_rappel_des_grands_principes_de_comptabilite_2020.pdf` ("La comptabilité fabricienne",
+  Évêché de Namur, Vicariat du temporel du culte, 02/2020 - 12 pages, PDF texte normal, PAS un
+  scan). C'est le document que la bibliographie de la note de synthèse 2026 qualifiait elle-même
+  de "source la plus complète sur le plan comptable article par article" - confirmé à l'usage :
+  explications en prose complètes de chaque article R1-R28/D1-D62 avec références légales en
+  note de bas de page (art. 45 et 26 du décret de 1809, loi du 3 juillet 2005 sur le
+  volontariat...). Nouveau document `eveche_namur_comptabilite_2020` (type `guide_pratique`),
+  extrait via `scripts_ponctuels/extract_eveche_namur_comptabilite.py` (décopage par ancres de
+  texte fixes - document court et connu, pas de parseur regex générique nécessaire pour un usage
+  unique). 8 sections ajoutées (principes, budget, compte, éléments de la comptabilité,
+  recettes ordinaires/extraordinaires, dépenses chapitre I/chapitre II).
+  - **Chevauchement assumé** avec la note de synthèse 2026 (même plan comptable R1-R28/D1-D62,
+    section 4) - conservé plutôt qu'écarté car ce document est plus détaillé et apporte des
+    montants **spécifiques au diocèse de Namur** absents ailleurs (droits de fabrique sur
+    inhumations/mariages : 25 EUR, absoutes : 12,50 EUR, autres services : 5 EUR, "depuis le
+    1er janvier 2020" - le document précise lui-même que ces montants varient par diocèse, donc
+    pas à généraliser). Même logique déjà appliquée à la coexistence Codex Husson / guide du
+    trésorier dans ce corpus.
+  - **Recoupement fait à l'intégration** (aucune contradiction relevée) : tarif des messes
+    fondées (13/25/7 EUR, arrêté ministériel du 2 avril 2010) identique à la note de synthèse ET
+    confirmé encore valide en 02/2020 (aide partiellement à répondre au point "à vérifier" de la
+    note de synthèse sur une éventuelle indexation - confirme l'absence de changement entre 2010
+    et 2020, mais ne dit rien d'une indexation plus récente, entre 2020 et aujourd'hui) ; remise
+    du trésorier (5 % hors art. 17/18a), subsides provinciaux (≥ 1 % du montant des travaux
+    subsidiés), dates limites (30 août/25 avril), délais de tutelle (20j/40j+20j) : tous
+    cohérents avec le corpus existant.
+  - Piège corrigé pendant l'extraction : le marqueur de pied de page ("Évêché de Namur...", en
+    fin de document) contient des accents, alors que le reste du script travaille en texte
+    sans accents (convention du projet) - la recherche du marqueur échouait silencieusement
+    (comparaison accentué vs non-accentué) et laissait le pied de page contaminer la dernière
+    section avant correction (accent-stripping appliqué dès l'extraction du texte brut, avant
+    toute recherche de marqueur).
+  - `chunk_builder.py` revalidé : 2075 chunks au total (2067 avant cet ajout).
+  - **A faire par l'utilisateur** : régénérer `embeddings.npz`/`embeddings_meta.jsonl` une
+    dernière fois (8 nouveaux chunks).
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
@@ -418,36 +508,39 @@ Déjà appliqué dans `rag_answer.py` (voir `SYSTEM_PROMPT`) : structure en grou
 ## Prochaines étapes concrètes
 
 1. **Régénérer les embeddings en local** (`chunk_builder.py` → `embed_chunks.py`, nécessite
-   `OPENAI_API_KEY`) : 2036 chunks au total désormais (2001 après le PST + 35 de la note de
-   synthèse comptable 2026) — tester l'interface sur ce contenu avant de continuer à en ajouter.
+   `OPENAI_API_KEY`) : 2067 chunks au total désormais — tester l'interface sur ce contenu avant
+   de continuer à en ajouter.
 2. Revoir un échantillon de la classification automatique matière/sous_categorie des 1395
    `pratiques_validees` issues du PST (heuristique par mots-clés, jamais relue individuellement) —
    seule la méthode d'anonymisation a été validée explicitement par l'utilisateur à ce stade.
-3. Points signalés `[À VÉRIFIER]` par la note de synthèse comptable 2026 et NON résolus par le
-   recoupement fait à l'intégration (voir ci-dessus) — à vérifier aux sources primaires si un cas
-   réel les rend pertinents : tarif exact des services religieux fondés (AM du 2 avril 2010,
-   éventuelle indexation depuis) ; périmètre exact de la "procédure simplifiée" de modification
-   budgétaire (transferts de crédits sans impact sur le subside communal) ; seuil de 750.000 EUR
-   HTVA pour la procédure simplifiée négociée en travaux, éventuelle révision au 1.1.2026 ; liste
-   à jour des pièces justificatives (reprendre l'annexe de la circulaire du 21 janvier 2019 in
-   extenso plutôt que la synthèse). Cette dernière recoupe directement le point 7 ci-dessous
-   (circulaire du 21/01/2019 jamais extraite dans le corpus).
-4. Traiter la table "Liste des pièces justificatives requises" de la circulaire du 12/12/2014
-   (pages 189-219 du Codex) — nécessite une vraie extraction de tableau (pypdf aplatit les
-   colonnes), pas juste un découpage par titres comme le reste du texte.
+3. Points encore ouverts, signalés `[À VÉRIFIER]` par la note de synthèse comptable 2026 et NON
+   résolus par les recoupements faits depuis (voir ci-dessus) — à vérifier aux sources primaires
+   si un cas réel les rend pertinents : tarif exact des services religieux fondés (AM du 2 avril
+   2010, éventuelle indexation depuis) ; périmètre exact de la "procédure simplifiée" de
+   modification budgétaire (transferts de crédits sans impact sur le subside communal) ; seuil de
+   750.000 EUR HTVA pour la procédure simplifiée négociée en travaux, éventuelle révision au
+   1.1.2026.
+4. **Éclaircir la règle "évolution des dotations aux fabriques plafonnée à 1 %/an + TBP"**
+   mentionnée par la note de synthèse 2026 pour la circulaire budgétaire 2026 mais introuvable
+   aussi bien dans la compilation Codex 2015-2025 que dans la circulaire budgétaire 2027 (voir
+   ci-dessus) — obtenir si possible le texte intégral de la circulaire budgétaire 2026
+   elle-même pour trancher (abandonnée ? déplacée ? résumé imprécis ?), plutôt que de laisser
+   cette incertitude ouverte indéfiniment.
 5. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
    11-31 et 283-294) valent la peine d'être intégrés (contexte/doctrine utile mais hors des 12
    sources légales listées initialement).
 6. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
    justificatives, calendrier du trésorier, adresses utiles) valent la peine d'être extraites en
    plus des 5 chapitres déjà faits.
-7. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
-   Codex ou seulement fondue dans le commentaire de la circulaire de 2014 ; sinon, l'obtenir
-   séparément (Moniteur belge / Wallex).
-8. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
+7. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
    (manuel 07 chapitre 2, manuel 26 chapitre 1) en ré-extrayant directement depuis le PDF
    source.
-9. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
+8. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
    dédiée ci-dessus) avant d'exposer l'outil au-delà de l'équipe support.
-10. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
-    visibilité actuelle non vérifiée par l'assistant).
+9. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
+   visibilité actuelle non vérifiée par l'assistant).
+
+**Résolu depuis la dernière révision de cette liste** : la table "Liste des pièces
+justificatives requises" (ex-point 4, ex-point 7) est désormais couverte par l'extraction OCR de
+la circulaire du 21 janvier 2019 (voir "État actuel du projet" ci-dessus) — c'était bien elle qui
+mettait à jour cette annexe, pas une absorption dans le commentaire de la circulaire de 2014.
