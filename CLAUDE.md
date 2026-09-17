@@ -38,7 +38,7 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
   (`azure_search_setup.py`, `retrieve_azure_search.py`, `telemetry.py`) — idem, hors périmètre.
 - Azure Lighthouse, gestion multi-tenant — sans objet, usage strictement local.
 
-## État actuel du projet — mis à jour 2026-09-13
+## État actuel du projet — mis à jour 2026-09-17
 
 - ✅ **Structure du dépôt créée** (voir `README.md` pour le détail) : pipeline copié tel quel
   depuis `chatbot_etat_civil` (`chunk_builder.py`, `embed_chunks.py`, `retrieve.py`),
@@ -268,6 +268,49 @@ Ne pas construire, ni même envisager par réflexe de copier depuis les projets 
     (`OPENAI_API_KEY` requis) pour rendre ce contenu vivant dans l'app - le corpus a
     considerablement grossi (2001 chunks vs 606). Revoir si possible un echantillon de la
     classification matiere/sous_categorie automatique avant de la considerer definitive.
+- ✅ **Note de synthèse comptable 2026 intégrée : 35 sections ajoutées** (2026-09-17) -
+  l'utilisateur a fourni un document markdown déjà structuré pour l'alimentation d'une base de
+  connaissance (`Ressources_brutes/notes_synthese/note_synthese_comptabilite_2026.md`, état du
+  droit arrêté au 17/09/2026), traité par
+  `scripts_ponctuels/extract_note_synthese_comptabilite.py`. **Nature distincte des sources
+  existantes** : ce n'est ni un texte légal/circulaire officiel, ni le guide pratique commercial
+  déjà présent (`guide_tresorier_2025`), mais une note de synthèse rédigée spécifiquement pour ce
+  chatbot - déclarée avec un nouveau type de document `note_synthese` (à ne jamais présenter comme
+  le texte légal lui-même, même règle A3 du SYSTEM_PROMPT que pour le guide du trésorier).
+  - **Vérification doublons/contradictions demandée explicitement par l'utilisateur avant
+    integration** : recoupement fait sur les points factuels vérifiables contre le corpus
+    existant - dates limites budget/compte (30 août, 25 avril : confirmées dans
+    `loi_04_03_1870#art_1/6/16/16ter`), délais de l'organe représentatif (20 jours : confirmés
+    dans `loi_04_03_1870#art_2/7/16bis/16quater`), délais et seuils de la tutelle générale
+    d'annulation (15/30/15 jours, seuils marchés publics 300.000 EUR travaux / 250.000 EUR
+    fournitures-services : confirmés et même **plus précis** dans `cdld#art_l3161_4` que le
+    "[À VÉRIFIER : montants exacts]" du document source sur ce point précis). **Aucune
+    contradiction relevée.** Le plan comptable détaillé (articles R1-R28 et D1-D62, chapitre 4 du
+    document) est en revanche une **nouveauté réelle** : rien d'aussi systématique n'existait
+    encore dans le corpus (le guide du trésorier mentionne certains articles isolément - R17,
+    D51... - mais pas de table complète par article), alors que c'est précisément le type de
+    question ("à quel article dois-je imputer telle dépense ?") qui avait échoué lors des tests
+    réels sur le cas "D62A" plus haut.
+  - Les marqueurs `[À VÉRIFIER]` de l'auteur du document sont **conservés tels quels** dans le
+    texte intégré (pas remplacés par une fausse certitude) : ils aident le modèle à rester prudent
+    sur ces points précis via les règles B4/B5 existantes, plutôt que d'être un problème à
+    "nettoyer" avant ingestion.
+  - Sections **volontairement exclues** de l'ingestion (contenu éditorial/méta, pas des
+    assertions citables pour un utilisateur final) : § 14 (mapping questions -> sections, qui
+    pointe vers ce document lui-même), § 15 (bibliographie/sources), § 16 (liste de points à
+    valider assumés incertains par l'auteur - reportée ci-dessous comme piste de vérification
+    future plutôt qu'ingérée comme contenu du chatbot).
+  - Découpage : sections 4, 5, 6, 7, 8, 10 (celles avec des sous-titres "N.M" dans le document
+    source) éclatées en un chunk par sous-section (35 entrées au total) - même logique que
+    `extract_guide_tresorier.py`. Les autres (1, 2, 3, 9, 11, 12, 13) gardées en un seul chunk,
+    déjà de taille raisonnable (125-3015 caractères, moyenne 886). `chunk_builder.py` revalidé :
+    2036 chunks au total (2001 avant cet ajout).
+  - **A faire par l'utilisateur** : régénérer `embeddings.npz`/`embeddings_meta.jsonl` une
+    nouvelle fois (35 nouveaux chunks). Les points signalés `[À VÉRIFIER]` par le document source
+    et non résolus par le recoupement ci-dessus restent à vérifier aux sources primaires si
+    besoin (tarif D43 indexé depuis 2010, périmètre exact de la "procédure simplifiée" de
+    modification budgétaire, seuil travaux 750.000 EUR HTVA au 1.1.2026) - voir "Prochaines
+    étapes concrètes" ci-dessous.
 - ⏳ **Point d'accès pour le trésorier bénévole non technique** non tranché (voir section
   dédiée ci-dessous).
 
@@ -375,28 +418,36 @@ Déjà appliqué dans `rag_answer.py` (voir `SYSTEM_PROMPT`) : structure en grou
 ## Prochaines étapes concrètes
 
 1. **Régénérer les embeddings en local** (`chunk_builder.py` → `embed_chunks.py`, nécessite
-   `OPENAI_API_KEY`) : le corpus a fortement grossi avec l'intégration du PST helpdesk
-   (2001 chunks au total, contre 606 avant) — tester l'interface sur ce contenu avant de
-   continuer à en ajouter.
+   `OPENAI_API_KEY`) : 2036 chunks au total désormais (2001 après le PST + 35 de la note de
+   synthèse comptable 2026) — tester l'interface sur ce contenu avant de continuer à en ajouter.
 2. Revoir un échantillon de la classification automatique matière/sous_categorie des 1395
    `pratiques_validees` issues du PST (heuristique par mots-clés, jamais relue individuellement) —
    seule la méthode d'anonymisation a été validée explicitement par l'utilisateur à ce stade.
-3. Traiter la table "Liste des pièces justificatives requises" de la circulaire du 12/12/2014
+3. Points signalés `[À VÉRIFIER]` par la note de synthèse comptable 2026 et NON résolus par le
+   recoupement fait à l'intégration (voir ci-dessus) — à vérifier aux sources primaires si un cas
+   réel les rend pertinents : tarif exact des services religieux fondés (AM du 2 avril 2010,
+   éventuelle indexation depuis) ; périmètre exact de la "procédure simplifiée" de modification
+   budgétaire (transferts de crédits sans impact sur le subside communal) ; seuil de 750.000 EUR
+   HTVA pour la procédure simplifiée négociée en travaux, éventuelle révision au 1.1.2026 ; liste
+   à jour des pièces justificatives (reprendre l'annexe de la circulaire du 21 janvier 2019 in
+   extenso plutôt que la synthèse). Cette dernière recoupe directement le point 7 ci-dessous
+   (circulaire du 21/01/2019 jamais extraite dans le corpus).
+4. Traiter la table "Liste des pièces justificatives requises" de la circulaire du 12/12/2014
    (pages 189-219 du Codex) — nécessite une vraie extraction de tableau (pypdf aplatit les
    colonnes), pas juste un découpage par titres comme le reste du texte.
-4. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
+5. Décider si l'essai introductif de Husson et les "Questions parlementaires" du Codex (pages
    11-31 et 283-294) valent la peine d'être intégrés (contexte/doctrine utile mais hors des 12
    sources légales listées initialement).
-5. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
+6. Décider si les annexes du guide du trésorier (pages 231-264 : tableau des pièces
    justificatives, calendrier du trésorier, adresses utiles) valent la peine d'être extraites en
    plus des 5 chapitres déjà faits.
-6. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
+7. Vérifier si la circulaire du 21 janvier 2019 (pièces justificatives) est vraiment absente du
    Codex ou seulement fondue dans le commentaire de la circulaire de 2014 ; sinon, l'obtenir
    séparément (Moniteur belge / Wallex).
-7. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
+8. Combler si possible les 2 sections à `contenu_texte` vide identifiées dans le volet logiciel
    (manuel 07 chapitre 2, manuel 26 chapitre 1) en ré-extrayant directement depuis le PDF
    source.
-8. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
+9. Clarifier avec l'utilisateur le point d'accès local pour le trésorier bénévole (voir section
    dédiée ci-dessus) avant d'exposer l'outil au-delà de l'équipe support.
-9. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
-   visibilité actuelle non vérifiée par l'assistant).
+10. Décider privé/public du dépôt GitHub distant (https://github.com/suyttenhoef-cyber/ReligioBot,
+    visibilité actuelle non vérifiée par l'assistant).

@@ -110,6 +110,15 @@
       "statut": "en_vigueur",
       "source_document": "backup.pst (dossier \"archives Lisa\")",
       "notes": "Export d'archives email du helpdesk Religiosoft (1722 emails bruts, septembre 2026). Anonymise (noms/emails/telephones/adresses retires par coupure structurelle de la salutation et de la signature, pas seulement masquage cible) et filtre : entrees sans question d'origine identifiable (newsletters, invitations) ou avec reponse de moins de 50 caracteres (simple accuse de reception sans valeur generalisable) exclues. 1395 entrees retenues sur 1722 emails bruts au total. Matiere et sous-categorie determinees par mots-cles (heuristique automatique, pas une revue individuelle de chaque entree)."
+    },
+    {
+      "document_id": "note_synthese_comptabilite_2026",
+      "type": "note_synthese",
+      "titre": "Comptabilite des fabriques d'eglise en Wallonie - note de synthese",
+      "date_texte": "2026-09-17",
+      "statut": "en_vigueur",
+      "source_document": "Ressources_brutes/notes_synthese/note_synthese_comptabilite_2026.md (note redigee pour alimenter directement cette base de connaissance, pas un texte officiel)",
+      "notes": "Synthese datee (etat du droit arrete au 17 septembre 2026), PAS un texte legal/circulaire officiel : a recouper avec les textes primaires (decrets/CDLD/circulaires deja dans ce corpus) en cas de doute, et a reviser periodiquement (comme les circulaires budgetaires communales). Conserve les marqueurs [A VERIFIER] de son auteur tels quels - un point signale incertain dans le texte reste incertain apres ingestion, pas presente comme confirme. Verifie a l'integration (2026-09-17) : pas de contradiction relevee avec les textes deja extraits (dates limites du budget/compte, delais et seuils de tutelle generale d'annulation). Sections 14 (mapping questions), 15 (bibliographie) et 16 (points a valider) du document source volontairement exclues de l'ingestion - editoriales/meta, pas du contenu citable pour un utilisateur final."
     }
   ],
   "articles": [
@@ -5022,6 +5031,286 @@
       "categorie": "reglementation_fabriques",
       "sous_categorie": "circulaires_budgetaires_communales",
       "articles_references": []
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_1_cadre_legal_en_vigueur",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": null,
+      "numero_section": "1",
+      "titre": "Cadre legal en vigueur",
+      "texte": "La Wallonie a fait le choix, contrairement a la Flandre (decret du 7 mai 2004) et a Bruxelles (ordonnance de 2023), de **conserver les textes fondateurs** de 1809 et 1870 en les modifiant, plutot que de les remplacer.\n\n| Texte | Objet | Statut |\n|---|---|---|\n| **Decret imperial du 30 decembre 1809** concernant les fabriques d'eglise | Organisation des fabriques, composition des organes, structure du budget/compte, obligations communales (art. 37 et 92) | En vigueur, modifie |\n| **Loi du 4 mars 1870** sur le temporel des cultes | Budgets et comptes, procedures de tutelle | En vigueur, modifiee |\n| **Decret wallon du 13 mars 2014** (« decret Furlan ») | Reforme de la tutelle : insertion d'un titre nouveau dans le CDLD (art. **L3161-1 a L3162-3**), transfert de la tutelle speciale d'approbation aux communes | Entre en vigueur le **1er janvier 2015** |\n| **CDLD**, Partie III, Livre Ier, Titre IV (L3161-1 a L3162-3) | Tutelle generale d'annulation et tutelle speciale d'approbation | En vigueur |\n| **Decret wallon du 18 mai 2017** (M.B. 16 juin 2017) | Reconnaissance et obligations des etablissements cultuels ; procedures de **fusion**, **desaffectation**, creation | En vigueur |\n| **AGW du 25 janvier 2018** | Execution du decret du 18 mai 2017 (modalites, documents modeles) | En vigueur |\n| **Circulaire du 18 juillet 2014** | Operation pilote « convention pluriannuelle » commune/etablissement | Non contraignante, outils reutilisables |\n| **Circulaire du 12 decembre 2014** | Tutelle sur les actes + **liste des pieces justificatives** par type de dossier + formulaire signaletique | Reference pratique majeure |\n| **Circulaire du 21 janvier 2019** | Remplace/modifie les annexes de la circulaire de 2014 quant aux pieces a joindre | Reference pratique en vigueur |\n| **Circulaire du 30 mai 2013** | Octroi de subventions par les pouvoirs locaux | Applicable |\n| **Circulaire du 20 juin 2024** | Operations patrimoniales des pouvoirs locaux (remplace celle du 23 fevrier 2016) | Applicable |\n| **Circulaires budgetaires communales** (annuelles, 2015 et suivantes) | Directives aux communes, avec un volet consacre aux fabriques | Voir § 11 pour l'edition 2026 |\n\n**Points de vigilance redactionnelle** : ne jamais ecrire que le decret de 1809 est « abroge ». Il reste la base du financement (art. 92) et de la structure comptable. Par ailleurs, le vocabulaire officiel wallon parle d'« **etablissements charges de la gestion du temporel des cultes reconnus** » ; « fabrique d'eglise » reste le terme courant et vise le culte catholique (plus de 90 % des etablissements)."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_2_acteurs_et_roles",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": null,
+      "numero_section": "2",
+      "titre": "Acteurs et roles",
+      "texte": "- **Conseil de fabrique** : arrete le budget, les modifications budgetaires et le compte par deliberation. Chaque envoi a la tutelle doit etre accompagne de la **deliberation datee et signee**.\n- **Bureau des marguilliers** : executif (3 membres : president, secretaire, tresorier). C'est lui qui fournit les objets necessaires au culte sur appel du cure.\n- **Tresorier** : encaisse les recettes, paie les depenses, tient la comptabilite, presente le compte au conseil (en principe en **mars**, approbation en mars ou avril). Les depenses faites **sans credit budgetaire** peuvent etre laissees a sa charge personnelle.\n- **Cure / desservant** : presente chaque annee ses previsions de depenses cultuelles (art. 45 du decret de 1809), reprises au chapitre I des depenses.\n- **Organe representatif agree** (pour le culte catholique : l'**eveque** / le service du temporel du diocese) : **arrete definitivement** les depenses du chapitre I (celebration du culte) et **approuve** le reste du document. Delai : **20 jours**.\n- **Conseil communal** : exerce la **tutelle speciale d'approbation** sur budget, modifications budgetaires et compte. Delai : **40 jours** prorogeables de **20 jours**.\n- **Gouverneur de province** : autorite de **tutelle generale d'annulation** et autorite de **recours** contre les decisions communales ; reprend la tutelle en cas d'avis negatif d'une commune pour les fabriques pluricommunales.\n- **Directeur financier communal** : rend en pratique un avis technique sur les dossiers avant passage au conseil communal.\n\n**Dioceses wallons** : Namur, Liege, Tournai, et Malines-Bruxelles (pour le Brabant wallon — service du temporel du Vicariat du Brabant wallon)."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_3_les_six_principes_de_la_comptabilite_fabricienne",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": null,
+      "numero_section": "3",
+      "titre": "Les six principes de la comptabilite fabricienne",
+      "texte": "1. **Annalite** — l'exercice court du 1er janvier au 31 decembre. Tolerance : certaines recettes ou depenses percues/payees apres le 31 decembre peuvent etre rattachees a l'exercice ecoule **jusqu'au 31 mars**, pour autant qu'elles aient ete constatees et engagees avant le 31 decembre.\n2. **Specialite** — les previsions sont etablies **article par article** ; les credits globaux sont refuses.\n3. **Realite** — les credits reposent sur des estimations fondees sur les montants reellement constates.\n4. **Equilibre** — le budget ne peut jamais se cloturer en deficit. **Double equilibre** :\n - *equilibre general* : total des recettes = total des depenses ;\n - *equilibre interne* : recettes ordinaires = depenses ordinaires **et** recettes extraordinaires = depenses extraordinaires.\n Un excedent de recettes ordinaires **peut** financer de l'extraordinaire ; l'inverse est **anormal**. Le reliquat du compte precedent (art. R19) peut financer l'un comme l'autre.\n5. **Universalite** — toutes les recettes et depenses previsibles figurent au budget.\n6. **Unite** — un seul budget, une seule comptabilite, **une seule encaisse**.\n\n**Nature de la comptabilite** : comptabilite **de caisse** (« recettes-depenses »), tenue via un journal financier. Simple d'acces, mais elle implique une valorisation approximative du patrimoine, l'impossibilite d'amortir les immeubles et l'absence de suivi des creances et dettes."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_4_structure_du_budget_et_du_compte_les_quatre_chapitres",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "4. Structure du budget et du compte : les quatre chapitres",
+      "numero_section": "4",
+      "titre": "Structure du budget et du compte : les quatre chapitres",
+      "texte": "Budget et compte se presentent de facon quasi identique, en **4 chapitres** : deux pour les recettes, deux pour les depenses."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_4_1_recettes_ordinaires_r1_a_r18",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "4. Structure du budget et du compte : les quatre chapitres",
+      "numero_section": "4.1",
+      "titre": "Recettes ordinaires (R1 a R18)",
+      "texte": "| Articles | Contenu |\n|---|---|\n| R1 a R5 | Revenus d'immeubles **non** affectes a des fondations (loyers, fermages en argent/en nature) |\n| R6 et R7 | Revenus (capitaux ou immeubles) **des fondations** uniquement |\n| R8 a R11 | Interets de capitaux hors fondations |\n| R12 | Coupes de bois — **eclaircies** seulement (les mises a blanc vont en R22) |\n| R13, R14 | Pratiquement plus utilises |\n| R15 | **Troncs, quetes et oblations** destines au culte. Exclut les collectes « imperees » ou caritatives (diocese, œuvres). *Regle diocesaine Namur : y porter au moins 12 × le produit moyen d'une collecte dominicale.* |\n| R16 | Droits de la fabrique sur les inhumations et services funebres (tarif fixe par decret episcopal, variable par diocese) |\n| **R17** | **Supplement communal pour les frais ordinaires du culte** — l'article d'ajustement qui equilibre le budget (art. 92 du decret de 1809) |\n| R18 | Autres recettes ordinaires. **R18a** : sommes payees par la fabrique pour compte de son personnel (precompte professionnel + cotisations ONSS part travailleur) — contrepartie de D50a |"
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_4_2_recettes_extraordinaires_r19_a_r28",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "4. Structure du budget et du compte : les quatre chapitres",
+      "numero_section": "4.2",
+      "titre": "Recettes extraordinaires (R19 a R28)",
+      "texte": "| Articles | Contenu |\n|---|---|\n| **R19** | **Reliquat / boni du compte precedent** — utilise **uniquement dans le compte**, jamais dans le budget |\n| **R20** | **Resultat presume positif** de l'exercice en cours — utilise **uniquement dans le budget**, jamais dans le compte |\n| R21 | Emprunts (accord prealable de la commune requis : elle se porte generalement caution) |\n| R22 | Ventes de biens immobiliers et coupes extraordinaires de bois. Produit **a replacer** (→ D53) ; interdiction d'affecter le prix de vente d'un immeuble aux depenses obligatoires |\n| R23 | Remboursement de capitaux places arrives a echeance → replacement en D53. Un capital echu ne peut jamais servir a payer des depenses |\n| R24 | Dons et legs par **acte authentique** (les dons manuels sont des oblations → R15). Avec charge religieuse = fondation |\n| **R25** | **Subsides extraordinaires de la commune** |\n| R26 | Subsides extraordinaires de la province (en pratique : part provinciale dans la restauration de monuments classes, ≥ 1 % du montant des travaux subsidies) |\n| R27 | Subsides extraordinaires de la Region (l'Etat federal a ete relaye par les Regions depuis 2002) |\n| R28 | Autres recettes extraordinaires |"
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_4_3_depenses_du_chapitre_i_celebration_du_culte_d1_a_d15",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "4. Structure du budget et du compte : les quatre chapitres",
+      "numero_section": "4.3",
+      "titre": "Depenses du **chapitre I** — celebration du culte (D1 a D15)",
+      "texte": "Arretees **definitivement par l'eveque seul**. La commune ne les approuve pas.\n\n| Articles | Contenu |\n|---|---|\n| D1 a D6 | Objets de consommation (pain d'autel, vin, cire, encens, luminaire, **fleurs**...) |\n| D7 a D10 | Entretien du mobilier — **produits uniquement**, pas les remunerations (→ D26) ni les indemnites de volontaires (→ D50) |\n| D11 | « Autres » : abonnements, revue diocesaine, documentation aux fabriciens, annuaire du diocese, feuillets liturgiques |\n| D12 a D15 | Autres frais necessaires a la celebration (dont achats de livres liturgiques ordinaires) |\n\n**Transferts internes au chapitre I** : possibles sur **simple autorisation de l'eveque**, tant que le total du chapitre n'est pas depasse. Si le total doit etre depasse → **modification budgetaire** selon la procedure complete."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_4_4_depenses_du_chapitre_ii_ordinaires_d16_a_d50",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "4. Structure du budget et du compte : les quatre chapitres",
+      "numero_section": "4.4",
+      "titre": "Depenses du **chapitre II** — ordinaires (D16 a D50)",
+      "texte": "Soumises a l'approbation de l'eveque **et** de la commune.\n\n| Articles | Contenu |\n|---|---|\n| D16 a D26 | Gages et traitements du personnel (montants **bruts**, charges sociales et precompte inclus) |\n| D27 a D35 | Reparations et **entretien ordinaire**. L'entretien des cimetieres est devenu competence communale |\n| D36, D37 | Supplements de traitement au cure / vicaire — **plus utilises** (cumul federal) |\n| D38 | Indemnite au pretre habitue ou auxiliaire |\n| D39 | Honoraires des predicateurs (depense obligatoire, non tarifee) |\n| D40 | Visites decanales (obligatoire, non tarifee) |\n| **D41** | **Remise allouee au tresorier** : **5 % du total des recettes ordinaires**, hors articles R17 et R18a |\n| D43 | Acquit des anniversaires, messes et services fondes. Tarif : AM du 2 avril 2010 (M.B. 23.4.2010) — messe basse fondee 13 €, messe chantee 25 €, part du celebrant portee en D43 : **7 €/messe** `[montants a reverifier : possible indexation depuis 2010]` |\n| D44 | Interets des capitaux empruntes |\n| D45, D46 | Frais administratifs |\n| D47 | Contributions — essentiellement le precompte immobilier. **Eglise et presbytere en sont exemptes** |\n| D48 | Assurance incendie et accidents. Meme si la police est souscrite par la commune proprietaire, la fabrique doit veiller a ce que les edifices soient suffisamment assures |\n| **D49** | **Fonds de reserve** — destine a l'entretien/reparation des immeubles de la fabrique **autres** que les edifices du culte |\n| D50 | Autres depenses ordinaires : **D50a** charges sociales ONSS + secretariat social (contrepartie de R18a) ; D50b/c avantages sociaux ; **D50d et suivants** : Sabam, Simim, Reprobel... |\n\n**Critere ordinaire / extraordinaire** (entretien) : deux indices — la **frequence** des travaux et leur **montant**. Remplacement d'une toiture = extraordinaire ; reparation partielle = ordinaire. Mise en peinture complete de l'eglise = extraordinaire ; rafraichissement partiel = ordinaire. La qualification determine le regime d'aide publique."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_4_5_depenses_du_chapitre_ii_extraordinaires_d51_a_d62",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "4. Structure du budget et du compte : les quatre chapitres",
+      "numero_section": "4.5",
+      "titre": "Depenses du **chapitre II** — extraordinaires (D51 a D62)",
+      "texte": "| Articles | Contenu |\n|---|---|\n| **D51** | **Deficit (mali) du compte precedent** — **compte uniquement** |\n| **D52** | **Resultat presume negatif** de l'exercice en cours — **budget uniquement** |\n| D53 | Placements de capitaux (contrepartie de R22/R23). Obligation de replacer rapidement ; replacer le capital de depart **sans** les interets (ceux-ci = recettes ordinaires R8–R11) |\n| D54 | Achats extraordinaires d'ornements, vases sacres, linges, livres, meubles, ustensiles (par opposition aux achats ordinaires du chapitre I) |\n| D55 | Decoration et embellissement de l'eglise |\n| D56 a D59 | **Grosses reparations** : eglise, presbytere, autres proprietes baties. Les reparations aux **edifices du culte** sont des depenses **obligatoires** (intervention communale en cas d'insuffisance de revenus) ; celles aux autres proprietes sont **facultatives** (d'ou l'interet du fonds de reserve D49) |\n| D60 | Frais de procedure (depense obligatoire) |\n| **D61** | **Depenses rejetees du compte anterieur** |\n| D62 | Autres depenses extraordinaires |\n\n**Regle d'equilibre des projets extraordinaires** : tout projet extraordinaire doit etre **finance individuellement** — a chaque bloc de depenses extraordinaires correspond un financement specifique en recettes extraordinaires (R25 et suivants)."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_5_1_contenu_et_presentation",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "5. Le budget",
+      "numero_section": "5.1",
+      "titre": "Contenu et presentation",
+      "texte": "Etat estimatif des recettes et depenses de l'exercice suivant, fonde en grande partie sur les realisations de l'exercice precedent. Modele fixe par arrete royal, a **quatre colonnes** :\n\n1. sommes portees au **compte** de l'avant-dernier exercice connu ;\n2. **previsions** pour l'exercice budgete ;\n3. modifications apportees par l'**eveque** (traditionnellement en vert) ;\n4. modifications apportees par la **commune** (traditionnellement en rouge)."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_5_2_calendrier",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "5. Le budget",
+      "numero_section": "5.2",
+      "titre": "Calendrier",
+      "texte": "- Adoption par le conseil de fabrique : en pratique **juin–juillet**.\n- Transmission **avant le 30 aout de l'annee n-1**, **simultanement** a la commune et a l'organe representatif (eveche).\n- Decision de l'organe representatif : **20 jours** (a defaut, reputee favorable pour la partie qu'il approuve).\n- Decision du conseil communal : **40 jours** a dater de la reception de la decision de l'organe representatif, **prorogeables de 20 jours** ; a defaut, l'acte est **executoire**.\n\n> ⚠️ Attention aux sources anciennes : le texte de la loi de 1870 mentionnait le **15 aout** avant sa modification par le decret du 13 mars 2014. La date applicable aujourd'hui est le **30 aout**."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_5_3_pieces_a_joindre",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "5. Le budget",
+      "numero_section": "5.3",
+      "titre": "Pieces a joindre",
+      "texte": "Deliberation du conseil de fabrique completee, datee et signee + annexes prevues par la circulaire du 21 janvier 2019. Pour les projets extraordinaires : descriptif detaille et justification."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_5_4_resultat_presume",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "5. Le budget",
+      "numero_section": "5.4",
+      "titre": "Resultat presume",
+      "texte": "Le budget n+1 integre le resultat **presume** de l'exercice n (R20 si positif, D52 si negatif) : c'est l'estimation du boni qui sera disponible au 1er janvier de l'exercice budgete.\n\nMethode : **partir du resultat definitif du compte n-1 tel qu'approuve par la tutelle**, puis y appliquer les mouvements prevus. Il est donc indispensable d'avoir la decision de tutelle sur le compte n-1 (et d'y avoir integre les rectifications) avant de finaliser le budget n+1. Dans ReligioSoft, ce calcul est **automatique**.\n\nPour les fabriques **autosuffisantes** (recettes ordinaires propres couvrant les depenses ordinaires sans supplement communal), le resultat presume a peu d'incidence pratique."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_5_5_equilibrage_et_supplement_communal",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "5. Le budget",
+      "numero_section": "5.5",
+      "titre": "Equilibrage et supplement communal",
+      "texte": "Si les depenses excedent les recettes hors intervention communale, il faut d'abord chercher a reduire les depenses et a augmenter les recettes propres. Le solde residuel est porte en **R17** (supplement communal ordinaire) par application de l'**article 92 du decret imperial**. C'est aussi R17 que la commune corrige lorsqu'elle reforme un budget."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_5_6_observations",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "5. Le budget",
+      "numero_section": "5.6",
+      "titre": "Observations",
+      "texte": "Les rubriques « observations » sont a utiliser systematiquement : elles s'integrent au rapport du budget et permettent aux autorites de tutelle de comprendre la logique des chiffres, ce qui reduit fortement le risque de reformation ou de recours."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_6_1_principe",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "6. La modification budgetaire et les adaptations internes",
+      "numero_section": "6.1",
+      "titre": "Principe",
+      "texte": "Aucune depense ne peut etre effectuee sans credit prevu au budget approuve. Deux voies en cours d'annee :\n\n1. **Modification budgetaire** : elle doit elle-meme etre **en equilibre** (depenses supplementaires ↔ recettes correspondantes).\n2. **Transferts / adaptations internes de credits** : reamenagement au sein d'un meme chapitre sans augmenter son total."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_6_2_limites_des_adaptations_internes",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "6. La modification budgetaire et les adaptations internes",
+      "numero_section": "6.2",
+      "titre": "Limites des adaptations internes",
+      "texte": "- Pas de glissement vers un article ou **aucune** depense n'etait prevue (article a zero).\n- Pas de glissement d'une depense **obligatoire** vers une depense **facultative**.\n- Le total de la section ne peut etre depasse.\n- Les decisions du conseil de fabrique et la **liste des adaptations internes** de l'annee doivent etre **jointes au compte annuel**.\n- Chapitre I : autorisation de l'eveque. Chapitre II : deliberation motivee du conseil de fabrique, jointe au compte comme justificatif."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_6_3_procedure_simplifiee",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "6. La modification budgetaire et les adaptations internes",
+      "numero_section": "6.3",
+      "titre": "Procedure simplifiee",
+      "texte": "Si la modification est en realite un **transfert de credits sans influence sur le subside communal**, une procedure simplifiee est possible. Elle **n'est pas applicable** :\n- aux transferts **entre le chapitre I et le chapitre II**, meme sans impact sur le subside communal ;\n- `[A VERIFIER : perimetre exact de la procedure simplifiee selon les pratiques de tutelle locales]`\n\nLa regle de l'interdiction de depense sans credit ne vaut pas de la meme maniere pour les depenses facultatives et pour le service extraordinaire."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_6_4_circuit_et_delais",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "6. La modification budgetaire et les adaptations internes",
+      "numero_section": "6.4",
+      "titre": "Circuit et delais",
+      "texte": "Identiques a ceux du budget : transmission simultanee commune + eveche, 20 jours (organe representatif) puis 40 + 20 jours (conseil communal). Il n'existe pas de date butoir legale unique, mais les tutelles fixent en pratique une date limite en fin d'annee (souvent octobre-novembre) pour permettre le traitement avant cloture."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_6_5_depenses_non_prevues_que_faire",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "6. La modification budgetaire et les adaptations internes",
+      "numero_section": "6.5",
+      "titre": "Depenses non prevues : que faire ?",
+      "texte": "Cas typique : sinistre survenu apres la date limite de modification budgetaire, travaux urgents. Deux consequences a anticiper :\n- la depense apparait au compte sans credit → risque de **rejet** par la tutelle, la depense rejetee etant alors reportee en **D61** au compte suivant, voire laissee a charge du tresorier ;\n- le **boni** de l'exercice est ampute d'autant, ce qui se repercute sur le resultat presume et donc sur le supplement communal des exercices suivants.\n\nBonne pratique : deliberation motivee immediate du conseil de fabrique, information de la commune et du service diocesain, regularisation a la premiere occasion (modification budgetaire ou budget suivant)."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_7_1_contenu_et_presentation",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "7. Le compte annuel",
+      "numero_section": "7.1",
+      "titre": "Contenu et presentation",
+      "texte": "Reprend les recettes et depenses **reellement** effectuees du 1er janvier au 31 decembre. Quatre colonnes :\n\n1. sommes prevues au budget ;\n2. sommes reellement percues / depensees ;\n3. modifications apportees par l'eveque ;\n4. modifications apportees par la commune.\n\nChaque mouvement est rattache a un article du plan comptable — c'est cette imputation qui alimente les totaux."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_7_2_calendrier",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "7. Le compte annuel",
+      "numero_section": "7.2",
+      "titre": "Calendrier",
+      "texte": "- Presentation par le tresorier au conseil : **mars** (approbation en mars ou avril).\n- Transmission **avant le 25 avril de l'annee n+1**, **simultanement** a la commune et a l'eveche.\n- Organe representatif : **20 jours**. Conseil communal : **40 jours + 20 jours** de prorogation. A defaut, acte executoire."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_7_3_pieces_justificatives_a_transmettre",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "7. Le compte annuel",
+      "numero_section": "7.3",
+      "titre": "Pieces justificatives a transmettre",
+      "texte": "- copie signee et datee de la **deliberation** du conseil arretant le compte ;\n- le **compte** date et signe ;\n- l'ensemble des **factures ou souches** (originaux pour la commune, copies pour l'eveche), avec mandat ou cachet de paiement ;\n- un **releve detaille article par article des recettes**, avec reference aux extraits de compte ;\n- un **releve periodique des collectes** recues ;\n- l'ensemble des **extraits de compte** bancaires ;\n- un **etat detaille de la situation patrimoniale** ;\n- un **tableau de suivi et de financement des travaux extraordinaires** ;\n- la liste des adaptations internes de credits et les deliberations correspondantes.\n\nFabriques pluricommunales : originaux a la commune qui finance la plus grande part ; copies aux autres communes, au gouverneur et a l'eveche."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_7_4_resultat",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "7. Le compte annuel",
+      "numero_section": "7.4",
+      "titre": "Resultat",
+      "texte": "Le compte se solde par un **boni** (excedent) ou un **mali** (deficit), reporte a l'exercice suivant en **R19** ou **D51**. Le budget, lui, est par construction toujours en equilibre."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_7_5_gestion_des_rectifications_de_la_tutelle",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "7. Le compte annuel",
+      "numero_section": "7.5",
+      "titre": "Gestion des rectifications de la tutelle",
+      "texte": "Lorsque la tutelle reforme le compte, la fabrique doit **repercuter les corrections** dans sa comptabilite, faute de quoi le resultat de depart de l'exercice suivant sera errone. Si la commune ne procede pas elle-meme aux corrections via un outil en ligne, il revient au tresorier de le faire. Avant de finaliser un budget, toujours verifier que la decision de tutelle sur le dernier compte a bien ete recue et integree."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_8_1_tutelle_speciale_d_approbation_cdld_art_l3162_1_et_l3162_2",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "8. La tutelle : tableau de synthese",
+      "numero_section": "8.1",
+      "titre": "Tutelle speciale d'approbation (CDLD art. L3162-1 et L3162-2)",
+      "texte": "| Acte | Autorite | Delais | Recours |\n|---|---|---|---|\n| Budget | Conseil communal | Transmission avant le **30/8** (CC + organe representatif) ; organe representatif **20 j** ; CC **40 j** (+ **20 j**) | Aupres du **gouverneur**, par l'etablissement ou l'organe representatif, dans les **30 j** de la reception de la decision du CC ; decision sur recours dans les **30 j** (a defaut, decision confirmee) |\n| Modification budgetaire | Conseil communal | Organe representatif **20 j** ; CC **40 j** (+ **20 j**) | Idem |\n| Compte annuel | Conseil communal | Transmission avant le **25/4** ; organe representatif **20 j** ; CC **40 j** (+ **20 j**) | Idem |\n\nLe silence de l'organe representatif vaut **avis favorable** ; le silence du conseil communal rend l'acte **executoire**."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_8_2_etablissements_pluricommunaux_l3162_2_3",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "8. La tutelle : tableau de synthese",
+      "numero_section": "8.2",
+      "titre": "Etablissements pluricommunaux (L3162-2 § 3)",
+      "texte": "- Tutelle exercee par le conseil communal de la commune qui **finance le plus** l'etablissement.\n- Transmission de l'acte a **tous** les conseils communaux, a l'organe representatif et au gouverneur.\n- Les autres communes rendent un **avis dans les 40 jours** (silence = favorable).\n- Si tous les avis sont favorables : le CC competent exerce la tutelle dans les **40 jours**.\n- **Si un avis est defavorable** : le CC « tutelle » perd cette qualite et ne rend plus qu'un avis ; le **gouverneur** exerce la tutelle dans les 40 jours de la reception du premier avis defavorable."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_8_3_tutelle_generale_d_annulation_cdld_art_l3161_4",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "8. La tutelle : tableau de synthese",
+      "numero_section": "8.3",
+      "titre": "Tutelle generale d'annulation (CDLD art. L3161-4)",
+      "texte": "Autorite : **gouverneur**. Remise de l'acte dans les **15 jours** de son adoption (ou de la demande de transmission) ; decision dans les **30 jours** de la reception, prorogeable de **15 jours**. Pas de recours administratif interne (recours au Conseil d'Etat uniquement).\n\nActes soumis a **transmission obligatoire** :\n- attribution de **marches publics** au-dela de certains montants, et avenants `[A VERIFIER : montants exacts]` ;\n- **operations immobilieres > 10.000 €** (achat, vente, echange, location de plus de 9 ans, hypotheque...) ;\n- **dons et legs avec charge** (tout montant) ;\n- **dons et legs sans charge > 10.000 €** ;\n- deliberation decidant la **construction** d'un immeuble affecte au culte ou au logement du ministre du culte, **quel qu'en soit le montant**.\n\nLes autres deliberations peuvent etre appelees facultativement, a l'initiative du gouverneur ou a la suite d'un **recours du college communal**.\n\nLa tutelle de **suspension** a ete supprimee par le decret du 13 mars 2014."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_9_regles_de_fond_a_connaitre_pieges_frequents",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": null,
+      "numero_section": "9",
+      "titre": "Regles de fond a connaitre (pieges frequents)",
+      "texte": "- **Avoirs indisponibles** : le produit de la vente d'un immeuble affecte au culte doit etre **reinvesti** (autres immeubles ou titres) et ne peut financer le fonctionnement du culte ni les depenses obligatoires — celles-ci incombant a la commune en cas d'insuffisance de revenus (art. 37 et 92 du decret de 1809).\n- **Capitaux places echus** : a replacer (R23 → D53), jamais a consommer.\n- **Interets** : recettes ordinaires (R8–R11), jamais capitalises ; en cas de placement a interets capitalises, ne replacer que le capital de depart.\n- **Emprunts** : accord prealable de la commune (qui se porte generalement caution).\n- **Subsides extraordinaires** : toute demande doit faire l'objet d'une **deliberation distincte et motivee** du conseil de fabrique, respecter les regles de marches publics, et etre approuvee par le conseil communal **avant tout engagement de depense**.\n- **Obligations communales (art. 92)** : suppleer a l'insuffisance des revenus pour les depenses cultuelles de l'art. 37, pourvoir aux **grosses reparations** des edifices du culte, et fournir un **logement** au ministre du culte (en nature, ou par equivalent).\n- **Mise a disposition gratuite d'un logement** (presbytere) : genere un **avantage de toute nature (ATN)** imposable dans le chef du ministre du culte, a declarer fiscalement.\n- **Personnel** : les montants de precompte et d'ONSS transitent par R18a puis D50a — les deux operations s'annulent ; ne pas les oublier, sous peine de desequilibre apparent."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_10_1_facturation_electronique_obligation_au_1er_janvier_2026",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "10. Obligations administratives connexes (etat 2026)",
+      "numero_section": "10.1",
+      "titre": "Facturation electronique — obligation au 1er janvier 2026",
+      "texte": "- En tant qu'**etablissements publics** et **adjudicateurs**, les fabriques d'eglise sont concernees. **Aucune exemption** n'est prevue en fonction de la taille de l'entite, du volume d'achats ou du caractere benevole de la gestion.\n- La fabrique doit etre **en mesure de recevoir** des factures electroniques structurees via **Peppol** et ne peut refuser une facture conforme transmise par ce canal.\n- Canaux : reseau **Peppol** (format structure type UBL) ; la plateforme **Mercurius** (SPF BOSA) reste utilisable, notamment pour l'encodage manuel. En Wallonie, l'integrateur regional est la **BCED**.\n- Depuis la circulaire de 2019, les fabriques wallonnes etaient deja **invitees** a s'inscrire sur Mercurius. En B2G, l'obligation existait deja pour le SPW depuis le 1er mars 2024 (marches > 3.000 € HTVA).\n- **ReligioSoft est interconnecte au reseau Peppol.**\n- Prerequis administratifs : donnees a jour a la **BCE** (y renseigner les trois membres du bureau des marguilliers), puis acces **CSAM** pour les applications federales, puis raccordement Peppol/Mercurius."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_10_2_marches_publics",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "10. Obligations administratives connexes (etat 2026)",
+      "numero_section": "10.2",
+      "titre": "Marches publics",
+      "texte": "- **Marche de faible montant** : < **30.000 € HTVA** (art. 92 de la loi du 17 juin 2016) — regime allege, constatation par facture acceptee. Seuil inchange au 1.1.2026.\n- **Procedure negociee sans publication prealable** (art. 42 § 1er, al. 1er, 1°, a) : seuils abaisses au **1er janvier 2026** de 143.000 → **140.000 € HTVA** et de 221.000 → **216.000 € HTVA**. Applicables aux marches publies (ou dont l'invitation a remettre offre est lancee) a partir du 1.1.2026.\n- Travaux : procedure simplifiee negociee avec publication possible sous **750.000 € HTVA** `[A VERIFIER : revision eventuelle au 1.1.2026]`.\n- En pratique, les tutelles communales exigent souvent **trois offres minimum** pour les depenses extraordinaires subsidiees."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_10_3_autres",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": "10. Obligations administratives connexes (etat 2026)",
+      "numero_section": "10.3",
+      "titre": "Autres",
+      "texte": "- Publicite de l'administration, motivation formelle des actes, gestion des **archives**, RGPD : applicables aux fabriques comme a tout etablissement public.\n- **BCE** : obligation de tenir a jour les donnees de l'etablissement et de ses organes."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_11_circulaires_budgetaires_communales_2026",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": null,
+      "numero_section": "11",
+      "titre": "Circulaires budgetaires communales 2026",
+      "texte": "Approuvees par le Gouvernement wallon le **11 septembre 2025**. Elles se placent sous le signe de la **simplification** des procedures et obligations. Passages relatifs aux fabriques :\n\n- **Encadrement de l'evolution des dotations** : en principe, l'evolution des dotations aux fabriques d'eglise **ne peut exceder 1 % par an**, tant dans les travaux budgetaires que dans le **tableau de bord prospectif (TBP)** des communes. Le TBP couvre au moins **5 exercices** consecutifs.\n- Les autorites communales sont invitees, sur la base du decret du 13 mars 2014, a **rencontrer les fabriciens** lors de l'elaboration des budgets respectifs, pour les sensibiliser aux contraintes financieres communales.\n- Developpement de **synergies** : gestion groupee du portefeuille d'assurances, achats groupes (combustibles, carburants, fournitures et services).\n- Chaque dotation ou subvention a une communaute cultuelle ou philosophique doit faire l'objet d'un **article budgetaire communal specifique**.\n- Les communes peuvent, dans les limites de leurs moyens, soutenir les actions d'etablissements cultuels finances au niveau **provincial**, au nom de l'egalite entre convictions.\n\n> Consequence pratique pour le chatbot : une fabrique qui augmente son R17 de plus de 1 % doit s'attendre a des questions, voire a une reformation. Mieux vaut documenter la hausse dans les observations."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_12_reforme_en_cours_etat_au_17_septembre_2026",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": null,
+      "numero_section": "12",
+      "titre": "Reforme en cours — etat au 17 septembre 2026",
+      "texte": "**Rien n'est encore vote.** La comptabilite fabricienne reste regie par les textes du § 1.\n\nChronologie :\n\n- **2023** — Le ministre Christophe Collignon (PS) fait produire une note d'orientation : rationalisation du nombre de fabriques, plafonnement du soutien public, regionalisation de la tutelle de 5 cultes sur 6 (protestant, israelite, anglican, islamique, orthodoxe), le culte catholique restant sous tutelle communale. Note non aboutie avant les elections de juin 2024.\n- **2024** — Une « feuille de route » Region/hierarchie catholique fixe l'objectif d'une fabrique par tranche de **8.000 habitants** (soit un passage d'environ 1.800 fabriques a moins de 500). Le programme du gouvernement MR–Les Engages reprend l'essentiel de cette note en y ajoutant une dimension patrimoniale.\n- **2025** — Le PS (desormais dans l'opposition) depose une proposition de decret ; le debat se poursuit au Parlement wallon.\n- **2026** — Le ministre **Francois Desquesnes** (Les Engages, Pouvoirs locaux) confirme mener une reflexion visant l'adoption d'un **code dedie a l'encadrement des etablissements cultuels**. Concertations menees avec les organes representatifs de tous les cultes sur : la **tutelle et le financement**, la **rationalisation des structures et la composition des organes**, le **logement des ministres du culte**. Objectif : harmoniser des regles aujourd'hui differentes d'un culte a l'autre, tout en respectant les specificites de chacun (par exemple, le mode de designation des organes pourrait etre laisse au choix de l'organe representatif). Les representants du culte catholique ont exprime le souhait d'une rationalisation de l'organisation territoriale.\n\n**Fusions** : elles sont deja possibles **aujourd'hui**, sur la base du decret du 18 mai 2017 et de l'AGW du 25 janvier 2018. Les lieux de culte concernes sont requalifies en **chapelles**. Motivations invoquees par les communes : simplification administrative et financiere, penurie de fabriciens, et alourdissement des taches lie notamment a l'obligation de facturation electronique depuis janvier 2026. Une instruction est menee avec le federal pour garantir le maintien du traitement et des avantages (dont le logement) des desservants concernes.\n\n**Comparaison regionale** (utile si un utilisateur du chatbot confond les regimes) :\n- **Flandre** : decret du 7 mai 2004, « kerkfabrieken » et « centraal kerkbestuur ».\n- **Bruxelles** : reforme de 2023 mettant fin a l'application du decret imperial. Exercice comptable = annee civile ; base maintenue en **comptabilite de caisse avec journal financier** ; **projection pluriannuelle sur 5 ans** annexee au budget et servant de plafond aux interventions ; possibilite de creer des **associations d'etablissements** ; la commune n'intervient plus, ni en tutelle ni en financement ; premiere region a imposer une **clef de repartition globale** et un **plafond legal**, la ou la Wallonie maintient le principe de l'intervention obligatoire et integrale pour couvrir le deficit ordinaire."
+    },
+    {
+      "entry_id": "note_synthese_comptabilite_2026#section_13_glossaire",
+      "document_id": "note_synthese_comptabilite_2026",
+      "chapitre_parent": null,
+      "numero_section": "13",
+      "titre": "Glossaire",
+      "texte": "| Terme | Definition |\n|---|---|\n| **Boni / reliquat / excedent** | Solde positif d'un compte, reporte en R19 du compte suivant |\n| **Mali / deficit** | Solde negatif d'un compte, reporte en D51 du compte suivant |\n| **Resultat presume** | Estimation du resultat de l'exercice en cours, portee au budget suivant (R20 si positif, D52 si negatif) |\n| **Supplement communal ordinaire** | Intervention de la commune equilibrant le budget ordinaire (R17), fondee sur l'art. 92 du decret de 1809 |\n| **Marge budgetaire** | Difference entre les recettes propres et les depenses ordinaires : mesure la dependance de la fabrique au supplement communal |\n| **Marguillier** | Membre du bureau executif de la fabrique |\n| **Impere** | Se dit d'une collecte obligatoire, imposee (vocabulaire ecclesiastique) |\n| **Fondation** | Liberalite assortie de charges religieuses ; revenus affectes prioritairement a l'acquittement de ces charges |\n| **Organe representatif agree** | Autorite cultuelle reconnue ; pour le culte catholique : l'eveque du diocese |\n| **Depenses du chapitre I** | Depenses relatives a la celebration du culte, arretees par l'eveque seul |\n| **Depenses du chapitre II** | Autres depenses, soumises a l'approbation de l'eveque et de la commune |\n| **Etablissement pluricommunal** | Fabrique dont la circonscription s'etend sur plusieurs communes |\n| **TBP** | Tableau de bord prospectif communal, sur au moins 5 exercices |"
     }
   ],
   "pratiques_validees": [

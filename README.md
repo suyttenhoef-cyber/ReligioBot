@@ -91,7 +91,7 @@ Matières actuelles :
   `convert_manuels_usage_logiciel.py` est superseded, ne plus l'exécuter). S'y ajoutent 1378
   `pratiques_validees` issues des archives email du helpdesk Vanden Broele (document
   `helpdesk_pst_2026`, voir plus bas).
-- `reglementation_fabriques` — 14 documents, 233 articles, 206 sections_circulaire, 17
+- `reglementation_fabriques` — 15 documents, 233 articles, 241 sections_circulaire, 17
   pratiques_validees. Les 233 articles viennent du Codex Husson 2025 pour 6 textes structurés en
   "Art. N." (décret impérial de 1809, loi de 1870, CDLD extraits, décret de 2017, AGW 2018, AGW
   2021) — voir `scripts_ponctuels/extract_codex_articles.py`. Les circulaires (structurées en
@@ -101,9 +101,13 @@ Matières actuelles :
   SYSTEM_PROMPT ne cite jamais la doctrine comme si elle faisait partie du texte officiel.
   S'y ajoutent 112 sections du "Guide du trésorier" 2025 (chapitres 1-5, doctrine/bonnes
   pratiques Vanden Broele — PAS un texte officiel), voir
-  `scripts_ponctuels/extract_guide_tresorier.py`, et 94 sections issues des 5 circulaires du
+  `scripts_ponctuels/extract_guide_tresorier.py`, 94 sections issues des 5 circulaires du
   Codex (18/07/2014, 12/12/2014, 20/06/2024, 30/05/2013, budgétaires communales), voir
-  `scripts_ponctuels/extract_codex_circulaires.py`.
+  `scripts_ponctuels/extract_codex_circulaires.py`, et 35 sections issues d'une note de synthèse
+  comptable 2026 (document `note_synthese_comptabilite_2026` — PAS un texte officiel non plus,
+  une note rédigée spécifiquement pour cette base de connaissance, recoupée avec le corpus
+  existant à l'intégration, aucune contradiction relevée), voir
+  `scripts_ponctuels/extract_note_synthese_comptabilite.py`.
 
 Les deux matières partagent aussi un document `helpdesk_pst_2026` (1395 `pratiques_validees`
 au total, 1378 + 17 ci-dessus) : archives email du helpdesk Vanden Broele
